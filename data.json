@@ -1,17 +1,11 @@
 {
-  "lastUpdate": "2026-02-19T10:00:00Z",
+  "lastUpdate": "2026-02-19T13:38:12.678Z",
   "items": [
     {
-      "title": "Séisme Japon",
-      "magnitude": 5.3,
-      "place": "Tokyo",
-      "url": "https://example.com"
-    },
-    {
-      "title": "Séisme Japon",
-      "magnitude": 6.1,
-      "place": "Osaka",
-      "url": "https://example.com"
+      "title": "AUTO UPDATE WORKS",
+      "magnitude": 9.9,
+      "place": "GitHub Actions",
+      "url": "https://github.com"
     }
   ]
 }
