@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <title>Earthquakes JP</title>
 
 <!-- ========================
@@ -78,9 +80,7 @@
     <h2 style="margin:0 0 10px 0;">Carte (bientôt)</h2>
     <div id="selected" class="muted">Chargement…</div>
 
-    <div style="margin-top:16px; border:1px dashed #333; border-radius:12px; padding:16px; color:#aaa;">
-      Ici on affichera la carte du Japon et les points (étape suivante).
-    </div>
+    <div id="map" style="margin-top:16px; height:70vh; border-radius:12px;"></div>
   </div>
 
   <!-- LISTE DES SÉISMES -->
