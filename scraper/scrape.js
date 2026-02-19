@@ -1,17 +1,19 @@
 import fs from "node:fs";
 
+console.log("SCRAPER RUNNING");
+
 const out = {
   lastUpdate: new Date().toISOString(),
   items: [
     {
-      title: "Test auto update",
-      magnitude: 1.0,
-      place: "Pipeline OK",
-      url: "https://deltheon.github.io/earthquakes-jp/"
+      title: "AUTO UPDATE WORKS",
+      magnitude: 9.9,
+      place: "GitHub Actions",
+      url: "https://github.com"
     }
   ]
 };
 
-fs.writeFileSync("data.json", JSON.stringify(out, null, 2), "utf-8");
-console.log("data.json updated");
+fs.writeFileSync("data.json", JSON.stringify(out, null, 2));
 
+console.log("data.json updated successfully");
