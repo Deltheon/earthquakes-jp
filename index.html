@@ -146,6 +146,13 @@ function countLatLon(detail){
 /*
   Charge events.json et affiche la liste.
 */
+
+function updateSelectionUI(){
+  document.querySelectorAll(".item").forEach(el=>{
+    el.classList.remove("selected");
+  });
+}
+
 async function main(){
   const listEl = document.getElementById("list");
 
@@ -180,6 +187,9 @@ async function main(){
       div.onclick = () => {
         selectedId = ev.id;
 
+        updateSelectionUI();
+        div.classList.add("selected");
+
         // Affichage de base
         const selectedEl = document.getElementById("selected");
         selectedEl.innerHTML =
@@ -204,9 +214,6 @@ async function main(){
             selectedEl.innerHTML +=
               "<br><span style='font-size:12px;color:#FF7C7C'>Erreur detail: " + err.message + "</span>";
           });
-
-        // Re-rendu pour mettre le surlignage
-        main();
       };
 
       listEl.appendChild(div);
