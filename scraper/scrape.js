@@ -102,4 +102,53 @@ async function run() {
   const detailRes = await fetch(detailUrl, {
     headers: { "user-agent": "Mozilla/5.0 (compatible; EarthquakesJP/1.0)" }
   });
-  if (!detailRes.ok) throw new Error(`HTTP ${det
+  if (!detailRes.ok) throw new Error(`HTTP ${detailRes.status} sur ${detailUrl}`);
+  const detail = await detailRes.json();
+
+  const rawPoints = [];
+  collectPointsDeep(detail, rawPoints);
+
+  const uniq = new Map();
+  for (const p of rawPoints) {
+    const key = `${p.lat.toFixed(5)},${p.lon.toFixed(5)},${p.intensity},${p.name}`;
+    if (!uniq.has(key)) uniq.set(key, p);
+  }
+
+  const points = Array.from(uniq.values())
+    .filter((p) => intensityRank(p.intensity) > 0)
+    .sort((a, b) => intensityRank(b.intensity) - intensityRank(a.intensity));
+
+  const geojson = {
+    type: "FeatureCollection",
+    metadata: {
+      lastUpdate: new Date().toISOString(),
+      source: "JMA bosai quake detail json",
+      at: target.at || "",
+      anm: target.anm || "",
+      mag: target.mag || "",
+      maxIntensity: target.maxi || "",
+      ttl: target.ttl || "",
+      detailUrl
+    },
+    features: points.map((p) => ({
+      type: "Feature",
+      properties: { intensity: p.intensity, name: p.name, pref: p.pref },
+      geometry: { type: "Point", coordinates: [p.lon, p.lat] }
+    }))
+  };
+
+  fs.writeFileSync("quake.geojson", JSON.stringify(geojson, null, 2), "utf-8");
+  fs.writeFileSync("data.json", JSON.stringify({
+    lastUpdate: geojson.metadata.lastUpdate,
+    source: geojson.metadata.source,
+    event: geojson.metadata,
+    pointsCount: geojson.features.length
+  }, null, 2), "utf-8");
+
+  console.log(`OK: ${geojson.features.length} points écrits`);
+}
+
+run().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});
