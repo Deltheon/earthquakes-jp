@@ -27,3 +27,5 @@ jobs:
           git config user.email "github-actions@github.com"
           git add data.json quake.geojson jma_detail.json
           git diff --staged --quiet || (git commit -m "Update data files" && git push)
+          git add -A
+
