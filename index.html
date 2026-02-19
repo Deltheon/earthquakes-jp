@@ -109,13 +109,23 @@ L.tileLayer(
 ).addTo(map);
 
 // Couche labels internationale (anglais + JP)
-L.tileLayer(
+const labels = L.tileLayer(
   "https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png",
-  {
-    attribution: "© OpenStreetMap © CARTO",
-    pane: "overlayPane"
+  { attribution: "© OpenStreetMap © CARTO", maxZoom: 20, opacity: 0.55 }
+);
+
+// Afficher les labels seulement à partir d'un certain zoom
+map.on("zoomend", () => {
+  const z = map.getZoom();
+  if (z >= 7) {
+    if (!map.hasLayer(labels)) labels.addTo(map);
+  } else {
+    if (map.hasLayer(labels)) map.removeLayer(labels);
   }
-).addTo(map);  
+});
+
+// état initial
+if (map.getZoom() >= 7) labels.addTo(map);  
 
 /*
   Formate une date ISO en texte lisible.
