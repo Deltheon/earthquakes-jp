@@ -2,49 +2,67 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Earthquakes JP</title>
 
 <!-- ========================
      STYLE VISUEL (CSS)
 ========================= -->
 <style>
-body{
-  margin:0;
-  font-family:Arial, sans-serif;
-  background:#0f1115;
-  color:white;
-}
+  body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0f1115;
+    color:white;
+  }
 
-/* layout gauche = carte / droite = liste */
-.app{
-  display:flex;
-  height:100vh;
-}
+  /* layout gauche = carte / droite = liste */
+  .app{
+    display:flex;
+    height:100vh;
+  }
 
-.left{
-  flex:3;
-  padding:15px;
-  border-right:1px solid #333;
-}
+  .left{
+    flex:3;
+    padding:15px;
+    border-right:1px solid #333;
+    box-sizing:border-box;
+  }
 
-.right{
-  flex:2;
-  overflow:auto;
-  padding:15px;
-}
+  .right{
+    flex:2;
+    overflow:auto;
+    padding:15px;
+    box-sizing:border-box;
+  }
 
-/* card séisme */
-.item{
-  border:1px solid #333;
-  padding:10px;
-  margin-bottom:10px;
-  border-radius:10px;
-  cursor:pointer;
-}
+  /* card séisme */
+  .item{
+    border:1px solid #333;
+    padding:12px;
+    margin-bottom:12px;
+    border-radius:12px;
+    cursor:pointer;
+    background:#141821;
+  }
 
-.item.selected{
-  border-color:#7aa2ff;
-}
+  .item:hover{
+    border-color:#555;
+  }
+
+  .item.selected{
+    border-color:#7aa2ff;
+  }
+
+  .muted{
+    color:#aaa;
+    font-size:12px;
+  }
+
+  @media (max-width: 900px){
+    .app{ flex-direction:column; }
+    .left{ border-right:none; border-bottom:1px solid #333; }
+  }
 </style>
 </head>
 
@@ -55,15 +73,19 @@ body{
 ========================= -->
 <div class="app">
 
-  <!-- ZONE CARTE (pour plus tard) -->
+  <!-- ZONE CARTE (placeholder pour l'instant) -->
   <div class="left">
-    <h2>Carte (bientôt)</h2>
-    <div id="selected">Chargement…</div>
+    <h2 style="margin:0 0 10px 0;">Carte (bientôt)</h2>
+    <div id="selected" class="muted">Chargement…</div>
+
+    <div style="margin-top:16px; border:1px dashed #333; border-radius:12px; padding:16px; color:#aaa;">
+      Ici on affichera la carte du Japon et les points (étape suivante).
+    </div>
   </div>
 
   <!-- LISTE DES SÉISMES -->
   <div class="right">
-    <h2>30 derniers séismes</h2>
+    <h2 style="margin:0 0 10px 0;">30 derniers séismes</h2>
     <div id="list"></div>
   </div>
 
@@ -73,91 +95,139 @@ body{
      SCRIPT JAVASCRIPT
 ========================= -->
 <script>
-
-// variable globale = séisme sélectionné
 let selectedId = null;
 
 /*
-  Fonction principale:
-  - charge events.json
-  - affiche la liste
+  Formate une date ISO en texte lisible.
 */
-async function main(){
-
-  // charger le fichier généré par ton scraper
-  const res = await fetch("./events.json");
-  const data = await res.json();
-
-  const events = data.events || [];
-  const listEl = document.getElementById("list");
-
-  // si aucun événement
-  if(events.length === 0){
-    listEl.innerHTML = "Aucun séisme.";
-    return;
-  }
-
-  // sélection par défaut = premier
-  if(!selectedId) selectedId = events[0].id;
-
-  // vider la liste
-  listEl.innerHTML = "";
-
-  // créer une card par séisme
-  events.forEach(ev => {
-
-    const div = document.createElement("div");
-    div.className = "item" + (ev.id===selectedId ? " selected" : "");
-
-    div.innerHTML =
-      "<b>M " + (ev.magnitude ?? "?") + "</b> | " +
-      "Max " + (ev.maxIntensity || "?") +
-      "<br>" +
-      (ev.region || ev.title || "-");
-
-    // quand on clique
-    div.onclick = () => {
-      selectedId = ev.id;
-
-      // afficher le séisme sélectionné
-      document.getElementById("selected").textContent =
-        "Séisme sélectionné: " + (ev.region || ev.title) +
-        "<br><span style='font-size:12px;color:#aaa'>" +
-        ev.detailUrl +
-        "</span>";
-
-         // tester le détail JMA
-          fetch(ev.detailUrl)
-            .then(r => r.json())
-            .then(detail => {
-              const prefs = detail?.Intensity?.Observation?.Pref || [];
-              let count = 0;
-              for (const pref of prefs) {
-                for (const area of (pref.Area || [])) {
-                  for (const city of (area.City || [])) {
-                    count += (city.IntensityStation || []).length;
-                  }
-                }
-              }
-              const el = document.getElementById("selected");
-              el.innerHTML += "<br><span style='font-size:12px;color:#7CFF7C'>Stations: " + count + "</span>";
-            })
-            .catch(err => {
-              const el = document.getElementById("selected");
-              el.innerHTML += "<br><span style='font-size:12px;color:#FF7C7C'>Erreur detail: " + err.message + "</span>";
-            });
-
-      // re-dessiner la liste
-      main();
-    };
-
-    listEl.appendChild(div);
-  });
+function fmtTime(s){
+  try { return new Date(s).toLocaleString(); } catch { return s; }
 }
 
-// lancer le script
-main();
+/*
+  Compte les stations dans TON JSON JMA:
+  detail.Body.Intensity.Observation.Pref[].Area[].City[].IntensityStation[]
+*/
+function countStations(detail){
+  const prefs = detail?.Body?.Intensity?.Observation?.Pref || [];
+  let count = 0;
 
+  for (const pref of prefs) {
+    for (const area of (pref.Area || [])) {
+      for (const city of (area.City || [])) {
+        count += (city.IntensityStation || []).length;
+      }
+    }
+  }
+  return count;
+}
+
+/*
+  Compte les stations qui ont des coordonnées lat/lon.
+*/
+function countLatLon(detail){
+  const prefs = detail?.Body?.Intensity?.Observation?.Pref || [];
+  let count = 0;
+
+  for (const pref of prefs) {
+    for (const area of (pref.Area || [])) {
+      for (const city of (area.City || [])) {
+        for (const st of (city.IntensityStation || [])) {
+          if (st.latlon && typeof st.latlon.lat === "number" && typeof st.latlon.lon === "number") {
+            count++;
+          }
+        }
+      }
+    }
+  }
+  return count;
+}
+
+/*
+  Charge events.json et affiche la liste.
+*/
+async function main(){
+  const listEl = document.getElementById("list");
+
+  try{
+    const res = await fetch("./events.json", { cache: "no-store" });
+    if(!res.ok) throw new Error("events.json introuvable (HTTP " + res.status + ")");
+
+    const data = await res.json();
+    const events = data.events || [];
+
+    if(events.length === 0){
+      document.getElementById("selected").textContent = "Aucun séisme trouvé.";
+      listEl.innerHTML = "Liste vide.";
+      return;
+    }
+
+    // sélection par défaut = premier
+    if(!selectedId) selectedId = events[0].id;
+
+    listEl.innerHTML = "";
+
+    events.forEach(ev => {
+      const div = document.createElement("div");
+      div.className = "item" + (ev.id === selectedId ? " selected" : "");
+
+      div.innerHTML = `
+        <div><b>M ${ev.magnitude ?? "?"}</b> | <b>Max ${ev.maxIntensity || "?"}</b></div>
+        <div class="muted">${fmtTime(ev.time)}</div>
+        <div style="margin-top:6px;">${ev.region || ev.title || "-"}</div>
+      `;
+
+      div.onclick = () => {
+        selectedId = ev.id;
+
+        // Affichage de base
+        const selectedEl = document.getElementById("selected");
+        selectedEl.innerHTML =
+          "<b>Séisme sélectionné:</b><br>" +
+          (ev.region || ev.title || "") +
+          "<br><span style='font-size:12px;color:#aaa;word-break:break-all'>" +
+          ev.detailUrl +
+          "</span>";
+
+        // Mini test: charger le détail JMA et compter les stations
+        fetch(ev.detailUrl)
+          .then(r => r.json())
+          .then(detail => {
+            const stations = countStations(detail);
+            const coords = countLatLon(detail);
+
+            selectedEl.innerHTML +=
+              "<br><span style='font-size:12px;color:#7CFF7C'>Stations: " + stations + "</span>" +
+              "<br><span style='font-size:12px;color:#7CFF7C'>Coordonnées: " + coords + "</span>";
+          })
+          .catch(err => {
+            selectedEl.innerHTML +=
+              "<br><span style='font-size:12px;color:#FF7C7C'>Erreur detail: " + err.message + "</span>";
+          });
+
+        // Re-rendu pour mettre le surlignage
+        main();
+      };
+
+      listEl.appendChild(div);
+    });
+
+    // Afficher aussi le premier élément sélectionné (sans stats tant que pas cliqué)
+    const first = events.find(e => e.id === selectedId) || events[0];
+    document.getElementById("selected").innerHTML =
+      "<b>Séisme sélectionné:</b><br>" +
+      (first.region || first.title || "") +
+      "<br><span style='font-size:12px;color:#aaa;word-break:break-all'>" +
+      first.detailUrl +
+      "</span>";
+
+  } catch(e){
+    document.getElementById("selected").textContent = "Erreur: " + e.message;
+    listEl.innerHTML = "";
+  }
+}
+
+main();
 </script>
 </body>
 </html>
