@@ -125,7 +125,28 @@ async function main(){
         "<br><span style='font-size:12px;color:#aaa'>" +
         ev.detailUrl +
         "</span>";
-         
+
+         // tester le détail JMA
+          fetch(ev.detailUrl)
+            .then(r => r.json())
+            .then(detail => {
+              const prefs = detail?.Intensity?.Observation?.Pref || [];
+              let count = 0;
+              for (const pref of prefs) {
+                for (const area of (pref.Area || [])) {
+                  for (const city of (area.City || [])) {
+                    count += (city.IntensityStation || []).length;
+                  }
+                }
+              }
+              const el = document.getElementById("selected");
+              el.innerHTML += "<br><span style='font-size:12px;color:#7CFF7C'>Stations: " + count + "</span>";
+            })
+            .catch(err => {
+              const el = document.getElementById("selected");
+              el.innerHTML += "<br><span style='font-size:12px;color:#FF7C7C'>Erreur detail: " + err.message + "</span>";
+            });
+
       // re-dessiner la liste
       main();
     };
