@@ -1,63 +1,116 @@
 <!doctype html>
-<html>
+<html lang="fr">
 <head>
-<meta charset="utf-8">
-<title>Earthquakes JP</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Earthquakes JP</title>
 
-<style>
-body {
-  font-family: Arial;
-  background:#0f1115;
-  color:white;
-  padding:40px;
-}
-.card {
-  background:#171a21;
-  border:1px solid #333;
-  border-radius:10px;
-  padding:15px;
-  margin:10px 0;
-}
-.mag {
-  font-size:22px;
-  font-weight:bold;
-  color:#ff6b6b;
-}
-</style>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#0f1115; color:#fff; }
+    header { padding:14px 16px; border-bottom:1px solid #2a2f3a; }
+    #meta { color:#b7bfcc; font-size: 13px; margin-top:6px; }
+    #map { height: calc(100vh - 78px); }
+
+    .legend {
+      background: rgba(15,17,21,0.92);
+      border: 1px solid #2a2f3a;
+      border-radius: 10px;
+      padding: 10px 12px;
+      color: #fff;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+    .row { display:flex; align-items:center; gap:8px; margin:4px 0; }
+    .dot { width:10px; height:10px; border-radius:50%; display:inline-block; }
+  </style>
 </head>
 <body>
+  <header>
+    <div style="font-weight:bold;">Earthquakes Japan (JMA)</div>
+    <div id="meta">Chargement…</div>
+  </header>
 
-<h1>Earthquakes Japan</h1>
-<p id="last"></p>
+  <div id="map"></div>
 
-<div id="list"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    // Couleurs simples (tu peux ajuster)
+    const COLORS = {
+      "1": "#ffffff",
+      "2": "#00e5ff",
+      "3": "#0047ff",
+      "4": "#fff2cc",
+      "5-": "#ffe000",
+      "5+": "#ff9a00",
+      "6-": "#ff2d2d",
+      "6+": "#ff00ff",
+      "7": "#c000ff"
+    };
 
-<script>
-async function load(){
-  const res = await fetch("./data.json");
-  const data = await res.json();
+    function colorFor(intensity) {
+      return COLORS[intensity] || "#aaaaaa";
+    }
 
-  document.getElementById("last").textContent =
-    "Last update: " + new Date(data.lastUpdate).toLocaleString();
+    async function main() {
+      const map = L.map("map").setView([36.3, 138.2], 5);
 
-  const list = document.getElementById("list");
-  list.innerHTML = "";
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 12,
+        attribution: "© OpenStreetMap contributors"
+      }).addTo(map);
 
-  data.items.forEach(eq => {
-    const div = document.createElement("div");
-    div.className = "card";
-    div.innerHTML = `
-      <div class="mag">M ${eq.magnitude}</div>
-      <div>${eq.place}</div>
-      <a href="${eq.url}" target="_blank">source</a>
-    `;
-    list.appendChild(div);
-  });
-}
+      const res = await fetch("./quake.geojson", { cache: "no-store" });
+      const geo = await res.json();
 
-load();
-</script>
+      const meta = geo.metadata || {};
+      document.getElementById("meta").textContent =
+        `Maj: ${new Date(meta.lastUpdate).toLocaleString()} | M${meta.mag || "?"} | max ${meta.maxIntensity || "?"} | ${meta.anm || ""}`;
 
+      const layer = L.geoJSON(geo, {
+        pointToLayer: (feature, latlng) => {
+          const intensity = feature?.properties?.intensity || "";
+          return L.circleMarker(latlng, {
+            radius: 5,
+            color: colorFor(intensity),
+            fillColor: colorFor(intensity),
+            fillOpacity: 0.9,
+            weight: 1
+          });
+        },
+        onEachFeature: (feature, l) => {
+          const p = feature.properties || {};
+          l.bindPopup(
+            `<b>${p.name || "Point"}</b><br>` +
+            `Préfecture: ${p.pref || "-"}<br>` +
+            `Intensité: <b>${p.intensity || "-"}</b>`
+          );
+        }
+      }).addTo(map);
+
+      const bounds = layer.getBounds();
+      if (bounds.isValid()) map.fitBounds(bounds.pad(0.15));
+
+      // Légende
+      const legend = L.control({ position: "bottomleft" });
+      legend.onAdd = () => {
+        const div = L.DomUtil.create("div", "legend");
+        div.innerHTML = `
+          <div style="font-weight:bold; margin-bottom:6px;">Seismic intensity</div>
+          ${["7","6+","6-","5+","5-","4","3","2","1"].map(k => `
+            <div class="row"><span class="dot" style="background:${colorFor(k)}"></span><span>${k}</span></div>
+          `).join("")}
+        `;
+        return div;
+      };
+      legend.addTo(map);
+    }
+
+    main().catch(err => {
+      document.getElementById("meta").textContent = "Erreur de chargement des données";
+      console.error(err);
+    });
+  </script>
 </body>
 </html>
