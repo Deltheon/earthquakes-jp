@@ -121,8 +121,11 @@ async function main(){
 
       // afficher le séisme sélectionné
       document.getElementById("selected").textContent =
-        "Séisme sélectionné: " + (ev.region || ev.title);
-
+        "Séisme sélectionné: " + (ev.region || ev.title) +
+        "<br><span style='font-size:12px;color:#aaa'>" +
+        ev.detailUrl +
+        "</span>";
+         
       // re-dessiner la liste
       main();
     };
