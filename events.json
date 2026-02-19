@@ -1,6 +1,8 @@
 {
-  "lastUpdate": "2026-02-19T21:58:48.171Z",
+  "lastUpdate": "2026-02-19T22:08:51.903Z",
   "source": "JMA list.json",
+  "totalInList": 197,
+  "totalUsable": 155,
   "events": [
     {
       "id": "20260219224732_20260219224500_VXSE5k_1.json",
@@ -46,24 +48,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260218113217_20260218112806_VXSE5k_1.json"
-    },
-    {
-      "id": "20260218113101_20260218112806_VXSE52_0.json",
-      "time": "2026-02-18T11:28:00+09:00",
-      "region": "奄美大島北東沖",
-      "magnitude": "4.7",
-      "maxIntensity": "",
-      "title": "震源に関する情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260218113101_20260218112806_VXSE52_0.json"
-    },
-    {
-      "id": "20260218112938_20260218112806_VXSE51_0.json",
-      "time": "2026-02-18T11:28:00+09:00",
-      "region": "",
-      "magnitude": "",
-      "maxIntensity": "3",
-      "title": "震度速報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260218112938_20260218112806_VXSE51_0.json"
     },
     {
       "id": "20260217025605_20260217025301_VXSE5k_1.json",
@@ -237,24 +221,6 @@
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260212030640_20260212030052_VXSE5k_1.json"
     },
     {
-      "id": "20260212030359_20260212030052_VXSE52_0.json",
-      "time": "2026-02-12T03:00:00+09:00",
-      "region": "北海道東方沖",
-      "magnitude": "5.2",
-      "maxIntensity": "",
-      "title": "震源に関する情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260212030359_20260212030052_VXSE52_0.json"
-    },
-    {
-      "id": "20260212030227_20260212030052_VXSE51_0.json",
-      "time": "2026-02-12T03:00:00+09:00",
-      "region": "",
-      "magnitude": "",
-      "maxIntensity": "3",
-      "title": "震度速報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260212030227_20260212030052_VXSE51_0.json"
-    },
-    {
       "id": "20260212023143_20260212022835_VXSE5k_1.json",
       "time": "2026-02-12T02:28:00+09:00",
       "region": "青森県東方沖",
@@ -264,13 +230,49 @@
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260212023143_20260212022835_VXSE5k_1.json"
     },
     {
-      "id": "20260212023052_20260212022835_VXSE52_0.json",
-      "time": "2026-02-12T02:28:00+09:00",
-      "region": "青森県東方沖",
-      "magnitude": "4.3",
-      "maxIntensity": "",
-      "title": "震源に関する情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260212023052_20260212022835_VXSE52_0.json"
+      "id": "20260211193845_20260211193609_VXSE5k_1.json",
+      "time": "2026-02-11T19:36:00+09:00",
+      "region": "宗谷地方南部",
+      "magnitude": "3.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260211193845_20260211193609_VXSE5k_1.json"
+    },
+    {
+      "id": "20260211173903_20260211173624_VXSE5k_1.json",
+      "time": "2026-02-11T17:36:00+09:00",
+      "region": "静岡県西部",
+      "magnitude": "3.5",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260211173903_20260211173624_VXSE5k_1.json"
+    },
+    {
+      "id": "20260211164939_20260211164659_VXSE5k_1.json",
+      "time": "2026-02-11T16:46:00+09:00",
+      "region": "千葉県東方沖",
+      "magnitude": "3.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260211164939_20260211164659_VXSE5k_1.json"
+    },
+    {
+      "id": "20260211133352_20260211133101_VXSE5k_1.json",
+      "time": "2026-02-11T13:31:00+09:00",
+      "region": "釧路地方中南部",
+      "magnitude": "3.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260211133352_20260211133101_VXSE5k_1.json"
+    },
+    {
+      "id": "20260211035645_20260211035215_VXSE5k_1.json",
+      "time": "2026-02-11T03:52:00+09:00",
+      "region": "関東東方沖",
+      "magnitude": "5.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260211035645_20260211035215_VXSE5k_1.json"
     }
   ]
 }
