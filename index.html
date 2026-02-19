@@ -122,6 +122,31 @@ function countStations(detail){
   return count;
 }
 
+function buildCityPoints(detail){
+  const prefs = detail?.Body?.Intensity?.Observation?.Pref || [];
+  const cities = [];
+
+  for (const pref of prefs) {
+    for (const area of (pref.Area || [])) {
+      for (const city of (area.City || [])) {
+        const st = (city.IntensityStation || [])[0];
+        const lat = st?.latlon?.lat;
+        const lon = st?.latlon?.lon;
+
+        if (typeof lat === "number" && typeof lon === "number") {
+          cities.push({
+            name: city.Name,
+            code: city.Code,
+            intensity: city.MaxInt,
+            lat, lon
+          });
+        }
+      }
+    }
+  }
+  return cities;
+}
+
 /*
   Compte les stations qui ont des coordonnées lat/lon.
 */
@@ -205,10 +230,12 @@ async function main(){
           .then(detail => {
             const stations = countStations(detail);
             const coords = countLatLon(detail);
+            const cityPoints = buildCityPoints(detail);
 
             selectedEl.innerHTML +=
               "<br><span style='font-size:12px;color:#7CFF7C'>Stations: " + stations + "</span>" +
-              "<br><span style='font-size:12px;color:#7CFF7C'>Coordonnées: " + coords + "</span>";
+              "<br><span style='font-size:12px;color:#7CFF7C'>Coordonnées: " + coords + "</span>"+
+              "<br><span style='font-size:12px;color:#7CFF7C'>Points ville: " + cityPoints.length + "</span>";
           })
           .catch(err => {
             selectedEl.innerHTML +=
