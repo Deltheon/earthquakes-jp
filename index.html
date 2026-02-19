@@ -97,6 +97,12 @@
 <script>
 let selectedId = null;
 
+const map = L.map("map").setView([36.2, 138.2], 5);
+
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution: "© OpenStreetMap"
+}).addTo(map);     
+
 /*
   Formate une date ISO en texte lisible.
 */
