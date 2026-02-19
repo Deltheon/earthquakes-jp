@@ -1,12 +1,7 @@
 import fs from "node:fs";
 
-const LIST_URL = "https://www.jma.go.jp/bosai/quake/data/list.json";
-const BASE = "https://www.jma.go.jp/bosai/quake/data/";
+fs.writeFileSync("data.json", JSON.stringify({ ok: true }, null, 2));
+fs.writeFileSync("quake.geojson", JSON.stringify({ type:"FeatureCollection", features:[] }, null, 2));
+fs.writeFileSync("jma_detail.json", JSON.stringify({ test:true }, null, 2));
 
-const list = await (await fetch(LIST_URL)).json();
-const detailFile = list[0].json;            // ex: "2026...json" (souvent relatif)
-const detailUrl = detailFile.startsWith("http") ? detailFile : BASE + detailFile.replace(/^data\//, "");
-
-const detail = await (await fetch(detailUrl)).json();
-fs.writeFileSync("jma_detail.json", JSON.stringify(detail, null, 2));
-console.log("Saved jma_detail.json from:", detailUrl);
+console.log("Files created");
