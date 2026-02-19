@@ -101,31 +101,13 @@ const map = L.map("map").setView([36.2, 138.2], 5);
 
 // Fond clair japonais (GSI Pale)
 L.tileLayer(
-  "https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png",
+  "'https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png",
   {
-    attribution: "地理院タイル",
-    maxZoom: 18
+     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+     subdomains: 'abcd',
+	maxZoom: 18
   }
 ).addTo(map);
-
-// Couche labels internationale (anglais + JP)
-const labels = L.tileLayer(
-  "https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png",
-  { attribution: "© OpenStreetMap © CARTO", maxZoom: 20, opacity: 0.55 }
-);
-
-// Afficher les labels seulement à partir d'un certain zoom
-map.on("zoomend", () => {
-  const z = map.getZoom();
-  if (z >= 7) {
-    if (!map.hasLayer(labels)) labels.addTo(map);
-  } else {
-    if (map.hasLayer(labels)) map.removeLayer(labels);
-  }
-});
-
-// état initial
-if (map.getZoom() >= 7) labels.addTo(map);  
 
 /*
   Formate une date ISO en texte lisible.
