@@ -222,6 +222,30 @@
 .xmark::before{ transform: rotate(45deg); }
 .xmark::after{ transform: rotate(-45deg); }
 
+/* Icône épicentre sur la carte (identique à la légende) */
+.epiMarker{
+  width:18px;
+  height:18px;
+  position:relative;
+}
+.epiMarker::before,
+.epiMarker::after{
+  content:"";
+  position:absolute;
+  left:8px;
+  top:0px;
+  width:2px;
+  height:18px;
+  background:#ff2d2d;
+}
+.epiMarker::before{ transform: rotate(45deg); }
+.epiMarker::after{ transform: rotate(-45deg); }
+
+/* optionnel: petit contour/ombre pour rester visible */
+.epiWrap{
+  filter: drop-shadow(0 0 3px rgba(0,0,0,0.7));
+}
+
 /* mêmes couleurs que ton intensityColor() */
 .int1{ background:#ffffff; }
 .int2{ background:#00e5ff; }
@@ -512,7 +536,7 @@ function showEpicenter(detail){
     epicenterMarker = null;
   }
 
-  epicenterMarker = L.marker([p.lat, p.lon], { icon: crossIcon() }).addTo(map);
+  epicenterMarker = L.marker([p.lat, p.lon], { icon: epicenterIcon() }).addTo(map);
   epicenterMarker.bindPopup(`<b>Épicentre</b><br>${p.lat.toFixed(3)}, ${p.lon.toFixed(3)}`);
 
   return p;
@@ -657,6 +681,15 @@ function renderCitiesTab(detail){
       `).join("")}
     </div>
   `).join("");
+}
+
+function epicenterIcon(){
+  return L.divIcon({
+    className: "epiWrap",
+    iconSize: [18,18],
+    iconAnchor: [9,9],
+    html: `<div class="epiMarker"></div>`
+  });
 }
 
 async function main(){
