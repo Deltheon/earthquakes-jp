@@ -1,9 +1,27 @@
 {
-  "lastUpdate": "2026-02-20T13:02:50.447Z",
+  "lastUpdate": "2026-02-20T14:10:29.231Z",
   "source": "JMA list.json",
-  "totalInList": 191,
-  "totalUsable": 151,
+  "totalInList": 193,
+  "totalUsable": 153,
   "events": [
+    {
+      "id": "20260220224303_20260220224007_VXSE5k_1.json",
+      "time": "2026-02-20T22:40:00+09:00",
+      "region": "千葉県南部",
+      "magnitude": "3.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260220224303_20260220224007_VXSE5k_1.json"
+    },
+    {
+      "id": "20260220220946_20260220220702_VXSE5k_1.json",
+      "time": "2026-02-20T22:07:00+09:00",
+      "region": "島根県東部",
+      "magnitude": "3.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260220220946_20260220220702_VXSE5k_1.json"
+    },
     {
       "id": "20260220200826_20260220200528_VXSE5k_1.json",
       "time": "2026-02-20T20:05:00+09:00",
@@ -255,24 +273,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260211173903_20260211173624_VXSE5k_1.json"
-    },
-    {
-      "id": "20260211164939_20260211164659_VXSE5k_1.json",
-      "time": "2026-02-11T16:46:00+09:00",
-      "region": "千葉県東方沖",
-      "magnitude": "3.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260211164939_20260211164659_VXSE5k_1.json"
-    },
-    {
-      "id": "20260211133352_20260211133101_VXSE5k_1.json",
-      "time": "2026-02-11T13:31:00+09:00",
-      "region": "釧路地方中南部",
-      "magnitude": "3.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260211133352_20260211133101_VXSE5k_1.json"
     }
   ]
 }
