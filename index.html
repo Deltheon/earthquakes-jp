@@ -65,6 +65,101 @@
     .app{ flex-direction:column; }
     .left{ border-right:none; border-bottom:1px solid #333; }
   }
+
+
+/* Zone selected fixe pour éviter les sauts */
+#selected{
+  max-height: 120px;
+  overflow: auto;
+  padding: 10px;
+  border: 1px solid #222;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
+}
+
+/* Tabs */
+.tabs{
+  display:flex;
+  gap:10px;
+  margin-top: 12px;
+}
+.tab{
+  background:#141821;
+  border:1px solid #2a2f3a;
+  color:#ddd;
+  padding:8px 12px;
+  border-radius:12px;
+  cursor:pointer;
+  font-size:13px;
+}
+.tab.active{
+  border-color:#7aa2ff;
+}
+
+.tabPage{ display:none; }
+.tabPage.active{ display:block; }
+
+/* Grille des préfectures */
+.prefGrid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (min-width: 1100px){
+  .prefGrid{ grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+.prefCard{
+  border:1px solid #2a2f3a;
+  border-radius:12px;
+  padding:10px;
+  background: rgba(255,255,255,0.03);
+}
+
+.prefHeader{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:10px;
+  padding-bottom:8px;
+  border-bottom:1px solid rgba(255,255,255,0.06);
+  margin-bottom:8px;
+}
+
+.prefName{
+  font-weight:700;
+  color:#fff;
+  font-size:13px;
+}
+
+.prefMeta{
+  color:#aaa;
+  font-size:12px;
+  white-space:nowrap;
+}
+
+.cityRow{
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+  padding:6px 0;
+  border-bottom:1px solid rgba(255,255,255,0.06);
+  font-size:12px;
+}
+.cityRow:last-child{ border-bottom:none; }
+
+.cityLeft{ color:#ddd; }
+.cityRight{ color:#aaa; white-space:nowrap; }
+
+.badge{
+  display:inline-block;
+  padding:2px 8px;
+  border:1px solid #2a2f3a;
+  border-radius:999px;
+  font-size:11px;
+  color:#ddd;
+  margin-right:6px;
+}
 </style>
 </head>
 
@@ -77,10 +172,23 @@
 
   <!-- ZONE CARTE (placeholder pour l'instant) -->
   <div class="left">
-    <h2 style="margin:0 0 10px 0;">Carte (bientôt)</h2>
-    <div id="selected" class="muted">Chargement…</div>
+    <h2 style="margin:0 0 10px 0;">Earthquakes JP</h2>
 
-    <div id="map" style="margin-top:16px; height:70vh; border-radius:12px;"></div>
+<div id="selected" class="muted">Chargement…</div>
+
+<div class="tabs">
+  <button id="tabBtnMap" class="tab active" type="button">Carte</button>
+  <button id="tabBtnCities" class="tab" type="button">Villes touchées</button>
+</div>
+
+<div id="tabMap" class="tabPage active">
+  <div id="map" style="margin-top:12px; height:70vh; border-radius:12px;"></div>
+</div>
+
+<div id="tabCities" class="tabPage">
+  <div id="citiesSummary" class="muted" style="margin-top:12px;"></div>
+  <div id="citiesGrid" class="prefGrid" style="margin-top:12px;"></div>
+</div>
   </div>
 
   <!-- LISTE DES SÉISMES -->
@@ -120,6 +228,16 @@ L.tileLayer(
     maxZoom: 20
   }
 ).addTo(map);
+
+
+document.getElementById("tabBtnMap").onclick = () => setActiveTab("map");
+document.getElementById("tabBtnCities").onclick = () => {
+  setActiveTab("cities");
+  renderCitiesTab(lastDetail);
+};
+
+// état initial
+renderCitiesTab(null);
 
 /*
   Formate une date ISO en texte lisible.
@@ -310,6 +428,103 @@ function fitToEvent(detail){
   }
 }
 
+
+let lastDetail = null; // on garde le dernier JSON détail cliqué
+
+function setActiveTab(tabName){
+  // boutons
+  document.getElementById("tabBtnMap").classList.toggle("active", tabName === "map");
+  document.getElementById("tabBtnCities").classList.toggle("active", tabName === "cities");
+
+  // pages
+  document.getElementById("tabMap").classList.toggle("active", tabName === "map");
+  document.getElementById("tabCities").classList.toggle("active", tabName === "cities");
+
+  // Leaflet doit recalculer quand on ré-affiche la carte
+  if (tabName === "map") {
+    setTimeout(() => map.invalidateSize(), 50);
+  }
+}
+
+function intensityOrder(x){
+  const v = String(x || "").trim();
+  const order = {"7":9,"6+":8,"6-":7,"5+":6,"5-":5,"4":4,"3":3,"2":2,"1":1};
+  return order[v] || 0;
+}
+
+function buildPrefectureGroups(detail){
+  const prefs = detail?.Body?.Intensity?.Observation?.Pref || [];
+  const groups = [];
+
+  for (const pref of prefs) {
+    const prefJP = pref?.Name || "";
+    const prefEN = pref?.enName || "";
+    const prefMax = String(pref?.MaxInt || "").trim() || "?";
+
+    const cities = [];
+    for (const area of (pref.Area || [])) {
+      for (const city of (area.City || [])) {
+        const cInt = String(city?.MaxInt || "").trim();
+        if (!cInt || cInt === "0" || cInt === "?") continue;
+
+        cities.push({
+          jp: city?.Name || "",
+          en: city?.enName || "",
+          int: cInt
+        });
+      }
+    }
+
+    if (cities.length === 0) continue;
+
+    cities.sort((a,b) => intensityOrder(b.int) - intensityOrder(a.int) || a.jp.localeCompare(b.jp));
+    groups.push({ prefJP, prefEN, maxInt: prefMax, cities });
+  }
+
+  groups.sort((a,b) => intensityOrder(b.maxInt) - intensityOrder(a.maxInt) || a.prefJP.localeCompare(b.prefJP));
+  return groups;
+}
+
+function renderCitiesTab(detail){
+  const summaryEl = document.getElementById("citiesSummary");
+  const gridEl = document.getElementById("citiesGrid");
+
+  if (!detail) {
+    summaryEl.textContent = "Clique un séisme pour voir les villes touchées.";
+    gridEl.innerHTML = "";
+    return;
+  }
+
+  const groups = buildPrefectureGroups(detail);
+
+  let totalCities = 0;
+  for (const g of groups) totalCities += g.cities.length;
+
+  const maxAll = String(detail?.Body?.Intensity?.Observation?.MaxInt || "").trim() || (groups[0]?.maxInt || "?");
+
+  summaryEl.innerHTML = `
+    <span class="badge">Préfectures: ${groups.length}</span>
+    <span class="badge">Villes: ${totalCities}</span>
+    <span class="badge">Max: ${maxAll}</span>
+  `;
+
+  gridEl.innerHTML = groups.map(g => `
+    <div class="prefCard">
+      <div class="prefHeader">
+        <div class="prefName">${g.prefJP}${g.prefEN ? ` <span class="muted">(${g.prefEN})</span>` : ""}</div>
+        <div class="prefMeta">Max ${g.maxInt}</div>
+      </div>
+
+      ${g.cities.map(c => `
+        <div class="cityRow">
+          <div class="cityLeft">${c.jp}${c.en ? ` <span class="muted">(${c.en})</span>` : ""}</div>
+          <div class="cityRight">Int ${c.int}</div>
+        </div>
+      `).join("")}
+    </div>
+  `).join("");
+}
+
 async function main(){
   const listEl = document.getElementById("list");
 
@@ -367,6 +582,8 @@ async function main(){
     // ✅ On affiche directement les points avec CE detail (pas besoin de refetch)
     showStations(detail);
 	fitToEvent(detail);
+	lastDetail = detail;
+	renderCitiesTab(lastDetail);
 	  
     selectedEl.innerHTML +=
       "<br><span style='font-size:12px;color:#7CFF7C'>Stations: " + stations + "</span>" +
