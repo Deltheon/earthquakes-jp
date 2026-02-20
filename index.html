@@ -873,13 +873,13 @@ async function main(){
         div.classList.add("selected");
 
         // Affichage de base
-        const selectedEl = document.getElementById("selected");
-        /*selectedEl.innerHTML =
+        //const selectedEl = document.getElementById("selected");
+        selectedEl.innerHTML =
           "<b>Séisme sélectionné:</b><br>" +
           (ev.region || ev.title || "") +
           "<br><span style='font-size:12px;color:#aaa;word-break:break-all'>" +
           ev.detailUrl +
-          "</span>";*/
+          "</span>";
 		document.getElementById("selectedStatus").textContent = "Chargement…";
 		document.getElementById("selectedBody").innerHTML = "";
 
@@ -895,13 +895,12 @@ async function main(){
     showStations(detail);
 	fitToEvent(detail);
 	lastDetail = detail;
-	renderSelectedSummary(ev, detail);
 	renderCitiesTab(lastDetail);
 	  
-    /*selectedEl.innerHTML +=
+    selectedEl.innerHTML +=
       "<br><span style='font-size:12px;color:#7CFF7C'>Stations: " + stations + "</span>" +
       "<br><span style='font-size:12px;color:#7CFF7C'>Coordonnées: " + coords + "</span>" +
-      "<br><span style='font-size:12px;color:#7CFF7C'>Points ville: " + cityPoints.length + "</span>";*/
+      "<br><span style='font-size:12px;color:#7CFF7C'>Points ville: " + cityPoints.length + "</span>";
   })
   .catch(err => {
     selectedEl.innerHTML +=
