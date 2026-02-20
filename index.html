@@ -162,7 +162,80 @@
   margin-right:6px;
 }
 
-	@media (max-width:1200px){
+	.legend{
+  position:absolute;
+  left: 24px;
+  bottom: 24px;
+  z-index: 1200;
+  background: rgba(15,17,21,0.85);
+  border: 1px solid #2a2f3a;
+  border-radius: 12px;
+  padding: 10px 12px;
+  backdrop-filter: blur(8px);
+  color:#ddd;
+  font-size: 12px;
+}
+
+.legendTitle{
+  font-weight: 700;
+  margin-bottom: 8px;
+  color:#fff;
+}
+
+.legendRow{
+  display:flex;
+  align-items:center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.dot{
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.55);
+  display:inline-block;
+}
+
+.lbl{
+  margin-right: 6px;
+  color:#cfd3dc;
+  font-size: 12px;
+}
+
+.xmark{
+  width: 14px;
+  height: 14px;
+  position: relative;
+  display:inline-block;
+}
+.xmark::before,
+.xmark::after{
+  content:"";
+  position:absolute;
+  left:6px;
+  top:0px;
+  width:2px;
+  height:14px;
+  background:#ff2d2d;
+}
+.xmark::before{ transform: rotate(45deg); }
+.xmark::after{ transform: rotate(-45deg); }
+
+/* mêmes couleurs que ton intensityColor() */
+.int1{ background:#ffffff; }
+.int2{ background:#00e5ff; }
+.int3{ background:#1976ff; }
+.int4{ background:#fff176; }
+.int5m{ background:#ffd54f; }
+.int5p{ background:#ffb300; }
+.int6m{ background:#ff7043; }
+.int6p{ background:#ff1744; }
+.int7{ background:#ff00c8; }
+
+#tabMap{ position: relative; }
+
+@media (max-width:1200px){
   .prefGrid{ column-count:2; }
 }
 
@@ -192,6 +265,21 @@
 
 <div id="tabMap" class="tabPage active">
   <div id="map" style="margin-top:12px; height:70vh; border-radius:12px;"></div>
+	<div id="legend" class="legend">
+  <div class="legendTitle">Seismic intensity</div>
+  <div class="legendRow">
+    <span class="dot int7"></span><span class="lbl">7</span>
+    <span class="dot int6p"></span><span class="lbl">6+</span>
+    <span class="dot int6m"></span><span class="lbl">6-</span>
+    <span class="dot int5p"></span><span class="lbl">5+</span>
+    <span class="dot int5m"></span><span class="lbl">5-</span>
+    <span class="dot int4"></span><span class="lbl">4</span>
+    <span class="dot int3"></span><span class="lbl">3</span>
+    <span class="dot int2"></span><span class="lbl">2</span>
+    <span class="dot int1"></span><span class="lbl">1</span>
+    <span class="xmark"></span><span class="lbl">epicenter</span>
+  </div>
+</div>
 </div>
 
 <div id="tabCities" class="tabPage">
