@@ -66,6 +66,69 @@
     .left{ border-right:none; border-bottom:1px solid #333; }
   }
 
+.selectedCard{
+  height: 120px;              /* hauteur fixe */
+  padding: 12px;
+  border: 1px solid #222;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
+  overflow: hidden;           /* ne pousse jamais la map */
+  box-sizing: border-box;
+  display:flex;
+  flex-direction:column;
+  gap: 8px;
+}
+
+.selectedTop{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap: 12px;
+}
+
+.selectedTitle{
+  font-weight: 700;
+  color:#fff;
+}
+
+.selectedStatus{
+  font-size:12px;
+  color:#aaa;
+  white-space:nowrap;
+}
+
+.selectedBody{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 14px;
+  font-size: 13px;
+}
+
+.kv{
+  display:flex;
+  gap: 8px;
+  align-items:baseline;
+  min-width:0;
+}
+.k{
+  color:#aaa;
+  font-size:12px;
+  white-space:nowrap;
+}
+.v{
+  color:#fff;
+  font-weight:600;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+/* sur petits écrans: 1 colonne */
+@media (max-width:900px){
+  .selectedCard{ height: 140px; }
+  .selectedBody{ grid-template-columns: 1fr; }
+}
+
 
 /* Zone selected fixe pour éviter les sauts */
 #selected{
@@ -275,7 +338,14 @@
   <div class="left">
     <h2 style="margin:0 0 10px 0;">Earthquakes JP</h2>
 
-<div id="selected" class="muted">Chargement…</div>
+<div id="selected" class="selectedCard">
+  <div class="selectedTop">
+    <div class="selectedTitle">Séisme sélectionné</div>
+    <div id="selectedStatus" class="selectedStatus">Chargement…</div>
+  </div>
+
+  <div id="selectedBody" class="selectedBody"></div>
+</div>
 
 <div class="tabs">
   <button id="tabBtnMap" class="tab active" type="button">Carte</button>
@@ -378,6 +448,59 @@ function countStations(detail){
     }
   }
   return count;
+}
+
+function fmtLocal(s){
+  try {
+    return new Date(s).toLocaleString(undefined, {
+      year:"numeric", month:"2-digit", day:"2-digit",
+      hour:"2-digit", minute:"2-digit"
+    });
+  } catch { return s || "-"; }
+}
+
+function getTsunamiText(detail){
+  const t = detail?.Body?.Comments?.ForecastComment?.enText
+        || detail?.Body?.Comments?.ForecastComment?.Text
+        || "";
+  if (!t) return "-";
+  // mini simplification
+  if (t.toLowerCase().includes("no tsunami")) return "Pas de risque";
+  return "Voir commentaire";
+}
+
+function renderSelectedSummary(ev, detail){
+  const statusEl = document.getElementById("selectedStatus");
+  const bodyEl = document.getElementById("selectedBody");
+
+  statusEl.textContent = "Mis à jour";
+
+  const place =
+    detail?.Body?.Earthquake?.Hypocenter?.Area?.enName ||
+    detail?.Body?.Earthquake?.Hypocenter?.Area?.Name ||
+    ev.region || ev.title || "-";
+
+  const originTime =
+    detail?.Body?.Earthquake?.OriginTime ||
+    ev.time || "";
+
+  const mag =
+    detail?.Body?.Earthquake?.Magnitude ??
+    ev.magnitude ?? "?";
+
+  const maxInt =
+    detail?.Body?.Intensity?.Observation?.MaxInt ??
+    ev.maxIntensity ?? "?";
+
+  const tsunami = getTsunamiText(detail);
+
+  bodyEl.innerHTML = `
+    <div class="kv"><div class="k">Lieu</div><div class="v">${place}</div></div>
+    <div class="kv"><div class="k">Heure</div><div class="v">${fmtLocal(originTime)}</div></div>
+    <div class="kv"><div class="k">Magnitude</div><div class="v">M ${mag}</div></div>
+    <div class="kv"><div class="k">Intensité max</div><div class="v">${maxInt}</div></div>
+    <div class="kv"><div class="k">Tsunami</div><div class="v">${tsunami}</div></div>
+  `;
 }
 
 function buildCityPoints(detail){
@@ -751,12 +874,14 @@ async function main(){
 
         // Affichage de base
         const selectedEl = document.getElementById("selected");
-        selectedEl.innerHTML =
+        /*selectedEl.innerHTML =
           "<b>Séisme sélectionné:</b><br>" +
           (ev.region || ev.title || "") +
           "<br><span style='font-size:12px;color:#aaa;word-break:break-all'>" +
           ev.detailUrl +
-          "</span>";
+          "</span>";*/
+		document.getElementById("selectedStatus").textContent = "Chargement…";
+		document.getElementById("selectedBody").innerHTML = "";
 
         // Mini test: charger le détail JMA et compter les stations
         fetch(ev.detailUrl)
@@ -770,12 +895,13 @@ async function main(){
     showStations(detail);
 	fitToEvent(detail);
 	lastDetail = detail;
+	renderSelectedSummary(ev, detail);
 	renderCitiesTab(lastDetail);
 	  
-    selectedEl.innerHTML +=
+    /*selectedEl.innerHTML +=
       "<br><span style='font-size:12px;color:#7CFF7C'>Stations: " + stations + "</span>" +
       "<br><span style='font-size:12px;color:#7CFF7C'>Coordonnées: " + coords + "</span>" +
-      "<br><span style='font-size:12px;color:#7CFF7C'>Points ville: " + cityPoints.length + "</span>";
+      "<br><span style='font-size:12px;color:#7CFF7C'>Points ville: " + cityPoints.length + "</span>";*/
   })
   .catch(err => {
     selectedEl.innerHTML +=
