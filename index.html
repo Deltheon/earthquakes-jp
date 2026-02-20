@@ -331,13 +331,9 @@ function updateSelectionUI(){
 
 function showStations(detailData){
 
-  // 1) on vide les anciens points
   quakeLayer.clearLayers();
 
-  // 2) sécurités (structure JMA)
-  const prefs =
-    detailData?.Body?.Intensity?.Observation?.Pref || [];
-
+  const prefs = detailData?.Body?.Intensity?.Observation?.Pref || [];
   let count = 0;
 
   prefs.forEach(pref=>{
@@ -347,20 +343,34 @@ function showStations(detailData){
 
           const lat = station?.latlon?.lat;
           const lon = station?.latlon?.lon;
+          if (typeof lat !== "number" || typeof lon !== "number") return;
 
-          if(!lat || !lon) return;
+          const intVal = normalizeIntensity(station?.Int);
+          const color = intensityColor(intVal);
 
-          // 3) création du marker
           const marker = L.circleMarker([lat, lon], {
             radius: 6,
-            color: "#ff4444",
+            color: "#111",        // contour sombre
             weight: 1,
-            fillOpacity: 0.8
+            fillColor: color,
+            fillOpacity: 0.95
           });
 
+          // Label simple (au survol)
+          const jp = station?.Name || "";
+          const en = station?.enName || "";
+          marker.bindTooltip(
+            `${jp}${en ? " (" + en + ")" : ""} • Int ${intVal}`,
+            { direction: "top", opacity: 0.95, sticky: true }
+          );
+
+          // Popup plus détaillé (au clic)
           marker.bindPopup(`
-            ${station.enName || station.Name}<br>
-            Intensité: ${station.Int}
+            <div style="font-size:13px;line-height:1.3">
+              <b>${jp}${en ? " ("+en+")" : ""}</b><br>
+              Intensité: <b>${intVal}</b><br>
+              ${lat.toFixed(3)}, ${lon.toFixed(3)}
+            </div>
           `);
 
           marker.addTo(quakeLayer);
@@ -418,6 +428,33 @@ function showEpicenter(detail){
   epicenterMarker.bindPopup(`<b>Épicentre</b><br>${p.lat.toFixed(3)}, ${p.lon.toFixed(3)}`);
 
   return p;
+}
+
+	function intensityColor(intStr){
+  const v = String(intStr || "").trim();
+  // Palette proche JMA (approx)
+  const map = {
+    "1":  "#ffffff",
+    "2":  "#00e5ff",
+    "3":  "#1976ff",
+    "4":  "#fff176",
+    "5-": "#ffd54f",
+    "5+": "#ffb300",
+    "6-": "#ff7043",
+    "6+": "#ff1744",
+    "7":  "#ff00c8"
+  };
+  return map[v] || "#aaaaaa";
+}
+
+function normalizeIntensity(v){
+  // certaines valeurs peuvent être "5弱" etc selon sources
+  const s = String(v || "").trim();
+  if (s === "5弱") return "5-";
+  if (s === "5強") return "5+";
+  if (s === "6弱") return "6-";
+  if (s === "6強") return "6+";
+  return s;
 }
 
 function fitToEvent(detail){
