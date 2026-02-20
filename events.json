@@ -1,9 +1,18 @@
 {
-  "lastUpdate": "2026-02-20T10:56:41.513Z",
+  "lastUpdate": "2026-02-20T11:29:52.607Z",
   "source": "JMA list.json",
-  "totalInList": 190,
-  "totalUsable": 150,
+  "totalInList": 191,
+  "totalUsable": 151,
   "events": [
+    {
+      "id": "20260220200826_20260220200528_VXSE5k_1.json",
+      "time": "2026-02-20T20:05:00+09:00",
+      "region": "根室地方北部",
+      "magnitude": "3.7",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260220200826_20260220200528_VXSE5k_1.json"
+    },
     {
       "id": "20260219224732_20260219224500_VXSE5k_1.json",
       "time": "2026-02-19T22:45:00+09:00",
@@ -264,15 +273,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260211133352_20260211133101_VXSE5k_1.json"
-    },
-    {
-      "id": "20260211035645_20260211035215_VXSE5k_1.json",
-      "time": "2026-02-11T03:52:00+09:00",
-      "region": "関東東方沖",
-      "magnitude": "5.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260211035645_20260211035215_VXSE5k_1.json"
     }
   ]
 }
