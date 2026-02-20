@@ -98,6 +98,7 @@
 let selectedId = null;
 
 const map = L.map("map").setView([36.2, 138.2], 5);
+const quakeLayer = L.layerGroup().addTo(map);
 
 // Fond clair japonais (GSI Pale)
 const baseMap = L.tileLayer(
@@ -200,6 +201,50 @@ function updateSelectionUI(){
   });
 }
 
+function showStations(detailData){
+
+  // 1) on vide les anciens points
+  quakeLayer.clearLayers();
+
+  // 2) sécurités (structure JMA)
+  const prefs =
+    detailData?.Body?.Intensity?.Observation?.Pref || [];
+
+  let count = 0;
+
+  prefs.forEach(pref=>{
+    pref.Area?.forEach(area=>{
+      area.City?.forEach(city=>{
+        city.IntensityStation?.forEach(station=>{
+
+          const lat = station?.latlon?.lat;
+          const lon = station?.latlon?.lon;
+
+          if(!lat || !lon) return;
+
+          // 3) création du marker
+          const marker = L.circleMarker([lat, lon], {
+            radius: 6,
+            color: "#ff4444",
+            weight: 1,
+            fillOpacity: 0.8
+          });
+
+          marker.bindPopup(`
+            ${station.enName || station.Name}<br>
+            Intensité: ${station.Int}
+          `);
+
+          marker.addTo(quakeLayer);
+          count++;
+        });
+      });
+    });
+  });
+
+  console.log("Stations affichées:", count);
+}
+
 async function main(){
   const listEl = document.getElementById("list");
 
@@ -253,6 +298,9 @@ async function main(){
             const stations = countStations(detail);
             const coords = countLatLon(detail);
             const cityPoints = buildCityPoints(detail);
+
+			const detailJson = await (await fetch(ev.detailUrl)).json();
+			showStations(detailJson);  
 
             selectedEl.innerHTML +=
               "<br><span style='font-size:12px;color:#7CFF7C'>Stations: " + stations + "</span>" +
