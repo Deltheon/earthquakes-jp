@@ -570,6 +570,7 @@ function fitToEvent(detail){
 
   // 2) bounds sur les stations (déjà sur quakeLayer)
   const bounds = quakeLayer.getBounds();
+  fitBoundsWithMinKm(bounds, 80); // 80 km = bon “niveau région”
 
   // si on a des stations, on fit dessus, sinon on centre sur épicentre
   if (bounds && bounds.isValid()) {
@@ -685,6 +686,30 @@ function epicenterIcon(){
     iconAnchor: [9,9],
     html: `<div class="epiMarker"></div>`
   });
+}
+
+function fitBoundsWithMinKm(bounds, minKm = 80){
+  if (!bounds || !bounds.isValid()) return;
+
+  // centre actuel de la zone
+  const c = bounds.getCenter();
+
+  // approx: 1 degré latitude = 111 km
+  const dLat = minKm / 111;
+
+  // longitude dépend de la latitude
+  const cosLat = Math.cos((c.lat * Math.PI) / 180);
+  const dLon = minKm / (111 * Math.max(0.2, cosLat)); // évite divisions bizarres
+
+  const minBounds = L.latLngBounds(
+    [c.lat - dLat, c.lng - dLon],
+    [c.lat + dLat, c.lng + dLon]
+  );
+
+  // on prend l'union: si la vraie zone est petite, minBounds gagne
+  const finalBounds = bounds.extend(minBounds);
+
+  map.fitBounds(finalBounds, { padding: [80, 80] });
 }
 
 async function main(){
