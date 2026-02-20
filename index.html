@@ -570,7 +570,7 @@ function fitToEvent(detail){
 
   // 2) bounds sur les stations (déjà sur quakeLayer)
   const bounds = quakeLayer.getBounds();
-  fitBoundsWithMinKm(bounds, 60); // 80 km = bon “niveau région”
+  fitBoundsWithMinKm(bounds, 40); // 80 km = bon “niveau région”
 
   // si on a des stations, on fit dessus, sinon on centre sur épicentre
   if (bounds && bounds.isValid()) {
