@@ -293,24 +293,24 @@ async function main(){
 
         // Mini test: charger le détail JMA et compter les stations
         fetch(ev.detailUrl)
-          .then(r => r.json())
-          .then(detail => {
-            const stations = countStations(detail);
-            const coords = countLatLon(detail);
-            const cityPoints = buildCityPoints(detail);
+  .then(r => r.json())
+  .then(detail => {
+    const stations = countStations(detail);
+    const coords = countLatLon(detail);
+    const cityPoints = buildCityPoints(detail);
 
-			const detailJson = await (await fetch(ev.detailUrl)).json();
-			showStations(detailJson);  
+    // ✅ On affiche directement les points avec CE detail (pas besoin de refetch)
+    showStations(detail);
 
-            selectedEl.innerHTML +=
-              "<br><span style='font-size:12px;color:#7CFF7C'>Stations: " + stations + "</span>" +
-              "<br><span style='font-size:12px;color:#7CFF7C'>Coordonnées: " + coords + "</span>"+
-              "<br><span style='font-size:12px;color:#7CFF7C'>Points ville: " + cityPoints.length + "</span>";
-          })
-          .catch(err => {
-            selectedEl.innerHTML +=
-              "<br><span style='font-size:12px;color:#FF7C7C'>Erreur detail: " + err.message + "</span>";
-          });
+    selectedEl.innerHTML +=
+      "<br><span style='font-size:12px;color:#7CFF7C'>Stations: " + stations + "</span>" +
+      "<br><span style='font-size:12px;color:#7CFF7C'>Coordonnées: " + coords + "</span>" +
+      "<br><span style='font-size:12px;color:#7CFF7C'>Points ville: " + cityPoints.length + "</span>";
+  })
+  .catch(err => {
+    selectedEl.innerHTML +=
+      "<br><span style='font-size:12px;color:#FF7C7C'>Erreur detail: " + err.message + "</span>";
+  });
       };
 
       listEl.appendChild(div);
