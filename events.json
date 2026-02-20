@@ -1,9 +1,18 @@
 {
-  "lastUpdate": "2026-02-20T19:08:39.624Z",
+  "lastUpdate": "2026-02-20T19:35:10.930Z",
   "source": "JMA list.json",
   "totalInList": 196,
   "totalUsable": 154,
   "events": [
+    {
+      "id": "20260221042003_20260221041657_VXSE5k_1.json",
+      "time": "2026-02-21T04:16:00+09:00",
+      "region": "与那国島近海",
+      "magnitude": "4.7",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260221042003_20260221041657_VXSE5k_1.json"
+    },
     {
       "id": "20260220232049_20260220231640_VXSE5k_1.json",
       "time": "2026-02-20T23:16:00+09:00",
@@ -264,15 +273,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260212023143_20260212022835_VXSE5k_1.json"
-    },
-    {
-      "id": "20260211193845_20260211193609_VXSE5k_1.json",
-      "time": "2026-02-11T19:36:00+09:00",
-      "region": "宗谷地方南部",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260211193845_20260211193609_VXSE5k_1.json"
     }
   ]
 }
