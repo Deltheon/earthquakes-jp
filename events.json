@@ -1,9 +1,18 @@
 {
-  "lastUpdate": "2026-02-20T14:10:29.231Z",
+  "lastUpdate": "2026-02-20T14:22:14.338Z",
   "source": "JMA list.json",
-  "totalInList": 193,
-  "totalUsable": 153,
+  "totalInList": 196,
+  "totalUsable": 154,
   "events": [
+    {
+      "id": "20260220232049_20260220231640_VXSE5k_1.json",
+      "time": "2026-02-20T23:16:00+09:00",
+      "region": "青森県東方沖",
+      "magnitude": "5.0",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260220232049_20260220231640_VXSE5k_1.json"
+    },
     {
       "id": "20260220224303_20260220224007_VXSE5k_1.json",
       "time": "2026-02-20T22:40:00+09:00",
@@ -264,15 +273,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260211193845_20260211193609_VXSE5k_1.json"
-    },
-    {
-      "id": "20260211173903_20260211173624_VXSE5k_1.json",
-      "time": "2026-02-11T17:36:00+09:00",
-      "region": "静岡県西部",
-      "magnitude": "3.5",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260211173903_20260211173624_VXSE5k_1.json"
     }
   ]
 }
