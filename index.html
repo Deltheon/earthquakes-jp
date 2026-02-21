@@ -387,47 +387,46 @@
 }
 
 /* Selected: info bar (non bouton) */
-#selected .statsBar{
+/* Selected: metrics line, no button affordance */
+#selected .metricsLine{
   margin-top:10px;
   display:flex;
   flex-wrap:wrap;
-  gap:12px;
+  gap:18px;
+  align-items:flex-start;
 }
 
-#selected .stat{
+#selected .metric{
   display:flex;
-  align-items:baseline;
-  gap:8px;
-  padding:6px 10px;
-  border-radius:10px;
-  background:rgba(255,255,255,0.03);
-  border:1px solid rgba(255,255,255,0.06);
-  cursor:default;
-  user-select:none;
+  flex-direction:column;
+  gap:2px;
 }
 
-#selected .stat .label{
-  font-size:11px;
-  color:#9aa1b3;
-}
-
-#selected .stat b{
+#selected .metric .jp{
   font-size:13px;
   font-weight:800;
   color:#e3e7f2;
+  line-height:1.1;
 }
 
-/* Stat spéciale Max intensity: fond coloré */
-#selected .stat.max{
-  border:none;
+#selected .metric .en{
+  font-size:10px;
+  color:#9aa1b3;
+  line-height:1.1;
 }
 
-#selected .stat.max .label{
-  color:rgba(0,0,0,0.65);
+/* petit point couleur pour Max intensity */
+#selected .metricMax .jp{
+  display:flex;
+  align-items:center;
+  gap:8px;
 }
 
-#selected .stat.max b{
-  color:#111;
+#selected .intDot{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  flex:0 0 10px;
 }
 	
 </style>
@@ -1028,34 +1027,33 @@ function renderSelectedInfo(ev, detail){
 
   // 🟢 Nouvelle info bar (remplace selBadges)
   const statsHtml = `
-    <div class="statsBar">
+  <div class="metricsLine">
 
-      <div class="stat">
-        <span class="label">マグニチュード</span>
-        <b>M ${magnitude}</b>
-        <span class="label">Magnitude</span>
-      </div>
-
-      <div class="stat max" style="background:${maxColor}">
-        <span class="label">最大震度</span>
-        <b>${maxInt}</b>
-        <span class="label">Max intensity</span>
-      </div>
-
-      <div class="stat">
-        <span class="label">震源の深さ</span>
-        <b>${depthText}</b>
-        <span class="label">Depth</span>
-      </div>
-
-      <div class="stat">
-        <span class="label">観測点数</span>
-        <b>${countStations(detail)}</b>
-        <span class="label">Stations</span>
-      </div>
-
+    <div class="metric">
+      <div class="jp">マグニチュード M ${magnitude}</div>
+      <div class="en">Magnitude</div>
     </div>
-  `;
+
+    <div class="metric metricMax">
+      <div class="jp">
+        <span class="intDot" style="background:${maxColor}"></span>
+        最大震度 ${maxInt}
+      </div>
+      <div class="en">Max intensity</div>
+    </div>
+
+    <div class="metric">
+      <div class="jp">震源の深さ ${depthText}</div>
+      <div class="en">Depth</div>
+    </div>
+
+    <div class="metric">
+      <div class="jp">観測点数 ${countStations(detail)}</div>
+      <div class="en">Stations</div>
+    </div>
+
+  </div>
+`;
 
   selectedEl.innerHTML = `
     <div class="selTitle">${regionJP}</div>
