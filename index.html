@@ -254,6 +254,67 @@
 
 #tabMap{ position: relative; }
 
+.selectedCard{
+  height: 120px;            /* hauteur fixe */
+  padding: 12px;
+  border: 1px solid #222;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
+  overflow: hidden;         /* ne pousse jamais la map */
+  box-sizing: border-box;
+  display:flex;
+  flex-direction:column;
+  gap: 10px;
+}
+
+.selectedHeader{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  gap: 12px;
+}
+
+.selectedTitle{
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.selectedStatus{
+  color:#aaa;
+  font-size:12px;
+  white-space:nowrap;
+}
+
+.selectedBody{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px 12px;
+  font-size: 13px;
+}
+
+.kv{
+  display:flex;
+  gap: 8px;
+  min-width:0;
+  align-items:baseline;
+}
+.k{
+  color:#aaa;
+  font-size:12px;
+  white-space:nowrap;
+}
+.v{
+  font-weight:700;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+@media (max-width:900px){
+  .selectedCard{ height: 150px; }
+  .selectedBody{ grid-template-columns: 1fr; }
+}
+
 @media (max-width:1200px){
   .prefGrid{ column-count:2; }
 }
@@ -275,7 +336,14 @@
   <div class="left">
     <h2 style="margin:0 0 10px 0;">Earthquakes JP</h2>
 
-<div id="selected" class="muted">Chargement…</div>
+<div id="selected" class="selectedCard">
+  <div class="selectedHeader">
+    <div class="selectedTitle">Selected earthquake</div>
+    <div id="selectedStatus" class="selectedStatus">Loading…</div>
+  </div>
+
+  <div id="selectedBody" class="selectedBody"></div>
+</div>
 
 <div class="tabs">
   <button id="tabBtnMap" class="tab active" type="button">Carte</button>
@@ -712,6 +780,64 @@ function fitBoundsWithMinKm(bounds, minKm = 80){
   map.fitBounds(finalBounds, { padding: [80, 80] });
 }
 
+function fmtLocal(s){
+  try {
+    return new Date(s).toLocaleString(undefined, {
+      year:"numeric", month:"2-digit", day:"2-digit",
+      hour:"2-digit", minute:"2-digit"
+    });
+  } catch { return s || "-"; }
+}
+
+function getTsunami(detail){
+  const en = (detail?.Body?.Comments?.ForecastComment?.enText || "").trim();
+  const jp = (detail?.Body?.Comments?.ForecastComment?.Text || "").trim();
+  return en || jp || "-";
+}
+
+function jpEn(jp, en){
+  const a = (jp || "").trim();
+  const b = (en || "").trim();
+  if (a && b) return `${a} (${b})`;
+  return a || b || "-";
+}
+
+function renderTopSummary(ev, detail){
+  const statusEl = document.getElementById("selectedStatus");
+  const bodyEl = document.getElementById("selectedBody");
+
+  statusEl.textContent = "Updated";
+
+  const hypoJP = detail?.Body?.Earthquake?.Hypocenter?.Area?.Name || "";
+  const hypoEN = detail?.Body?.Earthquake?.Hypocenter?.Area?.enName || "";
+  const place = jpEn(hypoJP, hypoEN) || (ev.region || ev.title || "-");
+
+  const time = detail?.Body?.Earthquake?.OriginTime || ev.time || "";
+  const mag = detail?.Body?.Earthquake?.Magnitude ?? ev.magnitude ?? "?";
+  const maxInt = detail?.Body?.Intensity?.Observation?.MaxInt ?? ev.maxIntensity ?? "?";
+  const tsunami = getTsunami(detail);
+  const depthKm = parseDepthKm(detail);
+
+  bodyEl.innerHTML = `
+    <div class="kv"><div class="k">Time</div><div class="v">${fmtLocal(time)}</div></div>
+    <div class="kv"><div class="k">Place</div><div class="v">${place}</div></div>
+    <div class="kv"><div class="k">Magnitude</div><div class="v">M ${mag}</div></div>
+    <div class="kv"><div class="k">Max intensity</div><div class="v">Int ${maxInt}</div></div>
+    <div class="kv"><div class="k">Tsunami</div><div class="v">${tsunami}</div></div>
+    <div class="kv"><div class="k">Depth</div><div class="v">${depthKm ?? "?"} km</div></div>
+  `;
+}
+
+function parseDepthKm(detail){
+  const s = detail?.Body?.Earthquake?.Hypocenter?.Area?.Coordinate || "";
+  // On récupère le 3e nombre (souvent négatif) = profondeur en mètres
+  const m = String(s).match(/([+-]\d+(?:\.\d+)?)([+-]\d+(?:\.\d+)?)([+-]\d+(?:\.\d+)?)/);
+  if(!m) return null;
+  const meters = Math.abs(parseFloat(m[3]));
+  if(!Number.isFinite(meters)) return null;
+  return Math.round(meters / 1000);
+}
+
 async function main(){
   const listEl = document.getElementById("list");
 
@@ -745,6 +871,8 @@ async function main(){
 
       div.onclick = () => {
         selectedId = ev.id;
+		document.getElementById("selectedStatus").textContent = "Loading…";
+  		document.getElementById("selectedBody").innerHTML = "";
 
         updateSelectionUI();
         div.classList.add("selected");
@@ -765,6 +893,7 @@ async function main(){
     const stations = countStations(detail);
     const coords = countLatLon(detail);
     const cityPoints = buildCityPoints(detail);
+	renderTopSummary(ev, detail);
 
     // ✅ On affiche directement les points avec CE detail (pas besoin de refetch)
     showStations(detail);
@@ -772,10 +901,10 @@ async function main(){
 	lastDetail = detail;
 	renderCitiesTab(lastDetail);
 	  
-    selectedEl.innerHTML +=
+    /*selectedEl.innerHTML +=
       "<br><span style='font-size:12px;color:#7CFF7C'>Stations: " + stations + "</span>" +
       "<br><span style='font-size:12px;color:#7CFF7C'>Coordonnées: " + coords + "</span>" +
-      "<br><span style='font-size:12px;color:#7CFF7C'>Points ville: " + cityPoints.length + "</span>";
+      "<br><span style='font-size:12px;color:#7CFF7C'>Points ville: " + cityPoints.length + "</span>";*/
   })
   .catch(err => {
     selectedEl.innerHTML +=
