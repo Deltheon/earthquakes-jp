@@ -142,7 +142,7 @@
 
 /* Zone selected fixe pour éviter les sauts */
 #selected{
-  height: 120px;        /* hauteur FIXE */
+  height: 150px;        /* hauteur FIXE */
   overflow: hidden;     /* évite le resize */
   padding: 10px;
   border: 1px solid #222;
@@ -988,8 +988,17 @@ function renderSelectedInfo(ev, detail){
 
 const maxColor = intensityColor(normalizeIntensity(maxInt));
 
-const tsunamiJP = detail?.Body?.Comments?.ForecastComment?.Text || "";
-const tsunamiEN = detail?.Body?.Comments?.ForecastComment?.enText || "";
+const tsunamiJP =
+  detail?.Body?.Comments?.ForecastComment?.Text ||
+  detail?.Body?.Comments?.VarComment?.Text ||
+  detail?.Body?.Comments?.FreeFormComment?.Text ||
+  "";
+
+const tsunamiEN =
+  detail?.Body?.Comments?.ForecastComment?.enText ||
+  detail?.Body?.Comments?.VarComment?.enText ||
+  detail?.Body?.Comments?.FreeFormComment?.enText ||
+  "";
 
 selectedEl.innerHTML = `
   <div class="selTitle">${regionJP}</div>
