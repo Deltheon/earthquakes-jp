@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-21T20:53:27.864Z",
+  "lastUpdate": "2026-02-21T21:20:32.094Z",
   "source": "JMA list.json",
-  "totalInList": 195,
-  "totalUsable": 155,
+  "totalInList": 196,
+  "totalUsable": 156,
   "events": [
+    {
+      "id": "20260222061548_20260222061321_VXSE5k_1.json",
+      "time": "2026-02-22T06:13:00+09:00",
+      "region": "岐阜県飛騨地方",
+      "regionEn": "Hida, Gifu Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260222061548_20260222061321_VXSE5k_1.json"
+    },
     {
       "id": "20260222021202_20260222020912_VXSE5k_1.json",
       "time": "2026-02-22T02:09:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260213055302_20260213054948_VXSE5k_1.json"
-    },
-    {
-      "id": "20260213014943_20260213014544_VXSE5k_1.json",
-      "time": "2026-02-13T01:45:00+09:00",
-      "region": "択捉島南東沖",
-      "regionEn": "Off the southeast Coast of Etorofu Island",
-      "magnitude": "5.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260213014943_20260213014544_VXSE5k_1.json"
     }
   ]
 }
