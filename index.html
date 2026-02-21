@@ -1,306 +1,694 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <title>Earthquakes JP</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Earthquakes JP</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #0f1115;
-            color: white;
-        }
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-        .app {
-            display: flex;
-            height: 100vh;
-        }
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#0f1115;
+      color:#fff;
+    }
+    .app{
+      display:flex;
+      height:100vh;
+    }
+    .left{
+      flex:3;
+      padding:15px;
+      border-right:1px solid #333;
+      box-sizing:border-box;
+      overflow:hidden;
+    }
+    .right{
+      flex:2;
+      overflow:auto;
+      padding:15px;
+      box-sizing:border-box;
+    }
+    @media (max-width: 900px){
+      .app{ flex-direction:column; }
+      .left{ border-right:none; border-bottom:1px solid #333; }
+    }
 
-        .left {
-            flex: 3;
-            padding: 15px;
-            border-right: 1px solid #333;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-        }
+    /* Selected card (fixed height, no map jumping) */
+    .selectedCard{
+      height: 120px;
+      padding: 12px;
+      border: 1px solid #222;
+      border-radius: 12px;
+      background: rgba(255,255,255,0.03);
+      overflow: hidden;
+      box-sizing: border-box;
+      display:flex;
+      flex-direction:column;
+      gap: 8px;
+    }
+    .selectedTop{
+      display:flex;
+      align-items:baseline;
+      justify-content:space-between;
+      gap: 12px;
+    }
+    .selectedTitle{
+      font-weight: 800;
+      color:#fff;
+      font-size: 18px;
+      letter-spacing: 0.2px;
+    }
+    .selectedStatus{
+      font-size:12px;
+      color:#aaa;
+      white-space:nowrap;
+    }
+    .selectedBody{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px 14px;
+      font-size: 13px;
+    }
+    .kv{
+      display:flex;
+      gap: 8px;
+      align-items:baseline;
+      min-width:0;
+    }
+    .k{
+      color:#aaa;
+      font-size:12px;
+      white-space:nowrap;
+    }
+    .v{
+      color:#fff;
+      font-weight:600;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+    }
+    @media (max-width:900px){
+      .selectedCard{ height: 140px; }
+      .selectedBody{ grid-template-columns: 1fr; }
+    }
 
-        .right {
-            flex: 1.5;
-            overflow: auto;
-            padding: 15px;
-            box-sizing: border-box;
-            background: #0f1115;
-        }
+    /* Tabs */
+    .tabs{
+      display:flex;
+      gap:10px;
+      margin: 10px 0 12px 0;
+    }
+    .tabBtn{
+      border:1px solid #2a2f3a;
+      background: rgba(255,255,255,0.02);
+      color:#fff;
+      padding:8px 12px;
+      border-radius: 12px;
+      cursor:pointer;
+      font-weight:700;
+      font-size: 13px;
+    }
+    .tabBtn.active{
+      border-color:#7aa2ff;
+      background: rgba(122,162,255,0.12);
+    }
 
-        /* Liste des séismes */
-        .item {
-            border: 1px solid #333;
-            padding: 12px;
-            margin-bottom: 12px;
-            border-radius: 12px;
-            cursor: pointer;
-            background: #141821;
-        }
+    /* Map area */
+    #tabMap{
+      position: relative;
+    }
+    #map{
+      height: 70vh;
+      border-radius: 12px;
+      overflow:hidden;
+    }
 
-        .item:hover { border-color: #555; }
-        .item.selected { border-color: #7aa2ff; }
+    /* Legend */
+    .legend{
+      position:absolute;
+      left: 16px;
+      bottom: 16px;
+      z-index: 1200;
+      background: rgba(15,17,21,0.85);
+      border: 1px solid #2a2f3a;
+      border-radius: 14px;
+      padding: 10px 12px;
+      backdrop-filter: blur(8px);
+      color:#ddd;
+      font-size: 12px;
+      max-width: calc(100% - 32px);
+    }
+    .legendTitle{
+      font-weight: 800;
+      margin-bottom: 8px;
+      color:#fff;
+    }
+    .legendRow{
+      display:flex;
+      align-items:center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .dot{
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 1px solid rgba(0,0,0,0.55);
+      display:inline-block;
+    }
+    .lbl{
+      margin-right: 6px;
+      color:#cfd3dc;
+      font-size: 12px;
+    }
+    .xmark{
+      width: 12px;
+      height: 12px;
+      position: relative;
+      display:inline-block;
+    }
+    .xmark::before,
+    .xmark::after{
+      content:"";
+      position:absolute;
+      left:5px;
+      top:-1px;
+      width:2px;
+      height:14px;
+      background:#ff2d2d;
+    }
+    .xmark::before{ transform: rotate(45deg); }
+    .xmark::after{ transform: rotate(-45deg); }
 
-        .muted { color: #aaa; font-size: 12px; }
+    .int1{ background:#ffffff; }
+    .int2{ background:#00e5ff; }
+    .int3{ background:#1976ff; }
+    .int4{ background:#fff176; }
+    .int5m{ background:#ffd54f; }
+    .int5p{ background:#ffb300; }
+    .int6m{ background:#ff7043; }
+    .int6p{ background:#ff1744; }
+    .int7{ background:#ff00c8; }
 
-        /* Zone infos sélectionnée */
-        #selected {
-            min-height: 80px;
-            padding: 12px;
-            border: 1px solid #222;
-            border-radius: 12px;
-            background: rgba(255,255,255,0.03);
-            margin-bottom: 10px;
-        }
+    /* List of quakes */
+    .item{
+      border:1px solid #333;
+      padding:12px;
+      margin-bottom:12px;
+      border-radius:12px;
+      cursor:pointer;
+      background:#141821;
+    }
+    .item:hover{
+      border-color:#555;
+    }
+    .item.selected{
+      border-color:#7aa2ff;
+      background: rgba(122,162,255,0.08);
+    }
+    .muted{
+      color:#aaa;
+      font-size:12px;
+    }
 
-        /* Onglets */
-        .tabs {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 10px;
-        }
+    /* Cities tab */
+    #tabCities{
+      display:none;
+      margin-top: 10px;
+    }
+    .prefGrid{
+      column-count: 3;
+      column-gap: 16px;
+    }
+    @media (max-width:1200px){
+      .prefGrid{ column-count:2; }
+    }
+    @media (max-width:700px){
+      .prefGrid{ column-count:1; }
+    }
 
-        .tab {
-            background: #141821;
-            border: 1px solid #2a2f3a;
-            color: #ddd;
-            padding: 8px 16px;
-            border-radius: 8px;
-            cursor: pointer;
-        }
+    .prefCard{
+      border:1px solid #2a2f3a;
+      border-radius:12px;
+      padding:10px;
+      background: rgba(255,255,255,0.03);
+      break-inside: avoid;
+      margin-bottom:16px;
+    }
+    .prefHeader{
+      display:flex;
+      justify-content:space-between;
+      gap: 10px;
+      margin-bottom: 8px;
+      font-weight:800;
+    }
+    .prefHeader .max{
+      color:#cfd3dc;
+      font-weight:800;
+      white-space:nowrap;
+    }
+    .cityRow{
+      display:flex;
+      justify-content:space-between;
+      gap: 10px;
+      padding: 6px 0;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      font-size: 13px;
+    }
+    .cityRow:first-of-type{
+      border-top:none;
+    }
+    .cityName{
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      color:#fff;
+      font-weight:650;
+    }
+    .cityInt{
+      color:#cfd3dc;
+      font-weight:800;
+      white-space:nowrap;
+    }
 
-        .tab.active {
-            border-color: #7aa2ff;
-            background: #1a202c;
-        }
-
-        .tabPage { display: none; flex: 1; position: relative; }
-        .tabPage.active { display: flex; flex-direction: column; }
-
-        #map { width: 100%; height: 100%; border-radius: 12px; }
-
-        /* Légende */
-        .legend {
-            position: absolute;
-            left: 10px;
-            bottom: 10px;
-            z-index: 1000;
-            background: rgba(15,17,21,0.9);
-            border: 1px solid #333;
-            padding: 10px;
-            border-radius: 8px;
-            font-size: 11px;
-        }
-
-        .legendRow { display: flex; align-items: center; gap: 5px; margin-top: 5px; }
-        .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
-        
-        /* Grille des villes */
-        .prefGrid { column-count: 2; column-gap: 15px; overflow-y: auto; }
-        .prefCard { background: rgba(255,255,255,0.03); padding: 10px; border-radius: 8px; margin-bottom: 10px; break-inside: avoid; }
-        .prefHeader { font-weight: bold; border-bottom: 1px solid #333; margin-bottom: 5px; display: flex; justify-content: space-between; }
-
-        /* Couleurs Intensité */
-        .int1{ background:#ffffff; } .int2{ background:#00e5ff; } .int3{ background:#1976ff; }
-        .int4{ background:#fff176; } .int5m{ background:#ffd54f; } .int5p{ background:#ffb300; }
-        .int6m{ background:#ff7043; } .int6p{ background:#ff1744; } .int7{ background:#ff00c8; }
-
-        /* Croix épicentre */
-        .epiMarker { width:18px; height:18px; position:relative; }
-        .epiMarker::before, .epiMarker::after {
-            content:""; position:absolute; left:8px; top:0; width:2px; height:18px; background:#ff2d2d;
-        }
-        .epiMarker::before { transform: rotate(45deg); }
-        .epiMarker::after { transform: rotate(-45deg); }
-
-        @media (max-width: 900px) {
-            .app { flex-direction: column; }
-            .left { height: 70vh; border-right: none; border-bottom: 1px solid #333; }
-        }
-    </style>
+    /* Epicenter icon (same as legend, no shadow) */
+    .epiMarker{
+      width:18px;
+      height:18px;
+      position:relative;
+    }
+    .epiMarker::before,
+    .epiMarker::after{
+      content:"";
+      position:absolute;
+      left:8px;
+      top:0px;
+      width:2px;
+      height:18px;
+      background:#ff2d2d;
+    }
+    .epiMarker::before{ transform: rotate(45deg); }
+    .epiMarker::after{ transform: rotate(-45deg); }
+  </style>
 </head>
 
 <body>
-    <div class="app">
-        <div class="left">
-            <h2 style="margin:0 0 10px 0;">Earthquakes JP</h2>
-            
-            <div id="selected" class="muted">Chargement...</div>
-
-            <div class="tabs">
-                <button id="tabBtnMap" class="tab active">Carte</button>
-                <button id="tabBtnCities" class="tab">Villes touchées</button>
-            </div>
-
-            <div id="tabMap" class="tabPage active">
-                <div id="map"></div>
-                <div class="legend">
-                    <strong>Intensité</strong>
-                    <div class="legendRow">
-                        <span class="dot int7"></span> 7 
-                        <span class="dot int6p"></span> 6+ 
-                        <span class="dot int6m"></span> 6- 
-                        <span class="dot int5p"></span> 5+ 
-                        <span class="dot int5m"></span> 5- 
-                        <span class="dot int4"></span> 4
-                        <span class="dot int1"></span> 1-3
-                    </div>
-                </div>
-            </div>
-
-            <div id="tabCities" class="tabPage">
-                <div id="citiesSummary" class="muted"></div>
-                <div id="citiesGrid" class="prefGrid"></div>
-            </div>
+  <div class="app">
+    <div class="left">
+      <div id="selected" class="selectedCard">
+        <div class="selectedTop">
+          <div class="selectedTitle">Earthquakes JP</div>
+          <div id="selectedStatus" class="selectedStatus">Loading…</div>
         </div>
+        <div id="selectedBody" class="selectedBody"></div>
+      </div>
 
-        <div class="right">
-            <h2 style="margin:0 0 10px 0;">30 derniers séismes</h2>
-            <div id="list"></div>
+      <div class="tabs">
+        <button id="btnMap" class="tabBtn active">地図 (Map)</button>
+        <button id="btnCities" class="tabBtn">影響地域 (Cities)</button>
+      </div>
+
+      <div id="tabMap">
+        <div id="map"></div>
+
+        <div id="legend" class="legend">
+          <div class="legendTitle">Seismic intensity</div>
+          <div class="legendRow">
+            <span class="dot int7"></span><span class="lbl">7</span>
+            <span class="dot int6p"></span><span class="lbl">6+</span>
+            <span class="dot int6m"></span><span class="lbl">6-</span>
+            <span class="dot int5p"></span><span class="lbl">5+</span>
+            <span class="dot int5m"></span><span class="lbl">5-</span>
+            <span class="dot int4"></span><span class="lbl">4</span>
+            <span class="dot int3"></span><span class="lbl">3</span>
+            <span class="dot int2"></span><span class="lbl">2</span>
+            <span class="dot int1"></span><span class="lbl">1</span>
+            <span class="xmark"></span><span class="lbl">epicenter</span>
+          </div>
         </div>
+      </div>
+
+      <div id="tabCities">
+        <div id="citiesWrap" class="prefGrid"></div>
+      </div>
     </div>
 
-    <script>
-        // --- JAVASCRIPT ---
-        let selectedId = null;
-        let epicenterMarker = null;
-        let lastDetail = null;
+    <div class="right">
+      <h2 style="margin:0 0 10px 0;">30 latest earthquakes</h2>
+      <div id="list"></div>
+    </div>
+  </div>
 
-        const map = L.map("map").setView([36.2, 138.2], 5);
-        const quakeLayer = L.featureGroup().addTo(map);
+  <script>
+    let selectedId = null;
+    let lastDetail = null;
 
-        L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
-            attribution: '&copy; OpenStreetMap'
-        }).addTo(map);
+    const map = L.map("map").setView([36.2, 138.2], 5);
+    const quakeLayer = L.layerGroup().addTo(map);
 
-        // Gestion des onglets
-        function setActiveTab(tab) {
-            document.getElementById("tabBtnMap").classList.toggle("active", tab === 'map');
-            document.getElementById("tabBtnCities").classList.toggle("active", tab === 'cities');
-            document.getElementById("tabMap").classList.toggle("active", tab === 'map');
-            document.getElementById("tabCities").classList.toggle("active", tab === 'cities');
-            if(tab === 'map') setTimeout(() => map.invalidateSize(), 100);
-        }
+    // Base map + labels
+    L.tileLayer(
+      "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+      {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: "abcd",
+        maxZoom: 20
+      }
+    ).addTo(map);
 
-        document.getElementById("tabBtnMap").onclick = () => setActiveTab('map');
-        document.getElementById("tabBtnCities").onclick = () => {
-            setActiveTab('cities');
-            renderCitiesTab(lastDetail);
-        };
+    L.tileLayer(
+      "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png",
+      {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: "abcd",
+        maxZoom: 20
+      }
+    ).addTo(map);
 
-        function intensityColor(intStr) {
-            const v = String(intStr || "").trim();
-            const colors = {
-                "1":"#ffffff","2":"#00e5ff","3":"#1976ff","4":"#fff176",
-                "5-":"#ffd54f","5+":"#ffb300","6-":"#ff7043","6+":"#ff1744","7":"#ff00c8"
-            };
-            return colors[v] || "#aaaaaa";
-        }
+    function updateSelectionUI(){
+      document.querySelectorAll(".item").forEach(el => el.classList.remove("selected"));
+    }
 
-        function normalizeIntensity(v) {
-            const s = String(v || "").trim();
-            if (s === "5弱") return "5-"; if (s === "5強") return "5+";
-            if (s === "6弱") return "6-"; if (s === "6強") return "6+";
-            return s;
-        }
+    function fmtLocal(s){
+      try {
+        return new Date(s).toLocaleString(undefined, {
+          year:"numeric", month:"2-digit", day:"2-digit",
+          hour:"2-digit", minute:"2-digit"
+        });
+      } catch {
+        return s || "-";
+      }
+    }
 
-        function parseJmaCoordinate(coordStr) {
-            if (!coordStr) return null;
-            const m = coordStr.match(/([+-]\d+(?:\.\d+)?)([+-]\d+(?:\.\d+)?)/);
-            return m ? { lat: Number(m[1]), lon: Number(m[2]) } : null;
-        }
+    function jpEn(jp, en){
+      const a = (jp || "").trim();
+      const b = (en || "").trim();
+      if (a && b) return a + " (" + b + ")";
+      return a || b || "-";
+    }
 
-        function showStations(detailData) {
-            quakeLayer.clearLayers();
-            const prefs = detailData?.Body?.Intensity?.Observation?.Pref || [];
-            prefs.forEach(pref => {
-                pref.Area?.forEach(area => {
-                    area.City?.forEach(city => {
-                        city.IntensityStation?.forEach(station => {
-                            const lat = station?.latlon?.lat;
-                            const lon = station?.latlon?.lon;
-                            if (typeof lat !== "number") return;
+    function normalizeIntensity(v){
+      const s = String(v || "").trim();
+      if (s === "5弱") return "5-";
+      if (s === "5強") return "5+";
+      if (s === "6弱") return "6-";
+      if (s === "6強") return "6+";
+      return s;
+    }
 
-                            L.circleMarker([lat, lon], {
-                                radius: 5,
-                                color: "#000",
-                                weight: 1,
-                                fillColor: intensityColor(normalizeIntensity(station.Int)),
-                                fillOpacity: 0.8
-                            }).bindTooltip(`${station.Name} : Int ${station.Int}`).addTo(quakeLayer);
-                        });
-                    });
-                });
-            });
-        }
+    function intensityColor(intStr){
+      const v = String(intStr || "").trim();
+      const mapC = {
+        "1":  "#ffffff",
+        "2":  "#00e5ff",
+        "3":  "#1976ff",
+        "4":  "#fff176",
+        "5-": "#ffd54f",
+        "5+": "#ffb300",
+        "6-": "#ff7043",
+        "6+": "#ff1744",
+        "7":  "#ff00c8"
+      };
+      return mapC[v] || "#aaaaaa";
+    }
 
-        function showEpicenter(detail) {
-            const p = parseJmaCoordinate(detail?.Body?.Earthquake?.Hypocenter?.Area?.Coordinate);
-            if (epicenterMarker) map.removeLayer(epicenterMarker);
-            if (p) {
-                epicenterMarker = L.marker([p.lat, p.lon], {
-                    icon: L.divIcon({ className: "", html: '<div class="epiMarker"></div>', iconSize: [18,18], iconAnchor: [9,9] })
-                }).addTo(map);
-                return p;
+    function epicenterDivIcon(){
+      return L.divIcon({
+        className: "",
+        iconSize: [18,18],
+        iconAnchor: [9,9],
+        html: '<div class="epiMarker"></div>'
+      });
+    }
+
+    function parseHypocenterLatLon(detail){
+      // Coordinate example: "+40.7+140.5-10000/"
+      const s = detail?.Body?.Earthquake?.Hypocenter?.Area?.Coordinate || "";
+      const m = String(s).match(/([+-]\d+(?:\.\d+)?)([+-]\d+(?:\.\d+)?)/);
+      if (!m) return null;
+      const lat = parseFloat(m[1]);
+      const lon = parseFloat(m[2]);
+      if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
+      return { lat, lon };
+    }
+
+    function getTsunamiText(detail){
+      const en = (detail?.Body?.Comments?.ForecastComment?.enText || "").trim();
+      const jp = (detail?.Body?.Comments?.ForecastComment?.Text || "").trim();
+      return en || jp || "-";
+    }
+
+    function renderSelectedSummary(ev, detail){
+      const statusEl = document.getElementById("selectedStatus");
+      const bodyEl = document.getElementById("selectedBody");
+
+      statusEl.textContent = "Updated";
+
+      const hypoJP = detail?.Body?.Earthquake?.Hypocenter?.Area?.Name || "";
+      const hypoEN = detail?.Body?.Earthquake?.Hypocenter?.Area?.enName || "";
+      const place = jpEn(hypoJP, hypoEN) || (ev.region || ev.title || "-");
+
+      const originTime = detail?.Body?.Earthquake?.OriginTime || ev.time || "";
+      const mag = detail?.Body?.Earthquake?.Magnitude ?? ev.magnitude ?? "?";
+      const maxInt = detail?.Body?.Intensity?.Observation?.MaxInt ?? ev.maxIntensity ?? "?";
+      const tsunami = getTsunamiText(detail);
+
+      bodyEl.innerHTML = `
+        <div class="kv"><div class="k">震源 (Hypocenter)</div><div class="v">${place}</div></div>
+        <div class="kv"><div class="k">時刻 (Time)</div><div class="v">${fmtLocal(originTime)}</div></div>
+        <div class="kv"><div class="k">M (Magnitude)</div><div class="v">M ${mag}</div></div>
+        <div class="kv"><div class="k">最大震度 (Max)</div><div class="v">Int ${maxInt}</div></div>
+        <div class="kv"><div class="k">津波 (Tsunami)</div><div class="v">${tsunami}</div></div>
+      `;
+    }
+
+    function showStations(detailData){
+      quakeLayer.clearLayers();
+
+      const prefs = detailData?.Body?.Intensity?.Observation?.Pref || [];
+      let count = 0;
+
+      for (const pref of prefs){
+        for (const area of (pref.Area || [])){
+          for (const city of (area.City || [])){
+            for (const station of (city.IntensityStation || [])){
+              const lat = station?.latlon?.lat;
+              const lon = station?.latlon?.lon;
+              if (typeof lat !== "number" || typeof lon !== "number") continue;
+
+              const intVal = normalizeIntensity(station?.Int);
+              const color = intensityColor(intVal);
+
+              const marker = L.circleMarker([lat, lon], {
+                radius: 6,
+                color: "#111",
+                weight: 1,
+                fillColor: color,
+                fillOpacity: 0.95
+              });
+
+              const jp = station?.Name || "";
+              const en = station?.enName || "";
+              marker.bindTooltip(
+                (jp ? jp : "") + (en ? " (" + en + ")" : "") + " • Int " + intVal,
+                { direction: "top", opacity: 0.95, sticky: true }
+              );
+
+              marker.addTo(quakeLayer);
+              count++;
             }
-            return null;
+          }
+        }
+      }
+
+      // Epicenter marker
+      const epi = parseHypocenterLatLon(detailData);
+      if (epi){
+        L.marker([epi.lat, epi.lon], { icon: epicenterDivIcon() }).addTo(quakeLayer);
+      }
+
+      return { stationsCount: count, epicenter: epi };
+    }
+
+    function fitBoundsWithMinKm(bounds, minKm){
+      if (!bounds || !bounds.isValid()) return;
+
+      const c = bounds.getCenter();
+      const dLat = minKm / 111;
+      const cosLat = Math.cos((c.lat * Math.PI) / 180);
+      const dLon = minKm / (111 * Math.max(0.2, cosLat));
+
+      const minBounds = L.latLngBounds(
+        [c.lat - dLat, c.lng - dLon],
+        [c.lat + dLat, c.lng + dLon]
+      );
+
+      const finalBounds = bounds.extend(minBounds);
+      map.fitBounds(finalBounds, { padding:[80,80], maxZoom: 9 });
+    }
+
+    function renderCitiesTab(detail){
+      const wrap = document.getElementById("citiesWrap");
+      wrap.innerHTML = "";
+
+      const prefs = detail?.Body?.Intensity?.Observation?.Pref || [];
+      if (!prefs.length){
+        wrap.innerHTML = '<div class="muted">No intensity data</div>';
+        return;
+      }
+
+      for (const pref of prefs){
+        const prefName = jpEn(pref?.Name, pref?.enName);
+        const prefMax = pref?.MaxInt || "?";
+
+        // Collect cities once (unique by city code)
+        const cityMap = new Map();
+        for (const area of (pref.Area || [])){
+          for (const city of (area.City || [])){
+            const code = city?.Code || (city?.Name || Math.random());
+            const cityName = jpEn(city?.Name, city?.enName);
+            const max = city?.MaxInt || "?";
+            if (!cityMap.has(code)){
+              cityMap.set(code, { name: cityName, max });
+            }
+          }
         }
 
-        function renderCitiesTab(detail) {
-            const grid = document.getElementById("citiesGrid");
-            if (!detail) { grid.innerHTML = "Aucune donnée."; return; }
-            
-            const prefs = detail?.Body?.Intensity?.Observation?.Pref || [];
-            grid.innerHTML = prefs.map(p => `
-                <div class="prefCard">
-                    <div class="prefHeader"><span>${p.Name}</span> <span>Max ${p.MaxInt}</span></div>
-                    ${(p.Area || []).flatMap(a => (a.City || []).map(c => `
-                        <div style="display:flex; justify-content:space-between; font-size:12px;">
-                            <span>${c.Name}</span><span>Int ${c.MaxInt}</span>
-                        </div>
-                    `)).join("")}
-                </div>
-            `).join("");
+        const cities = Array.from(cityMap.values());
+        cities.sort((a,b) => {
+          // keep stable alphabetical fallback
+          return String(a.name).localeCompare(String(b.name));
+        });
+
+        const card = document.createElement("div");
+        card.className = "prefCard";
+
+        const header = document.createElement("div");
+        header.className = "prefHeader";
+        header.innerHTML = `<div>${prefName}</div><div class="max">Max ${prefMax}</div>`;
+        card.appendChild(header);
+
+        for (const c of cities){
+          const row = document.createElement("div");
+          row.className = "cityRow";
+          row.innerHTML = `<div class="cityName">${c.name}</div><div class="cityInt">Int ${c.max}</div>`;
+          card.appendChild(row);
         }
 
-        async function main() {
-            try {
-                const res = await fetch("./events.json");
-                const data = await res.json();
-                const listEl = document.getElementById("list");
-                
-                data.events.forEach(ev => {
-                    const div = document.createElement("div");
-                    div.className = "item";
-                    div.innerHTML = `<b>M${ev.magnitude}</b> - ${ev.region}<br><span class="muted">${new Date(ev.time).toLocaleString()}</span>`;
-                    div.onclick = async () => {
-                        document.querySelectorAll(".item").forEach(i => i.classList.remove("selected"));
-                        div.classList.add("selected");
-                        document.getElementById("selected").innerHTML = `<b>${ev.region}</b><br>Magnitude: ${ev.magnitude} | Max: ${ev.maxIntensity}`;
-                        
-                        const dRes = await fetch(ev.detailUrl);
-                        lastDetail = await dRes.json();
-                        showStations(lastDetail);
-                        const epi = showEpicenter(lastDetail);
-                        
-                        const bounds = quakeLayer.getBounds();
-                        if (bounds.isValid()) map.fitBounds(bounds.pad(0.1));
-                        else if (epi) map.setView([epi.lat, epi.lon], 7);
-                    };
-                    listEl.appendChild(div);
-                });
-            } catch (e) { console.error(e); }
-        }
-        main();
-    </script>
+        wrap.appendChild(card);
+      }
+    }
+
+    function setActiveTab(which){
+      const btnMap = document.getElementById("btnMap");
+      const btnCities = document.getElementById("btnCities");
+      const tabMap = document.getElementById("tabMap");
+      const tabCities = document.getElementById("tabCities");
+
+      if (which === "map"){
+        btnMap.classList.add("active");
+        btnCities.classList.remove("active");
+        tabMap.style.display = "block";
+        tabCities.style.display = "none";
+        setTimeout(() => map.invalidateSize(), 0);
+      } else {
+        btnCities.classList.add("active");
+        btnMap.classList.remove("active");
+        tabCities.style.display = "block";
+        tabMap.style.display = "none";
+      }
+    }
+
+    document.getElementById("btnMap").addEventListener("click", () => setActiveTab("map"));
+    document.getElementById("btnCities").addEventListener("click", () => setActiveTab("cities"));
+
+    async function loadDetailAndRender(ev){
+      document.getElementById("selectedStatus").textContent = "Loading…";
+      document.getElementById("selectedBody").innerHTML = "";
+
+      const r = await fetch(ev.detailUrl, { cache: "no-store" });
+      if (!r.ok) throw new Error("Detail HTTP " + r.status);
+
+      const detail = await r.json();
+      lastDetail = detail;
+
+      renderSelectedSummary(ev, detail);
+
+      const { epicenter } = showStations(detail);
+
+      // Zoom behavior: fit stations and epicenter, avoid microscope
+      const b = quakeLayer.getBounds();
+      if (b && b.isValid()){
+        fitBoundsWithMinKm(b, 35); // adjust 25..60 if you want closer/farther
+      } else if (epicenter){
+        map.setView([epicenter.lat, epicenter.lon], 6);
+      }
+
+      // Cities tab content
+      renderCitiesTab(detail);
+    }
+
+    async function main(){
+      const listEl = document.getElementById("list");
+
+      const res = await fetch("./events.json", { cache: "no-store" });
+      if (!res.ok) throw new Error("events.json missing (HTTP " + res.status + ")");
+
+      const data = await res.json();
+      const events = data.events || [];
+      if (!events.length){
+        document.getElementById("selectedStatus").textContent = "No data";
+        listEl.innerHTML = '<div class="muted">Empty list</div>';
+        return;
+      }
+
+      if (!selectedId) selectedId = events[0].id;
+      listEl.innerHTML = "";
+
+      for (const ev of events){
+        const div = document.createElement("div");
+        div.className = "item" + (ev.id === selectedId ? " selected" : "");
+        div.innerHTML = `
+          <div><b>M ${ev.magnitude ?? "?"}</b> | <b>Max ${ev.maxIntensity || "?"}</b></div>
+          <div class="muted">${fmtLocal(ev.time)}</div>
+          <div style="margin-top:6px;">${ev.region || ev.title || "-"}</div>
+        `;
+
+        div.addEventListener("click", async () => {
+          selectedId = ev.id;
+          updateSelectionUI();
+          div.classList.add("selected");
+
+          try{
+            await loadDetailAndRender(ev);
+          } catch(err){
+            document.getElementById("selectedStatus").textContent = "Error";
+            document.getElementById("selectedBody").innerHTML =
+              '<div class="kv"><div class="k">Detail</div><div class="v">' + (err.message || "Failed") + '</div></div>';
+          }
+        });
+
+        listEl.appendChild(div);
+      }
+
+      // Auto load first selected event
+      const first = events.find(e => e.id === selectedId) || events[0];
+      try{
+        await loadDetailAndRender(first);
+      } catch(e){
+        document.getElementById("selectedStatus").textContent = "Error";
+      }
+    }
+
+    main().catch(err => {
+      document.getElementById("selectedStatus").textContent = "Error";
+      document.getElementById("selectedBody").innerHTML =
+        '<div class="kv"><div class="k">Init</div><div class="v">' + (err.message || "Failed") + '</div></div>';
+    });
+  </script>
 </body>
 </html>
