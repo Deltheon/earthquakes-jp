@@ -55,40 +55,11 @@
   .item.selected{
     border-color:#7aa2ff;
   }
-
-  .selBadgeBi{
-  display:flex;
-  flex-direction:column;
-  gap:2px;
-
-  padding:6px 10px;
-  border-radius:10px; /* moins rond = moins bouton */
-
-  background:rgba(255,255,255,0.04);
-  border:1px solid rgba(255,255,255,0.06);
-
-  cursor:default;      /* IMPORTANT */
-  pointer-events:none; /* évite impression de clic */
-}
-
-.selBadgeBi .jp{
-  font-size:12px;
-  font-weight:700;
-}
-
-.selBadgeBi .en{
-  font-size:10px;
-  color:#9aa1b3;
-}
-
-.selBadgeMax{
-  background: linear-gradient(180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.15));
-}
 	
-.muted{
-  color:#aaa;
-  font-size:12px;
-}
+  .muted{
+    color:#aaa;
+    font-size:12px;
+  }
 
   @media (max-width: 900px){
     .app{ flex-direction:column; }
@@ -415,44 +386,50 @@
   .prefGrid{ column-count:1; }
 }
 
-/* --- Selected badges: style "info", pas "bouton" --- */
-#selected .selBadges{
-  gap: 10px;
+/* Selected: info bar (non bouton) */
+#selected .statsBar{
+  margin-top:10px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
 }
 
-#selected .selBadges .selBadgeBi{
-  border-radius: 10px;                 /* moins bouton */
-  background: rgba(255,255,255,0.035);
-  border: 1px solid rgba(255,255,255,0.06);
-  padding: 8px 10px;
-  cursor: default;
-  pointer-events: none;                /* empêche toute impression de clic */
-  box-shadow: none;
-  transform: none;
+#selected .stat{
+  display:flex;
+  align-items:baseline;
+  gap:8px;
+  padding:6px 10px;
+  border-radius:10px;
+  background:rgba(255,255,255,0.03);
+  border:1px solid rgba(255,255,255,0.06);
+  cursor:default;
+  user-select:none;
 }
 
-#selected .selBadges .selBadgeBi:hover{
-  filter: none;
-  transform: none;
+#selected .stat .label{
+  font-size:11px;
+  color:#9aa1b3;
 }
 
-/* texte */
-#selected .selBadges .selBadgeBi .jp{
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 1.1;
+#selected .stat b{
+  font-size:13px;
+  font-weight:800;
+  color:#e3e7f2;
 }
 
-#selected .selBadges .selBadgeBi .en{
-  font-size: 10px;
-  color: #9aa1b3;
-  line-height: 1.1;
+/* Stat spéciale Max intensity: fond coloré */
+#selected .stat.max{
+  border:none;
 }
 
-/* Exception: badge Max garde sa couleur inline, mais reste non-cliquable */
-#selected .selBadges .selBadgeBi[style*="background"]{
-  border: none;
+#selected .stat.max .label{
+  color:rgba(0,0,0,0.65);
 }
+
+#selected .stat.max b{
+  color:#111;
+}
+	
 </style>
 </head>
 
@@ -1035,54 +1012,65 @@ function renderSelectedInfo(ev, detail){
     ? `${Math.round(parsed.depthKm)} km`
     : "?";
 
-const maxColor = intensityColor(normalizeIntensity(maxInt));
+  const maxColor = intensityColor(normalizeIntensity(maxInt));
 
-const tsunamiJP =
-  detail?.Body?.Comments?.ForecastComment?.Text ||
-  detail?.Body?.Comments?.VarComment?.Text ||
-  detail?.Body?.Comments?.FreeFormComment?.Text ||
-  "";
+  const tsunamiJP =
+    detail?.Body?.Comments?.ForecastComment?.Text ||
+    detail?.Body?.Comments?.VarComment?.Text ||
+    detail?.Body?.Comments?.FreeFormComment?.Text ||
+    "";
 
-const tsunamiEN =
-  detail?.Body?.Comments?.ForecastComment?.enText ||
-  detail?.Body?.Comments?.VarComment?.enText ||
-  detail?.Body?.Comments?.FreeFormComment?.enText ||
-  "";
+  const tsunamiEN =
+    detail?.Body?.Comments?.ForecastComment?.enText ||
+    detail?.Body?.Comments?.VarComment?.enText ||
+    detail?.Body?.Comments?.FreeFormComment?.enText ||
+    "";
 
-selectedEl.innerHTML = `
-  <div class="selTitle">${regionJP}</div>
-  ${regionEN ? `<div class="selSub">${regionEN}</div>` : ""}
-  <div class="selMeta">${timeText}</div>
+  // 🟢 Nouvelle info bar (remplace selBadges)
+  const statsHtml = `
+    <div class="statsBar">
 
-  <div class="selBadges">
-    <div class="selBadgeBi">
-      <div class="jp">マグニチュード : ${magnitude}</div>
-      <div class="en">Magnitude</div>
+      <div class="stat">
+        <span class="label">マグニチュード</span>
+        <b>M ${magnitude}</b>
+        <span class="label">Magnitude</span>
+      </div>
+
+      <div class="stat max" style="background:${maxColor}">
+        <span class="label">最大震度</span>
+        <b>${maxInt}</b>
+        <span class="label">Max intensity</span>
+      </div>
+
+      <div class="stat">
+        <span class="label">震源の深さ</span>
+        <b>${depthText}</b>
+        <span class="label">Depth</span>
+      </div>
+
+      <div class="stat">
+        <span class="label">観測点数</span>
+        <b>${countStations(detail)}</b>
+        <span class="label">Stations</span>
+      </div>
+
     </div>
+  `;
 
-    <div class="selBadgeBi" style="background:${maxColor}; border:none; color:#111">
-      <div class="jp">最大震度 : ${maxInt}</div>
-      <div class="en" style="color:rgba(0,0,0,0.65)">Max intensity</div>
-    </div>
+  selectedEl.innerHTML = `
+    <div class="selTitle">${regionJP}</div>
+    ${regionEN ? `<div class="selSub">${regionEN}</div>` : ""}
+    <div class="selMeta">${timeText}</div>
 
-    <div class="selBadgeBi">
-      <div class="jp">震源の深さ : ${depthText}</div>
-      <div class="en">Depth</div>
-    </div>
+    ${statsHtml}
 
-    <div class="selBadgeBi">
-      <div class="jp">観測点 : ${countStations(detail)}</div>
-      <div class="en">Stations</div>
-    </div>
-  </div>
-
-  ${tsunamiJP || tsunamiEN ? `
-    <div class="selTsunamiLong">
-      <div><b>津波</b>: ${tsunamiJP || "-"}</div>
-      ${tsunamiEN ? `<div style="margin-top:4px;color:#9aa1b3"><b>Tsunami</b>: ${tsunamiEN}</div>` : ""}
-    </div>
-  ` : ""}
-`;
+    ${tsunamiJP || tsunamiEN ? `
+      <div class="selTsunamiLong">
+        <div><b>津波</b>: ${tsunamiJP || "-"}</div>
+        ${tsunamiEN ? `<div style="margin-top:4px;color:#9aa1b3"><b>Tsunami</b>: ${tsunamiEN}</div>` : ""}
+      </div>
+    ` : ""}
+  `;
 }
 
 
