@@ -635,12 +635,6 @@ function enforceMinBounds(bounds, minKm = 80){
   return bounds.extend(minBounds);
 }
 
-function setLayerDimmed(isDimmed){
-  const el = document.getElementById("map");
-  el.style.opacity = isDimmed ? "0.75" : "1";
-  el.style.transition = "opacity 150ms ease";
-}
-
 let lastDetail = null; // on garde le dernier JSON détail cliqué
 
 function setActiveTab(tabName){
@@ -787,10 +781,6 @@ function renderSelectedInfo(ev, detail){
   const coordStr = detail?.Body?.Earthquake?.Hypocenter?.Area?.Coordinate || "";
   const parsed = parseJmaCoordinateFull(coordStr);
   const depth = (parsed?.depthKm != null) ? `${parsed.depthKm} km` : "?";
-  const depthMatch = coordStr.match(/[-+]\d+[-+]\d+(-\d+)/);
-  if(depthMatch){
-    depth = Math.abs(Number(depthMatch[1]))/1000 + " km";
-  }
 
   selectedEl.innerHTML = `
     <div><b>${region}</b></div>
@@ -805,6 +795,43 @@ function renderSelectedInfo(ev, detail){
       Epicenter depth: ${depth}
     </div>
   `;
+}
+
+
+async function selectEvent(ev, div){
+  selectedId = ev.id;
+
+  updateSelectionUI();
+  if (div) div.classList.add("selected");
+
+  const selectedEl = document.getElementById("selected");
+  selectedEl.innerHTML =
+    "<b>Séisme sélectionné:</b><br>" +
+    (ev.region || ev.title || "") +
+    "<br><span style='font-size:12px;color:#aaa;word-break:break-all'>" +
+    ev.detailUrl +
+    "</span>";
+
+  setLayerDimmed(true);
+
+  try{
+    const detail = await getDetail(ev.detailUrl);
+
+    quakeLayer.clearLayers();
+    showStations(detail);
+    showEpicenter(detail);
+    fitToEvent(detail);
+
+    lastDetail = detail;
+    renderCitiesTab(lastDetail);
+    renderSelectedInfo(ev, detail);
+  } catch(err){
+    selectedEl.innerHTML +=
+      "<br><span style='font-size:12px;color:#FF7C7C'>Erreur detail: " + err.message + "</span>";
+    console.error(err);
+  } finally {
+    setLayerDimmed(false);
+  }
 }
 
 async function main(){
@@ -828,6 +855,9 @@ async function main(){
 
     listEl.innerHTML = "";
 
+    let defaultDiv = null;
+    let defaultEvent = events[0];
+
     events.forEach(ev => {
       const div = document.createElement("div");
       div.className = "item" + (ev.id === selectedId ? " selected" : "");
@@ -838,62 +868,26 @@ async function main(){
         <div style="margin-top:6px;">${ev.region || ev.title || "-"}</div>
       `;
 
-      div.onclick = () => {
+      div.onclick = () => selectEvent(ev, div);
 
-  selectedId = ev.id;
+      listEl.appendChild(div);
 
-  updateSelectionUI();
-  div.classList.add("selected");
-
-  const selectedEl = document.getElementById("selected");
-
-  // affichage temporaire rapide (instantané)
-  selectedEl.innerHTML =
-    "<b>Séisme sélectionné:</b><br>" +
-    (ev.region || ev.title || "") +
-    "<br><span style='font-size:12px;color:#aaa;word-break:break-all'>" +
-    ev.detailUrl +
-    "</span>";
-
-  setLayerDimmed(true);
-
-  getDetail(ev.detailUrl)
-    .then(detail => {
-
-      // On remplace les layers seulement une fois le detail chargé
-      quakeLayer.clearLayers();
-
-      showStations(detail);
-      fitToEvent(detail);
-
-      lastDetail = detail;
-      renderCitiesTab(lastDetail);
-      renderSelectedInfo(ev, detail);
-
-    })
-    .catch(err => {
-      selectedEl.innerHTML +=
-        "<br><span style='font-size:12px;color:#FF7C7C'>Erreur detail: " + err.message + "</span>";
-    })
-    .finally(()=>{
-      setLayerDimmed(false);
+      if (ev.id === selectedId) {
+        defaultDiv = div;
+        defaultEvent = ev;
+      }
     });
-};
 
-    // Afficher aussi le premier élément sélectionné (sans stats tant que pas cliqué)
-    const first = events.find(e => e.id === selectedId) || events[0];
-    document.getElementById("selected").innerHTML =
-      "<b>Séisme sélectionné:</b><br>" +
-      (first.region || first.title || "") +
-      "<br><span style='font-size:12px;color:#aaa;word-break:break-all'>" +
-      first.detailUrl +
-      "</span>";
+    // charge automatiquement le séisme sélectionné au démarrage
+    await selectEvent(defaultEvent, defaultDiv);
 
   } catch(e){
     document.getElementById("selected").textContent = "Erreur: " + e.message;
     listEl.innerHTML = "";
+    console.error(e);
   }
 }
+
 
 main();
 </script>
