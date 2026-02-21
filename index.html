@@ -429,9 +429,23 @@
   flex:0 0 10px;
 }
 
-.metric + .metric::before{
+#selected .metricsLine{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:flex-start;
+  gap:14px;
+}
+
+/* séparateur japonais inline */
+#selected .metric{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+
+#selected .metric:not(:last-child)::after{
   content:"・";
-  margin:0 6px;
+  margin-left:14px;
   color:#5a6272;
 }
 	
