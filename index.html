@@ -1012,17 +1012,20 @@ function renderSelectedInfo(ev, detail){
 
   const coordStr = detail?.Body?.Earthquake?.Hypocenter?.Area?.Coordinate || "";
   const parsed = parseJmaCoordinateFull(coordStr);
-  let depthText = "?";
+  let depthTextJP = "?";
+  let depthEnSuffix = ""; // ajouté seulement si shallow
 
   if (parsed?.depthKm != null && Number.isFinite(parsed.depthKm)) {
     const d = Math.round(parsed.depthKm);
 
-  	if (d <= 0) {
-      depthText = "ごく浅い";
-  	} else {
-      depthText = `${d} km`;
-  	}
+  if (d <= 0) {
+    depthTextJP = "ごく浅い";
+    depthEnSuffix = " (Very shallow)";
+  } else {
+    depthTextJP = `${d} km`;
+    depthEnSuffix = "";
   }
+}
 
   const maxColor = intensityColor(normalizeIntensity(maxInt));
 
@@ -1060,8 +1063,8 @@ function renderSelectedInfo(ev, detail){
    <span class="sep">・&nbsp;</span>
 
     <div class="metric">
-      <div class="jp">震源の深さ ${depthText}</div>
-      <div class="en">${depthText === "ごく浅い" ? "Very shallow" : "Depth"}</div>
+      <div class="jp">震源の深さ ${depthTextJP}</div>
+      <div class="en">Depth${depthEnSuffix}</div>
     </div>
 
     <span class="sep">・&nbsp;</span>
