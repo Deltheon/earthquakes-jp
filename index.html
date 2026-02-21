@@ -323,8 +323,6 @@ let selectedId = null;
 let epicenterMarker = null;
 const detailCache = new Map();
 
-const detailCache = new Map();
-
 async function getDetail(url){
   if(detailCache.has(url)) return detailCache.get(url);
 
