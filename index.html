@@ -414,6 +414,45 @@
 @media (max-width:700px){
   .prefGrid{ column-count:1; }
 }
+
+/* --- Selected badges: style "info", pas "bouton" --- */
+#selected .selBadges{
+  gap: 10px;
+}
+
+#selected .selBadges .selBadgeBi{
+  border-radius: 10px;                 /* moins bouton */
+  background: rgba(255,255,255,0.035);
+  border: 1px solid rgba(255,255,255,0.06);
+  padding: 8px 10px;
+  cursor: default;
+  pointer-events: none;                /* empêche toute impression de clic */
+  box-shadow: none;
+  transform: none;
+}
+
+#selected .selBadges .selBadgeBi:hover{
+  filter: none;
+  transform: none;
+}
+
+/* texte */
+#selected .selBadges .selBadgeBi .jp{
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+#selected .selBadges .selBadgeBi .en{
+  font-size: 10px;
+  color: #9aa1b3;
+  line-height: 1.1;
+}
+
+/* Exception: badge Max garde sa couleur inline, mais reste non-cliquable */
+#selected .selBadges .selBadgeBi[style*="background"]{
+  border: none;
+}
 </style>
 </head>
 
