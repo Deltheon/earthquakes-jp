@@ -490,15 +490,30 @@ function showStations(detailData){
   console.log("Stations affichées:", count);
 }
 
-function parseJmaCoordinate(coordStr){
-  // format: "+40.7+140.5-10000/"
+function parseJmaCoordinateFull(coordStr){
+  // Exemples:
+  // "+35.4+140.5-30000/"  => lat 35.4, lon 140.5, depth 30000 (m)
+  // "+40.7+140.5-10000/"  => depth 10000 (m)
   if (!coordStr || typeof coordStr !== "string") return null;
-  const m = coordStr.match(/([+-]\d+(?:\.\d+)?)([+-]\d+(?:\.\d+)?)/);
+
+  // Capture: lat, lon, depth (optionnel)
+  const m = coordStr.match(/([+-]\d+(?:\.\d+)?)([+-]\d+(?:\.\d+)?)([+-]\d+(?:\.\d+)?)?/);
   if (!m) return null;
+
   const lat = Number(m[1]);
   const lon = Number(m[2]);
   if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
-  return { lat, lon };
+
+  let depthKm = null;
+  if (m[3] != null) {
+    const depthRaw = Number(m[3]); // souvent négatif
+    if (Number.isFinite(depthRaw)) {
+      const meters = Math.abs(depthRaw);
+      depthKm = meters >= 1000 ? meters / 1000 : meters; // sécurité
+    }
+  }
+
+  return { lat, lon, depthKm };
 }
 
 function crossIcon(){
@@ -522,7 +537,7 @@ function crossIcon(){
 
 function showEpicenter(detail){
   const coordStr = detail?.Body?.Earthquake?.Hypocenter?.Area?.Coordinate;
-  const p = parseJmaCoordinate(coordStr);
+  const p = parseJmaCoordinateFull(coordStr);
   if (!p) return null;
 
   // enlever l'ancien
@@ -727,7 +742,8 @@ function renderSelectedInfo(ev, detail){
       : "Information inconnue";
 
   const coordStr = detail?.Body?.Earthquake?.Hypocenter?.Area?.Coordinate || "";
-  let depth = "?";
+  const parsed = parseJmaCoordinateFull(coordStr);
+  const depth = (parsed?.depthKm != null) ? `${parsed.depthKm} km` : "?";
   const depthMatch = coordStr.match(/[-+]\d+[-+]\d+(-\d+)/);
   if(depthMatch){
     depth = Math.abs(Number(depthMatch[1]))/1000 + " km";
