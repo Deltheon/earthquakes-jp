@@ -69,8 +69,8 @@
 
 /* Zone selected fixe pour éviter les sauts */
 #selected{
-  max-height: 120px;
-  overflow: auto;
+  height: 120px;        /* hauteur FIXE */
+  overflow: hidden;     /* évite le resize */
   padding: 10px;
   border: 1px solid #222;
   border-radius: 12px;
@@ -712,6 +712,42 @@ function fitBoundsWithMinKm(bounds, minKm = 80){
   map.fitBounds(finalBounds, { padding: [80, 80] });
 }
 
+function renderSelectedInfo(ev, detail){
+
+  const selectedEl = document.getElementById("selected");
+
+  const time = fmtTime(detail?.Body?.Earthquake?.OriginTime || ev.time);
+  const region = detail?.Body?.Earthquake?.Hypocenter?.Area?.Name || ev.region || "-";
+  const magnitude = detail?.Body?.Earthquake?.Magnitude || ev.magnitude || "?";
+  const maxInt = detail?.Body?.Intensity?.Observation?.MaxInt || ev.maxIntensity || "?";
+
+  const tsunami =
+    detail?.Body?.Comments?.ForecastComment?.Text?.includes("津波")
+      ? detail.Body.Comments.ForecastComment.Text
+      : "Information inconnue";
+
+  const coordStr = detail?.Body?.Earthquake?.Hypocenter?.Area?.Coordinate || "";
+  let depth = "?";
+  const depthMatch = coordStr.match(/[-+]\d+[-+]\d+(-\d+)/);
+  if(depthMatch){
+    depth = Math.abs(Number(depthMatch[1]))/1000 + " km";
+  }
+
+  selectedEl.innerHTML = `
+    <div><b>${region}</b></div>
+    <div class="muted">${time}</div>
+    <div style="margin-top:6px">
+      M ${magnitude} | Max ${maxInt}
+    </div>
+    <div class="muted" style="margin-top:6px">
+      Tsunami: ${tsunami}
+    </div>
+    <div class="muted">
+      Epicenter depth: ${depth}
+    </div>
+  `;
+}
+
 async function main(){
   const listEl = document.getElementById("list");
 
@@ -751,13 +787,7 @@ async function main(){
 
         // Affichage de base
         const selectedEl = document.getElementById("selected");
-        selectedEl.innerHTML =
-          "<b>Séisme sélectionné:</b><br>" +
-          (ev.region || ev.title || "") +
-          "<br><span style='font-size:12px;color:#aaa;word-break:break-all'>" +
-          ev.detailUrl +
-          "</span>";
-
+        
         // Mini test: charger le détail JMA et compter les stations
         fetch(ev.detailUrl)
   .then(r => r.json())
@@ -771,11 +801,8 @@ async function main(){
 	fitToEvent(detail);
 	lastDetail = detail;
 	renderCitiesTab(lastDetail);
+	renderSelectedInfo(ev, detail);
 	  
-    selectedEl.innerHTML +=
-      "<br><span style='font-size:12px;color:#7CFF7C'>Stations: " + stations + "</span>" +
-      "<br><span style='font-size:12px;color:#7CFF7C'>Coordonnées: " + coords + "</span>" +
-      "<br><span style='font-size:12px;color:#7CFF7C'>Points ville: " + cityPoints.length + "</span>";
   })
   .catch(err => {
     selectedEl.innerHTML +=
