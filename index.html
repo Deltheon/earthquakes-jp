@@ -321,6 +321,26 @@
 <script>
 let selectedId = null;
 let epicenterMarker = null;
+const detailCache = new Map();
+
+const detailCache = new Map();
+
+async function getDetail(url){
+  if(detailCache.has(url)) return detailCache.get(url);
+
+  const r = await fetch(url);
+  if(!r.ok) throw new Error("HTTP " + r.status);
+
+  const j = await r.json();
+  detailCache.set(url, j);
+  return j;
+}
+
+function setLayerDimmed(isDimmed){
+  const el = document.getElementById("map");
+  el.style.opacity = isDimmed ? "0.75" : "1";
+  el.style.transition = "opacity 150ms ease";
+}
 
 const map = L.map("map").setView([36.2, 138.2], 5);
 const quakeLayer = L.featureGroup().addTo(map);
@@ -437,8 +457,6 @@ function updateSelectionUI(){
 }
 
 function showStations(detailData){
-
-  quakeLayer.clearLayers();
 
   const prefs = detailData?.Body?.Intensity?.Observation?.Pref || [];
   let count = 0;
@@ -580,23 +598,50 @@ function normalizeIntensity(v){
 }
 
 function fitToEvent(detail){
-  // 1) epicentre
-  const p = showEpicenter(detail);
+  const parsed = parseJmaCoordinateFull(detail?.Body?.Earthquake?.Hypocenter?.Area?.Coordinate || "");
+  const epiLatLng = parsed ? L.latLng(parsed.lat, parsed.lon) : null;
 
-  // 2) bounds sur les stations (déjà sur quakeLayer)
-  const bounds = quakeLayer.getBounds();
-  fitBoundsWithMinKm(bounds, 40); // 80 km = bon “niveau région”
+  const boundsStations = quakeLayer.getBounds();
+  let finalBounds = null;
 
-  // si on a des stations, on fit dessus, sinon on centre sur épicentre
-  if (bounds && bounds.isValid()) {
-    // inclure aussi l'épicentre si dispo
-    if (p) bounds.extend([p.lat, p.lon]);
-    map.fitBounds(bounds.pad(0.25));
-  } else if (p) {
-    map.setView([p.lat, p.lon], 7); // zoom par défaut
+  if (boundsStations && boundsStations.isValid()) {
+    finalBounds = boundsStations;
+    if (epiLatLng) finalBounds.extend(epiLatLng);
+    finalBounds = enforceMinBounds(finalBounds, 80); // 80 km min
+  } else if (epiLatLng) {
+    finalBounds = enforceMinBounds(L.latLngBounds(epiLatLng, epiLatLng), 80);
   }
+
+  if (!finalBounds) return;
+
+  map.fitBounds(finalBounds, {
+    padding: [80, 80],
+    animate: true,
+    duration: 0.35
+  });
 }
 
+function enforceMinBounds(bounds, minKm = 80){
+  if (!bounds || !bounds.isValid()) return bounds;
+
+  const c = bounds.getCenter();
+  const dLat = minKm / 111;
+  const cosLat = Math.cos((c.lat * Math.PI) / 180);
+  const dLon = minKm / (111 * Math.max(0.2, cosLat));
+
+  const minBounds = L.latLngBounds(
+    [c.lat - dLat, c.lng - dLon],
+    [c.lat + dLat, c.lng + dLon]
+  );
+
+  return bounds.extend(minBounds);
+}
+
+function setLayerDimmed(isDimmed){
+  const el = document.getElementById("map");
+  el.style.opacity = isDimmed ? "0.75" : "1";
+  el.style.transition = "opacity 150ms ease";
+}
 
 let lastDetail = null; // on garde le dernier JSON détail cliqué
 
@@ -796,38 +841,46 @@ async function main(){
       `;
 
       div.onclick = () => {
-        selectedId = ev.id;
 
-        updateSelectionUI();
-        div.classList.add("selected");
+  selectedId = ev.id;
 
-        // Affichage de base
-        const selectedEl = document.getElementById("selected");
-        
-        // Mini test: charger le détail JMA et compter les stations
-        fetch(ev.detailUrl)
-  .then(r => r.json())
-  .then(detail => {
-    const stations = countStations(detail);
-    const coords = countLatLon(detail);
-    const cityPoints = buildCityPoints(detail);
-	  
-    // ✅ On affiche directement les points avec CE detail (pas besoin de refetch)
-    showStations(detail);
-	fitToEvent(detail);
-	lastDetail = detail;
-	renderCitiesTab(lastDetail);
-	renderSelectedInfo(ev, detail);
-	  
-  })
-  .catch(err => {
-    selectedEl.innerHTML +=
-      "<br><span style='font-size:12px;color:#FF7C7C'>Erreur detail: " + err.message + "</span>";
-  });
-      };
+  updateSelectionUI();
+  div.classList.add("selected");
 
-      listEl.appendChild(div);
+  const selectedEl = document.getElementById("selected");
+
+  // affichage temporaire rapide (instantané)
+  selectedEl.innerHTML =
+    "<b>Séisme sélectionné:</b><br>" +
+    (ev.region || ev.title || "") +
+    "<br><span style='font-size:12px;color:#aaa;word-break:break-all'>" +
+    ev.detailUrl +
+    "</span>";
+
+  setLayerDimmed(true);
+
+  getDetail(ev.detailUrl)
+    .then(detail => {
+
+      // On remplace les layers seulement une fois le detail chargé
+      quakeLayer.clearLayers();
+
+      showStations(detail);
+      fitToEvent(detail);
+
+      lastDetail = detail;
+      renderCitiesTab(lastDetail);
+      renderSelectedInfo(ev, detail);
+
+    })
+    .catch(err => {
+      selectedEl.innerHTML +=
+        "<br><span style='font-size:12px;color:#FF7C7C'>Erreur detail: " + err.message + "</span>";
+    })
+    .finally(()=>{
+      setLayerDimmed(false);
     });
+};
 
     // Afficher aussi le premier élément sélectionné (sans stats tant que pas cliqué)
     const first = events.find(e => e.id === selectedId) || events[0];
