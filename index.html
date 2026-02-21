@@ -424,6 +424,8 @@ document.getElementById("tabBtnCities").onclick = () => {
 // état initial
 renderCitiesTab(null);
 
+function fmtTime(s){
+  try { return new Date(s).toLocaleString(); } catch { return s; }
 /*
   Formate une date ISO en texte lisible.
 */
