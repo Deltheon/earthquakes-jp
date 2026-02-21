@@ -226,6 +226,42 @@
   margin-left:6px;
 }
 
+/* Selected panel typography */
+#selected .selTitle{
+  font-size:16px;
+  font-weight:700;
+  color:#fff;
+}
+
+#selected .selSub{
+  margin-top:2px;
+  font-size:12px;
+  color:#9aa1b3;
+}
+
+#selected .selMeta{
+  margin-top:6px;
+  font-size:12px;
+  color:#b6bcc8;
+}
+
+#selected .selBadges{
+  margin-top:10px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
+#selected .selBadge{
+  display:inline-block;
+  padding:2px 8px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+  font-size:11px;
+  color:#e3e7f2;
+}
+
 .legend{
   position:absolute;
   left: 24px;
@@ -837,34 +873,68 @@ function fitBoundsWithMinKm(bounds, minKm = 80){
 }
 
 function renderSelectedInfo(ev, detail){
-
   const selectedEl = document.getElementById("selected");
 
-  const time = fmtTime(detail?.Body?.Earthquake?.OriginTime || ev.time);
-  const region = detail?.Body?.Earthquake?.Hypocenter?.Area?.Name || ev.region || "-";
-  const magnitude = detail?.Body?.Earthquake?.Magnitude || ev.magnitude || "?";
-  const maxInt = detail?.Body?.Intensity?.Observation?.MaxInt || ev.maxIntensity || "?";
+  const regionJP =
+    detail?.Body?.Earthquake?.Hypocenter?.Area?.Name ||
+    ev?.region ||
+    "-";
 
-  const tsunami =
-    detail?.Body?.Comments?.ForecastComment?.Text?.includes("津波")
-      ? detail.Body.Comments.ForecastComment.Text
-      : "Information inconnue";
+  const regionEN =
+    detail?.Body?.Earthquake?.Hypocenter?.Area?.enName ||
+    ev?.regionEn ||
+    "";
+
+  const timeISO =
+    detail?.Body?.Earthquake?.OriginTime ||
+    ev?.time ||
+    "";
+
+  const timeText = (() => {
+    try {
+      const d = new Date(timeISO);
+      return d.toLocaleString(undefined, {
+        day: "2-digit",
+        month: "short",
+        hour: "2-digit",
+        minute: "2-digit"
+      });
+    } catch {
+      return timeISO;
+    }
+  })();
+
+  const magnitude =
+    detail?.Body?.Earthquake?.Magnitude ||
+    ev?.magnitude ||
+    "?";
+
+  const maxInt =
+    detail?.Body?.Intensity?.Observation?.MaxInt ||
+    ev?.maxIntensity ||
+    "?";
 
   const coordStr = detail?.Body?.Earthquake?.Hypocenter?.Area?.Coordinate || "";
   const parsed = parseJmaCoordinateFull(coordStr);
-  const depth = (parsed?.depthKm != null) ? `${parsed.depthKm} km` : "?";
+  const depthText = (parsed?.depthKm != null && Number.isFinite(parsed.depthKm))
+    ? `${Math.round(parsed.depthKm)} km`
+    : "?";
+
+  const tsunamiTextJP = detail?.Body?.Comments?.ForecastComment?.Text || "";
+  const tsunamiShort = tsunamiTextJP.includes("津波の心配はありません")
+    ? "none"
+    : (tsunamiTextJP ? "check" : "?");
 
   selectedEl.innerHTML = `
-    <div><b>${region}</b></div>
-    <div class="muted">${time}</div>
-    <div style="margin-top:6px">
-      M ${magnitude} | Max ${maxInt}
-    </div>
-    <div class="muted" style="margin-top:6px">
-      Tsunami: ${tsunami}
-    </div>
-    <div class="muted">
-      Epicenter depth: ${depth}
+    <div class="selTitle">${regionJP}</div>
+    ${regionEN ? `<div class="selSub">${regionEN}</div>` : ""}
+    <div class="selMeta">${timeText}</div>
+
+    <div class="selBadges">
+      <span class="selBadge">M ${magnitude}</span>
+      <span class="selBadge">Max ${maxInt}</span>
+      <span class="selBadge">Depth ${depthText}</span>
+      <span class="selBadge">Tsunami: ${tsunamiShort}</span>
     </div>
   `;
 }
