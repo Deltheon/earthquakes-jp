@@ -249,17 +249,36 @@
   margin-top:10px;
   display:flex;
   flex-wrap:wrap;
-  gap:8px;
+  gap:10px;
 }
 
 #selected .selBadge{
-  display:inline-block;
-  padding:2px 8px;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:5px 10px;           /* plus grand */
   border-radius:999px;
-  border:1px solid rgba(255,255,255,0.10);
-  background: rgba(255,255,255,0.04);
-  font-size:11px;
+  border:1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.05);
+  font-size:13px;             /* plus grand */
+  font-weight:600;
   color:#e3e7f2;
+}
+
+#selected .selBadgeStrong{
+  font-size:14px;
+  padding:6px 12px;
+}
+
+#selected .selBadgeMax{
+  border:none;                /* on laisse la couleur faire le job */
+}
+
+#selected .selTsunamiLong{
+  margin-top:10px;
+  font-size:12px;
+  color:#b6bcc8;
+  line-height:1.35;
 }
 
 .legend{
@@ -440,7 +459,23 @@ function setLayerDimmed(isDimmed){
   el.style.transition = "opacity 150ms ease";
 }
 
+let stationMarkers = [];
+
+function stationRadiusForZoom(z){
+  if (z <= 5) return 3;
+  if (z <= 6) return 4;
+  if (z <= 7) return 5;
+  if (z <= 9) return 6;
+  return 7;
+}
+
+function updateStationRadii(){
+  const r = stationRadiusForZoom(map.getZoom());
+  for (const m of stationMarkers) m.setRadius(r);
+}
+
 const map = L.map("map", { preferCanvas: true }).setView([36.2, 138.2], 5);
+map.on("zoomend", updateStationRadii);
 const quakeLayer = L.featureGroup().addTo(map);
 
 // Fond clair japonais (GSI Pale)
@@ -564,8 +599,12 @@ function updateSelectionUI(){
 
 function showStations(detailData){
 
+  stationMarkers = [];
+
   const prefs = detailData?.Body?.Intensity?.Observation?.Pref || [];
   let count = 0;
+
+  const r = stationRadiusForZoom(map.getZoom());
 
   prefs.forEach(pref=>{
     pref.Area?.forEach(area=>{
@@ -579,8 +618,11 @@ function showStations(detailData){
           const intVal = normalizeIntensity(station?.Int);
           const color = intensityColor(intVal);
 
+          const jp = station?.Name || "";
+          const en = station?.enName || "";
+
           const marker = L.circleMarker([lat, lon], {
-            radius: 6,
+            radius: r,
             color: "#111",        // contour sombre
             weight: 1,
             fillColor: color,
@@ -588,8 +630,6 @@ function showStations(detailData){
           });
 
           // Label simple (au survol)
-          const jp = station?.Name || "";
-          const en = station?.enName || "";
           marker.bindTooltip(
             `${jp}${en ? " (" + en + ")" : ""} • Int ${intVal}`,
             { direction: "top", opacity: 0.95, sticky: true }
@@ -605,11 +645,15 @@ function showStations(detailData){
           `);
 
           marker.addTo(quakeLayer);
+          stationMarkers.push(marker);
           count++;
         });
       });
     });
   });
+
+  // s'assure que le rayon est cohérent (au cas où)
+  updateStationRadii();
 
   console.log("Stations affichées:", count);
 }
@@ -920,23 +964,30 @@ function renderSelectedInfo(ev, detail){
     ? `${Math.round(parsed.depthKm)} km`
     : "?";
 
-  const tsunamiTextJP = detail?.Body?.Comments?.ForecastComment?.Text || "";
-  const tsunamiShort = tsunamiTextJP.includes("津波の心配はありません")
-    ? "none"
-    : (tsunamiTextJP ? "check" : "?");
+  const maxColor = intensityColor(normalizeIntensity(maxInt));
 
-  selectedEl.innerHTML = `
-    <div class="selTitle">${regionJP}</div>
-    ${regionEN ? `<div class="selSub">${regionEN}</div>` : ""}
-    <div class="selMeta">${timeText}</div>
+// texte tsunami long JP (si dispo)
+const tsunamiTextJP = detail?.Body?.Comments?.ForecastComment?.Text || "";
+const tsunamiLongHtml = tsunamiTextJP
+  ? `<div class="selTsunamiLong">Tsunami: ${tsunamiTextJP}</div>`
+  : "";
 
-    <div class="selBadges">
-      <span class="selBadge">M ${magnitude}</span>
-      <span class="selBadge">Max ${maxInt}</span>
-      <span class="selBadge">Depth ${depthText}</span>
-      <span class="selBadge">Tsunami: ${tsunamiShort}</span>
-    </div>
-  `;
+selectedEl.innerHTML = `
+  <div class="selTitle">${regionJP}</div>
+  ${regionEN ? `<div class="selSub">${regionEN}</div>` : ""}
+  <div class="selMeta">${timeText}</div>
+
+  <div class="selBadges">
+    <span class="selBadge selBadgeStrong">M ${magnitude}</span>
+    <span class="selBadge selBadgeStrong selBadgeMax" style="background:${maxColor}; color:#111">
+      Max ${maxInt}
+    </span>
+    <span class="selBadge">Depth ${depthText}</span>
+    <span class="selBadge">Stations ${countStations(detail)}</span>
+  </div>
+
+  ${tsunamiLongHtml}
+`;
 }
 
 
