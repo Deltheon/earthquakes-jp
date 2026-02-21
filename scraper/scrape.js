@@ -41,7 +41,7 @@ const events = usable.slice(0, 30).map((e) => {
     id: f,                 // identifiant unique
     time: e.at || "",
     region: e.anm || "",
-    regionEn: e.enName || null,
+    regionEn: e.en_anm || null,
     magnitude: e.mag ?? null,
     maxIntensity: e.maxi ?? "",
     title: e.ttl || "",
