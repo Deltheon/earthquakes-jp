@@ -56,6 +56,28 @@
     border-color:#7aa2ff;
   }
 
+  .selBadgeBi{
+  display:flex;
+  flex-direction:column;
+  gap:2px;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.05);
+  min-width: 92px;
+}
+
+.selBadgeBi .jp{
+  font-size:12px;
+  font-weight:700;
+  line-height:1.1;
+}
+
+.selBadgeBi .en{
+  font-size:10px;
+  color:#9aa1b3;
+  line-height:1.1;
+}
   .muted{
     color:#aaa;
     font-size:12px;
@@ -964,13 +986,10 @@ function renderSelectedInfo(ev, detail){
     ? `${Math.round(parsed.depthKm)} km`
     : "?";
 
-  const maxColor = intensityColor(normalizeIntensity(maxInt));
+const maxColor = intensityColor(normalizeIntensity(maxInt));
 
-// texte tsunami long JP (si dispo)
-const tsunamiTextJP = detail?.Body?.Comments?.ForecastComment?.Text || "";
-const tsunamiLongHtml = tsunamiTextJP
-  ? `<div class="selTsunamiLong">Tsunami: ${tsunamiTextJP}</div>`
-  : "";
+const tsunamiJP = detail?.Body?.Comments?.ForecastComment?.Text || "";
+const tsunamiEN = detail?.Body?.Comments?.ForecastComment?.enText || "";
 
 selectedEl.innerHTML = `
   <div class="selTitle">${regionJP}</div>
@@ -978,15 +997,33 @@ selectedEl.innerHTML = `
   <div class="selMeta">${timeText}</div>
 
   <div class="selBadges">
-    <span class="selBadge selBadgeStrong">M ${magnitude}</span>
-    <span class="selBadge selBadgeStrong selBadgeMax" style="background:${maxColor}; color:#111">
-      Max ${maxInt}
-    </span>
-    <span class="selBadge">Depth ${depthText}</span>
-    <span class="selBadge">Stations ${countStations(detail)}</span>
+    <div class="selBadgeBi">
+      <div class="jp">M ${magnitude}</div>
+      <div class="en">Magnitude</div>
+    </div>
+
+    <div class="selBadgeBi" style="background:${maxColor}; border:none; color:#111">
+      <div class="jp">最大 ${maxInt}</div>
+      <div class="en" style="color:rgba(0,0,0,0.65)">Max intensity</div>
+    </div>
+
+    <div class="selBadgeBi">
+      <div class="jp">深さ ${depthText}</div>
+      <div class="en">Depth</div>
+    </div>
+
+    <div class="selBadgeBi">
+      <div class="jp">観測点 ${countStations(detail)}</div>
+      <div class="en">Stations</div>
+    </div>
   </div>
 
-  ${tsunamiLongHtml}
+  ${tsunamiJP || tsunamiEN ? `
+    <div class="selTsunamiLong">
+      <div><b>津波</b>: ${tsunamiJP || "-"}</div>
+      ${tsunamiEN ? `<div style="margin-top:4px;color:#9aa1b3"><b>Tsunami</b>: ${tsunamiEN}</div>` : ""}
+    </div>
+  ` : ""}
 `;
 }
 
