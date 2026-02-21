@@ -213,6 +213,12 @@
   margin-right:6px;
 }
 
+.cardRow3 .muted{
+  font-size:11px;
+  color:#9aa1b3;
+  margin-left:6px;
+}
+
 .legend{
   position:absolute;
   left: 24px;
@@ -933,7 +939,8 @@ async function main(){
   </div>
 
   <div class="cardRow3">
-    ${ev.region || ev.title || "-"}
+  	${ev.region || "-"}
+  	${ev.regionEn ? `<span class="muted">(${ev.regionEn})</span>` : ""}
   </div>
 `;
 
