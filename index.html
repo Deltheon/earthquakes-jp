@@ -66,6 +66,57 @@
     .left{ border-right:none; border-bottom:1px solid #333; }
   }
 
+	/* =========================
+   Cards compactes
+========================= */
+
+.item{
+  padding:10px 12px;
+  border-radius:12px;
+  display:flex;
+  flex-direction:column;
+  gap:4px;                /* réduit l’espace vertical */
+  background:#141821;
+}
+
+/* Ligne 1 */
+.cardRow1{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-size:13px;
+}
+
+/* Ligne 2 (date) */
+.cardRow2{
+  font-size:11px;
+  color:#9aa1b3;
+}
+
+/* Ligne 3 (region) */
+.cardRow3{
+  font-size:13px;
+  font-weight:600;
+  color:#e3e7f2;
+}
+
+/* Badge compact */
+.badge{
+  padding:2px 8px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,0.08);
+  background:rgba(255,255,255,0.04);
+  font-size:11px;
+}
+
+/* Petit point couleur */
+.dotInt{
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  flex:0 0 8px;
+}
+
 
 /* Zone selected fixe pour éviter les sauts */
 #selected{
@@ -376,10 +427,15 @@ renderCitiesTab(null);
 /*
   Formate une date ISO en texte lisible.
 */
-function fmtTime(s){
-  try { return new Date(s).toLocaleString(); } catch { return s; }
+function fmtShort(s){
+  const d = new Date(s);
+  return d.toLocaleString(undefined,{
+    day:"2-digit",
+    month:"short",
+    hour:"2-digit",
+    minute:"2-digit"
+  });
 }
-
 /*
   Compte les stations dans TON JSON JMA:
   detail.Body.Intensity.Observation.Pref[].Area[].City[].IntensityStation[]
@@ -862,11 +918,21 @@ async function main(){
       const div = document.createElement("div");
       div.className = "item" + (ev.id === selectedId ? " selected" : "");
 
-      div.innerHTML = `
-        <div><b>M ${ev.magnitude ?? "?"}</b> | <b>Max ${ev.maxIntensity || "?"}</b></div>
-        <div class="muted">${fmtTime(ev.time)}</div>
-        <div style="margin-top:6px;">${ev.region || ev.title || "-"}</div>
-      `;
+	  div.innerHTML = `
+  <div class="cardRow1">
+    <span class="dotInt" style="background:${intensityColor(ev.maxIntensity)}"></span>
+    <span class="badge">M ${ev.magnitude ?? "?"}</span>
+    <span class="badge">Max ${ev.maxIntensity || "?"}</span>
+  </div>
+
+  <div class="cardRow2">
+    ${fmtShort(ev.time)}
+  </div>
+
+  <div class="cardRow3">
+    ${ev.region || ev.title || "-"}
+  </div>
+`;
 
       div.onclick = () => selectEvent(ev, div);
 
