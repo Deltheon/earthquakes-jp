@@ -1,809 +1,306 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<title>Earthquakes JP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <title>Earthquakes JP</title>
 
-<!-- ========================
-     STYLE VISUEL (CSS)
-========================= -->
-<style>
-  body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#0f1115;
-    color:white;
-  }
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f1115;
+            color: white;
+        }
 
-  /* layout gauche = carte / droite = liste */
-  .app{
-    display:flex;
-    height:100vh;
-  }
+        .app {
+            display: flex;
+            height: 100vh;
+        }
 
-  .left{
-    flex:3;
-    padding:15px;
-    border-right:1px solid #333;
-    box-sizing:border-box;
-  }
+        .left {
+            flex: 3;
+            padding: 15px;
+            border-right: 1px solid #333;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
 
-  .right{
-    flex:2;
-    overflow:auto;
-    padding:15px;
-    box-sizing:border-box;
-  }
+        .right {
+            flex: 1.5;
+            overflow: auto;
+            padding: 15px;
+            box-sizing: border-box;
+            background: #0f1115;
+        }
 
-  /* card séisme */
-  .item{
-    border:1px solid #333;
-    padding:12px;
-    margin-bottom:12px;
-    border-radius:12px;
-    cursor:pointer;
-    background:#141821;
-  }
+        /* Liste des séismes */
+        .item {
+            border: 1px solid #333;
+            padding: 12px;
+            margin-bottom: 12px;
+            border-radius: 12px;
+            cursor: pointer;
+            background: #141821;
+        }
 
-  .item:hover{
-    border-color:#555;
-  }
+        .item:hover { border-color: #555; }
+        .item.selected { border-color: #7aa2ff; }
 
-  .item.selected{
-    border-color:#7aa2ff;
-  }
+        .muted { color: #aaa; font-size: 12px; }
 
-  .muted{
-    color:#aaa;
-    font-size:12px;
-  }
+        /* Zone infos sélectionnée */
+        #selected {
+            min-height: 80px;
+            padding: 12px;
+            border: 1px solid #222;
+            border-radius: 12px;
+            background: rgba(255,255,255,0.03);
+            margin-bottom: 10px;
+        }
 
-  @media (max-width: 900px){
-    .app{ flex-direction:column; }
-    .left{ border-right:none; border-bottom:1px solid #333; }
-  }
+        /* Onglets */
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
 
-/* Zone selected fixe pour éviter les sauts */
-#selected{
-  max-height: 120px;
-  overflow: auto;
-  padding: 10px;
-  border: 1px solid #222;
-  border-radius: 12px;
-  background: rgba(255,255,255,0.03);
-}
+        .tab {
+            background: #141821;
+            border: 1px solid #2a2f3a;
+            color: #ddd;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
 
-/* Tabs */
-.tabs{
-  display:flex;
-  gap:10px;
-  margin-top: 12px;
-}
-.tab{
-  background:#141821;
-  border:1px solid #2a2f3a;
-  color:#ddd;
-  padding:8px 12px;
-  border-radius:12px;
-  cursor:pointer;
-  font-size:13px;
-}
-.tab.active{
-  border-color:#7aa2ff;
-}
+        .tab.active {
+            border-color: #7aa2ff;
+            background: #1a202c;
+        }
 
-.tabPage{ display:none; }
-.tabPage.active{ display:block; }
+        .tabPage { display: none; flex: 1; position: relative; }
+        .tabPage.active { display: flex; flex-direction: column; }
 
-/* Grille des préfectures */
-.prefGrid{
-  column-count: 3;      /* nombre de colonnes */
-  column-gap: 16px;
-}
-@media (min-width: 1100px){
-  .prefGrid{ grid-template-columns: repeat(3, minmax(0, 1fr)); }
-}
+        #map { width: 100%; height: 100%; border-radius: 12px; }
 
-.prefCard{
-  border:1px solid #2a2f3a;
-  border-radius:12px;
-  padding:10px;
-  background: rgba(255,255,255,0.03);
-  break-inside: avoid; 
-  margin-bottom:16px;    
-}
+        /* Légende */
+        .legend {
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+            z-index: 1000;
+            background: rgba(15,17,21,0.9);
+            border: 1px solid #333;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 11px;
+        }
 
-.prefHeader{
-  display:flex;
-  align-items:baseline;
-  justify-content:space-between;
-  gap:10px;
-  padding-bottom:8px;
-  border-bottom:1px solid rgba(255,255,255,0.06);
-  margin-bottom:8px;
-}
+        .legendRow { display: flex; align-items: center; gap: 5px; margin-top: 5px; }
+        .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+        
+        /* Grille des villes */
+        .prefGrid { column-count: 2; column-gap: 15px; overflow-y: auto; }
+        .prefCard { background: rgba(255,255,255,0.03); padding: 10px; border-radius: 8px; margin-bottom: 10px; break-inside: avoid; }
+        .prefHeader { font-weight: bold; border-bottom: 1px solid #333; margin-bottom: 5px; display: flex; justify-content: space-between; }
 
-.prefName{
-  font-weight:700;
-  color:#fff;
-  font-size:13px;
-}
+        /* Couleurs Intensité */
+        .int1{ background:#ffffff; } .int2{ background:#00e5ff; } .int3{ background:#1976ff; }
+        .int4{ background:#fff176; } .int5m{ background:#ffd54f; } .int5p{ background:#ffb300; }
+        .int6m{ background:#ff7043; } .int6p{ background:#ff1744; } .int7{ background:#ff00c8; }
 
-.prefMeta{
-  color:#aaa;
-  font-size:12px;
-  white-space:nowrap;
-}
+        /* Croix épicentre */
+        .epiMarker { width:18px; height:18px; position:relative; }
+        .epiMarker::before, .epiMarker::after {
+            content:""; position:absolute; left:8px; top:0; width:2px; height:18px; background:#ff2d2d;
+        }
+        .epiMarker::before { transform: rotate(45deg); }
+        .epiMarker::after { transform: rotate(-45deg); }
 
-.cityRow{
-  display:flex;
-  justify-content:space-between;
-  gap:10px;
-  padding:6px 0;
-  border-bottom:1px solid rgba(255,255,255,0.06);
-  font-size:12px;
-}
-.cityRow:last-child{ border-bottom:none; }
-
-.cityLeft{ color:#ddd; }
-.cityRight{ color:#aaa; white-space:nowrap; }
-
-.badge{
-  display:inline-block;
-  padding:2px 8px;
-  border:1px solid #2a2f3a;
-  border-radius:999px;
-  font-size:11px;
-  color:#ddd;
-  margin-right:6px;
-}
-
-	.legend{
-  position:absolute;
-  left: 24px;
-  bottom: 24px;
-  z-index: 1200;
-  background: rgba(15,17,21,0.85);
-  border: 1px solid #2a2f3a;
-  border-radius: 12px;
-  padding: 10px 12px;
-  backdrop-filter: blur(8px);
-  color:#ddd;
-  font-size: 12px;
-}
-
-.legendTitle{
-  font-weight: 700;
-  margin-bottom: 8px;
-  color:#fff;
-}
-
-.legendRow{
-  display:flex;
-  align-items:center;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.dot{
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  border: 1px solid rgba(0,0,0,0.55);
-  display:inline-block;
-}
-
-.lbl{
-  margin-right: 6px;
-  color:#cfd3dc;
-  font-size: 12px;
-}
-
-.xmark{
-  width: 14px;
-  height: 14px;
-  position: relative;
-  display:inline-block;
-}
-.xmark::before,
-.xmark::after{
-  content:"";
-  position:absolute;
-  left:6px;
-  top:0px;
-  width:2px;
-  height:14px;
-  background:#ff2d2d;
-}
-.xmark::before{ transform: rotate(45deg); }
-.xmark::after{ transform: rotate(-45deg); }
-
-/* Icône épicentre sur la carte (identique à la légende) */
-.epiMarker{
-  width:18px;
-  height:18px;
-  position:relative;
-}
-.epiMarker::before,
-.epiMarker::after{
-  content:"";
-  position:absolute;
-  left:8px;
-  top:0px;
-  width:2px;
-  height:18px;
-  background:#ff2d2d;
-}
-.epiMarker::before{ transform: rotate(45deg); }
-.epiMarker::after{ transform: rotate(-45deg); }
-
-/* mêmes couleurs que ton intensityColor() */
-.int1{ background:#ffffff; }
-.int2{ background:#00e5ff; }
-.int3{ background:#1976ff; }
-.int4{ background:#fff176; }
-.int5m{ background:#ffd54f; }
-.int5p{ background:#ffb300; }
-.int6m{ background:#ff7043; }
-.int6p{ background:#ff1744; }
-.int7{ background:#ff00c8; }
-
-#tabMap{ position: relative; }
-
-@media (max-width:1200px){
-  .prefGrid{ column-count:2; }
-}
-
-@media (max-width:700px){
-  .prefGrid{ column-count:1; }
-}
-</style>
+        @media (max-width: 900px) {
+            .app { flex-direction: column; }
+            .left { height: 70vh; border-right: none; border-bottom: 1px solid #333; }
+        }
+    </style>
 </head>
 
 <body>
+    <div class="app">
+        <div class="left">
+            <h2 style="margin:0 0 10px 0;">Earthquakes JP</h2>
+            
+            <div id="selected" class="muted">Chargement...</div>
 
-<!-- ========================
-     STRUCTURE HTML
-========================= -->
-<div class="app">
-
-  <!-- ZONE CARTE (placeholder pour l'instant) -->
-  <div class="left">
-    <h2 style="margin:0 0 10px 0;">Earthquakes JP</h2>
-
-<div id="selected" class="muted">Chargement…</div>
-
-  <div id="selectedBody" class="selectedBody"></div>
-</div>
-
-<div class="tabs">
-  <button id="tabBtnMap" class="tab active" type="button">Carte</button>
-  <button id="tabBtnCities" class="tab" type="button">Villes touchées</button>
-</div>
-
-<div id="tabMap" class="tabPage active">
-  <div id="map" style="margin-top:12px; height:70vh; border-radius:12px;"></div>
-	<div id="legend" class="legend">
-  <div class="legendTitle">Seismic intensity</div>
-  <div class="legendRow">
-    <span class="dot int7"></span><span class="lbl">7</span>
-    <span class="dot int6p"></span><span class="lbl">6+</span>
-    <span class="dot int6m"></span><span class="lbl">6-</span>
-    <span class="dot int5p"></span><span class="lbl">5+</span>
-    <span class="dot int5m"></span><span class="lbl">5-</span>
-    <span class="dot int4"></span><span class="lbl">4</span>
-    <span class="dot int3"></span><span class="lbl">3</span>
-    <span class="dot int2"></span><span class="lbl">2</span>
-    <span class="dot int1"></span><span class="lbl">1</span>
-    <span class="xmark"></span><span class="lbl">epicenter</span>
-  </div>
-</div>
-</div>
-
-<div id="tabCities" class="tabPage">
-  <div id="citiesSummary" class="muted" style="margin-top:12px;"></div>
-  <div id="citiesGrid" class="prefGrid" style="margin-top:12px;"></div>
-</div>
-  </div>
-
-  <!-- LISTE DES SÉISMES -->
-  <div class="right">
-    <h2 style="margin:0 0 10px 0;">30 derniers séismes</h2>
-    <div id="list"></div>
-  </div>
-
-</div>
-
-<!-- ========================
-     SCRIPT JAVASCRIPT
-========================= -->
-<script>
-let selectedId = null;
-let epicenterMarker = null;
-
-const map = L.map("map").setView([36.2, 138.2], 5);
-const quakeLayer = L.featureGroup().addTo(map);
-
-// Fond clair japonais (GSI Pale)
-const baseMap = L.tileLayer(
-  "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
-  {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: 'abcd',
-	maxZoom: 20
-  }
-).addTo(map);
-
-
-L.tileLayer(
-  "https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png",
-  {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: "abcd",
-    maxZoom: 20
-  }
-).addTo(map);
-
-
-document.getElementById("tabBtnMap").onclick = () => setActiveTab("map");
-document.getElementById("tabBtnCities").onclick = () => {
-  setActiveTab("cities");
-  renderCitiesTab(lastDetail);
-};
-
-// état initial
-renderCitiesTab(null);
-
-/*
-  Formate une date ISO en texte lisible.
-*/
-function fmtTime(s){
-  try { return new Date(s).toLocaleString(); } catch { return s; }
-}
-
-/*
-  Compte les stations dans TON JSON JMA:
-  detail.Body.Intensity.Observation.Pref[].Area[].City[].IntensityStation[]
-*/
-function countStations(detail){
-  const prefs = detail?.Body?.Intensity?.Observation?.Pref || [];
-  let count = 0;
-
-  for (const pref of prefs) {
-    for (const area of (pref.Area || [])) {
-      for (const city of (area.City || [])) {
-        count += (city.IntensityStation || []).length;
-      }
-    }
-  }
-  return count;
-}
-
-function buildCityPoints(detail){
-  const prefs = detail?.Body?.Intensity?.Observation?.Pref || [];
-  const cities = [];
-
-  for (const pref of prefs) {
-    for (const area of (pref.Area || [])) {
-      for (const city of (area.City || [])) {
-        const st = (city.IntensityStation || [])[0];
-        const lat = st?.latlon?.lat;
-        const lon = st?.latlon?.lon;
-
-        if (typeof lat === "number" && typeof lon === "number") {
-          cities.push({
-            name: city.Name,
-            code: city.Code,
-            intensity: city.MaxInt,
-            lat, lon
-          });
-        }
-      }
-    }
-  }
-  return cities;
-}
-
-/*
-  Compte les stations qui ont des coordonnées lat/lon.
-*/
-function countLatLon(detail){
-  const prefs = detail?.Body?.Intensity?.Observation?.Pref || [];
-  let count = 0;
-
-  for (const pref of prefs) {
-    for (const area of (pref.Area || [])) {
-      for (const city of (area.City || [])) {
-        for (const st of (city.IntensityStation || [])) {
-          if (st.latlon && typeof st.latlon.lat === "number" && typeof st.latlon.lon === "number") {
-            count++;
-          }
-        }
-      }
-    }
-  }
-  return count;
-}
-
-/*
-  Charge events.json et affiche la liste.
-*/
-
-function updateSelectionUI(){
-  document.querySelectorAll(".item").forEach(el=>{
-    el.classList.remove("selected");
-  });
-}
-
-function showStations(detailData){
-
-  quakeLayer.clearLayers();
-
-  const prefs = detailData?.Body?.Intensity?.Observation?.Pref || [];
-  let count = 0;
-
-  prefs.forEach(pref=>{
-    pref.Area?.forEach(area=>{
-      area.City?.forEach(city=>{
-        city.IntensityStation?.forEach(station=>{
-
-          const lat = station?.latlon?.lat;
-          const lon = station?.latlon?.lon;
-          if (typeof lat !== "number" || typeof lon !== "number") return;
-
-          const intVal = normalizeIntensity(station?.Int);
-          const color = intensityColor(intVal);
-
-          const marker = L.circleMarker([lat, lon], {
-            radius: 6,
-            color: "#111",        // contour sombre
-            weight: 1,
-            fillColor: color,
-            fillOpacity: 0.95
-          });
-
-          // Label simple (au survol)
-          const jp = station?.Name || "";
-          const en = station?.enName || "";
-          marker.bindTooltip(
-            `${jp}${en ? " (" + en + ")" : ""} • Int ${intVal}`,
-            { direction: "top", opacity: 0.95, sticky: true }
-          );
-
-          // Popup plus détaillé (au clic)
-          marker.bindPopup(`
-            <div style="font-size:13px;line-height:1.3">
-              <b>${jp}${en ? " ("+en+")" : ""}</b><br>
-              Intensité: <b>${intVal}</b><br>
-              ${lat.toFixed(3)}, ${lon.toFixed(3)}
+            <div class="tabs">
+                <button id="tabBtnMap" class="tab active">Carte</button>
+                <button id="tabBtnCities" class="tab">Villes touchées</button>
             </div>
-          `);
 
-          marker.addTo(quakeLayer);
-          count++;
-        });
-      });
-    });
-  });
+            <div id="tabMap" class="tabPage active">
+                <div id="map"></div>
+                <div class="legend">
+                    <strong>Intensité</strong>
+                    <div class="legendRow">
+                        <span class="dot int7"></span> 7 
+                        <span class="dot int6p"></span> 6+ 
+                        <span class="dot int6m"></span> 6- 
+                        <span class="dot int5p"></span> 5+ 
+                        <span class="dot int5m"></span> 5- 
+                        <span class="dot int4"></span> 4
+                        <span class="dot int1"></span> 1-3
+                    </div>
+                </div>
+            </div>
 
-  console.log("Stations affichées:", count);
-}
-
-function parseJmaCoordinate(coordStr){
-  // format: "+40.7+140.5-10000/"
-  if (!coordStr || typeof coordStr !== "string") return null;
-  const m = coordStr.match(/([+-]\d+(?:\.\d+)?)([+-]\d+(?:\.\d+)?)/);
-  if (!m) return null;
-  const lat = Number(m[1]);
-  const lon = Number(m[2]);
-  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
-  return { lat, lon };
-}
-
-function crossIcon(){
-  // petite croix rouge en HTML (pas d'image)
-  return L.divIcon({
-    className: "",
-    iconSize: [20, 20],
-    iconAnchor: [10, 10],
-    html: `
-      <div style="
-        position:relative;
-        width:20px;height:20px;
-      ">
-        <div style="position:absolute;left:9px;top:0;width:2px;height:20px;background:#ff2d2d;"></div>
-        <div style="position:absolute;left:0;top:9px;width:20px;height:2px;background:#ff2d2d;"></div>
-        <div style="position:absolute;left:8px;top:8px;width:4px;height:4px;background:#ff2d2d;border-radius:50%;"></div>
-      </div>
-    `
-  });
-}
-
-function showEpicenter(detail){
-  const coordStr = detail?.Body?.Earthquake?.Hypocenter?.Area?.Coordinate;
-  const p = parseJmaCoordinate(coordStr);
-  if (!p) return null;
-
-  // enlever l'ancien
-  if (epicenterMarker) {
-    map.removeLayer(epicenterMarker);
-    epicenterMarker = null;
-  }
-
-  epicenterMarker = L.marker([p.lat, p.lon], { icon: epicenterIcon() }).addTo(map);
-  epicenterMarker.bindPopup(`<b>Épicentre</b><br>${p.lat.toFixed(3)}, ${p.lon.toFixed(3)}`);
-
-  return p;
-}
-
-	function intensityColor(intStr){
-  const v = String(intStr || "").trim();
-  // Palette proche JMA (approx)
-  const map = {
-    "1":  "#ffffff",
-    "2":  "#00e5ff",
-    "3":  "#1976ff",
-    "4":  "#fff176",
-    "5-": "#ffd54f",
-    "5+": "#ffb300",
-    "6-": "#ff7043",
-    "6+": "#ff1744",
-    "7":  "#ff00c8"
-  };
-  return map[v] || "#aaaaaa";
-}
-
-function normalizeIntensity(v){
-  // certaines valeurs peuvent être "5弱" etc selon sources
-  const s = String(v || "").trim();
-  if (s === "5弱") return "5-";
-  if (s === "5強") return "5+";
-  if (s === "6弱") return "6-";
-  if (s === "6強") return "6+";
-  return s;
-}
-
-function fitToEvent(detail){
-  // 1) epicentre
-  const p = showEpicenter(detail);
-
-  // 2) bounds sur les stations (déjà sur quakeLayer)
-  const bounds = quakeLayer.getBounds();
-  fitBoundsWithMinKm(bounds, 40); // 80 km = bon “niveau région”
-
-  // si on a des stations, on fit dessus, sinon on centre sur épicentre
-  if (bounds && bounds.isValid()) {
-    // inclure aussi l'épicentre si dispo
-    if (p) bounds.extend([p.lat, p.lon]);
-    map.fitBounds(bounds.pad(0.25));
-  } else if (p) {
-    map.setView([p.lat, p.lon], 7); // zoom par défaut
-  }
-}
-
-
-let lastDetail = null; // on garde le dernier JSON détail cliqué
-
-function setActiveTab(tabName){
-  // boutons
-  document.getElementById("tabBtnMap").classList.toggle("active", tabName === "map");
-  document.getElementById("tabBtnCities").classList.toggle("active", tabName === "cities");
-
-  // pages
-  document.getElementById("tabMap").classList.toggle("active", tabName === "map");
-  document.getElementById("tabCities").classList.toggle("active", tabName === "cities");
-
-  // Leaflet doit recalculer quand on ré-affiche la carte
-  if (tabName === "map") {
-    setTimeout(() => map.invalidateSize(), 50);
-  }
-}
-
-function intensityOrder(x){
-  const v = String(x || "").trim();
-  const order = {"7":9,"6+":8,"6-":7,"5+":6,"5-":5,"4":4,"3":3,"2":2,"1":1};
-  return order[v] || 0;
-}
-
-function buildPrefectureGroups(detail){
-  const prefs = detail?.Body?.Intensity?.Observation?.Pref || [];
-  const groups = [];
-
-  for (const pref of prefs) {
-    const prefJP = pref?.Name || "";
-    const prefEN = pref?.enName || "";
-    const prefMax = String(pref?.MaxInt || "").trim() || "?";
-
-    const cities = [];
-    for (const area of (pref.Area || [])) {
-      for (const city of (area.City || [])) {
-        const cInt = String(city?.MaxInt || "").trim();
-        if (!cInt || cInt === "0" || cInt === "?") continue;
-
-        cities.push({
-          jp: city?.Name || "",
-          en: city?.enName || "",
-          int: cInt
-        });
-      }
-    }
-
-    if (cities.length === 0) continue;
-
-    cities.sort((a,b) => intensityOrder(b.int) - intensityOrder(a.int) || a.jp.localeCompare(b.jp));
-    groups.push({ prefJP, prefEN, maxInt: prefMax, cities });
-  }
-
-  groups.sort((a,b) => intensityOrder(b.maxInt) - intensityOrder(a.maxInt) || a.prefJP.localeCompare(b.prefJP));
-  return groups;
-}
-
-function renderCitiesTab(detail){
-  const summaryEl = document.getElementById("citiesSummary");
-  const gridEl = document.getElementById("citiesGrid");
-
-  if (!detail) {
-    summaryEl.textContent = "Clique un séisme pour voir les villes touchées.";
-    gridEl.innerHTML = "";
-    return;
-  }
-
-  const groups = buildPrefectureGroups(detail);
-
-  let totalCities = 0;
-  for (const g of groups) totalCities += g.cities.length;
-
-  const maxAll = String(detail?.Body?.Intensity?.Observation?.MaxInt || "").trim() || (groups[0]?.maxInt || "?");
-
-  summaryEl.innerHTML = `
-    <span class="badge">Préfectures: ${groups.length}</span>
-    <span class="badge">Villes: ${totalCities}</span>
-    <span class="badge">Max: ${maxAll}</span>
-  `;
-
-  gridEl.innerHTML = groups.map(g => `
-    <div class="prefCard">
-      <div class="prefHeader">
-        <div class="prefName">${g.prefJP}${g.prefEN ? ` <span class="muted">(${g.prefEN})</span>` : ""}</div>
-        <div class="prefMeta">Max ${g.maxInt}</div>
-      </div>
-
-      ${g.cities.map(c => `
-        <div class="cityRow">
-          <div class="cityLeft">${c.jp}${c.en ? ` <span class="muted">(${c.en})</span>` : ""}</div>
-          <div class="cityRight">Int ${c.int}</div>
+            <div id="tabCities" class="tabPage">
+                <div id="citiesSummary" class="muted"></div>
+                <div id="citiesGrid" class="prefGrid"></div>
+            </div>
         </div>
-      `).join("")}
+
+        <div class="right">
+            <h2 style="margin:0 0 10px 0;">30 derniers séismes</h2>
+            <div id="list"></div>
+        </div>
     </div>
-  `).join("");
-}
 
-function epicenterIcon(){
-  return L.divIcon({
-    className: "epiWrap",
-    iconSize: [18,18],
-    iconAnchor: [9,9],
-    html: `<div class="epiMarker"></div>`
-  });
-}
+    <script>
+        // --- JAVASCRIPT ---
+        let selectedId = null;
+        let epicenterMarker = null;
+        let lastDetail = null;
 
-function fitBoundsWithMinKm(bounds, minKm = 80){
-  if (!bounds || !bounds.isValid()) return;
+        const map = L.map("map").setView([36.2, 138.2], 5);
+        const quakeLayer = L.featureGroup().addTo(map);
 
-  // centre actuel de la zone
-  const c = bounds.getCenter();
+        L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
+            attribution: '&copy; OpenStreetMap'
+        }).addTo(map);
 
-  // approx: 1 degré latitude = 111 km
-  const dLat = minKm / 111;
+        // Gestion des onglets
+        function setActiveTab(tab) {
+            document.getElementById("tabBtnMap").classList.toggle("active", tab === 'map');
+            document.getElementById("tabBtnCities").classList.toggle("active", tab === 'cities');
+            document.getElementById("tabMap").classList.toggle("active", tab === 'map');
+            document.getElementById("tabCities").classList.toggle("active", tab === 'cities');
+            if(tab === 'map') setTimeout(() => map.invalidateSize(), 100);
+        }
 
-  // longitude dépend de la latitude
-  const cosLat = Math.cos((c.lat * Math.PI) / 180);
-  const dLon = minKm / (111 * Math.max(0.2, cosLat)); // évite divisions bizarres
+        document.getElementById("tabBtnMap").onclick = () => setActiveTab('map');
+        document.getElementById("tabBtnCities").onclick = () => {
+            setActiveTab('cities');
+            renderCitiesTab(lastDetail);
+        };
 
-  const minBounds = L.latLngBounds(
-    [c.lat - dLat, c.lng - dLon],
-    [c.lat + dLat, c.lng + dLon]
-  );
+        function intensityColor(intStr) {
+            const v = String(intStr || "").trim();
+            const colors = {
+                "1":"#ffffff","2":"#00e5ff","3":"#1976ff","4":"#fff176",
+                "5-":"#ffd54f","5+":"#ffb300","6-":"#ff7043","6+":"#ff1744","7":"#ff00c8"
+            };
+            return colors[v] || "#aaaaaa";
+        }
 
-  // on prend l'union: si la vraie zone est petite, minBounds gagne
-  const finalBounds = bounds.extend(minBounds);
+        function normalizeIntensity(v) {
+            const s = String(v || "").trim();
+            if (s === "5弱") return "5-"; if (s === "5強") return "5+";
+            if (s === "6弱") return "6-"; if (s === "6強") return "6+";
+            return s;
+        }
 
-  map.fitBounds(finalBounds, { padding: [80, 80] });
-}
+        function parseJmaCoordinate(coordStr) {
+            if (!coordStr) return null;
+            const m = coordStr.match(/([+-]\d+(?:\.\d+)?)([+-]\d+(?:\.\d+)?)/);
+            return m ? { lat: Number(m[1]), lon: Number(m[2]) } : null;
+        }
 
-async function main(){
-  const listEl = document.getElementById("list");
+        function showStations(detailData) {
+            quakeLayer.clearLayers();
+            const prefs = detailData?.Body?.Intensity?.Observation?.Pref || [];
+            prefs.forEach(pref => {
+                pref.Area?.forEach(area => {
+                    area.City?.forEach(city => {
+                        city.IntensityStation?.forEach(station => {
+                            const lat = station?.latlon?.lat;
+                            const lon = station?.latlon?.lon;
+                            if (typeof lat !== "number") return;
 
-  try{
-    const res = await fetch("./events.json", { cache: "no-store" });
-    if(!res.ok) throw new Error("events.json introuvable (HTTP " + res.status + ")");
+                            L.circleMarker([lat, lon], {
+                                radius: 5,
+                                color: "#000",
+                                weight: 1,
+                                fillColor: intensityColor(normalizeIntensity(station.Int)),
+                                fillOpacity: 0.8
+                            }).bindTooltip(`${station.Name} : Int ${station.Int}`).addTo(quakeLayer);
+                        });
+                    });
+                });
+            });
+        }
 
-    const data = await res.json();
-    const events = data.events || [];
+        function showEpicenter(detail) {
+            const p = parseJmaCoordinate(detail?.Body?.Earthquake?.Hypocenter?.Area?.Coordinate);
+            if (epicenterMarker) map.removeLayer(epicenterMarker);
+            if (p) {
+                epicenterMarker = L.marker([p.lat, p.lon], {
+                    icon: L.divIcon({ className: "", html: '<div class="epiMarker"></div>', iconSize: [18,18], iconAnchor: [9,9] })
+                }).addTo(map);
+                return p;
+            }
+            return null;
+        }
 
-    if(events.length === 0){
-      document.getElementById("selected").textContent = "Aucun séisme trouvé.";
-      listEl.innerHTML = "Liste vide.";
-      return;
-    }
+        function renderCitiesTab(detail) {
+            const grid = document.getElementById("citiesGrid");
+            if (!detail) { grid.innerHTML = "Aucune donnée."; return; }
+            
+            const prefs = detail?.Body?.Intensity?.Observation?.Pref || [];
+            grid.innerHTML = prefs.map(p => `
+                <div class="prefCard">
+                    <div class="prefHeader"><span>${p.Name}</span> <span>Max ${p.MaxInt}</span></div>
+                    ${(p.Area || []).flatMap(a => (a.City || []).map(c => `
+                        <div style="display:flex; justify-content:space-between; font-size:12px;">
+                            <span>${c.Name}</span><span>Int ${c.MaxInt}</span>
+                        </div>
+                    `)).join("")}
+                </div>
+            `).join("");
+        }
 
-    // sélection par défaut = premier
-    if(!selectedId) selectedId = events[0].id;
-
-    listEl.innerHTML = "";
-
-    events.forEach(ev => {
-      const div = document.createElement("div");
-      div.className = "item" + (ev.id === selectedId ? " selected" : "");
-
-      div.innerHTML = `
-        <div><b>M ${ev.magnitude ?? "?"}</b> | <b>Max ${ev.maxIntensity || "?"}</b></div>
-        <div class="muted">${fmtTime(ev.time)}</div>
-        <div style="margin-top:6px;">${ev.region || ev.title || "-"}</div>
-      `;
-
-      div.onclick = () => {
-        selectedId = ev.id;
-
-        updateSelectionUI();
-        div.classList.add("selected");
-
-        // Affichage de base
-        const selectedEl = document.getElementById("selected");
-        selectedEl.innerHTML =
-          "<b>Séisme sélectionné:</b><br>" +
-          (ev.region || ev.title || "") +
-          "<br><span style='font-size:12px;color:#aaa;word-break:break-all'>" +
-          ev.detailUrl +
-          "</span>";
-
-        // Mini test: charger le détail JMA et compter les stations
-        fetch(ev.detailUrl)
-  .then(r => r.json())
-  .then(detail => {
-    const stations = countStations(detail);
-    const coords = countLatLon(detail);
-    const cityPoints = buildCityPoints(detail);
-
-    // ✅ On affiche directement les points avec CE detail (pas besoin de refetch)
-    showStations(detail);
-	fitToEvent(detail);
-	lastDetail = detail;
-	renderCitiesTab(lastDetail);
-	  
-    selectedEl.innerHTML +=
-      "<br><span style='font-size:12px;color:#7CFF7C'>Stations: " + stations + "</span>" +
-      "<br><span style='font-size:12px;color:#7CFF7C'>Coordonnées: " + coords + "</span>" +
-      "<br><span style='font-size:12px;color:#7CFF7C'>Points ville: " + cityPoints.length + "</span>";
-  })
-  .catch(err => {
-    selectedEl.innerHTML +=
-      "<br><span style='font-size:12px;color:#FF7C7C'>Erreur detail: " + err.message + "</span>";
-  });
-      };
-
-      listEl.appendChild(div);
-    });
-
-    // Afficher aussi le premier élément sélectionné (sans stats tant que pas cliqué)
-    const first = events.find(e => e.id === selectedId) || events[0];
-    document.getElementById("selected").innerHTML =
-      "<b>Séisme sélectionné:</b><br>" +
-      (first.region || first.title || "") +
-      "<br><span style='font-size:12px;color:#aaa;word-break:break-all'>" +
-      first.detailUrl +
-      "</span>";
-
-  } catch(e){
-    document.getElementById("selected").textContent = "Erreur: " + e.message;
-    listEl.innerHTML = "";
-  }
-}
-
-main();
-</script>
+        async function main() {
+            try {
+                const res = await fetch("./events.json");
+                const data = await res.json();
+                const listEl = document.getElementById("list");
+                
+                data.events.forEach(ev => {
+                    const div = document.createElement("div");
+                    div.className = "item";
+                    div.innerHTML = `<b>M${ev.magnitude}</b> - ${ev.region}<br><span class="muted">${new Date(ev.time).toLocaleString()}</span>`;
+                    div.onclick = async () => {
+                        document.querySelectorAll(".item").forEach(i => i.classList.remove("selected"));
+                        div.classList.add("selected");
+                        document.getElementById("selected").innerHTML = `<b>${ev.region}</b><br>Magnitude: ${ev.magnitude} | Max: ${ev.maxIntensity}`;
+                        
+                        const dRes = await fetch(ev.detailUrl);
+                        lastDetail = await dRes.json();
+                        showStations(lastDetail);
+                        const epi = showEpicenter(lastDetail);
+                        
+                        const bounds = quakeLayer.getBounds();
+                        if (bounds.isValid()) map.fitBounds(bounds.pad(0.1));
+                        else if (epi) map.setView([epi.lat, epi.lon], 7);
+                    };
+                    listEl.appendChild(div);
+                });
+            } catch (e) { console.error(e); }
+        }
+        main();
+    </script>
 </body>
 </html>
