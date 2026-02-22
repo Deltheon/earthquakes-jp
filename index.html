@@ -557,6 +557,56 @@ body{
   border-radius: 12px;
 }
 
+@media (max-width: 900px){
+  .app{ flex-direction:column; }
+  .left{ border-right:none; border-bottom:1px solid #333; }
+}
+
+/* iPad portrait et tablettes */
+@media (max-width: 1024px){
+  .left, .right{
+    padding: 12px;
+  }
+
+  /* Map un peu moins haute pour laisser respirer */
+  #map{
+    height: 52vh;
+  }
+}
+
+/* iPhone et petits écrans */
+@media (max-width: 700px){
+  /* Sur mobile, 100vh sur iOS provoque souvent un mini scroll.
+     On laisse la page respirer et on garde un scroll naturel. */
+  .app{
+    height: auto;
+    min-height: 100dvh;
+    min-height: 100vh;
+  }
+
+  .left, .right{
+    padding: 12px;
+  }
+
+  /* La liste ne doit pas avoir son propre scroll sur iPhone,
+     sinon tu te retrouves avec un double scroll (page + liste). */
+  .right{
+    overflow: visible;
+  }
+
+  /* Map: taille mobile confortable */
+  #map{
+    height: 44vh;
+    min-height: 280px;
+  }
+
+  /* Selected: un peu plus flexible sur mobile si ça coupe trop */
+  #selected{
+    height: auto;
+    min-height: 135px;
+  }
+}
+
 </style>
 </head>
 
@@ -580,7 +630,7 @@ body{
 <button id="tabBtnCities" class="tab" type="button">各地の震度 <span class="uiEn">Affected Areas</span></button>
 
 <div id="tabMap" class="tabPage active">
-  <div id="map" style="margin-top:12px; height:68vh; border-radius:12px;"></div>
+  <div id="map" style="margin-top:12px;"></div>
 	<div id="legend" class="legend">
   <div class="legendTitle">震度 <span class="uiEn">Seismic intensity</span></div>
   <div class="legendRow">
