@@ -18,6 +18,29 @@
     color:white;
 	overflow-x:hidden;
   }
+	
+  header{
+  align-items:flex-start;
+  }
+
+.mainTitle{
+  display:flex;
+  flex-direction:column;
+  line-height:1.15;
+  margin:0;              /* évite le scroll */
+}
+
+.mainTitle .jp{
+  font-size:18px;        /* légèrement plus grand que les sections */
+  font-weight:700;
+  color:#fff;
+}
+
+.mainTitle .en{
+  font-size:11px;        /* plus petit pour réduire la hauteur */
+  color:#9aa1b3;
+  margin-top:1px;        /* très petit espace */
+}
 
   /* layout gauche = carte / droite = liste */
   .app{
@@ -475,10 +498,10 @@
 
   <!-- ZONE CARTE (placeholder pour l'instant) -->
   <div class="left">
-    <h1>
-	  <span class="jp">地震情報</span>
+    <h1 class="mainTitle">
+      <span class="jp">地震情報</span>
       <span class="en">Earthquake information</span>
-	</h1>
+    </h1>
 
 <div id="selected" class="muted">Chargement…</div>
 
