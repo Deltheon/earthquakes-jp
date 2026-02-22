@@ -531,6 +531,32 @@
   padding-left:28px;
 }
 
+/* iOS: éviter les soucis de 100vh et gérer les safe areas */
+html, body{
+  height:100%;
+}
+
+body{
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+/* Desktop: ok, mais on rend la hauteur plus robuste */
+.app{
+  height: 100dvh;      /* moderne */
+  height: 100vh;       /* fallback */
+}
+
+/* Colonne droite: scroll fluide iOS */
+.right{
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Map: évite les styles inline qui gênent le responsive */
+#map{
+  height: 68vh;
+  border-radius: 12px;
+}
+
 </style>
 </head>
 
