@@ -16,6 +16,7 @@
     font-family:Arial, sans-serif;
     background:#0f1115;
     color:white;
+	overflow-x:hidden;
   }
 
   /* layout gauche = carte / droite = liste */
@@ -59,6 +60,34 @@
   .muted{
     color:#aaa;
     font-size:12px;
+  }
+
+  .sectionTitle{
+    display:flex;
+    flex-direction:column;
+    line-height:1.2;
+    margin:0;           /* IMPORTANT pour éviter le scroll */
+  }
+
+  .sectionTitle .jp{
+    font-size:16px;
+    font-weight:700;
+    color:#fff;
+  }
+
+  .sectionTitle .en{
+    font-size:12px;
+    color:#9aa1b3;
+    margin-top:2px;
+  }
+
+  h1, h2 {
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+  }
+
+  h1, h2{
+    margin:0;
   }
 
   @media (max-width: 900px){
