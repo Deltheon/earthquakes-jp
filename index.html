@@ -27,7 +27,8 @@
   display:flex;
   flex-direction:column;
   line-height:1.15;
-  margin:0;              /* évite le scroll */
+  margin:0;
+  margin-bottom: 1%;/* évite le scroll */
 }
 
 .mainTitle .jp{
@@ -90,6 +91,7 @@
     flex-direction:column;
     line-height:1.2;
     margin:0;           /* IMPORTANT pour éviter le scroll */
+	margin-bottom: 1%;
   }
 
   .sectionTitle .jp{
@@ -183,6 +185,7 @@
   border: 1px solid #222;
   border-radius: 12px;
   background: rgba(255,255,255,0.03);
+  margin-bottom: 1%;
 }
 
 /* Tabs */
@@ -509,7 +512,7 @@
 <button id="tabBtnCities" class="tab" type="button">各地の震度 <span class="uiEn">Affected Areas</span></button>
 
 <div id="tabMap" class="tabPage active">
-  <div id="map" style="margin-top:12px; height:70vh; border-radius:12px;"></div>
+  <div id="map" style="margin-top:12px; height:65vh; border-radius:12px;"></div>
 	<div id="legend" class="legend">
   <div class="legendTitle">震度 <span class="uiEn">Seismic intensity</span></div>
   <div class="legendRow">
