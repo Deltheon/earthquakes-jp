@@ -510,6 +510,23 @@
   color:#6f7687;
 }
 
+.quakeSearchWrap{
+  position:relative;
+}
+
+.quakeSearchWrap::before{
+  content:"🔎";
+  position:absolute;
+  left:8px;
+  top:6px;
+  font-size:14px;
+  opacity:0.6;
+}
+
+#quakeSearch{
+  padding-left:28px;
+}
+
 </style>
 </head>
 
@@ -584,6 +601,8 @@
 let selectedId = null;
 let epicenterMarker = null;
 const detailCache = new Map();
+
+let allEvents = []; // ⭐ stockage global pour la recherche
 
 async function getDetail(url){
   if(detailCache.has(url)) return detailCache.get(url);
@@ -1228,7 +1247,8 @@ async function main(){
     if(!res.ok) throw new Error("events.json introuvable (HTTP " + res.status + ")");
 
     const data = await res.json();
-    const events = data.events || [];
+    allEvents = data.events || [];
+    const events = allEvents;
 
     if(events.length === 0){
       document.getElementById("selected").textContent = "Aucun séisme trouvé.";
@@ -1285,6 +1305,52 @@ async function main(){
   }
 }
 
+// ===============================
+// 🔎 Recherche live des séismes
+// ===============================
+const searchInput = document.getElementById("quakeSearch");
+
+searchInput.addEventListener("input", () => {
+  const q = searchInput.value.trim().toLowerCase();
+
+  const listEl = document.getElementById("list");
+  listEl.innerHTML = "";
+
+  const filtered = !q
+    ? allEvents
+    : allEvents.filter(ev => {
+        const jp = (ev.region || "").toLowerCase();
+        const en = (ev.regionEn || "").toLowerCase();
+        const mag = String(ev.magnitude || "");
+
+        return jp.includes(q) || en.includes(q) || mag.includes(q);
+      });
+
+  filtered.forEach(ev => {
+    const div = document.createElement("div");
+    div.className = "item";
+
+    div.innerHTML = `
+      <div class="cardRow1">
+        <span class="dotInt" style="background:${intensityColor(ev.maxIntensity)}"></span>
+        <span class="badge">M ${ev.magnitude ?? "?"}</span>
+        <span class="badge">Max ${ev.maxIntensity || "?"}</span>
+      </div>
+
+      <div class="cardRow2">
+        ${fmtShort(ev.time)}
+      </div>
+
+      <div class="cardRow3">
+        ${ev.region || "-"}
+        ${ev.regionEn ? `<span class="regionEn">(${ev.regionEn})</span>` : ""}
+      </div>
+    `;
+
+    div.onclick = () => selectEvent(ev, div);
+    listEl.appendChild(div);
+  });
+});
 
 main();
 </script>
