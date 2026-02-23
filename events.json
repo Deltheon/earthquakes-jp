@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-02-23T22:37:54.856Z",
+  "lastUpdate": "2026-02-23T23:32:22.125Z",
   "source": "JMA list.json",
   "totalInList": 185,
   "totalUsable": 147,
   "events": [
+    {
+      "id": "20260224080803_20260224080414_VXSE5k_1.json",
+      "time": "2026-02-24T08:04:00+09:00",
+      "region": "富山湾",
+      "regionEn": "Toyama Bay",
+      "magnitude": "4.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260224080803_20260224080414_VXSE5k_1.json"
+    },
+    {
+      "id": "20260224073838_20260224073436_VXSE5k_1.json",
+      "time": "2026-02-24T07:34:00+09:00",
+      "region": "三宅島近海",
+      "regionEn": "Adjacent Sea of Miyakejima Island",
+      "magnitude": "4.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260224073838_20260224073436_VXSE5k_1.json"
+    },
     {
       "id": "20260224002015_20260224001659_VXSE5k_1.json",
       "time": "2026-02-24T00:16:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260215173136_20260215172814_VXSE5k_1.json"
-    },
-    {
-      "id": "20260215162249_20260215161947_VXSE5k_1.json",
-      "time": "2026-02-15T16:19:00+09:00",
-      "region": "苫小牧沖",
-      "regionEn": "Off the Coast of Tomakomai",
-      "magnitude": "3.8",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260215162249_20260215161947_VXSE5k_1.json"
-    },
-    {
-      "id": "20260215115554_20260215115232_VXSE5k_1.json",
-      "time": "2026-02-15T11:52:00+09:00",
-      "region": "茨城県南部",
-      "regionEn": "Southern Ibaraki Prefecture",
-      "magnitude": "3.7",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260215115554_20260215115232_VXSE5k_1.json"
     }
   ]
 }
