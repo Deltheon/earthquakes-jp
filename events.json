@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-23T01:56:24.320Z",
+  "lastUpdate": "2026-02-23T04:25:22.881Z",
   "source": "JMA list.json",
-  "totalInList": 193,
-  "totalUsable": 153,
+  "totalInList": 190,
+  "totalUsable": 152,
   "events": [
+    {
+      "id": "20260223120315_20260223115936_VXSE5k_1.json",
+      "time": "2026-02-23T11:59:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "4.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260223120315_20260223115936_VXSE5k_1.json"
+    },
     {
       "id": "20260223031722_20260223031435_VXSE5k_1.json",
       "time": "2026-02-23T03:14:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260214010226_20260214005850_VXSE5k_1.json"
-    },
-    {
-      "id": "20260213140249_20260213135919_VXSE5k_1.json",
-      "time": "2026-02-13T13:59:00+09:00",
-      "region": "新潟県中越地方",
-      "regionEn": "Chuetsu, Niigata Prefecture",
-      "magnitude": "4.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260213140249_20260213135919_VXSE5k_1.json"
     }
   ]
 }
