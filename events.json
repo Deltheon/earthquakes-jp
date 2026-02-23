@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-23T14:28:20.319Z",
+  "lastUpdate": "2026-02-23T15:25:00.124Z",
   "source": "JMA list.json",
   "totalInList": 188,
   "totalUsable": 150,
   "events": [
+    {
+      "id": "20260224002015_20260224001659_VXSE5k_1.json",
+      "time": "2026-02-24T00:16:00+09:00",
+      "region": "奄美大島近海",
+      "regionEn": "Adjacent Sea of Amami-Oshima Island",
+      "magnitude": "3.9",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260224002015_20260224001659_VXSE5k_1.json"
+    },
     {
       "id": "20260223201024_20260223200715_VXSE5k_1.json",
       "time": "2026-02-23T20:07:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260215115554_20260215115232_VXSE5k_1.json"
-    },
-    {
-      "id": "20260215045256_20260215045016_VXSE5k_1.json",
-      "time": "2026-02-15T04:50:00+09:00",
-      "region": "日向灘",
-      "regionEn": "Hyuganada Sea",
-      "magnitude": "3.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260215045256_20260215045016_VXSE5k_1.json"
     }
   ]
 }
