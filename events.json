@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-23T04:25:22.881Z",
+  "lastUpdate": "2026-02-23T05:48:10.047Z",
   "source": "JMA list.json",
-  "totalInList": 190,
-  "totalUsable": 152,
+  "totalInList": 191,
+  "totalUsable": 153,
   "events": [
+    {
+      "id": "20260223143738_20260223143509_VXSE5k_1.json",
+      "time": "2026-02-23T14:35:00+09:00",
+      "region": "三重県南部",
+      "regionEn": "Southern Mie Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260223143738_20260223143509_VXSE5k_1.json"
+    },
     {
       "id": "20260223120315_20260223115936_VXSE5k_1.json",
       "time": "2026-02-23T11:59:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260215030152_20260215025926_VXSE5k_1.json"
-    },
-    {
-      "id": "20260214010226_20260214005850_VXSE5k_1.json",
-      "time": "2026-02-14T00:58:00+09:00",
-      "region": "トカラ列島近海",
-      "regionEn": "Adjacent Sea of Tokara Islands",
-      "magnitude": "2.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260214010226_20260214005850_VXSE5k_1.json"
     }
   ]
 }
