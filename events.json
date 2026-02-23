@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-23T10:27:27.753Z",
+  "lastUpdate": "2026-02-23T11:13:23.856Z",
   "source": "JMA list.json",
   "totalInList": 188,
   "totalUsable": 150,
   "events": [
+    {
+      "id": "20260223201024_20260223200715_VXSE5k_1.json",
+      "time": "2026-02-23T20:07:00+09:00",
+      "region": "石川県能登地方",
+      "regionEn": "Noto, Ishikawa Prefecture",
+      "magnitude": "2.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260223201024_20260223200715_VXSE5k_1.json"
+    },
     {
       "id": "20260223143738_20260223143509_VXSE5k_1.json",
       "time": "2026-02-23T14:35:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260215045256_20260215045016_VXSE5k_1.json"
-    },
-    {
-      "id": "20260215030152_20260215025926_VXSE5k_1.json",
-      "time": "2026-02-15T02:59:00+09:00",
-      "region": "陸奥湾",
-      "regionEn": "Mutsu Bay",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260215030152_20260215025926_VXSE5k_1.json"
     }
   ]
 }
