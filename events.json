@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-24T10:44:25.690Z",
+  "lastUpdate": "2026-02-24T11:38:18.858Z",
   "source": "JMA list.json",
-  "totalInList": 181,
-  "totalUsable": 145,
+  "totalInList": 182,
+  "totalUsable": 146,
   "events": [
+    {
+      "id": "20260224194819_20260224194531_VXSE5k_1.json",
+      "time": "2026-02-24T19:45:00+09:00",
+      "region": "岩手県内陸北部",
+      "regionEn": "Northern Inland of Iwate Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260224194819_20260224194531_VXSE5k_1.json"
+    },
     {
       "id": "20260224134028_20260224133732_VXSE5k_1.json",
       "time": "2026-02-24T13:37:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260216140345_20260216140001_VXSE5k_1.json"
-    },
-    {
-      "id": "20260216085150_20260216084427_VXSE5k_1.json",
-      "time": "2026-02-16T08:44:00+09:00",
-      "region": "福島県会津",
-      "regionEn": "Aizu,  Fukushima Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260216085150_20260216084427_VXSE5k_1.json"
     }
   ]
 }
