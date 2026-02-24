@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-24T17:03:20.781Z",
+  "lastUpdate": "2026-02-24T18:14:07.310Z",
   "source": "JMA list.json",
-  "totalInList": 181,
-  "totalUsable": 145,
+  "totalInList": 182,
+  "totalUsable": 146,
   "events": [
+    {
+      "id": "20260225030849_20260225030535_VXSE5k_1.json",
+      "time": "2026-02-25T03:05:00+09:00",
+      "region": "トカラ列島近海",
+      "regionEn": "Adjacent Sea of Tokara Islands",
+      "magnitude": "2.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260225030849_20260225030535_VXSE5k_1.json"
+    },
     {
       "id": "20260224194819_20260224194531_VXSE5k_1.json",
       "time": "2026-02-24T19:45:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260217025605_20260217025301_VXSE5k_1.json"
-    },
-    {
-      "id": "20260216140345_20260216140001_VXSE5k_1.json",
-      "time": "2026-02-16T14:00:00+09:00",
-      "region": "岩手県沖",
-      "regionEn": "Off the Coast of Iwate Prefecture",
-      "magnitude": "4.3",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260216140345_20260216140001_VXSE5k_1.json"
     }
   ]
 }
