@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-25T09:13:35.820Z",
+  "lastUpdate": "2026-02-25T10:26:57.219Z",
   "source": "JMA list.json",
-  "totalInList": 181,
-  "totalUsable": 145,
+  "totalInList": 182,
+  "totalUsable": 146,
   "events": [
+    {
+      "id": "20260225184447_20260225184145_VXSE5k_1.json",
+      "time": "2026-02-25T18:41:00+09:00",
+      "region": "青森県東方沖",
+      "regionEn": "Off the east Coast of Aomori Prefecture",
+      "magnitude": "4.3",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260225184447_20260225184145_VXSE5k_1.json"
+    },
     {
       "id": "20260225181109_20260225180753_VXSE5k_1.json",
       "time": "2026-02-25T18:07:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260219224732_20260219224500_VXSE5k_1.json"
-    },
-    {
-      "id": "20260219172809_20260219172437_VXSE5k_1.json",
-      "time": "2026-02-19T17:24:00+09:00",
-      "region": "千葉県南部",
-      "regionEn": "Southern Chiba Prefecture",
-      "magnitude": "4.2",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260219172809_20260219172437_VXSE5k_1.json"
     }
   ]
 }
