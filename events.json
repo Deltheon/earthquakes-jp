@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-25T08:05:48.347Z",
+  "lastUpdate": "2026-02-25T09:13:35.820Z",
   "source": "JMA list.json",
-  "totalInList": 180,
-  "totalUsable": 144,
+  "totalInList": 181,
+  "totalUsable": 145,
   "events": [
+    {
+      "id": "20260225181109_20260225180753_VXSE5k_1.json",
+      "time": "2026-02-25T18:07:00+09:00",
+      "region": "四国沖",
+      "regionEn": "Off the Coast of Shikoku",
+      "magnitude": "4.9",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260225181109_20260225180753_VXSE5k_1.json"
+    },
     {
       "id": "20260225165143_20260225164903_VXSE5k_1.json",
       "time": "2026-02-25T16:49:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260219172809_20260219172437_VXSE5k_1.json"
-    },
-    {
-      "id": "20260219074352_20260219074034_VXSE5k_1.json",
-      "time": "2026-02-19T07:40:00+09:00",
-      "region": "福島県沖",
-      "regionEn": "Off the Coast of Fukushima Prefecture",
-      "magnitude": "4.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260219074352_20260219074034_VXSE5k_1.json"
     }
   ]
 }
