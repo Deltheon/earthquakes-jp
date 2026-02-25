@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-25T19:48:02.628Z",
+  "lastUpdate": "2026-02-25T20:32:30.296Z",
   "source": "JMA list.json",
-  "totalInList": 184,
-  "totalUsable": 146,
+  "totalInList": 185,
+  "totalUsable": 147,
   "events": [
+    {
+      "id": "20260226052825_20260226052446_VXSE5k_1.json",
+      "time": "2026-02-26T05:24:00+09:00",
+      "region": "茨城県南部",
+      "regionEn": "Southern Ibaraki Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260226052825_20260226052446_VXSE5k_1.json"
+    },
     {
       "id": "20260226032442_20260226032158_VXSE5k_1.json",
       "time": "2026-02-26T03:21:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260220224303_20260220224007_VXSE5k_1.json"
-    },
-    {
-      "id": "20260220220946_20260220220702_VXSE5k_1.json",
-      "time": "2026-02-20T22:07:00+09:00",
-      "region": "島根県東部",
-      "regionEn": "Eastern Shimane Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260220220946_20260220220702_VXSE5k_1.json"
     }
   ]
 }
