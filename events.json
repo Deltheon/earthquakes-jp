@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-26T22:38:20.699Z",
+  "lastUpdate": "2026-02-26T23:26:21.318Z",
   "source": "JMA list.json",
   "totalInList": 182,
   "totalUsable": 147,
   "events": [
+    {
+      "id": "20260227080954_20260227080640_VXSE5k_1.json",
+      "time": "2026-02-27T08:06:00+09:00",
+      "region": "宮古島近海",
+      "regionEn": "Adjacent Sea of​ Miyakojima Island",
+      "magnitude": "5.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227080954_20260227080640_VXSE5k_1.json"
+    },
     {
       "id": "20260227062707_20260227062407_VXSE5k_1.json",
       "time": "2026-02-27T06:24:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260222021202_20260222020912_VXSE5k_1.json"
-    },
-    {
-      "id": "20260222001830_20260222001602_VXSE5k_1.json",
-      "time": "2026-02-22T00:16:00+09:00",
-      "region": "豊後水道",
-      "regionEn": "Bungosuido Strait",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260222001830_20260222001602_VXSE5k_1.json"
     }
   ]
 }
