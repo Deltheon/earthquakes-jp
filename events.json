@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-26T12:59:44.184Z",
+  "lastUpdate": "2026-02-26T14:13:03.238Z",
   "source": "JMA list.json",
-  "totalInList": 181,
-  "totalUsable": 146,
+  "totalInList": 182,
+  "totalUsable": 147,
   "events": [
+    {
+      "id": "20260226225648_20260226225408_VXSE5k_1.json",
+      "time": "2026-02-26T22:54:00+09:00",
+      "region": "岐阜県飛騨地方",
+      "regionEn": "Hida, Gifu Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260226225648_20260226225408_VXSE5k_1.json"
+    },
     {
       "id": "20260226122458_20260226122223_VXSE5k_1.json",
       "time": "2026-02-26T12:22:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260221042003_20260221041657_VXSE5k_1.json"
-    },
-    {
-      "id": "20260220232049_20260220231640_VXSE5k_1.json",
-      "time": "2026-02-20T23:16:00+09:00",
-      "region": "青森県東方沖",
-      "regionEn": "Off the east Coast of Aomori Prefecture",
-      "magnitude": "5.0",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260220232049_20260220231640_VXSE5k_1.json"
     }
   ]
 }
