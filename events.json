@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-26T14:13:03.238Z",
+  "lastUpdate": "2026-02-26T15:12:09.952Z",
   "source": "JMA list.json",
-  "totalInList": 182,
-  "totalUsable": 147,
+  "totalInList": 183,
+  "totalUsable": 148,
   "events": [
+    {
+      "id": "20260226233355_20260226233127_VXSE5k_1.json",
+      "time": "2026-02-26T23:31:00+09:00",
+      "region": "沖縄本島近海",
+      "regionEn": "Adjacent Sea of Okinawa Main Island",
+      "magnitude": "3.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260226233355_20260226233127_VXSE5k_1.json"
+    },
     {
       "id": "20260226225648_20260226225408_VXSE5k_1.json",
       "time": "2026-02-26T22:54:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260221044817_20260221044444_VXSE5k_1.json"
-    },
-    {
-      "id": "20260221042003_20260221041657_VXSE5k_1.json",
-      "time": "2026-02-21T04:16:00+09:00",
-      "region": "与那国島近海",
-      "regionEn": "Adjacent Sea of Yonagunijima Island",
-      "magnitude": "4.7",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260221042003_20260221041657_VXSE5k_1.json"
     }
   ]
 }
