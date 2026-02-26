@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-26T01:51:25.028Z",
+  "lastUpdate": "2026-02-26T04:14:10.523Z",
   "source": "JMA list.json",
-  "totalInList": 185,
-  "totalUsable": 147,
+  "totalInList": 181,
+  "totalUsable": 146,
   "events": [
+    {
+      "id": "20260226122458_20260226122223_VXSE5k_1.json",
+      "time": "2026-02-26T12:22:00+09:00",
+      "region": "石川県能登地方",
+      "regionEn": "Noto, Ishikawa Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260226122458_20260226122223_VXSE5k_1.json"
+    },
     {
       "id": "20260226052825_20260226052446_VXSE5k_1.json",
       "time": "2026-02-26T05:24:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260220232049_20260220231640_VXSE5k_1.json"
-    },
-    {
-      "id": "20260220224303_20260220224007_VXSE5k_1.json",
-      "time": "2026-02-20T22:40:00+09:00",
-      "region": "千葉県南部",
-      "regionEn": "Southern Chiba Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260220224303_20260220224007_VXSE5k_1.json"
     }
   ]
 }
