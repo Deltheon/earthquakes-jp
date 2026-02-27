@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-02-27T01:50:21.750Z",
+  "lastUpdate": "2026-02-27T04:11:23.231Z",
   "source": "JMA list.json",
-  "totalInList": 182,
-  "totalUsable": 147,
+  "totalInList": 179,
+  "totalUsable": 146,
   "events": [
+    {
+      "id": "20260227125018_20260227124609_VXSE5k_1.json",
+      "time": "2026-02-27T12:46:00+09:00",
+      "region": "宮古島北西沖",
+      "regionEn": "Off the northwest Coast of Miyakojima Island",
+      "magnitude": "4.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227125018_20260227124609_VXSE5k_1.json"
+    },
+    {
+      "id": "20260227122258_20260227121927_VXSE5k_1.json",
+      "time": "2026-02-27T12:19:00+09:00",
+      "region": "宮古島北西沖",
+      "regionEn": "Off the northwest Coast of Miyakojima Island",
+      "magnitude": "4.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227122258_20260227121927_VXSE5k_1.json"
+    },
+    {
+      "id": "20260227115953_20260227115442_VXSE5k_1.json",
+      "time": "2026-02-27T11:55:00+09:00",
+      "region": "宮古島近海",
+      "regionEn": "Adjacent Sea of​ Miyakojima Island",
+      "magnitude": "5.4",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227115953_20260227115442_VXSE5k_1.json"
+    },
     {
       "id": "20260227080954_20260227080640_VXSE5k_1.json",
       "time": "2026-02-27T08:06:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260222223035_20260222222804_VXSE5k_1.json"
-    },
-    {
-      "id": "20260222123927_20260222123649_VXSE5k_1.json",
-      "time": "2026-02-22T12:36:00+09:00",
-      "region": "宮城県沖",
-      "regionEn": "Off the Coast of Miyagi Prefecture",
-      "magnitude": "3.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260222123927_20260222123649_VXSE5k_1.json"
-    },
-    {
-      "id": "20260222061548_20260222061321_VXSE5k_1.json",
-      "time": "2026-02-22T06:13:00+09:00",
-      "region": "岐阜県飛騨地方",
-      "regionEn": "Hida, Gifu Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260222061548_20260222061321_VXSE5k_1.json"
-    },
-    {
-      "id": "20260222021202_20260222020912_VXSE5k_1.json",
-      "time": "2026-02-22T02:09:00+09:00",
-      "region": "青森県東方沖",
-      "regionEn": "Off the east Coast of Aomori Prefecture",
-      "magnitude": "3.9",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260222021202_20260222020912_VXSE5k_1.json"
     }
   ]
 }
