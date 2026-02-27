@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-27T10:34:34.977Z",
+  "lastUpdate": "2026-02-27T11:29:39.494Z",
   "source": "JMA list.json",
-  "totalInList": 179,
+  "totalInList": 177,
   "totalUsable": 148,
   "events": [
+    {
+      "id": "20260227200402_20260227200114_VXSE5k_1.json",
+      "time": "2026-02-27T20:01:00+09:00",
+      "region": "宮古島北西沖",
+      "regionEn": "Off the northwest Coast of Miyakojima Island",
+      "magnitude": "4.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227200402_20260227200114_VXSE5k_1.json"
+    },
     {
       "id": "20260227154705_20260227154336_VXSE5k_1.json",
       "time": "2026-02-27T15:43:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260223201024_20260223200715_VXSE5k_1.json"
-    },
-    {
-      "id": "20260223143738_20260223143509_VXSE5k_1.json",
-      "time": "2026-02-23T14:35:00+09:00",
-      "region": "三重県南部",
-      "regionEn": "Southern Mie Prefecture",
-      "magnitude": "3.2",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260223143738_20260223143509_VXSE5k_1.json"
     }
   ]
 }
