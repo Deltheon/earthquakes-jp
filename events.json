@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-02-27T22:49:42.962Z",
+  "lastUpdate": "2026-02-27T23:21:44.031Z",
   "source": "JMA list.json",
-  "totalInList": 178,
-  "totalUsable": 149,
+  "totalInList": 180,
+  "totalUsable": 151,
   "events": [
+    {
+      "id": "20260228081144_20260228080804_VXSE5k_1.json",
+      "time": "2026-02-28T08:07:00+09:00",
+      "region": "小笠原諸島西方沖",
+      "regionEn": "Off the west Coast of Ogasawara Islands",
+      "magnitude": "4.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260228081144_20260228080804_VXSE5k_1.json"
+    },
+    {
+      "id": "20260228080146_20260228075921_VXSE5k_1.json",
+      "time": "2026-02-28T07:59:00+09:00",
+      "region": "長野県南部",
+      "regionEn": "Southern Nagano Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260228080146_20260228075921_VXSE5k_1.json"
+    },
     {
       "id": "20260227235743_20260227235438_VXSE5k_1.json",
       "time": "2026-02-27T23:54:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260224133048_20260224132708_VXSE5k_1.json"
-    },
-    {
-      "id": "20260224101115_20260224100831_VXSE5k_1.json",
-      "time": "2026-02-24T10:08:00+09:00",
-      "region": "島根県東部",
-      "regionEn": "Eastern Shimane Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260224101115_20260224100831_VXSE5k_1.json"
-    },
-    {
-      "id": "20260224080803_20260224080414_VXSE5k_1.json",
-      "time": "2026-02-24T08:04:00+09:00",
-      "region": "富山湾",
-      "regionEn": "Toyama Bay",
-      "magnitude": "4.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260224080803_20260224080414_VXSE5k_1.json"
     }
   ]
 }
