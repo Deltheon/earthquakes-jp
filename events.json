@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-02-28T01:41:48.647Z",
+  "lastUpdate": "2026-02-28T03:51:55.215Z",
   "source": "JMA list.json",
-  "totalInList": 181,
-  "totalUsable": 152,
+  "totalInList": 173,
+  "totalUsable": 148,
   "events": [
+    {
+      "id": "20260228114009_20260228113719_VXSE5k_1.json",
+      "time": "2026-02-28T11:37:00+09:00",
+      "region": "紀伊水道",
+      "regionEn": "Kiisuido Strait",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260228114009_20260228113719_VXSE5k_1.json"
+    },
+    {
+      "id": "20260228105414_20260228104929_VXSE5k_1.json",
+      "time": "2026-02-28T10:49:00+09:00",
+      "region": "宮古島近海",
+      "regionEn": "Adjacent Sea of​ Miyakojima Island",
+      "magnitude": "5.6",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260228105414_20260228104929_VXSE5k_1.json"
+    },
     {
       "id": "20260228085818_20260228085516_VXSE5k_1.json",
       "time": "2026-02-28T08:55:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260225030849_20260225030535_VXSE5k_1.json"
-    },
-    {
-      "id": "20260224194819_20260224194531_VXSE5k_1.json",
-      "time": "2026-02-24T19:45:00+09:00",
-      "region": "岩手県内陸北部",
-      "regionEn": "Northern Inland of Iwate Prefecture",
-      "magnitude": "3.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260224194819_20260224194531_VXSE5k_1.json"
-    },
-    {
-      "id": "20260224134028_20260224133732_VXSE5k_1.json",
-      "time": "2026-02-24T13:37:00+09:00",
-      "region": "台湾付近",
-      "regionEn": "the vicinity of Taiwan",
-      "magnitude": "4.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260224134028_20260224133732_VXSE5k_1.json"
     }
   ]
 }
