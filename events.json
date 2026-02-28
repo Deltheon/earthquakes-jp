@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-02-28T11:16:35.264Z",
+  "lastUpdate": "2026-02-28T11:40:28.273Z",
   "source": "JMA list.json",
-  "totalInList": 174,
-  "totalUsable": 149,
+  "totalInList": 175,
+  "totalUsable": 150,
   "events": [
+    {
+      "id": "20260228202208_20260228201900_VXSE5k_1.json",
+      "time": "2026-02-28T20:19:00+09:00",
+      "region": "宮古島近海",
+      "regionEn": "Adjacent Sea of​ Miyakojima Island",
+      "magnitude": "4.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260228202208_20260228201900_VXSE5k_1.json"
+    },
     {
       "id": "20260228200442_20260228200132_VXSE5k_1.json",
       "time": "2026-02-28T20:01:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260225165143_20260225164903_VXSE5k_1.json"
-    },
-    {
-      "id": "20260225040042_20260225035802_VXSE5k_1.json",
-      "time": "2026-02-25T03:58:00+09:00",
-      "region": "上川地方北部",
-      "regionEn": "Northern Kamikawa Region, Hokkaido",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260225040042_20260225035802_VXSE5k_1.json"
     }
   ]
 }
