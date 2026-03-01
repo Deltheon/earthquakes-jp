@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-03-01T15:44:56.574Z",
+  "lastUpdate": "2026-03-01T16:24:05.883Z",
   "source": "JMA list.json",
-  "totalInList": 178,
-  "totalUsable": 151,
+  "totalInList": 180,
+  "totalUsable": 153,
   "events": [
+    {
+      "id": "20260302005938_20260302005656_VXSE5k_1.json",
+      "time": "2026-03-02T00:56:00+09:00",
+      "region": "石川県能登地方",
+      "regionEn": "Noto, Ishikawa Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260302005938_20260302005656_VXSE5k_1.json"
+    },
+    {
+      "id": "20260302005311_20260302005035_VXSE5k_1.json",
+      "time": "2026-03-02T00:50:00+09:00",
+      "region": "愛媛県南予",
+      "regionEn": "Nanyo,  Ehime Prefecture",
+      "magnitude": "3.3",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260302005311_20260302005035_VXSE5k_1.json"
+    },
     {
       "id": "20260301231202_20260301230918_VXSE5k_1.json",
       "time": "2026-03-01T23:09:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227115953_20260227115442_VXSE5k_1.json"
-    },
-    {
-      "id": "20260227080954_20260227080640_VXSE5k_1.json",
-      "time": "2026-02-27T08:06:00+09:00",
-      "region": "宮古島近海",
-      "regionEn": "Adjacent Sea of​ Miyakojima Island",
-      "magnitude": "5.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227080954_20260227080640_VXSE5k_1.json"
-    },
-    {
-      "id": "20260227062707_20260227062407_VXSE5k_1.json",
-      "time": "2026-02-27T06:24:00+09:00",
-      "region": "上川地方北部",
-      "regionEn": "Northern Kamikawa Region, Hokkaido",
-      "magnitude": "4.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227062707_20260227062407_VXSE5k_1.json"
     }
   ]
 }
