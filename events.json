@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-01T08:55:10.874Z",
+  "lastUpdate": "2026-03-01T09:27:31.866Z",
   "source": "JMA list.json",
-  "totalInList": 174,
-  "totalUsable": 149,
+  "totalInList": 177,
+  "totalUsable": 150,
   "events": [
+    {
+      "id": "20260301180428_20260301180025_VXSE5k_1.json",
+      "time": "2026-03-01T18:00:00+09:00",
+      "region": "薩摩半島西方沖",
+      "regionEn": "Off the west Coast of Satsuma Peninsula",
+      "magnitude": "5.4",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260301180428_20260301180025_VXSE5k_1.json"
+    },
     {
       "id": "20260301141857_20260301141620_VXSE5k_1.json",
       "time": "2026-03-01T14:16:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260226233355_20260226233127_VXSE5k_1.json"
-    },
-    {
-      "id": "20260226225648_20260226225408_VXSE5k_1.json",
-      "time": "2026-02-26T22:54:00+09:00",
-      "region": "岐阜県飛騨地方",
-      "regionEn": "Hida, Gifu Prefecture",
-      "magnitude": "2.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260226225648_20260226225408_VXSE5k_1.json"
     }
   ]
 }
