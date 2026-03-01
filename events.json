@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-01T18:29:12.143Z",
+  "lastUpdate": "2026-03-01T18:57:55.705Z",
   "source": "JMA list.json",
-  "totalInList": 180,
+  "totalInList": 178,
   "totalUsable": 153,
   "events": [
+    {
+      "id": "20260302034152_20260302033852_VXSE5k_1.json",
+      "time": "2026-03-02T03:38:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "4.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260302034152_20260302033852_VXSE5k_1.json"
+    },
     {
       "id": "20260302005938_20260302005656_VXSE5k_1.json",
       "time": "2026-03-02T00:56:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227122258_20260227121927_VXSE5k_1.json"
-    },
-    {
-      "id": "20260227115953_20260227115442_VXSE5k_1.json",
-      "time": "2026-02-27T11:55:00+09:00",
-      "region": "宮古島近海",
-      "regionEn": "Adjacent Sea of​ Miyakojima Island",
-      "magnitude": "5.4",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227115953_20260227115442_VXSE5k_1.json"
     }
   ]
 }
