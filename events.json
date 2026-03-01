@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-01T04:33:04.713Z",
+  "lastUpdate": "2026-03-01T05:49:53.718Z",
   "source": "JMA list.json",
   "totalInList": 174,
   "totalUsable": 149,
   "events": [
+    {
+      "id": "20260301141857_20260301141620_VXSE5k_1.json",
+      "time": "2026-03-01T14:16:00+09:00",
+      "region": "伊豆大島近海",
+      "regionEn": "Adjacent Sea of ​​Izu-Oshima Island",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260301141857_20260301141620_VXSE5k_1.json"
+    },
     {
       "id": "20260301124352_20260301124110_VXSE5k_1.json",
       "time": "2026-03-01T12:41:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260226225648_20260226225408_VXSE5k_1.json"
-    },
-    {
-      "id": "20260226122458_20260226122223_VXSE5k_1.json",
-      "time": "2026-02-26T12:22:00+09:00",
-      "region": "石川県能登地方",
-      "regionEn": "Noto, Ishikawa Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260226122458_20260226122223_VXSE5k_1.json"
     }
   ]
 }
