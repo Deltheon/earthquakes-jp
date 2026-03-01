@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-01T02:02:22.782Z",
+  "lastUpdate": "2026-03-01T04:33:04.713Z",
   "source": "JMA list.json",
   "totalInList": 174,
   "totalUsable": 149,
   "events": [
+    {
+      "id": "20260301124352_20260301124110_VXSE5k_1.json",
+      "time": "2026-03-01T12:41:00+09:00",
+      "region": "大分県西部",
+      "regionEn": "Western Oita Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260301124352_20260301124110_VXSE5k_1.json"
+    },
     {
       "id": "20260301093822_20260301093515_VXSE5k_1.json",
       "time": "2026-03-01T09:35:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260226122458_20260226122223_VXSE5k_1.json"
-    },
-    {
-      "id": "20260226052825_20260226052446_VXSE5k_1.json",
-      "time": "2026-02-26T05:24:00+09:00",
-      "region": "茨城県南部",
-      "regionEn": "Southern Ibaraki Prefecture",
-      "magnitude": "3.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260226052825_20260226052446_VXSE5k_1.json"
     }
   ]
 }
