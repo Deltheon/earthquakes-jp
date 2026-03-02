@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-02T08:40:31.552Z",
+  "lastUpdate": "2026-03-02T09:44:33.729Z",
   "source": "JMA list.json",
-  "totalInList": 175,
-  "totalUsable": 152,
+  "totalInList": 176,
+  "totalUsable": 153,
   "events": [
+    {
+      "id": "20260302182626_20260302182337_VXSE5k_1.json",
+      "time": "2026-03-02T18:23:00+09:00",
+      "region": "宮古島近海",
+      "regionEn": "Adjacent Sea of​ Miyakojima Island",
+      "magnitude": "4.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260302182626_20260302182337_VXSE5k_1.json"
+    },
     {
       "id": "20260302142306_20260302141929_VXSE5k_1.json",
       "time": "2026-03-02T14:19:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227154705_20260227154336_VXSE5k_1.json"
-    },
-    {
-      "id": "20260227151625_20260227151130_VXSE5k_1.json",
-      "time": "2026-02-27T15:11:00+09:00",
-      "region": "宮古島近海",
-      "regionEn": "Adjacent Sea of​ Miyakojima Island",
-      "magnitude": "5.0",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227151625_20260227151130_VXSE5k_1.json"
     }
   ]
 }
