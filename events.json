@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-03-02T04:12:10.084Z",
+  "lastUpdate": "2026-03-02T05:34:23.856Z",
   "source": "JMA list.json",
-  "totalInList": 172,
-  "totalUsable": 149,
+  "totalInList": 175,
+  "totalUsable": 152,
   "events": [
+    {
+      "id": "20260302142306_20260302141929_VXSE5k_1.json",
+      "time": "2026-03-02T14:19:00+09:00",
+      "region": "トカラ列島近海",
+      "regionEn": "Adjacent Sea of Tokara Islands",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260302142306_20260302141929_VXSE5k_1.json"
+    },
+    {
+      "id": "20260302140008_20260302135636_VXSE5k_1.json",
+      "time": "2026-03-02T13:56:00+09:00",
+      "region": "宮古島北西沖",
+      "regionEn": "Off the northwest Coast of Miyakojima Island",
+      "magnitude": "5.4",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260302140008_20260302135636_VXSE5k_1.json"
+    },
+    {
+      "id": "20260302131848_20260302131558_VXSE5k_1.json",
+      "time": "2026-03-02T13:15:00+09:00",
+      "region": "群馬県南部",
+      "regionEn": "Southern Gunma Prefecture",
+      "magnitude": "3.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260302131848_20260302131558_VXSE5k_1.json"
+    },
     {
       "id": "20260302034152_20260302033852_VXSE5k_1.json",
       "time": "2026-03-02T03:38:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227151625_20260227151130_VXSE5k_1.json"
-    },
-    {
-      "id": "20260227145359_20260227145048_VXSE5k_1.json",
-      "time": "2026-02-27T14:50:00+09:00",
-      "region": "宮古島北西沖",
-      "regionEn": "Off the northwest Coast of Miyakojima Island",
-      "magnitude": "4.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227145359_20260227145048_VXSE5k_1.json"
-    },
-    {
-      "id": "20260227125018_20260227124609_VXSE5k_1.json",
-      "time": "2026-02-27T12:46:00+09:00",
-      "region": "宮古島北西沖",
-      "regionEn": "Off the northwest Coast of Miyakojima Island",
-      "magnitude": "4.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227125018_20260227124609_VXSE5k_1.json"
-    },
-    {
-      "id": "20260227122258_20260227121927_VXSE5k_1.json",
-      "time": "2026-02-27T12:19:00+09:00",
-      "region": "宮古島北西沖",
-      "regionEn": "Off the northwest Coast of Miyakojima Island",
-      "magnitude": "4.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227122258_20260227121927_VXSE5k_1.json"
     }
   ]
 }
