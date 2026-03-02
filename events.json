@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-02T10:40:40.800Z",
+  "lastUpdate": "2026-03-02T11:30:05.204Z",
   "source": "JMA list.json",
-  "totalInList": 178,
-  "totalUsable": 155,
+  "totalInList": 181,
+  "totalUsable": 156,
   "events": [
+    {
+      "id": "20260302194407_20260302193932_VXSE5k_1.json",
+      "time": "2026-03-02T19:39:00+09:00",
+      "region": "宮古島北西沖",
+      "regionEn": "Off the northwest Coast of Miyakojima Island",
+      "magnitude": "5.9",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260302194407_20260302193932_VXSE5k_1.json"
+    },
     {
       "id": "20260302193220_20260302192927_VXSE5k_1.json",
       "time": "2026-03-02T19:29:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227235140_20260227234829_VXSE5k_1.json"
-    },
-    {
-      "id": "20260227224206_20260227223917_VXSE5k_1.json",
-      "time": "2026-02-27T22:39:00+09:00",
-      "region": "北海道北西沖",
-      "regionEn": "Off the northwest Coast of Hokkaido",
-      "magnitude": "3.3",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260227224206_20260227223917_VXSE5k_1.json"
     }
   ]
 }
