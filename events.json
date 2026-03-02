@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-02T16:41:42.549Z",
+  "lastUpdate": "2026-03-02T17:42:39.371Z",
   "source": "JMA list.json",
-  "totalInList": 184,
-  "totalUsable": 159,
+  "totalInList": 185,
+  "totalUsable": 160,
   "events": [
+    {
+      "id": "20260303022448_20260303022102_VXSE5k_1.json",
+      "time": "2026-03-03T02:21:00+09:00",
+      "region": "宮古島北西沖",
+      "regionEn": "Off the northwest Coast of Miyakojima Island",
+      "magnitude": "5.3",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260303022448_20260303022102_VXSE5k_1.json"
+    },
     {
       "id": "20260303010255_20260303010001_VXSE5k_1.json",
       "time": "2026-03-03T01:00:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260228085818_20260228085516_VXSE5k_1.json"
-    },
-    {
-      "id": "20260228081144_20260228080804_VXSE5k_1.json",
-      "time": "2026-02-28T08:07:00+09:00",
-      "region": "小笠原諸島西方沖",
-      "regionEn": "Off the west Coast of Ogasawara Islands",
-      "magnitude": "4.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260228081144_20260228080804_VXSE5k_1.json"
     }
   ]
 }
