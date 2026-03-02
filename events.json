@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-02T15:38:58.449Z",
+  "lastUpdate": "2026-03-02T16:41:42.549Z",
   "source": "JMA list.json",
-  "totalInList": 183,
-  "totalUsable": 158,
+  "totalInList": 184,
+  "totalUsable": 159,
   "events": [
+    {
+      "id": "20260303010255_20260303010001_VXSE5k_1.json",
+      "time": "2026-03-03T01:00:00+09:00",
+      "region": "宮古島北西沖",
+      "regionEn": "Off the northwest Coast of Miyakojima Island",
+      "magnitude": "4.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260303010255_20260303010001_VXSE5k_1.json"
+    },
     {
       "id": "20260302204455_20260302204137_VXSE5k_1.json",
       "time": "2026-03-02T20:41:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260228081144_20260228080804_VXSE5k_1.json"
-    },
-    {
-      "id": "20260228080146_20260228075921_VXSE5k_1.json",
-      "time": "2026-02-28T07:59:00+09:00",
-      "region": "長野県南部",
-      "regionEn": "Southern Nagano Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260228080146_20260228075921_VXSE5k_1.json"
     }
   ]
 }
