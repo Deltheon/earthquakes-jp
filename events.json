@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-05T22:28:50.149Z",
+  "lastUpdate": "2026-03-05T23:37:06.068Z",
   "source": "JMA list.json",
-  "totalInList": 186,
-  "totalUsable": 159,
+  "totalInList": 187,
+  "totalUsable": 160,
   "events": [
+    {
+      "id": "20260306075714_20260306075400_VXSE5k_1.json",
+      "time": "2026-03-06T07:54:00+09:00",
+      "region": "宮古島近海",
+      "regionEn": "Adjacent Sea of​ Miyakojima Island",
+      "magnitude": "4.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260306075714_20260306075400_VXSE5k_1.json"
+    },
     {
       "id": "20260306014659_20260306014307_VXSE5k_1.json",
       "time": "2026-03-06T01:43:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260301124352_20260301124110_VXSE5k_1.json"
-    },
-    {
-      "id": "20260301093822_20260301093515_VXSE5k_1.json",
-      "time": "2026-03-01T09:35:00+09:00",
-      "region": "大隅半島東方沖",
-      "regionEn": "Off the east Coast of Osumi Peninsula",
-      "magnitude": "4.0",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260301093822_20260301093515_VXSE5k_1.json"
     }
   ]
 }
