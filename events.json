@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-05T04:10:51.084Z",
+  "lastUpdate": "2026-03-05T05:30:12.743Z",
   "source": "JMA list.json",
-  "totalInList": 185,
-  "totalUsable": 160,
+  "totalInList": 188,
+  "totalUsable": 161,
   "events": [
+    {
+      "id": "20260305142040_20260305141707_VXSE5k_1.json",
+      "time": "2026-03-05T14:17:00+09:00",
+      "region": "石川県能登地方",
+      "regionEn": "Noto, Ishikawa Prefecture",
+      "magnitude": "3.3",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260305142040_20260305141707_VXSE5k_1.json"
+    },
     {
       "id": "20260305064753_20260305064504_VXSE5k_1.json",
       "time": "2026-03-05T06:45:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260301064246_20260301063937_VXSE5k_1.json"
-    },
-    {
-      "id": "20260228220043_20260228215709_VXSE5k_1.json",
-      "time": "2026-02-28T21:57:00+09:00",
-      "region": "宮古島北西沖",
-      "regionEn": "Off the northwest Coast of Miyakojima Island",
-      "magnitude": "5.3",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260228220043_20260228215709_VXSE5k_1.json"
     }
   ]
 }
