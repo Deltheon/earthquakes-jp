@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-06T16:37:34.724Z",
+  "lastUpdate": "2026-03-06T17:32:30.104Z",
   "source": "JMA list.json",
-  "totalInList": 190,
-  "totalUsable": 162,
+  "totalInList": 191,
+  "totalUsable": 163,
   "events": [
+    {
+      "id": "20260307022840_20260307022338_VXSE5k_1.json",
+      "time": "2026-03-07T02:23:00+09:00",
+      "region": "渡島地方北部",
+      "regionEn": "Northern Oshima Region, Hokkaido",
+      "magnitude": "1.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260307022840_20260307022338_VXSE5k_1.json"
+    },
     {
       "id": "20260307011805_20260307011225_VXSE5k_1.json",
       "time": "2026-03-07T01:12:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260302005938_20260302005656_VXSE5k_1.json"
-    },
-    {
-      "id": "20260302005311_20260302005035_VXSE5k_1.json",
-      "time": "2026-03-02T00:50:00+09:00",
-      "region": "愛媛県南予",
-      "regionEn": "Nanyo,  Ehime Prefecture",
-      "magnitude": "3.3",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260302005311_20260302005035_VXSE5k_1.json"
     }
   ]
 }
