@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-07T01:45:45.354Z",
+  "lastUpdate": "2026-03-07T03:58:27.697Z",
   "source": "JMA list.json",
   "totalInList": 194,
   "totalUsable": 166,
   "events": [
+    {
+      "id": "20260307113613_20260307113325_VXSE5k_1.json",
+      "time": "2026-03-07T11:33:00+09:00",
+      "region": "網走地方",
+      "regionEn": "Abashiri Region, Hokkaido",
+      "magnitude": "2.7",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260307113613_20260307113325_VXSE5k_1.json"
+    },
     {
       "id": "20260307104131_20260307103737_VXSE5k_1.json",
       "time": "2026-03-07T10:37:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260302194407_20260302193932_VXSE5k_1.json"
-    },
-    {
-      "id": "20260302193220_20260302192927_VXSE5k_1.json",
-      "time": "2026-03-02T19:29:00+09:00",
-      "region": "長野県南部",
-      "regionEn": "Southern Nagano Prefecture",
-      "magnitude": "2.9",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260302193220_20260302192927_VXSE5k_1.json"
     }
   ]
 }
