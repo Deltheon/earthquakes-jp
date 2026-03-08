@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-03-08T12:41:57.711Z",
+  "lastUpdate": "2026-03-08T13:37:48.491Z",
   "source": "JMA list.json",
-  "totalInList": 191,
-  "totalUsable": 164,
+  "totalInList": 196,
+  "totalUsable": 166,
   "events": [
+    {
+      "id": "20260308222109_20260308221713_VXSE5k_1.json",
+      "time": "2026-03-08T22:17:00+09:00",
+      "region": "三陸沖",
+      "regionEn": "Off the Coast of Sanriku",
+      "magnitude": "6.0",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260308222109_20260308221713_VXSE5k_1.json"
+    },
+    {
+      "id": "20260308221321_20260308220839_VXSE5k_1.json",
+      "time": "2026-03-08T22:08:00+09:00",
+      "region": "三陸沖",
+      "regionEn": "Off the Coast of Sanriku",
+      "magnitude": "5.5",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260308221321_20260308220839_VXSE5k_1.json"
+    },
     {
       "id": "20260308151014_20260308150638_VXSE5k_1.json",
       "time": "2026-03-08T15:06:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260303022448_20260303022102_VXSE5k_1.json"
-    },
-    {
-      "id": "20260303010255_20260303010001_VXSE5k_1.json",
-      "time": "2026-03-03T01:00:00+09:00",
-      "region": "宮古島北西沖",
-      "regionEn": "Off the northwest Coast of Miyakojima Island",
-      "magnitude": "4.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260303010255_20260303010001_VXSE5k_1.json"
-    },
-    {
-      "id": "20260302204455_20260302204137_VXSE5k_1.json",
-      "time": "2026-03-02T20:41:00+09:00",
-      "region": "宮古島北西沖",
-      "regionEn": "Off the northwest Coast of Miyakojima Island",
-      "magnitude": "4.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260302204455_20260302204137_VXSE5k_1.json"
     }
   ]
 }
