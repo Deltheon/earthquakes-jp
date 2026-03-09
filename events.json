@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-09T15:30:07.636Z",
+  "lastUpdate": "2026-03-09T16:33:41.630Z",
   "source": "JMA list.json",
-  "totalInList": 187,
-  "totalUsable": 161,
+  "totalInList": 188,
+  "totalUsable": 162,
   "events": [
+    {
+      "id": "20260310004956_20260310004603_VXSE5k_1.json",
+      "time": "2026-03-10T00:46:00+09:00",
+      "region": "檜山地方",
+      "regionEn": "Hiyama Region, Hokkaido",
+      "magnitude": "5.9",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260310004956_20260310004603_VXSE5k_1.json"
+    },
     {
       "id": "20260309113910_20260309113622_VXSE5k_1.json",
       "time": "2026-03-09T11:36:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260304212045_20260304211805_VXSE5k_1.json"
-    },
-    {
-      "id": "20260304095154_20260304094844_VXSE5k_1.json",
-      "time": "2026-03-04T09:48:00+09:00",
-      "region": "三陸沖",
-      "regionEn": "Off the Coast of Sanriku",
-      "magnitude": "4.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260304095154_20260304094844_VXSE5k_1.json"
     }
   ]
 }
