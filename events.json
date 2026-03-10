@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-10T05:30:51.731Z",
+  "lastUpdate": "2026-03-10T06:43:52.268Z",
   "source": "JMA list.json",
-  "totalInList": 184,
-  "totalUsable": 158,
+  "totalInList": 185,
+  "totalUsable": 157,
   "events": [
+    {
+      "id": "20260310153204_20260310152812_VXSE5k_1.json",
+      "time": "2026-03-10T15:28:00+09:00",
+      "region": "福島県沖",
+      "regionEn": "Off the Coast of Fukushima Prefecture",
+      "magnitude": "4.6",
+      "maxIntensity": "4",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260310153204_20260310152812_VXSE5k_1.json"
+    },
     {
       "id": "20260310004956_20260310004603_VXSE5k_1.json",
       "time": "2026-03-10T00:46:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260304215429_20260304215141_VXSE5k_1.json"
-    },
-    {
-      "id": "20260304212045_20260304211805_VXSE5k_1.json",
-      "time": "2026-03-04T21:18:00+09:00",
-      "region": "福島県浜通り",
-      "regionEn": "Hamadori, Fukushima Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260304212045_20260304211805_VXSE5k_1.json"
     }
   ]
 }
