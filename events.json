@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-10T22:25:40.809Z",
+  "lastUpdate": "2026-03-10T22:53:51.068Z",
   "source": "JMA list.json",
   "totalInList": 184,
   "totalUsable": 156,
   "events": [
+    {
+      "id": "20260311074236_20260311073840_VXSE5k_1.json",
+      "time": "2026-03-11T07:38:00+09:00",
+      "region": "青森県東方沖",
+      "regionEn": "Off the east Coast of Aomori Prefecture",
+      "magnitude": "4.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260311074236_20260311073840_VXSE5k_1.json"
+    },
     {
       "id": "20260310205929_20260310205632_VXSE5k_1.json",
       "time": "2026-03-10T20:56:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260305195202_20260305194831_VXSE5k_1.json"
-    },
-    {
-      "id": "20260305142040_20260305141707_VXSE5k_1.json",
-      "time": "2026-03-05T14:17:00+09:00",
-      "region": "石川県能登地方",
-      "regionEn": "Noto, Ishikawa Prefecture",
-      "magnitude": "3.3",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260305142040_20260305141707_VXSE5k_1.json"
     }
   ]
 }
