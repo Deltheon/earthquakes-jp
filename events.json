@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-11T17:25:48.050Z",
+  "lastUpdate": "2026-03-11T18:09:10.794Z",
   "source": "JMA list.json",
   "totalInList": 182,
   "totalUsable": 154,
   "events": [
+    {
+      "id": "20260312025420_20260312025147_VXSE5k_1.json",
+      "time": "2026-03-12T02:51:00+09:00",
+      "region": "島根県東部",
+      "regionEn": "Eastern Shimane Prefecture",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260312025420_20260312025147_VXSE5k_1.json"
+    },
     {
       "id": "20260311185100_20260311184809_VXSE5k_1.json",
       "time": "2026-03-11T18:48:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260306014659_20260306014307_VXSE5k_1.json"
-    },
-    {
-      "id": "20260306014124_20260306013748_VXSE5k_1.json",
-      "time": "2026-03-06T01:37:00+09:00",
-      "region": "宮古島近海",
-      "regionEn": "Adjacent Sea of​ Miyakojima Island",
-      "magnitude": "4.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260306014124_20260306013748_VXSE5k_1.json"
     }
   ]
 }
