@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-11T09:39:39.290Z",
+  "lastUpdate": "2026-03-11T10:35:53.506Z",
   "source": "JMA list.json",
-  "totalInList": 183,
-  "totalUsable": 155,
+  "totalInList": 184,
+  "totalUsable": 156,
   "events": [
+    {
+      "id": "20260311185100_20260311184809_VXSE5k_1.json",
+      "time": "2026-03-11T18:48:00+09:00",
+      "region": "青森県東方沖",
+      "regionEn": "Off the east Coast of Aomori Prefecture",
+      "magnitude": "3.9",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260311185100_20260311184809_VXSE5k_1.json"
+    },
     {
       "id": "20260311074236_20260311073840_VXSE5k_1.json",
       "time": "2026-03-11T07:38:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260306014124_20260306013748_VXSE5k_1.json"
-    },
-    {
-      "id": "20260305195202_20260305194831_VXSE5k_1.json",
-      "time": "2026-03-05T19:48:00+09:00",
-      "region": "宮古島近海",
-      "regionEn": "Adjacent Sea of​ Miyakojima Island",
-      "magnitude": "5.2",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260305195202_20260305194831_VXSE5k_1.json"
     }
   ]
 }
