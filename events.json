@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-12T10:35:38.107Z",
+  "lastUpdate": "2026-03-12T11:29:35.316Z",
   "source": "JMA list.json",
   "totalInList": 179,
   "totalUsable": 151,
   "events": [
+    {
+      "id": "20260312201215_20260312200933_VXSE5k_1.json",
+      "time": "2026-03-12T20:09:00+09:00",
+      "region": "茨城県沖",
+      "regionEn": "Off the Coast of Ibaraki Prefecture",
+      "magnitude": "3.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260312201215_20260312200933_VXSE5k_1.json"
+    },
     {
       "id": "20260312025420_20260312025147_VXSE5k_1.json",
       "time": "2026-03-12T02:51:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260306075714_20260306075400_VXSE5k_1.json"
-    },
-    {
-      "id": "20260306014659_20260306014307_VXSE5k_1.json",
-      "time": "2026-03-06T01:43:00+09:00",
-      "region": "薩摩半島西方沖",
-      "regionEn": "Off the west Coast of Satsuma Peninsula",
-      "magnitude": "3.5",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260306014659_20260306014307_VXSE5k_1.json"
     }
   ]
 }
