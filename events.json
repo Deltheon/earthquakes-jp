@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-03-12T18:50:35.746Z",
+  "lastUpdate": "2026-03-12T19:40:24.679Z",
   "source": "JMA list.json",
-  "totalInList": 180,
-  "totalUsable": 152,
+  "totalInList": 181,
+  "totalUsable": 153,
   "events": [
+    {
+      "id": "20260313043038_20260313042630_VXSE5k_1.json",
+      "time": "2026-03-13T04:26:00+09:00",
+      "region": "富山県東部",
+      "regionEn": "Eastern Toyama Prefecture",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260313043038_20260313042630_VXSE5k_1.json"
+    },
+    {
+      "id": "20260313042809_20260313042517_VXSE5k_1.json",
+      "time": "2026-03-13T04:25:00+09:00",
+      "region": "富山県東部",
+      "regionEn": "Eastern Toyama Prefecture",
+      "magnitude": "4.1",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260313042809_20260313042517_VXSE5k_1.json"
+    },
+    {
+      "id": "20260313041008_20260313040710_VXSE5k_1.json",
+      "time": "2026-03-13T04:07:00+09:00",
+      "region": "富山県東部",
+      "regionEn": "Eastern Toyama Prefecture",
+      "magnitude": "3.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260313041008_20260313040710_VXSE5k_1.json"
+    },
     {
       "id": "20260312203658_20260312203352_VXSE5k_1.json",
       "time": "2026-03-12T20:33:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260306232217_20260306231944_VXSE5k_1.json"
-    },
-    {
-      "id": "20260306221921_20260306221651_VXSE5k_1.json",
-      "time": "2026-03-06T22:16:00+09:00",
-      "region": "福島県沖",
-      "regionEn": "Off the Coast of Fukushima Prefecture",
-      "magnitude": "3.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260306221921_20260306221651_VXSE5k_1.json"
-    },
-    {
-      "id": "20260306113844_20260306113352_VXSE5k_1.json",
-      "time": "2026-03-06T11:33:00+09:00",
-      "region": "北海道北西沖",
-      "regionEn": "Off the northwest Coast of Hokkaido",
-      "magnitude": "2.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260306113844_20260306113352_VXSE5k_1.json"
-    },
-    {
-      "id": "20260306112831_20260306112536_VXSE5k_1.json",
-      "time": "2026-03-06T11:25:00+09:00",
-      "region": "奄美大島近海",
-      "regionEn": "Adjacent Sea of Amami-Oshima Island",
-      "magnitude": "3.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260306112831_20260306112536_VXSE5k_1.json"
     }
   ]
 }
