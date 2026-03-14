@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-14T06:07:07.341Z",
+  "lastUpdate": "2026-03-14T07:10:18.704Z",
   "source": "JMA list.json",
   "totalInList": 177,
   "totalUsable": 151,
   "events": [
+    {
+      "id": "20260314160148_20260314155847_VXSE5k_1.json",
+      "time": "2026-03-14T15:58:00+09:00",
+      "region": "長野県南部",
+      "regionEn": "Southern Nagano Prefecture",
+      "magnitude": "2.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260314160148_20260314155847_VXSE5k_1.json"
+    },
     {
       "id": "20260314110355_20260314110022_VXSE5k_1.json",
       "time": "2026-03-14T11:00:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260307074314_20260307073928_VXSE5k_1.json"
-    },
-    {
-      "id": "20260307061654_20260307061213_VXSE5k_1.json",
-      "time": "2026-03-07T06:12:00+09:00",
-      "region": "渡島地方北部",
-      "regionEn": "Northern Oshima Region, Hokkaido",
-      "magnitude": "1.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260307061654_20260307061213_VXSE5k_1.json"
     }
   ]
 }
