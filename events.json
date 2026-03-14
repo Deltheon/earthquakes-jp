@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-14T17:52:54.743Z",
+  "lastUpdate": "2026-03-14T18:34:11.749Z",
   "source": "JMA list.json",
   "totalInList": 177,
   "totalUsable": 151,
   "events": [
+    {
+      "id": "20260315032219_20260315031944_VXSE5k_1.json",
+      "time": "2026-03-15T03:19:00+09:00",
+      "region": "岐阜県飛騨地方",
+      "regionEn": "Hida, Gifu Prefecture",
+      "magnitude": "2.7",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260315032219_20260315031944_VXSE5k_1.json"
+    },
     {
       "id": "20260314160148_20260314155847_VXSE5k_1.json",
       "time": "2026-03-14T15:58:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260307075043_20260307074757_VXSE5k_1.json"
-    },
-    {
-      "id": "20260307074314_20260307073928_VXSE5k_1.json",
-      "time": "2026-03-07T07:39:00+09:00",
-      "region": "宮古島近海",
-      "regionEn": "Adjacent Sea of​ Miyakojima Island",
-      "magnitude": "5.1",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260307074314_20260307073928_VXSE5k_1.json"
     }
   ]
 }
