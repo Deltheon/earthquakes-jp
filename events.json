@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-03-15T18:34:45.149Z",
+  "lastUpdate": "2026-03-15T19:25:40.094Z",
   "source": "JMA list.json",
-  "totalInList": 187,
-  "totalUsable": 157,
+  "totalInList": 190,
+  "totalUsable": 160,
   "events": [
+    {
+      "id": "20260316040025_20260316035701_VXSE5k_1.json",
+      "time": "2026-03-16T03:57:00+09:00",
+      "region": "青森県東方沖",
+      "regionEn": "Off the east Coast of Aomori Prefecture",
+      "magnitude": "4.9",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260316040025_20260316035701_VXSE5k_1.json"
+    },
+    {
+      "id": "20260316035620_20260316035246_VXSE5k_1.json",
+      "time": "2026-03-16T03:52:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260316035620_20260316035246_VXSE5k_1.json"
+    },
+    {
+      "id": "20260316034247_20260316033917_VXSE5k_1.json",
+      "time": "2026-03-16T03:39:00+09:00",
+      "region": "大隅半島東方沖",
+      "regionEn": "Off the east Coast of Osumi Peninsula",
+      "magnitude": "4.4",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260316034247_20260316033917_VXSE5k_1.json"
+    },
     {
       "id": "20260316020256_20260316015923_VXSE5k_1.json",
       "time": "2026-03-16T01:59:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260310205929_20260310205632_VXSE5k_1.json"
-    },
-    {
-      "id": "20260310204536_20260310204224_VXSE5k_1.json",
-      "time": "2026-03-10T20:42:00+09:00",
-      "region": "宮古島近海",
-      "regionEn": "Adjacent Sea of​ Miyakojima Island",
-      "magnitude": "4.6",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260310204536_20260310204224_VXSE5k_1.json"
-    },
-    {
-      "id": "20260310153204_20260310152812_VXSE5k_1.json",
-      "time": "2026-03-10T15:28:00+09:00",
-      "region": "福島県沖",
-      "regionEn": "Off the Coast of Fukushima Prefecture",
-      "magnitude": "4.6",
-      "maxIntensity": "4",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260310153204_20260310152812_VXSE5k_1.json"
-    },
-    {
-      "id": "20260310004956_20260310004603_VXSE5k_1.json",
-      "time": "2026-03-10T00:46:00+09:00",
-      "region": "檜山地方",
-      "regionEn": "Hiyama Region, Hokkaido",
-      "magnitude": "5.9",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260310004956_20260310004603_VXSE5k_1.json"
     }
   ]
 }
