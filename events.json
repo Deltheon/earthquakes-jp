@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-14T23:49:54.211Z",
+  "lastUpdate": "2026-03-15T02:05:17.311Z",
   "source": "JMA list.json",
-  "totalInList": 176,
-  "totalUsable": 150,
+  "totalInList": 175,
+  "totalUsable": 149,
   "events": [
+    {
+      "id": "20260315104932_20260315104601_VXSE5k_1.json",
+      "time": "2026-03-15T10:46:00+09:00",
+      "region": "東京都２３区",
+      "regionEn": "23 wards, Tokyo",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260315104932_20260315104601_VXSE5k_1.json"
+    },
     {
       "id": "20260315032219_20260315031944_VXSE5k_1.json",
       "time": "2026-03-15T03:19:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260307081511_20260307081214_VXSE5k_1.json"
-    },
-    {
-      "id": "20260307075043_20260307074757_VXSE5k_1.json",
-      "time": "2026-03-07T07:47:00+09:00",
-      "region": "長野県南部",
-      "regionEn": "Southern Nagano Prefecture",
-      "magnitude": "2.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260307075043_20260307074757_VXSE5k_1.json"
     }
   ]
 }
