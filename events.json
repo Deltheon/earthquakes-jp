@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-16T18:57:48.971Z",
+  "lastUpdate": "2026-03-16T19:53:20.187Z",
   "source": "JMA list.json",
   "totalInList": 200,
   "totalUsable": 168,
   "events": [
+    {
+      "id": "20260317040721_20260317040433_VXSE5k_1.json",
+      "time": "2026-03-17T04:04:00+09:00",
+      "region": "茨城県北部",
+      "regionEn": "Northern Ibaraki Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260317040721_20260317040433_VXSE5k_1.json"
+    },
     {
       "id": "20260317002905_20260317002539_VXSE5k_1.json",
       "time": "2026-03-17T00:25:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260313075032_20260313074704_VXSE5k_1.json"
-    },
-    {
-      "id": "20260313043038_20260313042630_VXSE5k_1.json",
-      "time": "2026-03-13T04:26:00+09:00",
-      "region": "富山県東部",
-      "regionEn": "Eastern Toyama Prefecture",
-      "magnitude": "2.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260313043038_20260313042630_VXSE5k_1.json"
     }
   ]
 }
