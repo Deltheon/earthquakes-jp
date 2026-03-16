@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-16T10:50:56.864Z",
+  "lastUpdate": "2026-03-16T11:43:38.525Z",
   "source": "JMA list.json",
-  "totalInList": 198,
-  "totalUsable": 166,
+  "totalInList": 199,
+  "totalUsable": 167,
   "events": [
+    {
+      "id": "20260316204131_20260316203805_VXSE5k_1.json",
+      "time": "2026-03-16T20:38:00+09:00",
+      "region": "伊豆大島近海",
+      "regionEn": "Adjacent Sea of ​​Izu-Oshima Island",
+      "magnitude": "4.3",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260316204131_20260316203805_VXSE5k_1.json"
+    },
     {
       "id": "20260316114824_20260316114517_VXSE5k_1.json",
       "time": "2026-03-16T11:45:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260313042809_20260313042517_VXSE5k_1.json"
-    },
-    {
-      "id": "20260313041008_20260313040710_VXSE5k_1.json",
-      "time": "2026-03-13T04:07:00+09:00",
-      "region": "富山県東部",
-      "regionEn": "Eastern Toyama Prefecture",
-      "magnitude": "3.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260313041008_20260313040710_VXSE5k_1.json"
     }
   ]
 }
