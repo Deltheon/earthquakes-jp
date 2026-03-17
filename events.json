@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-17T04:16:20.784Z",
+  "lastUpdate": "2026-03-17T05:40:56.715Z",
   "source": "JMA list.json",
-  "totalInList": 198,
-  "totalUsable": 166,
+  "totalInList": 199,
+  "totalUsable": 167,
   "events": [
+    {
+      "id": "20260317134907_20260317134546_VXSE5k_1.json",
+      "time": "2026-03-17T13:45:00+09:00",
+      "region": "福島県会津",
+      "regionEn": "Aizu,  Fukushima Prefecture",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260317134907_20260317134546_VXSE5k_1.json"
+    },
     {
       "id": "20260317040721_20260317040433_VXSE5k_1.json",
       "time": "2026-03-17T04:04:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260313112307_20260313112038_VXSE5k_1.json"
-    },
-    {
-      "id": "20260313075032_20260313074704_VXSE5k_1.json",
-      "time": "2026-03-13T07:47:00+09:00",
-      "region": "熊本県阿蘇地方",
-      "regionEn": "Aso Region, Kumamoto Prefecture",
-      "magnitude": "2.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260313075032_20260313074704_VXSE5k_1.json"
     }
   ]
 }
