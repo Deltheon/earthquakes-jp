@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-17T16:02:59.566Z",
+  "lastUpdate": "2026-03-17T17:34:09.137Z",
   "source": "JMA list.json",
   "totalInList": 199,
   "totalUsable": 167,
   "events": [
+    {
+      "id": "20260318013918_20260318013559_VXSE5k_1.json",
+      "time": "2026-03-18T01:35:00+09:00",
+      "region": "日向灘",
+      "regionEn": "Hyuganada Sea",
+      "magnitude": "3.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260318013918_20260318013559_VXSE5k_1.json"
+    },
     {
       "id": "20260317224039_20260317223651_VXSE5k_1.json",
       "time": "2026-03-17T22:36:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260314160148_20260314155847_VXSE5k_1.json"
-    },
-    {
-      "id": "20260314110355_20260314110022_VXSE5k_1.json",
-      "time": "2026-03-14T11:00:00+09:00",
-      "region": "神奈川県西部",
-      "regionEn": "Western Kanagawa Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260314110355_20260314110022_VXSE5k_1.json"
     }
   ]
 }
