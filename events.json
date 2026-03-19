@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-19T12:58:32.486Z",
+  "lastUpdate": "2026-03-19T14:09:49.158Z",
   "source": "JMA list.json",
-  "totalInList": 215,
-  "totalUsable": 179,
+  "totalInList": 216,
+  "totalUsable": 180,
   "events": [
+    {
+      "id": "20260319220226_20260319215931_VXSE5k_1.json",
+      "time": "2026-03-19T21:59:00+09:00",
+      "region": "有明海",
+      "regionEn": "Ariake Sea",
+      "magnitude": "3.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260319220226_20260319215931_VXSE5k_1.json"
+    },
     {
       "id": "20260319134958_20260319134642_VXSE5k_1.json",
       "time": "2026-03-19T13:46:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260316052911_20260316052525_VXSE5k_1.json"
-    },
-    {
-      "id": "20260316040025_20260316035701_VXSE5k_1.json",
-      "time": "2026-03-16T03:57:00+09:00",
-      "region": "青森県東方沖",
-      "regionEn": "Off the east Coast of Aomori Prefecture",
-      "magnitude": "4.9",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260316040025_20260316035701_VXSE5k_1.json"
     }
   ]
 }
