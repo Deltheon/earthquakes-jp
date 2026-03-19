@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-19T01:59:26.176Z",
+  "lastUpdate": "2026-03-19T04:28:44.349Z",
   "source": "JMA list.json",
-  "totalInList": 213,
-  "totalUsable": 177,
+  "totalInList": 214,
+  "totalUsable": 178,
   "events": [
+    {
+      "id": "20260319131246_20260319130925_VXSE5k_1.json",
+      "time": "2026-03-19T13:09:00+09:00",
+      "region": "兵庫県南東部",
+      "regionEn": "Southeastern Hyogo Prefecture",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260319131246_20260319130925_VXSE5k_1.json"
+    },
     {
       "id": "20260319062631_20260319062309_VXSE5k_1.json",
       "time": "2026-03-19T06:23:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260316035620_20260316035246_VXSE5k_1.json"
-    },
-    {
-      "id": "20260316034247_20260316033917_VXSE5k_1.json",
-      "time": "2026-03-16T03:39:00+09:00",
-      "region": "大隅半島東方沖",
-      "regionEn": "Off the east Coast of Osumi Peninsula",
-      "magnitude": "4.4",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260316034247_20260316033917_VXSE5k_1.json"
     }
   ]
 }
