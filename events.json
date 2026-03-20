@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-20T12:59:11.750Z",
+  "lastUpdate": "2026-03-20T14:03:35.375Z",
   "source": "JMA list.json",
-  "totalInList": 219,
-  "totalUsable": 185,
+  "totalInList": 220,
+  "totalUsable": 186,
   "events": [
+    {
+      "id": "20260320220829_20260320220545_VXSE5k_1.json",
+      "time": "2026-03-20T22:05:00+09:00",
+      "region": "宮崎県南部平野部",
+      "regionEn": "Plain Area of Southern Miyazaki Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260320220829_20260320220545_VXSE5k_1.json"
+    },
     {
       "id": "20260320211029_20260320210755_VXSE5k_1.json",
       "time": "2026-03-20T21:07:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260317002905_20260317002539_VXSE5k_1.json"
-    },
-    {
-      "id": "20260316204131_20260316203805_VXSE5k_1.json",
-      "time": "2026-03-16T20:38:00+09:00",
-      "region": "伊豆大島近海",
-      "regionEn": "Adjacent Sea of ​​Izu-Oshima Island",
-      "magnitude": "4.3",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260316204131_20260316203805_VXSE5k_1.json"
     }
   ]
 }
