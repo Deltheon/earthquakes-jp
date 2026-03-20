@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-20T05:33:27.082Z",
+  "lastUpdate": "2026-03-20T06:51:23.123Z",
   "source": "JMA list.json",
-  "totalInList": 217,
-  "totalUsable": 183,
+  "totalInList": 218,
+  "totalUsable": 184,
   "events": [
+    {
+      "id": "20260320152419_20260320152114_VXSE5k_1.json",
+      "time": "2026-03-20T15:21:00+09:00",
+      "region": "北海道東方沖",
+      "regionEn": "Off the east Coast of Hokkaido",
+      "magnitude": "4.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260320152419_20260320152114_VXSE5k_1.json"
+    },
     {
       "id": "20260320125349_20260320125120_VXSE5k_1.json",
       "time": "2026-03-20T12:51:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260316114824_20260316114517_VXSE5k_1.json"
-    },
-    {
-      "id": "20260316082127_20260316081853_VXSE5k_1.json",
-      "time": "2026-03-16T08:18:00+09:00",
-      "region": "千葉県北東部",
-      "regionEn": "Northeastern Chiba Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260316082127_20260316081853_VXSE5k_1.json"
     }
   ]
 }
