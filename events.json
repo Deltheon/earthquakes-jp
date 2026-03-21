@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-21T06:01:07.495Z",
+  "lastUpdate": "2026-03-21T07:07:26.660Z",
   "source": "JMA list.json",
-  "totalInList": 228,
-  "totalUsable": 190,
+  "totalInList": 231,
+  "totalUsable": 191,
   "events": [
+    {
+      "id": "20260321150749_20260321150406_VXSE5k_1.json",
+      "time": "2026-03-21T15:04:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "3.1",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260321150749_20260321150406_VXSE5k_1.json"
+    },
     {
       "id": "20260321080512_20260321080207_VXSE5k_1.json",
       "time": "2026-03-21T08:02:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260318044826_20260318044411_VXSE5k_1.json"
-    },
-    {
-      "id": "20260318013918_20260318013559_VXSE5k_1.json",
-      "time": "2026-03-18T01:35:00+09:00",
-      "region": "日向灘",
-      "regionEn": "Hyuganada Sea",
-      "magnitude": "3.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260318013918_20260318013559_VXSE5k_1.json"
     }
   ]
 }
