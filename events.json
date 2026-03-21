@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-21T10:51:43.703Z",
+  "lastUpdate": "2026-03-21T11:20:21.857Z",
   "source": "JMA list.json",
-  "totalInList": 230,
-  "totalUsable": 190,
+  "totalInList": 231,
+  "totalUsable": 191,
   "events": [
+    {
+      "id": "20260321201622_20260321201221_VXSE5k_1.json",
+      "time": "2026-03-21T20:12:00+09:00",
+      "region": "奄美大島北東沖",
+      "regionEn": "Off the northeast Coast of Amami-Oshima Island",
+      "magnitude": "5.5",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260321201622_20260321201221_VXSE5k_1.json"
+    },
     {
       "id": "20260321150749_20260321150406_VXSE5k_1.json",
       "time": "2026-03-21T15:04:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260318045104_20260318044600_VXSE5k_1.json"
-    },
-    {
-      "id": "20260318044826_20260318044411_VXSE5k_1.json",
-      "time": "2026-03-18T04:44:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "3.4",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260318044826_20260318044411_VXSE5k_1.json"
     }
   ]
 }
