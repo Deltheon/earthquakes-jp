@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-21T15:47:44.362Z",
+  "lastUpdate": "2026-03-21T16:25:55.253Z",
   "source": "JMA list.json",
-  "totalInList": 234,
-  "totalUsable": 192,
+  "totalInList": 235,
+  "totalUsable": 193,
   "events": [
+    {
+      "id": "20260322004628_20260322004340_VXSE5k_1.json",
+      "time": "2026-03-22T00:43:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.3",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260322004628_20260322004340_VXSE5k_1.json"
+    },
     {
       "id": "20260321205332_20260321205003_VXSE5k_1.json",
       "time": "2026-03-21T20:50:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260318114605_20260318114309_VXSE5k_1.json"
-    },
-    {
-      "id": "20260318061800_20260318061343_VXSE5k_1.json",
-      "time": "2026-03-18T06:13:00+09:00",
-      "region": "十勝沖",
-      "regionEn": "Off the Coast of Tokachi",
-      "magnitude": "4.1",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260318061800_20260318061343_VXSE5k_1.json"
     }
   ]
 }
