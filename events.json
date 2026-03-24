@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-24T16:04:20.356Z",
+  "lastUpdate": "2026-03-24T17:29:47.653Z",
   "source": "JMA list.json",
-  "totalInList": 233,
-  "totalUsable": 192,
+  "totalInList": 234,
+  "totalUsable": 193,
   "events": [
+    {
+      "id": "20260325021907_20260325021626_VXSE5k_1.json",
+      "time": "2026-03-25T02:16:00+09:00",
+      "region": "和歌山県北部",
+      "regionEn": "Northern Wakayama Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260325021907_20260325021626_VXSE5k_1.json"
+    },
     {
       "id": "20260324230655_20260324230357_VXSE5k_1.json",
       "time": "2026-03-24T23:03:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260320095748_20260320095438_VXSE5k_1.json"
-    },
-    {
-      "id": "20260319220226_20260319215931_VXSE5k_1.json",
-      "time": "2026-03-19T21:59:00+09:00",
-      "region": "有明海",
-      "regionEn": "Ariake Sea",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260319220226_20260319215931_VXSE5k_1.json"
     }
   ]
 }
