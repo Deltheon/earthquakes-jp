@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-24T12:02:01.387Z",
+  "lastUpdate": "2026-03-24T13:54:47.798Z",
   "source": "JMA list.json",
-  "totalInList": 232,
-  "totalUsable": 191,
+  "totalInList": 233,
+  "totalUsable": 192,
   "events": [
+    {
+      "id": "20260324221443_20260324221151_VXSE5k_1.json",
+      "time": "2026-03-24T22:11:00+09:00",
+      "region": "富山県東部",
+      "regionEn": "Eastern Toyama Prefecture",
+      "magnitude": "3.4",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260324221443_20260324221151_VXSE5k_1.json"
+    },
     {
       "id": "20260323190238_20260323185952_VXSE5k_1.json",
       "time": "2026-03-23T18:59:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260319134958_20260319134642_VXSE5k_1.json"
-    },
-    {
-      "id": "20260319131246_20260319130925_VXSE5k_1.json",
-      "time": "2026-03-19T13:09:00+09:00",
-      "region": "兵庫県南東部",
-      "regionEn": "Southeastern Hyogo Prefecture",
-      "magnitude": "2.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260319131246_20260319130925_VXSE5k_1.json"
     }
   ]
 }
