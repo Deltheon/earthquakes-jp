@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-24T17:29:47.653Z",
+  "lastUpdate": "2026-03-24T18:32:51.381Z",
   "source": "JMA list.json",
   "totalInList": 234,
   "totalUsable": 193,
   "events": [
+    {
+      "id": "20260325032536_20260325032246_VXSE5k_1.json",
+      "time": "2026-03-25T03:22:00+09:00",
+      "region": "福島県沖",
+      "regionEn": "Off the Coast of Fukushima Prefecture",
+      "magnitude": "3.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260325032536_20260325032246_VXSE5k_1.json"
+    },
     {
       "id": "20260325021907_20260325021626_VXSE5k_1.json",
       "time": "2026-03-25T02:16:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260320103709_20260320103342_VXSE5k_1.json"
-    },
-    {
-      "id": "20260320095748_20260320095438_VXSE5k_1.json",
-      "time": "2026-03-20T09:54:00+09:00",
-      "region": "トカラ列島近海",
-      "regionEn": "Adjacent Sea of Tokara Islands",
-      "magnitude": "2.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260320095748_20260320095438_VXSE5k_1.json"
     }
   ]
 }
