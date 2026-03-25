@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-25T11:39:20.638Z",
+  "lastUpdate": "2026-03-25T13:03:14.463Z",
   "source": "JMA list.json",
-  "totalInList": 242,
-  "totalUsable": 197,
+  "totalInList": 243,
+  "totalUsable": 198,
   "events": [
+    {
+      "id": "20260325203738_20260325203313_VXSE5k_1.json",
+      "time": "2026-03-25T20:33:00+09:00",
+      "region": "福岡県筑後地方",
+      "regionEn": "Chikugo Region,  Fukuoka Prefecture",
+      "magnitude": "4.0",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260325203738_20260325203313_VXSE5k_1.json"
+    },
     {
       "id": "20260325203510_20260325203116_VXSE5k_1.json",
       "time": "2026-03-25T20:31:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260321033558_20260321033255_VXSE5k_1.json"
-    },
-    {
-      "id": "20260321031854_20260321031555_VXSE5k_1.json",
-      "time": "2026-03-21T03:15:00+09:00",
-      "region": "福島県会津",
-      "regionEn": "Aizu,  Fukushima Prefecture",
-      "magnitude": "2.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260321031854_20260321031555_VXSE5k_1.json"
     }
   ]
 }
