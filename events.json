@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-26T20:00:46.407Z",
+  "lastUpdate": "2026-03-26T20:57:28.204Z",
   "source": "JMA list.json",
-  "totalInList": 254,
-  "totalUsable": 204,
+  "totalInList": 250,
+  "totalUsable": 202,
   "events": [
+    {
+      "id": "20260327045942_20260327045638_VXSE5k_1.json",
+      "time": "2026-03-27T04:56:00+09:00",
+      "region": "三陸沖",
+      "regionEn": "Off the Coast of Sanriku",
+      "magnitude": "4.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260327045942_20260327045638_VXSE5k_1.json"
+    },
     {
       "id": "20260327015940_20260327015547_VXSE5k_1.json",
       "time": "2026-03-27T01:55:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260323094336_20260323094023_VXSE5k_1.json"
-    },
-    {
-      "id": "20260322175907_20260322175614_VXSE5k_1.json",
-      "time": "2026-03-22T17:56:00+09:00",
-      "region": "房総半島南方沖",
-      "regionEn": "Off the south Coast of Boso Peninsula",
-      "magnitude": "4.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260322175907_20260322175614_VXSE5k_1.json"
     }
   ]
 }
