@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-03-26T16:09:55.329Z",
+  "lastUpdate": "2026-03-26T17:34:11.326Z",
   "source": "JMA list.json",
-  "totalInList": 252,
-  "totalUsable": 202,
+  "totalInList": 254,
+  "totalUsable": 204,
   "events": [
+    {
+      "id": "20260327015940_20260327015547_VXSE5k_1.json",
+      "time": "2026-03-27T01:55:00+09:00",
+      "region": "三陸沖",
+      "regionEn": "Off the Coast of Sanriku",
+      "magnitude": "4.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260327015940_20260327015547_VXSE5k_1.json"
+    },
+    {
+      "id": "20260327012409_20260327012038_VXSE5k_1.json",
+      "time": "2026-03-27T01:20:00+09:00",
+      "region": "三陸沖",
+      "regionEn": "Off the Coast of Sanriku",
+      "magnitude": "4.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260327012409_20260327012038_VXSE5k_1.json"
+    },
     {
       "id": "20260326235011_20260326234712_VXSE5k_1.json",
       "time": "2026-03-26T23:47:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260322175907_20260322175614_VXSE5k_1.json"
-    },
-    {
-      "id": "20260322124649_20260322124407_VXSE5k_1.json",
-      "time": "2026-03-22T12:44:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "2.8",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260322124649_20260322124407_VXSE5k_1.json"
-    },
-    {
-      "id": "20260322084015_20260322083649_VXSE5k_1.json",
-      "time": "2026-03-22T08:36:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "2.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260322084015_20260322083649_VXSE5k_1.json"
     }
   ]
 }
