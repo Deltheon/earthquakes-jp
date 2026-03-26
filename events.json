@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-26T08:51:21.431Z",
+  "lastUpdate": "2026-03-26T09:58:33.477Z",
   "source": "JMA list.json",
-  "totalInList": 244,
-  "totalUsable": 197,
+  "totalInList": 245,
+  "totalUsable": 198,
   "events": [
+    {
+      "id": "20260326175502_20260326175156_VXSE5k_1.json",
+      "time": "2026-03-26T17:51:00+09:00",
+      "region": "三陸沖",
+      "regionEn": "Off the Coast of Sanriku",
+      "magnitude": "4.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260326175502_20260326175156_VXSE5k_1.json"
+    },
     {
       "id": "20260326164204_20260326163759_VXSE5k_1.json",
       "time": "2026-03-26T16:37:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "4",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260321204623_20260321204238_VXSE5k_1.json"
-    },
-    {
-      "id": "20260321201622_20260321201221_VXSE5k_1.json",
-      "time": "2026-03-21T20:12:00+09:00",
-      "region": "奄美大島北東沖",
-      "regionEn": "Off the northeast Coast of Amami-Oshima Island",
-      "magnitude": "5.5",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260321201622_20260321201221_VXSE5k_1.json"
     }
   ]
 }
