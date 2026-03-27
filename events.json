@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-27T06:11:02.737Z",
+  "lastUpdate": "2026-03-27T07:39:57.821Z",
   "source": "JMA list.json",
-  "totalInList": 252,
-  "totalUsable": 204,
+  "totalInList": 253,
+  "totalUsable": 205,
   "events": [
+    {
+      "id": "20260327160431_20260327160155_VXSE5k_1.json",
+      "time": "2026-03-27T16:01:00+09:00",
+      "region": "宮古島近海",
+      "regionEn": "Adjacent Sea of​ Miyakojima Island",
+      "magnitude": "4.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260327160431_20260327160155_VXSE5k_1.json"
+    },
     {
       "id": "20260327111911_20260327111648_VXSE5k_1.json",
       "time": "2026-03-27T11:16:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260323190238_20260323185952_VXSE5k_1.json"
-    },
-    {
-      "id": "20260323151309_20260323151021_VXSE5k_1.json",
-      "time": "2026-03-23T15:10:00+09:00",
-      "region": "福島県浜通り",
-      "regionEn": "Hamadori, Fukushima Prefecture",
-      "magnitude": "3.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260323151309_20260323151021_VXSE5k_1.json"
     }
   ]
 }
