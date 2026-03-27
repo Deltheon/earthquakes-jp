@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-27T16:12:34.020Z",
+  "lastUpdate": "2026-03-27T17:25:20.593Z",
   "source": "JMA list.json",
-  "totalInList": 256,
+  "totalInList": 254,
   "totalUsable": 208,
   "events": [
+    {
+      "id": "20260328022240_20260328021917_VXSE5k_1.json",
+      "time": "2026-03-28T02:19:00+09:00",
+      "region": "青森県東方沖",
+      "regionEn": "Off the east Coast of Aomori Prefecture",
+      "magnitude": "4.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260328022240_20260328021917_VXSE5k_1.json"
+    },
     {
       "id": "20260328004257_20260328003958_VXSE5k_1.json",
       "time": "2026-03-28T00:40:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260325074215_20260325073937_VXSE5k_1.json"
-    },
-    {
-      "id": "20260325060859_20260325060618_VXSE5k_1.json",
-      "time": "2026-03-25T06:06:00+09:00",
-      "region": "薩摩半島西方沖",
-      "regionEn": "Off the west Coast of Satsuma Peninsula",
-      "magnitude": "2.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260325060859_20260325060618_VXSE5k_1.json"
     }
   ]
 }
