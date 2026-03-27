@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-27T14:15:00.838Z",
+  "lastUpdate": "2026-03-27T15:24:48.656Z",
   "source": "JMA list.json",
-  "totalInList": 253,
-  "totalUsable": 205,
+  "totalInList": 254,
+  "totalUsable": 206,
   "events": [
+    {
+      "id": "20260327232924_20260327232631_VXSE5k_1.json",
+      "time": "2026-03-27T23:26:00+09:00",
+      "region": "網走地方",
+      "regionEn": "Abashiri Region, Hokkaido",
+      "magnitude": "3.2",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260327232924_20260327232631_VXSE5k_1.json"
+    },
     {
       "id": "20260327230036_20260327225739_VXSE5k_1.json",
       "time": "2026-03-27T22:57:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260325032536_20260325032246_VXSE5k_1.json"
-    },
-    {
-      "id": "20260325021907_20260325021626_VXSE5k_1.json",
-      "time": "2026-03-25T02:16:00+09:00",
-      "region": "和歌山県北部",
-      "regionEn": "Northern Wakayama Prefecture",
-      "magnitude": "2.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260325021907_20260325021626_VXSE5k_1.json"
     }
   ]
 }
