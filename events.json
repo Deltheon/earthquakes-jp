@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-28T10:29:02.123Z",
+  "lastUpdate": "2026-03-28T11:00:06.505Z",
   "source": "JMA list.json",
-  "totalInList": 255,
-  "totalUsable": 209,
+  "totalInList": 256,
+  "totalUsable": 210,
   "events": [
+    {
+      "id": "20260328193940_20260328193622_VXSE5k_1.json",
+      "time": "2026-03-28T19:36:00+09:00",
+      "region": "伊豆大島近海",
+      "regionEn": "Adjacent Sea of ​​Izu-Oshima Island",
+      "magnitude": "4.0",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260328193940_20260328193622_VXSE5k_1.json"
+    },
     {
       "id": "20260328182240_20260328181952_VXSE5k_1.json",
       "time": "2026-03-28T18:19:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260325203738_20260325203313_VXSE5k_1.json"
-    },
-    {
-      "id": "20260325203510_20260325203116_VXSE5k_1.json",
-      "time": "2026-03-25T20:31:00+09:00",
-      "region": "兵庫県南東部",
-      "regionEn": "Southeastern Hyogo Prefecture",
-      "magnitude": "4.2",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260325203510_20260325203116_VXSE5k_1.json"
     }
   ]
 }
