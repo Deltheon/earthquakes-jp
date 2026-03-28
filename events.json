@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-28T08:35:07.280Z",
+  "lastUpdate": "2026-03-28T09:34:22.071Z",
   "source": "JMA list.json",
-  "totalInList": 254,
-  "totalUsable": 208,
+  "totalInList": 255,
+  "totalUsable": 209,
   "events": [
+    {
+      "id": "20260328182240_20260328181952_VXSE5k_1.json",
+      "time": "2026-03-28T18:19:00+09:00",
+      "region": "トカラ列島近海",
+      "regionEn": "Adjacent Sea of Tokara Islands",
+      "magnitude": "3.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260328182240_20260328181952_VXSE5k_1.json"
+    },
     {
       "id": "20260328143719_20260328143422_VXSE5k_1.json",
       "time": "2026-03-28T14:34:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260325203510_20260325203116_VXSE5k_1.json"
-    },
-    {
-      "id": "20260325200955_20260325200653_VXSE5k_1.json",
-      "time": "2026-03-25T20:06:00+09:00",
-      "region": "新島・神津島近海",
-      "regionEn": "Adjacent Sea of Niijima Island, Kozushima Island",
-      "magnitude": "2.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260325200955_20260325200653_VXSE5k_1.json"
     }
   ]
 }
