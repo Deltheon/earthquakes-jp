@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-28T17:54:03.231Z",
+  "lastUpdate": "2026-03-28T18:36:13.524Z",
   "source": "JMA list.json",
-  "totalInList": 255,
-  "totalUsable": 209,
+  "totalInList": 256,
+  "totalUsable": 210,
   "events": [
+    {
+      "id": "20260329030246_20260329025949_VXSE5k_1.json",
+      "time": "2026-03-29T02:59:00+09:00",
+      "region": "与那国島近海",
+      "regionEn": "Adjacent Sea of Yonagunijima Island",
+      "magnitude": "4.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260329030246_20260329025949_VXSE5k_1.json"
+    },
     {
       "id": "20260328213536_20260328213304_VXSE5k_1.json",
       "time": "2026-03-28T21:33:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260326101108_20260326100819_VXSE5k_1.json"
-    },
-    {
-      "id": "20260326004744_20260326004354_VXSE5k_1.json",
-      "time": "2026-03-26T00:43:00+09:00",
-      "region": "新島・神津島近海",
-      "regionEn": "Adjacent Sea of Niijima Island, Kozushima Island",
-      "magnitude": "2.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260326004744_20260326004354_VXSE5k_1.json"
     }
   ]
 }
