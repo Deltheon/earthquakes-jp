@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-28T11:35:48.385Z",
+  "lastUpdate": "2026-03-28T12:49:36.008Z",
   "source": "JMA list.json",
-  "totalInList": 256,
-  "totalUsable": 210,
+  "totalInList": 257,
+  "totalUsable": 211,
   "events": [
+    {
+      "id": "20260328213536_20260328213304_VXSE5k_1.json",
+      "time": "2026-03-28T21:33:00+09:00",
+      "region": "茨城県北部",
+      "regionEn": "Northern Ibaraki Prefecture",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260328213536_20260328213304_VXSE5k_1.json"
+    },
     {
       "id": "20260328193940_20260328193622_VXSE5k_1.json",
       "time": "2026-03-28T19:36:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260326004744_20260326004354_VXSE5k_1.json"
-    },
-    {
-      "id": "20260325203738_20260325203313_VXSE5k_1.json",
-      "time": "2026-03-25T20:33:00+09:00",
-      "region": "福岡県筑後地方",
-      "regionEn": "Chikugo Region,  Fukuoka Prefecture",
-      "magnitude": "4.0",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260325203738_20260325203313_VXSE5k_1.json"
     }
   ]
 }
