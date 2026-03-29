@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-29T08:36:49.617Z",
+  "lastUpdate": "2026-03-29T09:34:03.852Z",
   "source": "JMA list.json",
-  "totalInList": 250,
-  "totalUsable": 204,
+  "totalInList": 251,
+  "totalUsable": 205,
   "events": [
+    {
+      "id": "20260329174535_20260329174239_VXSE5k_1.json",
+      "time": "2026-03-29T17:42:00+09:00",
+      "region": "トカラ列島近海",
+      "regionEn": "Adjacent Sea of Tokara Islands",
+      "magnitude": "2.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260329174535_20260329174239_VXSE5k_1.json"
+    },
     {
       "id": "20260329161223_20260329160810_VXSE5k_1.json",
       "time": "2026-03-29T16:08:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260326175502_20260326175156_VXSE5k_1.json"
-    },
-    {
-      "id": "20260326164204_20260326163759_VXSE5k_1.json",
-      "time": "2026-03-26T16:37:00+09:00",
-      "region": "青森県東方沖",
-      "regionEn": "Off the east Coast of Aomori Prefecture",
-      "magnitude": "4.7",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260326164204_20260326163759_VXSE5k_1.json"
     }
   ]
 }
