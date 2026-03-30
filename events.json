@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-30T03:31:06.517Z",
+  "lastUpdate": "2026-03-30T05:57:01.272Z",
   "source": "JMA list.json",
-  "totalInList": 247,
-  "totalUsable": 201,
+  "totalInList": 248,
+  "totalUsable": 202,
   "events": [
+    {
+      "id": "20260330123436_20260330123134_VXSE5k_1.json",
+      "time": "2026-03-30T12:31:00+09:00",
+      "region": "沖縄本島近海",
+      "regionEn": "Adjacent Sea of Okinawa Main Island",
+      "magnitude": "4.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260330123436_20260330123134_VXSE5k_1.json"
+    },
     {
       "id": "20260330101615_20260330101245_VXSE5k_1.json",
       "time": "2026-03-30T10:12:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260327012409_20260327012038_VXSE5k_1.json"
-    },
-    {
-      "id": "20260326235011_20260326234712_VXSE5k_1.json",
-      "time": "2026-03-26T23:47:00+09:00",
-      "region": "三陸沖",
-      "regionEn": "Off the Coast of Sanriku",
-      "magnitude": "4.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260326235011_20260326234712_VXSE5k_1.json"
     }
   ]
 }
