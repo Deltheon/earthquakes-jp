@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-31T11:26:15.595Z",
+  "lastUpdate": "2026-03-31T12:06:50.506Z",
   "source": "JMA list.json",
-  "totalInList": 246,
+  "totalInList": 244,
   "totalUsable": 197,
   "events": [
+    {
+      "id": "20260331202551_20260331202227_VXSE5k_1.json",
+      "time": "2026-03-31T20:22:00+09:00",
+      "region": "福島県会津",
+      "regionEn": "Aizu,  Fukushima Prefecture",
+      "magnitude": "2.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260331202551_20260331202227_VXSE5k_1.json"
+    },
     {
       "id": "20260331041031_20260331040600_VXSE5k_1.json",
       "time": "2026-03-31T04:06:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260327195353_20260327195109_VXSE5k_1.json"
-    },
-    {
-      "id": "20260327160431_20260327160155_VXSE5k_1.json",
-      "time": "2026-03-27T16:01:00+09:00",
-      "region": "宮古島近海",
-      "regionEn": "Adjacent Sea of​ Miyakojima Island",
-      "magnitude": "4.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260327160431_20260327160155_VXSE5k_1.json"
     }
   ]
 }
