@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-03-31T14:07:04.026Z",
+  "lastUpdate": "2026-03-31T15:44:43.784Z",
   "source": "JMA list.json",
-  "totalInList": 244,
-  "totalUsable": 197,
+  "totalInList": 243,
+  "totalUsable": 196,
   "events": [
+    {
+      "id": "20260401004229_20260401003900_VXSE5k_1.json",
+      "time": "2026-04-01T00:39:00+09:00",
+      "region": "房総半島南方沖",
+      "regionEn": "Off the south Coast of Boso Peninsula",
+      "magnitude": "4.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260401004229_20260401003900_VXSE5k_1.json"
+    },
     {
       "id": "20260331202551_20260331202227_VXSE5k_1.json",
       "time": "2026-03-31T20:22:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260327221129_20260327220828_VXSE5k_1.json"
-    },
-    {
-      "id": "20260327195353_20260327195109_VXSE5k_1.json",
-      "time": "2026-03-27T19:51:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "2.3",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260327195353_20260327195109_VXSE5k_1.json"
     }
   ]
 }
