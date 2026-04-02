@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-02T15:58:16.704Z",
+  "lastUpdate": "2026-04-02T17:01:33.378Z",
   "source": "JMA list.json",
-  "totalInList": 243,
-  "totalUsable": 189,
+  "totalInList": 244,
+  "totalUsable": 190,
   "events": [
+    {
+      "id": "20260403014410_20260403014107_VXSE5k_1.json",
+      "time": "2026-04-03T01:41:00+09:00",
+      "region": "兵庫県南東部",
+      "regionEn": "Southeastern Hyogo Prefecture",
+      "magnitude": "3.1",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260403014410_20260403014107_VXSE5k_1.json"
+    },
     {
       "id": "20260402232621_20260402232316_VXSE5k_1.json",
       "time": "2026-04-02T23:22:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260328193940_20260328193622_VXSE5k_1.json"
-    },
-    {
-      "id": "20260328182240_20260328181952_VXSE5k_1.json",
-      "time": "2026-03-28T18:19:00+09:00",
-      "region": "トカラ列島近海",
-      "regionEn": "Adjacent Sea of Tokara Islands",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260328182240_20260328181952_VXSE5k_1.json"
     }
   ]
 }
