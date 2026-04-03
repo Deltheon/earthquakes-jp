@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-03T14:03:12.116Z",
+  "lastUpdate": "2026-04-03T15:07:44.512Z",
   "source": "JMA list.json",
-  "totalInList": 246,
-  "totalUsable": 192,
+  "totalInList": 245,
+  "totalUsable": 191,
   "events": [
+    {
+      "id": "20260403234004_20260403233709_VXSE5k_1.json",
+      "time": "2026-04-03T23:37:00+09:00",
+      "region": "岐阜県美濃中西部",
+      "regionEn": "Central and western Mino, Gifu Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260403234004_20260403233709_VXSE5k_1.json"
+    },
     {
       "id": "20260403185625_20260403185319_VXSE5k_1.json",
       "time": "2026-04-03T18:53:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260329155918_20260329155624_VXSE5k_1.json"
-    },
-    {
-      "id": "20260329081743_20260329081506_VXSE5k_1.json",
-      "time": "2026-03-29T08:15:00+09:00",
-      "region": "青森県東方沖",
-      "regionEn": "Off the east Coast of Aomori Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260329081743_20260329081506_VXSE5k_1.json"
     }
   ]
 }
