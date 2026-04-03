@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-03T08:50:03.681Z",
+  "lastUpdate": "2026-04-03T09:50:12.892Z",
   "source": "JMA list.json",
-  "totalInList": 244,
-  "totalUsable": 190,
+  "totalInList": 245,
+  "totalUsable": 191,
   "events": [
+    {
+      "id": "20260403175451_20260403175151_VXSE5k_1.json",
+      "time": "2026-04-03T17:51:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "4.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260403175451_20260403175151_VXSE5k_1.json"
+    },
     {
       "id": "20260403113624_20260403113329_VXSE5k_1.json",
       "time": "2026-04-03T11:33:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260329030246_20260329025949_VXSE5k_1.json"
-    },
-    {
-      "id": "20260328213536_20260328213304_VXSE5k_1.json",
-      "time": "2026-03-28T21:33:00+09:00",
-      "region": "茨城県北部",
-      "regionEn": "Northern Ibaraki Prefecture",
-      "magnitude": "2.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260328213536_20260328213304_VXSE5k_1.json"
     }
   ]
 }
