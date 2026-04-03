@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-03T17:31:53.240Z",
+  "lastUpdate": "2026-04-03T18:42:00.269Z",
   "source": "JMA list.json",
-  "totalInList": 247,
-  "totalUsable": 193,
+  "totalInList": 248,
+  "totalUsable": 194,
   "events": [
+    {
+      "id": "20260404031053_20260404030806_VXSE5k_1.json",
+      "time": "2026-04-04T03:08:00+09:00",
+      "region": "釧路沖",
+      "regionEn": "Off the Coast of Kushiro",
+      "magnitude": "3.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260404031053_20260404030806_VXSE5k_1.json"
+    },
     {
       "id": "20260404005652_20260404005353_VXSE5k_1.json",
       "time": "2026-04-04T00:53:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260329235618_20260329235303_VXSE5k_1.json"
-    },
-    {
-      "id": "20260329174535_20260329174239_VXSE5k_1.json",
-      "time": "2026-03-29T17:42:00+09:00",
-      "region": "トカラ列島近海",
-      "regionEn": "Adjacent Sea of Tokara Islands",
-      "magnitude": "2.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260329174535_20260329174239_VXSE5k_1.json"
     }
   ]
 }
