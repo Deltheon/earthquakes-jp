@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-04T10:29:48.580Z",
+  "lastUpdate": "2026-04-04T11:01:20.795Z",
   "source": "JMA list.json",
-  "totalInList": 252,
-  "totalUsable": 198,
+  "totalInList": 255,
+  "totalUsable": 199,
   "events": [
+    {
+      "id": "20260404194051_20260404193655_VXSE5k_1.json",
+      "time": "2026-04-04T19:36:00+09:00",
+      "region": "宮城県沖",
+      "regionEn": "Off the Coast of Miyagi Prefecture",
+      "magnitude": "4.9",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260404194051_20260404193655_VXSE5k_1.json"
+    },
     {
       "id": "20260404165230_20260404164947_VXSE5k_1.json",
       "time": "2026-04-04T16:49:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260330164958_20260330164702_VXSE5k_1.json"
-    },
-    {
-      "id": "20260330151455_20260330151202_VXSE5k_1.json",
-      "time": "2026-03-30T15:12:00+09:00",
-      "region": "十勝地方中部",
-      "regionEn": "Central Tokachi Region, Hokkaido",
-      "magnitude": "3.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260330151455_20260330151202_VXSE5k_1.json"
     }
   ]
 }
