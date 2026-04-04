@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-04T07:49:45.633Z",
+  "lastUpdate": "2026-04-04T08:37:15.269Z",
   "source": "JMA list.json",
-  "totalInList": 251,
-  "totalUsable": 197,
+  "totalInList": 252,
+  "totalUsable": 198,
   "events": [
+    {
+      "id": "20260404165230_20260404164947_VXSE5k_1.json",
+      "time": "2026-04-04T16:49:00+09:00",
+      "region": "茨城県北部",
+      "regionEn": "Northern Ibaraki Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260404165230_20260404164947_VXSE5k_1.json"
+    },
     {
       "id": "20260404154652_20260404154312_VXSE5k_1.json",
       "time": "2026-04-04T15:43:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260330151455_20260330151202_VXSE5k_1.json"
-    },
-    {
-      "id": "20260330123436_20260330123134_VXSE5k_1.json",
-      "time": "2026-03-30T12:31:00+09:00",
-      "region": "沖縄本島近海",
-      "regionEn": "Adjacent Sea of Okinawa Main Island",
-      "magnitude": "4.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260330123436_20260330123134_VXSE5k_1.json"
     }
   ]
 }
