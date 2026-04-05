@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-05T07:36:43.664Z",
+  "lastUpdate": "2026-04-05T08:39:02.783Z",
   "source": "JMA list.json",
-  "totalInList": 252,
-  "totalUsable": 198,
+  "totalInList": 253,
+  "totalUsable": 199,
   "events": [
+    {
+      "id": "20260405163753_20260405163424_VXSE5k_1.json",
+      "time": "2026-04-05T16:34:00+09:00",
+      "region": "茨城県南部",
+      "regionEn": "Southern Ibaraki Prefecture",
+      "magnitude": "3.8",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260405163753_20260405163424_VXSE5k_1.json"
+    },
     {
       "id": "20260405121655_20260405121308_VXSE5k_1.json",
       "time": "2026-04-05T12:13:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260401040028_20260401035759_VXSE5k_1.json"
-    },
-    {
-      "id": "20260401004229_20260401003900_VXSE5k_1.json",
-      "time": "2026-04-01T00:39:00+09:00",
-      "region": "房総半島南方沖",
-      "regionEn": "Off the south Coast of Boso Peninsula",
-      "magnitude": "4.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260401004229_20260401003900_VXSE5k_1.json"
     }
   ]
 }
