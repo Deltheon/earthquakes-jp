@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-04-05T23:00:49.380Z",
+  "lastUpdate": "2026-04-05T23:56:27.394Z",
   "source": "JMA list.json",
-  "totalInList": 246,
-  "totalUsable": 195,
+  "totalInList": 244,
+  "totalUsable": 193,
   "events": [
+    {
+      "id": "20260406083221_20260406082942_VXSE5k_1.json",
+      "time": "2026-04-06T08:29:00+09:00",
+      "region": "高知県中部",
+      "regionEn": "Central Kochi Prefecture",
+      "magnitude": "3.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260406083221_20260406082942_VXSE5k_1.json"
+    },
+    {
+      "id": "20260406082102_20260406081814_VXSE5k_1.json",
+      "time": "2026-04-06T08:18:00+09:00",
+      "region": "神奈川県西部",
+      "regionEn": "Western Kanagawa Prefecture",
+      "magnitude": "3.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260406082102_20260406081814_VXSE5k_1.json"
+    },
     {
       "id": "20260406023115_20260406022820_VXSE5k_1.json",
       "time": "2026-04-06T02:28:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260402013201_20260402012826_VXSE5k_1.json"
-    },
-    {
-      "id": "20260402010232_20260402005943_VXSE5k_1.json",
-      "time": "2026-04-02T00:59:00+09:00",
-      "region": "紀伊水道",
-      "regionEn": "Kiisuido Strait",
-      "magnitude": "3.0",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260402010232_20260402005943_VXSE5k_1.json"
-    },
-    {
-      "id": "20260401102210_20260401100625_VXSE5k_2.json",
-      "time": "2026-04-01T10:06:00+09:00",
-      "region": "茨城県南部",
-      "regionEn": "Southern Ibaraki Prefecture",
-      "magnitude": "5.0",
-      "maxIntensity": "5-",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260401102210_20260401100625_VXSE5k_2.json"
     }
   ]
 }
