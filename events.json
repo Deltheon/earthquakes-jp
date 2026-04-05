@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-04T23:31:54.572Z",
+  "lastUpdate": "2026-04-05T02:09:15.912Z",
   "source": "JMA list.json",
   "totalInList": 251,
   "totalUsable": 197,
   "events": [
+    {
+      "id": "20260405100606_20260405100321_VXSE5k_1.json",
+      "time": "2026-04-05T10:03:00+09:00",
+      "region": "兵庫県南東部",
+      "regionEn": "Southeastern Hyogo Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260405100606_20260405100321_VXSE5k_1.json"
+    },
     {
       "id": "20260405011732_20260405011420_VXSE5k_1.json",
       "time": "2026-04-05T01:14:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260331034634_20260331034339_VXSE5k_1.json"
-    },
-    {
-      "id": "20260330202550_20260330202310_VXSE5k_1.json",
-      "time": "2026-03-30T20:23:00+09:00",
-      "region": "岩手県内陸北部",
-      "regionEn": "Northern Inland of Iwate Prefecture",
-      "magnitude": "2.5",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260330202550_20260330202310_VXSE5k_1.json"
     }
   ]
 }
