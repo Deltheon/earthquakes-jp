@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-06T02:34:31.817Z",
+  "lastUpdate": "2026-04-06T05:21:01.591Z",
   "source": "JMA list.json",
   "totalInList": 244,
   "totalUsable": 193,
   "events": [
+    {
+      "id": "20260406124026_20260406123728_VXSE5k_1.json",
+      "time": "2026-04-06T12:37:00+09:00",
+      "region": "徳島県北部",
+      "regionEn": "Northern Tokushima Prefecture",
+      "magnitude": "3.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260406124026_20260406123728_VXSE5k_1.json"
+    },
     {
       "id": "20260406105642_20260406105343_VXSE5k_1.json",
       "time": "2026-04-06T10:53:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260402095718_20260402095258_VXSE5k_1.json"
-    },
-    {
-      "id": "20260402024131_20260402023823_VXSE5k_1.json",
-      "time": "2026-04-02T02:38:00+09:00",
-      "region": "瀬戸内海中部",
-      "regionEn": "Central Setonaikai Sea",
-      "magnitude": "3.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260402024131_20260402023823_VXSE5k_1.json"
     }
   ]
 }
