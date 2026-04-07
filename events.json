@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-07T15:53:49.560Z",
+  "lastUpdate": "2026-04-07T16:54:33.162Z",
   "source": "JMA list.json",
-  "totalInList": 243,
-  "totalUsable": 194,
+  "totalInList": 244,
+  "totalUsable": 195,
   "events": [
+    {
+      "id": "20260408014009_20260408013623_VXSE5k_1.json",
+      "time": "2026-04-08T01:36:00+09:00",
+      "region": "十勝沖",
+      "regionEn": "Off the Coast of Tokachi",
+      "magnitude": "4.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260408014009_20260408013623_VXSE5k_1.json"
+    },
     {
       "id": "20260407195527_20260407195215_VXSE5k_1.json",
       "time": "2026-04-07T19:52:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260403185625_20260403185319_VXSE5k_1.json"
-    },
-    {
-      "id": "20260403175451_20260403175151_VXSE5k_1.json",
-      "time": "2026-04-03T17:51:00+09:00",
-      "region": "岩手県沖",
-      "regionEn": "Off the Coast of Iwate Prefecture",
-      "magnitude": "4.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260403175451_20260403175151_VXSE5k_1.json"
     }
   ]
 }
