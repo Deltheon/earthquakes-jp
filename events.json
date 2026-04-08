@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-04-08T18:09:03.789Z",
+  "lastUpdate": "2026-04-08T19:45:38.643Z",
   "source": "JMA list.json",
-  "totalInList": 245,
-  "totalUsable": 196,
+  "totalInList": 246,
+  "totalUsable": 197,
   "events": [
+    {
+      "id": "20260409043054_20260409042803_VXSE5k_1.json",
+      "time": "2026-04-09T04:28:00+09:00",
+      "region": "豊後水道",
+      "regionEn": "Bungosuido Strait",
+      "magnitude": "3.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260409043054_20260409042803_VXSE5k_1.json"
+    },
+    {
+      "id": "20260409040026_20260409035733_VXSE5k_1.json",
+      "time": "2026-04-09T03:57:00+09:00",
+      "region": "徳島県北部",
+      "regionEn": "Northern Tokushima Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260409040026_20260409035733_VXSE5k_1.json"
+    },
     {
       "id": "20260408211557_20260408211305_VXSE5k_1.json",
       "time": "2026-04-08T21:13:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260404121959_20260404121658_VXSE5k_1.json"
-    },
-    {
-      "id": "20260404064318_20260404063941_VXSE5k_1.json",
-      "time": "2026-04-04T06:39:00+09:00",
-      "region": "安芸灘",
-      "regionEn": "Akinada Sea",
-      "magnitude": "3.9",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260404064318_20260404063941_VXSE5k_1.json"
-    },
-    {
-      "id": "20260404031053_20260404030806_VXSE5k_1.json",
-      "time": "2026-04-04T03:08:00+09:00",
-      "region": "釧路沖",
-      "regionEn": "Off the Coast of Kushiro",
-      "magnitude": "3.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260404031053_20260404030806_VXSE5k_1.json"
     }
   ]
 }
