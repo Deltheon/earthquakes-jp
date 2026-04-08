@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-08T10:05:04.199Z",
+  "lastUpdate": "2026-04-08T11:29:14.560Z",
   "source": "JMA list.json",
-  "totalInList": 243,
-  "totalUsable": 194,
+  "totalInList": 244,
+  "totalUsable": 195,
   "events": [
+    {
+      "id": "20260408201644_20260408201313_VXSE5k_1.json",
+      "time": "2026-04-08T20:13:00+09:00",
+      "region": "伊予灘",
+      "regionEn": "Iyonada Sea",
+      "magnitude": "3.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260408201644_20260408201313_VXSE5k_1.json"
+    },
     {
       "id": "20260408171818_20260408171530_VXSE5k_1.json",
       "time": "2026-04-08T17:15:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260404005652_20260404005353_VXSE5k_1.json"
-    },
-    {
-      "id": "20260404001031_20260404000648_VXSE5k_1.json",
-      "time": "2026-04-04T00:06:00+09:00",
-      "region": "和歌山県北部",
-      "regionEn": "Northern Wakayama Prefecture",
-      "magnitude": "2.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260404001031_20260404000648_VXSE5k_1.json"
     }
   ]
 }
