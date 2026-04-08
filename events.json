@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-08T12:09:26.611Z",
+  "lastUpdate": "2026-04-08T14:07:58.012Z",
   "source": "JMA list.json",
-  "totalInList": 244,
-  "totalUsable": 195,
+  "totalInList": 245,
+  "totalUsable": 196,
   "events": [
+    {
+      "id": "20260408211557_20260408211305_VXSE5k_1.json",
+      "time": "2026-04-08T21:13:00+09:00",
+      "region": "東京都多摩西部",
+      "regionEn": "Western Tama, Tokyo",
+      "magnitude": "3.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260408211557_20260408211305_VXSE5k_1.json"
+    },
     {
       "id": "20260408201644_20260408201313_VXSE5k_1.json",
       "time": "2026-04-08T20:13:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260404031053_20260404030806_VXSE5k_1.json"
-    },
-    {
-      "id": "20260404005652_20260404005353_VXSE5k_1.json",
-      "time": "2026-04-04T00:53:00+09:00",
-      "region": "大阪湾",
-      "regionEn": "Osaka Bay",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260404005652_20260404005353_VXSE5k_1.json"
     }
   ]
 }
