@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-08T07:13:55.689Z",
+  "lastUpdate": "2026-04-08T08:40:43.334Z",
   "source": "JMA list.json",
-  "totalInList": 242,
-  "totalUsable": 193,
+  "totalInList": 243,
+  "totalUsable": 194,
   "events": [
+    {
+      "id": "20260408171818_20260408171530_VXSE5k_1.json",
+      "time": "2026-04-08T17:15:00+09:00",
+      "region": "淡路島付近",
+      "regionEn": "Adjacent Awajishima Island",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260408171818_20260408171530_VXSE5k_1.json"
+    },
     {
       "id": "20260408153232_20260408152754_VXSE5k_1.json",
       "time": "2026-04-08T15:27:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260404001031_20260404000648_VXSE5k_1.json"
-    },
-    {
-      "id": "20260403234004_20260403233709_VXSE5k_1.json",
-      "time": "2026-04-03T23:37:00+09:00",
-      "region": "岐阜県美濃中西部",
-      "regionEn": "Central and western Mino, Gifu Prefecture",
-      "magnitude": "3.2",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260403234004_20260403233709_VXSE5k_1.json"
     }
   ]
 }
