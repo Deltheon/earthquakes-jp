@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-08T23:35:06.482Z",
+  "lastUpdate": "2026-04-09T01:59:20.980Z",
   "source": "JMA list.json",
-  "totalInList": 246,
-  "totalUsable": 197,
+  "totalInList": 247,
+  "totalUsable": 198,
   "events": [
+    {
+      "id": "20260409103727_20260409103432_VXSE5k_1.json",
+      "time": "2026-04-09T10:34:00+09:00",
+      "region": "宮古島近海",
+      "regionEn": "Adjacent Sea of​ Miyakojima Island",
+      "magnitude": "4.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260409103727_20260409103432_VXSE5k_1.json"
+    },
     {
       "id": "20260409043054_20260409042803_VXSE5k_1.json",
       "time": "2026-04-09T04:28:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260404143148_20260404142911_VXSE5k_1.json"
-    },
-    {
-      "id": "20260404121959_20260404121658_VXSE5k_1.json",
-      "time": "2026-04-04T12:16:00+09:00",
-      "region": "宮城県沖",
-      "regionEn": "Off the Coast of Miyagi Prefecture",
-      "magnitude": "3.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260404121959_20260404121658_VXSE5k_1.json"
     }
   ]
 }
