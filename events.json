@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-10T21:34:27.818Z",
+  "lastUpdate": "2026-04-10T22:34:06.072Z",
   "source": "JMA list.json",
-  "totalInList": 244,
-  "totalUsable": 197,
+  "totalInList": 245,
+  "totalUsable": 198,
   "events": [
+    {
+      "id": "20260411065003_20260411064722_VXSE5k_1.json",
+      "time": "2026-04-11T06:47:00+09:00",
+      "region": "和歌山県北部",
+      "regionEn": "Northern Wakayama Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260411065003_20260411064722_VXSE5k_1.json"
+    },
     {
       "id": "20260410184857_20260410184608_VXSE5k_1.json",
       "time": "2026-04-10T18:46:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260405100606_20260405100321_VXSE5k_1.json"
-    },
-    {
-      "id": "20260405011732_20260405011420_VXSE5k_1.json",
-      "time": "2026-04-05T01:14:00+09:00",
-      "region": "種子島南東沖",
-      "regionEn": "Off the southeast Coast of Tanegashima Island",
-      "magnitude": "4.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260405011732_20260405011420_VXSE5k_1.json"
     }
   ]
 }
