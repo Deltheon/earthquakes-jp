@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-10T00:00:17.371Z",
+  "lastUpdate": "2026-04-10T03:46:18.546Z",
   "source": "JMA list.json",
   "totalInList": 245,
   "totalUsable": 198,
   "events": [
+    {
+      "id": "20260410104635_20260410104349_VXSE5k_1.json",
+      "time": "2026-04-10T10:43:00+09:00",
+      "region": "奄美大島北東沖",
+      "regionEn": "Off the northeast Coast of Amami-Oshima Island",
+      "magnitude": "3.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260410104635_20260410104349_VXSE5k_1.json"
+    },
     {
       "id": "20260410052636_20260410052401_VXSE5k_1.json",
       "time": "2026-04-10T05:23:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260404194051_20260404193655_VXSE5k_1.json"
-    },
-    {
-      "id": "20260404165230_20260404164947_VXSE5k_1.json",
-      "time": "2026-04-04T16:49:00+09:00",
-      "region": "茨城県北部",
-      "regionEn": "Northern Ibaraki Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260404165230_20260404164947_VXSE5k_1.json"
     }
   ]
 }
