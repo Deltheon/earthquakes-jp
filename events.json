@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-12T23:31:38.485Z",
+  "lastUpdate": "2026-04-13T02:26:54.471Z",
   "source": "JMA list.json",
-  "totalInList": 242,
-  "totalUsable": 195,
+  "totalInList": 243,
+  "totalUsable": 196,
   "events": [
+    {
+      "id": "20260413085714_20260413085404_VXSE5k_1.json",
+      "time": "2026-04-13T08:54:00+09:00",
+      "region": "新潟県上中越沖",
+      "regionEn": "Off the Coast of Joetsu and Chuetsu, Niigata Prefecture",
+      "magnitude": "4.4",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260413085714_20260413085404_VXSE5k_1.json"
+    },
     {
       "id": "20260413015927_20260413015608_VXSE5k_1.json",
       "time": "2026-04-13T01:56:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260406082102_20260406081814_VXSE5k_1.json"
-    },
-    {
-      "id": "20260406023115_20260406022820_VXSE5k_1.json",
-      "time": "2026-04-06T02:28:00+09:00",
-      "region": "福島県沖",
-      "regionEn": "Off the Coast of Fukushima Prefecture",
-      "magnitude": "4.1",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260406023115_20260406022820_VXSE5k_1.json"
     }
   ]
 }
