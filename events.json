@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-13T05:26:36.589Z",
+  "lastUpdate": "2026-04-13T07:26:09.603Z",
   "source": "JMA list.json",
-  "totalInList": 242,
-  "totalUsable": 195,
+  "totalInList": 243,
+  "totalUsable": 196,
   "events": [
+    {
+      "id": "20260413155123_20260413154811_VXSE5k_1.json",
+      "time": "2026-04-13T15:48:00+09:00",
+      "region": "長野県中部",
+      "regionEn": "Central Nagano Prefecture",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260413155123_20260413154811_VXSE5k_1.json"
+    },
     {
       "id": "20260413085714_20260413085404_VXSE5k_1.json",
       "time": "2026-04-13T08:54:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260406083221_20260406082942_VXSE5k_1.json"
-    },
-    {
-      "id": "20260406082102_20260406081814_VXSE5k_1.json",
-      "time": "2026-04-06T08:18:00+09:00",
-      "region": "神奈川県西部",
-      "regionEn": "Western Kanagawa Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260406082102_20260406081814_VXSE5k_1.json"
     }
   ]
 }
