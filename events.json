@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-14T22:11:18.610Z",
+  "lastUpdate": "2026-04-14T23:10:18.317Z",
   "source": "JMA list.json",
   "totalInList": 225,
   "totalUsable": 184,
   "events": [
+    {
+      "id": "20260415075641_20260415075239_VXSE5k_1.json",
+      "time": "2026-04-15T07:52:00+09:00",
+      "region": "トカラ列島近海",
+      "regionEn": "Adjacent Sea of Tokara Islands",
+      "magnitude": "2.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260415075641_20260415075239_VXSE5k_1.json"
+    },
     {
       "id": "20260415045334_20260415045010_VXSE5k_1.json",
       "time": "2026-04-15T04:50:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260407195527_20260407195215_VXSE5k_1.json"
-    },
-    {
-      "id": "20260407054529_20260407054231_VXSE5k_1.json",
-      "time": "2026-04-07T05:42:00+09:00",
-      "region": "上川地方南部",
-      "regionEn": "Southern Kamikawa Region, Hokkaido",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260407054529_20260407054231_VXSE5k_1.json"
     }
   ]
 }
