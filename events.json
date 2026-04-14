@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-14T13:21:32.051Z",
+  "lastUpdate": "2026-04-14T14:59:26.793Z",
   "source": "JMA list.json",
-  "totalInList": 237,
-  "totalUsable": 192,
+  "totalInList": 238,
+  "totalUsable": 193,
   "events": [
+    {
+      "id": "20260414222614_20260414222105_VXSE5k_1.json",
+      "time": "2026-04-14T22:21:00+09:00",
+      "region": "青森県東方沖",
+      "regionEn": "Off the east Coast of Aomori Prefecture",
+      "magnitude": "4.2",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260414222614_20260414222105_VXSE5k_1.json"
+    },
     {
       "id": "20260414165530_20260414165243_VXSE5k_1.json",
       "time": "2026-04-14T16:52:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260406232416_20260406232132_VXSE5k_1.json"
-    },
-    {
-      "id": "20260406155029_20260406154529_VXSE5k_1.json",
-      "time": "2026-04-06T15:45:00+09:00",
-      "region": "南海道南方沖",
-      "regionEn": "Off the south Coast of Nankaido",
-      "magnitude": "4.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260406155029_20260406154529_VXSE5k_1.json"
     }
   ]
 }
