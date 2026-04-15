@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-15T11:54:13.284Z",
+  "lastUpdate": "2026-04-15T13:18:55.189Z",
   "source": "JMA list.json",
   "totalInList": 225,
   "totalUsable": 184,
   "events": [
+    {
+      "id": "20260415211347_20260415211027_VXSE5k_1.json",
+      "time": "2026-04-15T21:10:00+09:00",
+      "region": "和歌山県北部",
+      "regionEn": "Northern Wakayama Prefecture",
+      "magnitude": "2.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260415211347_20260415211027_VXSE5k_1.json"
+    },
     {
       "id": "20260415161114_20260415160818_VXSE5k_1.json",
       "time": "2026-04-15T16:08:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260408201644_20260408201313_VXSE5k_1.json"
-    },
-    {
-      "id": "20260408171818_20260408171530_VXSE5k_1.json",
-      "time": "2026-04-08T17:15:00+09:00",
-      "region": "淡路島付近",
-      "regionEn": "Adjacent Awajishima Island",
-      "magnitude": "2.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260408171818_20260408171530_VXSE5k_1.json"
     }
   ]
 }
