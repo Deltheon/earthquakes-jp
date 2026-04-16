@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-16T16:02:57.227Z",
+  "lastUpdate": "2026-04-16T17:50:16.594Z",
   "source": "JMA list.json",
   "totalInList": 220,
   "totalUsable": 179,
   "events": [
+    {
+      "id": "20260417024304_20260417024004_VXSE5k_1.json",
+      "time": "2026-04-17T02:40:00+09:00",
+      "region": "島根県東部",
+      "regionEn": "Eastern Shimane Prefecture",
+      "magnitude": "3.8",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260417024304_20260417024004_VXSE5k_1.json"
+    },
     {
       "id": "20260416081052_20260416080710_VXSE5k_1.json",
       "time": "2026-04-16T08:07:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260409040026_20260409035733_VXSE5k_1.json"
-    },
-    {
-      "id": "20260408211557_20260408211305_VXSE5k_1.json",
-      "time": "2026-04-08T21:13:00+09:00",
-      "region": "東京都多摩西部",
-      "regionEn": "Western Tama, Tokyo",
-      "magnitude": "3.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260408211557_20260408211305_VXSE5k_1.json"
     }
   ]
 }
