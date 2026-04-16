@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-16T17:50:16.594Z",
+  "lastUpdate": "2026-04-16T19:07:32.881Z",
   "source": "JMA list.json",
-  "totalInList": 220,
-  "totalUsable": 179,
+  "totalInList": 221,
+  "totalUsable": 180,
   "events": [
+    {
+      "id": "20260417033155_20260417032846_VXSE5k_1.json",
+      "time": "2026-04-17T03:28:00+09:00",
+      "region": "山梨県東部・富士五湖",
+      "regionEn": "Eastern Region · Fuji Five Lakes, Yamanashi Prefecture",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260417033155_20260417032846_VXSE5k_1.json"
+    },
     {
       "id": "20260417024304_20260417024004_VXSE5k_1.json",
       "time": "2026-04-17T02:40:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260409043054_20260409042803_VXSE5k_1.json"
-    },
-    {
-      "id": "20260409040026_20260409035733_VXSE5k_1.json",
-      "time": "2026-04-09T03:57:00+09:00",
-      "region": "徳島県北部",
-      "regionEn": "Northern Tokushima Prefecture",
-      "magnitude": "3.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260409040026_20260409035733_VXSE5k_1.json"
     }
   ]
 }
