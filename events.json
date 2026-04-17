@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-04-17T03:49:57.878Z",
+  "lastUpdate": "2026-04-17T06:01:12.882Z",
   "source": "JMA list.json",
   "totalInList": 217,
   "totalUsable": 178,
   "events": [
+    {
+      "id": "20260417140849_20260417140557_VXSE5k_1.json",
+      "time": "2026-04-17T14:05:00+09:00",
+      "region": "茨城県沖",
+      "regionEn": "Off the Coast of Ibaraki Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260417140849_20260417140557_VXSE5k_1.json"
+    },
+    {
+      "id": "20260417134107_20260417133818_VXSE5k_1.json",
+      "time": "2026-04-17T13:38:00+09:00",
+      "region": "茨城県沖",
+      "regionEn": "Off the Coast of Ibaraki Prefecture",
+      "magnitude": "3.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260417134107_20260417133818_VXSE5k_1.json"
+    },
     {
       "id": "20260417063700_20260417063350_VXSE5k_1.json",
       "time": "2026-04-17T06:33:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260410104635_20260410104349_VXSE5k_1.json"
-    },
-    {
-      "id": "20260410052636_20260410052401_VXSE5k_1.json",
-      "time": "2026-04-10T05:23:00+09:00",
-      "region": "紀伊水道",
-      "regionEn": "Kiisuido Strait",
-      "magnitude": "2.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260410052636_20260410052401_VXSE5k_1.json"
-    },
-    {
-      "id": "20260410033334_20260410033049_VXSE5k_1.json",
-      "time": "2026-04-10T03:30:00+09:00",
-      "region": "大阪府北部",
-      "regionEn": "Northern Osaka Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260410033334_20260410033049_VXSE5k_1.json"
     }
   ]
 }
