@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-17T11:49:56.593Z",
+  "lastUpdate": "2026-04-17T13:12:52.742Z",
   "source": "JMA list.json",
-  "totalInList": 217,
-  "totalUsable": 178,
+  "totalInList": 218,
+  "totalUsable": 179,
   "events": [
+    {
+      "id": "20260417213316_20260417213020_VXSE5k_1.json",
+      "time": "2026-04-17T21:30:00+09:00",
+      "region": "富山県東部",
+      "regionEn": "Eastern Toyama Prefecture",
+      "magnitude": "3.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260417213316_20260417213020_VXSE5k_1.json"
+    },
     {
       "id": "20260417184616_20260417184300_VXSE5k_1.json",
       "time": "2026-04-17T18:43:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260411065003_20260411064722_VXSE5k_1.json"
-    },
-    {
-      "id": "20260410184857_20260410184608_VXSE5k_1.json",
-      "time": "2026-04-10T18:46:00+09:00",
-      "region": "島根県東部",
-      "regionEn": "Eastern Shimane Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260410184857_20260410184608_VXSE5k_1.json"
     }
   ]
 }
