@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-04-18T08:44:26.674Z",
+  "lastUpdate": "2026-04-18T09:43:43.276Z",
   "source": "JMA list.json",
-  "totalInList": 229,
-  "totalUsable": 183,
+  "totalInList": 234,
+  "totalUsable": 186,
   "events": [
+    {
+      "id": "20260418181633_20260418181320_VXSE5k_1.json",
+      "time": "2026-04-18T18:13:00+09:00",
+      "region": "長野県北部",
+      "regionEn": "Northern Nagano Prefecture",
+      "magnitude": "2.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260418181633_20260418181320_VXSE5k_1.json"
+    },
+    {
+      "id": "20260418175333_20260418175038_VXSE5k_1.json",
+      "time": "2026-04-18T17:50:00+09:00",
+      "region": "長野県北部",
+      "regionEn": "Northern Nagano Prefecture",
+      "magnitude": "1.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260418175333_20260418175038_VXSE5k_1.json"
+    },
+    {
+      "id": "20260418175034_20260418174721_VXSE5k_1.json",
+      "time": "2026-04-18T17:47:00+09:00",
+      "region": "長野県北部",
+      "regionEn": "Northern Nagano Prefecture",
+      "magnitude": "3.0",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260418175034_20260418174721_VXSE5k_1.json"
+    },
     {
       "id": "20260418165559_20260418165334_VXSE5k_1.json",
       "time": "2026-04-18T16:53:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260415045334_20260415045010_VXSE5k_1.json"
-    },
-    {
-      "id": "20260415024444_20260415024119_VXSE5k_1.json",
-      "time": "2026-04-15T02:41:00+09:00",
-      "region": "トカラ列島近海",
-      "regionEn": "Adjacent Sea of Tokara Islands",
-      "magnitude": "2.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260415024444_20260415024119_VXSE5k_1.json"
-    },
-    {
-      "id": "20260414222614_20260414222105_VXSE5k_1.json",
-      "time": "2026-04-14T22:21:00+09:00",
-      "region": "青森県東方沖",
-      "regionEn": "Off the east Coast of Aomori Prefecture",
-      "magnitude": "4.2",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260414222614_20260414222105_VXSE5k_1.json"
-    },
-    {
-      "id": "20260414165530_20260414165243_VXSE5k_1.json",
-      "time": "2026-04-14T16:52:00+09:00",
-      "region": "岐阜県飛騨地方",
-      "regionEn": "Hida, Gifu Prefecture",
-      "magnitude": "3.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260414165530_20260414165243_VXSE5k_1.json"
     }
   ]
 }
