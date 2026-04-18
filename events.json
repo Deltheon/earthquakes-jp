@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-04-18T02:04:58.473Z",
+  "lastUpdate": "2026-04-18T04:43:59.250Z",
   "source": "JMA list.json",
-  "totalInList": 214,
-  "totalUsable": 175,
+  "totalInList": 215,
+  "totalUsable": 176,
   "events": [
+    {
+      "id": "20260418134139_20260418133811_VXSE5k_1.json",
+      "time": "2026-04-18T13:38:00+09:00",
+      "region": "長野県北部",
+      "regionEn": "Northern Nagano Prefecture",
+      "magnitude": "1.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260418134139_20260418133811_VXSE5k_1.json"
+    },
+    {
+      "id": "20260418132441_20260418132007_VXSE5k_1.json",
+      "time": "2026-04-18T13:20:00+09:00",
+      "region": "長野県北部",
+      "regionEn": "Northern Nagano Prefecture",
+      "magnitude": "5.0",
+      "maxIntensity": "5+",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260418132441_20260418132007_VXSE5k_1.json"
+    },
+    {
+      "id": "20260418120553_20260418120238_VXSE5k_1.json",
+      "time": "2026-04-18T12:02:00+09:00",
+      "region": "沖縄本島近海",
+      "regionEn": "Adjacent Sea of Okinawa Main Island",
+      "magnitude": "3.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260418120553_20260418120238_VXSE5k_1.json"
+    },
     {
       "id": "20260417213316_20260417213020_VXSE5k_1.json",
       "time": "2026-04-17T21:30:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260412013348_20260412013046_VXSE5k_1.json"
-    },
-    {
-      "id": "20260411185426_20260411185002_VXSE5k_1.json",
-      "time": "2026-04-11T18:50:00+09:00",
-      "region": "釧路沖",
-      "regionEn": "Off the Coast of Kushiro",
-      "magnitude": "5.3",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260411185426_20260411185002_VXSE5k_1.json"
-    },
-    {
-      "id": "20260411181326_20260411181010_VXSE5k_1.json",
-      "time": "2026-04-11T18:10:00+09:00",
-      "region": "岩手県沿岸北部",
-      "regionEn": "Northern Coast of Iwate Prefecture",
-      "magnitude": "3.9",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260411181326_20260411181010_VXSE5k_1.json"
-    },
-    {
-      "id": "20260411065003_20260411064722_VXSE5k_1.json",
-      "time": "2026-04-11T06:47:00+09:00",
-      "region": "和歌山県北部",
-      "regionEn": "Northern Wakayama Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260411065003_20260411064722_VXSE5k_1.json"
     }
   ]
 }
