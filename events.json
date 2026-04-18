@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-18T15:04:15.408Z",
+  "lastUpdate": "2026-04-18T15:59:22.453Z",
   "source": "JMA list.json",
-  "totalInList": 236,
-  "totalUsable": 188,
+  "totalInList": 237,
+  "totalUsable": 189,
   "events": [
+    {
+      "id": "20260419004901_20260419004611_VXSE5k_1.json",
+      "time": "2026-04-19T00:46:00+09:00",
+      "region": "富山湾",
+      "regionEn": "Toyama Bay",
+      "magnitude": "3.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260419004901_20260419004611_VXSE5k_1.json"
+    },
     {
       "id": "20260418232937_20260418232614_VXSE5k_1.json",
       "time": "2026-04-18T23:26:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260415161114_20260415160818_VXSE5k_1.json"
-    },
-    {
-      "id": "20260415140805_20260415140510_VXSE5k_1.json",
-      "time": "2026-04-15T14:05:00+09:00",
-      "region": "岩手県沖",
-      "regionEn": "Off the Coast of Iwate Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260415140805_20260415140510_VXSE5k_1.json"
     }
   ]
 }
