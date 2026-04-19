@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-19T19:39:12.608Z",
+  "lastUpdate": "2026-04-19T20:34:04.902Z",
   "source": "JMA list.json",
-  "totalInList": 241,
-  "totalUsable": 191,
+  "totalInList": 236,
+  "totalUsable": 188,
   "events": [
+    {
+      "id": "20260420051637_20260420051353_VXSE5k_1.json",
+      "time": "2026-04-20T05:13:00+09:00",
+      "region": "豊後水道",
+      "regionEn": "Bungosuido Strait",
+      "magnitude": "3.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420051637_20260420051353_VXSE5k_1.json"
+    },
     {
       "id": "20260419224137_20260419223820_VXSE5k_1.json",
       "time": "2026-04-19T22:38:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260417184616_20260417184300_VXSE5k_1.json"
-    },
-    {
-      "id": "20260417140849_20260417140557_VXSE5k_1.json",
-      "time": "2026-04-17T14:05:00+09:00",
-      "region": "茨城県沖",
-      "regionEn": "Off the Coast of Ibaraki Prefecture",
-      "magnitude": "3.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260417140849_20260417140557_VXSE5k_1.json"
     }
   ]
 }
