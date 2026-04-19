@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-19T22:31:49.001Z",
+  "lastUpdate": "2026-04-19T23:33:23.806Z",
   "source": "JMA list.json",
-  "totalInList": 236,
+  "totalInList": 234,
   "totalUsable": 188,
   "events": [
+    {
+      "id": "20260420074525_20260420074150_VXSE5k_1.json",
+      "time": "2026-04-20T07:41:00+09:00",
+      "region": "長野県北部",
+      "regionEn": "Northern Nagano Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420074525_20260420074150_VXSE5k_1.json"
+    },
     {
       "id": "20260420051637_20260420051353_VXSE5k_1.json",
       "time": "2026-04-20T05:13:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260417213316_20260417213020_VXSE5k_1.json"
-    },
-    {
-      "id": "20260417184616_20260417184300_VXSE5k_1.json",
-      "time": "2026-04-17T18:43:00+09:00",
-      "region": "青森県三八上北地方",
-      "regionEn": "Sanpachi-Kamikita Region, Aomori Prefecture",
-      "magnitude": "2.3",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260417184616_20260417184300_VXSE5k_1.json"
     }
   ]
 }
