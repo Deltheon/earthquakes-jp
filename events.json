@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-04-20T02:26:57.262Z",
+  "lastUpdate": "2026-04-20T05:25:25.667Z",
   "source": "JMA list.json",
-  "totalInList": 234,
-  "totalUsable": 188,
+  "totalInList": 235,
+  "totalUsable": 189,
   "events": [
+    {
+      "id": "20260420120936_20260420120632_VXSE5k_1.json",
+      "time": "2026-04-20T12:06:00+09:00",
+      "region": "長野県北部",
+      "regionEn": "Northern Nagano Prefecture",
+      "magnitude": "1.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420120936_20260420120632_VXSE5k_1.json"
+    },
+    {
+      "id": "20260420115826_20260420115548_VXSE5k_1.json",
+      "time": "2026-04-20T11:55:00+09:00",
+      "region": "長野県北部",
+      "regionEn": "Northern Nagano Prefecture",
+      "magnitude": "2.7",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420115826_20260420115548_VXSE5k_1.json"
+    },
     {
       "id": "20260420074525_20260420074150_VXSE5k_1.json",
       "time": "2026-04-20T07:41:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "5+",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260418132441_20260418132007_VXSE5k_1.json"
-    },
-    {
-      "id": "20260418120553_20260418120238_VXSE5k_1.json",
-      "time": "2026-04-18T12:02:00+09:00",
-      "region": "沖縄本島近海",
-      "regionEn": "Adjacent Sea of Okinawa Main Island",
-      "magnitude": "3.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260418120553_20260418120238_VXSE5k_1.json"
-    },
-    {
-      "id": "20260417213316_20260417213020_VXSE5k_1.json",
-      "time": "2026-04-17T21:30:00+09:00",
-      "region": "富山県東部",
-      "regionEn": "Eastern Toyama Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260417213316_20260417213020_VXSE5k_1.json"
     }
   ]
 }
