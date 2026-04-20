@@ -1,9 +1,49 @@
 {
-  "lastUpdate": "2026-04-20T09:25:22.103Z",
+  "lastUpdate": "2026-04-20T11:03:05.976Z",
   "source": "JMA list.json",
-  "totalInList": 244,
-  "totalUsable": 195,
+  "totalInList": 251,
+  "totalUsable": 199,
   "events": [
+    {
+      "id": "20260420194730_20260420194417_VXSE5k_1.json",
+      "time": "2026-04-20T19:44:00+09:00",
+      "region": "三陸沖",
+      "regionEn": "Off the Coast of Sanriku",
+      "magnitude": "4.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420194730_20260420194417_VXSE5k_1.json"
+    },
+    {
+      "id": "20260420194100_20260420193738_VXSE5k_1.json",
+      "time": "2026-04-20T19:37:00+09:00",
+      "region": "三陸沖",
+      "regionEn": "Off the Coast of Sanriku",
+      "magnitude": "4.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420194100_20260420193738_VXSE5k_1.json"
+    },
+    {
+      "id": "20260420185405_20260420184946_VXSE5k_1.json",
+      "time": "2026-04-20T18:49:00+09:00",
+      "region": "三陸沖",
+      "regionEn": "Off the Coast of Sanriku",
+      "magnitude": "4.8",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420185405_20260420184946_VXSE5k_1.json"
+    },
+    {
+      "id": "20260420184814_20260420184415_VXSE5k_1.json",
+      "time": "2026-04-20T18:44:00+09:00",
+      "region": "紀伊水道",
+      "regionEn": "Kiisuido Strait",
+      "magnitude": "4.3",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420184814_20260420184415_VXSE5k_1.json"
+    },
     {
       "id": "20260420181038_20260420180703_VXSE5k_1.json",
       "time": "2026-04-20T18:07:00+09:00",
@@ -263,46 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260418175333_20260418175038_VXSE5k_1.json"
-    },
-    {
-      "id": "20260418175034_20260418174721_VXSE5k_1.json",
-      "time": "2026-04-18T17:47:00+09:00",
-      "region": "長野県北部",
-      "regionEn": "Northern Nagano Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260418175034_20260418174721_VXSE5k_1.json"
-    },
-    {
-      "id": "20260418165559_20260418165334_VXSE5k_1.json",
-      "time": "2026-04-18T16:53:00+09:00",
-      "region": "長野県北部",
-      "regionEn": "Northern Nagano Prefecture",
-      "magnitude": "2.4",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260418165559_20260418165334_VXSE5k_1.json"
-    },
-    {
-      "id": "20260418162456_20260418162124_VXSE5k_1.json",
-      "time": "2026-04-18T16:21:00+09:00",
-      "region": "長野県北部",
-      "regionEn": "Northern Nagano Prefecture",
-      "magnitude": "3.6",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260418162456_20260418162124_VXSE5k_1.json"
-    },
-    {
-      "id": "20260418161101_20260418160750_VXSE5k_1.json",
-      "time": "2026-04-18T16:07:00+09:00",
-      "region": "長野県北部",
-      "regionEn": "Northern Nagano Prefecture",
-      "magnitude": "1.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260418161101_20260418160750_VXSE5k_1.json"
     }
   ]
 }
