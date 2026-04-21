@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-21T17:59:54.723Z",
+  "lastUpdate": "2026-04-21T19:23:47.663Z",
   "source": "JMA list.json",
-  "totalInList": 257,
-  "totalUsable": 206,
+  "totalInList": 258,
+  "totalUsable": 207,
   "events": [
+    {
+      "id": "20260422034832_20260422034421_VXSE5k_1.json",
+      "time": "2026-04-22T03:44:00+09:00",
+      "region": "三陸沖",
+      "regionEn": "Off the Coast of Sanriku",
+      "magnitude": "5.4",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260422034832_20260422034421_VXSE5k_1.json"
+    },
     {
       "id": "20260422020845_20260422020519_VXSE5k_1.json",
       "time": "2026-04-22T02:05:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420115826_20260420115548_VXSE5k_1.json"
-    },
-    {
-      "id": "20260420074525_20260420074150_VXSE5k_1.json",
-      "time": "2026-04-20T07:41:00+09:00",
-      "region": "長野県北部",
-      "regionEn": "Northern Nagano Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420074525_20260420074150_VXSE5k_1.json"
     }
   ]
 }
