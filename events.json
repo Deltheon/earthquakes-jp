@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-21T09:57:34.283Z",
+  "lastUpdate": "2026-04-21T11:11:47.161Z",
   "source": "JMA list.json",
-  "totalInList": 250,
-  "totalUsable": 199,
+  "totalInList": 251,
+  "totalUsable": 200,
   "events": [
+    {
+      "id": "20260421200200_20260421195818_VXSE5k_1.json",
+      "time": "2026-04-21T19:58:00+09:00",
+      "region": "石川県能登地方",
+      "regionEn": "Noto, Ishikawa Prefecture",
+      "magnitude": "1.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260421200200_20260421195818_VXSE5k_1.json"
+    },
     {
       "id": "20260421165354_20260421165111_VXSE5k_1.json",
       "time": "2026-04-21T16:51:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260419105841_20260419105545_VXSE5k_1.json"
-    },
-    {
-      "id": "20260419091607_20260419091253_VXSE5k_1.json",
-      "time": "2026-04-19T09:12:00+09:00",
-      "region": "長野県北部",
-      "regionEn": "Northern Nagano Prefecture",
-      "magnitude": "2.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260419091607_20260419091253_VXSE5k_1.json"
     }
   ]
 }
