@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-04-21T03:49:54.415Z",
+  "lastUpdate": "2026-04-21T06:00:23.499Z",
   "source": "JMA list.json",
-  "totalInList": 247,
-  "totalUsable": 196,
+  "totalInList": 249,
+  "totalUsable": 198,
   "events": [
+    {
+      "id": "20260421143346_20260421142915_VXSE5k_1.json",
+      "time": "2026-04-21T14:29:00+09:00",
+      "region": "三陸沖",
+      "regionEn": "Off the Coast of Sanriku",
+      "magnitude": "5.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260421143346_20260421142915_VXSE5k_1.json"
+    },
+    {
+      "id": "20260421135410_20260421135056_VXSE5k_1.json",
+      "time": "2026-04-21T13:50:00+09:00",
+      "region": "福島県沖",
+      "regionEn": "Off the Coast of Fukushima Prefecture",
+      "magnitude": "4.1",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260421135410_20260421135056_VXSE5k_1.json"
+    },
+    {
+      "id": "20260421125725_20260421125431_VXSE5k_1.json",
+      "time": "2026-04-21T12:54:00+09:00",
+      "region": "長野県北部",
+      "regionEn": "Northern Nagano Prefecture",
+      "magnitude": "2.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260421125725_20260421125431_VXSE5k_1.json"
+    },
     {
       "id": "20260421113928_20260421113549_VXSE5k_1.json",
       "time": "2026-04-21T11:35:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260419050008_20260419045647_VXSE5k_1.json"
-    },
-    {
-      "id": "20260419041556_20260419041258_VXSE5k_1.json",
-      "time": "2026-04-19T04:12:00+09:00",
-      "region": "熊本県球磨地方",
-      "regionEn": "Kuma Region, Kumamoto Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260419041556_20260419041258_VXSE5k_1.json"
-    },
-    {
-      "id": "20260419004901_20260419004611_VXSE5k_1.json",
-      "time": "2026-04-19T00:46:00+09:00",
-      "region": "富山湾",
-      "regionEn": "Toyama Bay",
-      "magnitude": "3.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260419004901_20260419004611_VXSE5k_1.json"
-    },
-    {
-      "id": "20260418232937_20260418232614_VXSE5k_1.json",
-      "time": "2026-04-18T23:26:00+09:00",
-      "region": "長野県北部",
-      "regionEn": "Northern Nagano Prefecture",
-      "magnitude": "1.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260418232937_20260418232614_VXSE5k_1.json"
     }
   ]
 }
