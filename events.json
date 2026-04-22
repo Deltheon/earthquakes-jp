@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-22T19:23:07.832Z",
+  "lastUpdate": "2026-04-22T20:29:28.079Z",
   "source": "JMA list.json",
-  "totalInList": 267,
-  "totalUsable": 212,
+  "totalInList": 268,
+  "totalUsable": 213,
   "events": [
+    {
+      "id": "20260423043524_20260423043252_VXSE5k_1.json",
+      "time": "2026-04-23T04:32:00+09:00",
+      "region": "茨城県北部",
+      "regionEn": "Northern Ibaraki Prefecture",
+      "magnitude": "3.4",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260423043524_20260423043252_VXSE5k_1.json"
+    },
     {
       "id": "20260423025042_20260423024645_VXSE5k_1.json",
       "time": "2026-04-23T02:46:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420185405_20260420184946_VXSE5k_1.json"
-    },
-    {
-      "id": "20260420184814_20260420184415_VXSE5k_1.json",
-      "time": "2026-04-20T18:44:00+09:00",
-      "region": "紀伊水道",
-      "regionEn": "Kiisuido Strait",
-      "magnitude": "4.3",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420184814_20260420184415_VXSE5k_1.json"
     }
   ]
 }
