@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-04-23T06:03:47.177Z",
+  "lastUpdate": "2026-04-23T08:17:27.010Z",
   "source": "JMA list.json",
-  "totalInList": 271,
-  "totalUsable": 216,
+  "totalInList": 272,
+  "totalUsable": 218,
   "events": [
+    {
+      "id": "20260423154624_20260423154234_VXSE5k_1.json",
+      "time": "2026-04-23T15:42:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "3.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260423154624_20260423154234_VXSE5k_1.json"
+    },
+    {
+      "id": "20260423154504_20260423154121_VXSE5k_1.json",
+      "time": "2026-04-23T15:41:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "4.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260423154504_20260423154121_VXSE5k_1.json"
+    },
     {
       "id": "20260423093722_20260423093506_VXSE5k_1.json",
       "time": "2026-04-23T09:35:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420231853_20260420231531_VXSE5k_1.json"
-    },
-    {
-      "id": "20260420220219_20260420215650_VXSE5k_1.json",
-      "time": "2026-04-20T21:56:00+09:00",
-      "region": "三陸沖",
-      "regionEn": "Off the Coast of Sanriku",
-      "magnitude": "5.4",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420220219_20260420215650_VXSE5k_1.json"
-    },
-    {
-      "id": "20260420203232_20260420202903_VXSE5k_1.json",
-      "time": "2026-04-20T20:29:00+09:00",
-      "region": "三陸沖",
-      "regionEn": "Off the Coast of Sanriku",
-      "magnitude": "4.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420203232_20260420202903_VXSE5k_1.json"
     }
   ]
 }
