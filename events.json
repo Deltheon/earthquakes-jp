@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-23T08:17:27.010Z",
+  "lastUpdate": "2026-04-23T10:03:58.314Z",
   "source": "JMA list.json",
-  "totalInList": 272,
-  "totalUsable": 218,
+  "totalInList": 273,
+  "totalUsable": 219,
   "events": [
+    {
+      "id": "20260423184318_20260423184013_VXSE5k_1.json",
+      "time": "2026-04-23T18:40:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "3.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260423184318_20260423184013_VXSE5k_1.json"
+    },
     {
       "id": "20260423154624_20260423154234_VXSE5k_1.json",
       "time": "2026-04-23T15:42:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260421113928_20260421113549_VXSE5k_1.json"
-    },
-    {
-      "id": "20260420231853_20260420231531_VXSE5k_1.json",
-      "time": "2026-04-20T23:15:00+09:00",
-      "region": "三陸沖",
-      "regionEn": "Off the Coast of Sanriku",
-      "magnitude": "4.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260420231853_20260420231531_VXSE5k_1.json"
     }
   ]
 }
