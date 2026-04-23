@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-23T10:03:58.314Z",
+  "lastUpdate": "2026-04-23T11:37:44.143Z",
   "source": "JMA list.json",
-  "totalInList": 273,
-  "totalUsable": 219,
+  "totalInList": 274,
+  "totalUsable": 220,
   "events": [
+    {
+      "id": "20260423190357_20260423190228_VXSE5k_1.json",
+      "time": "2026-04-23T18:58:00+09:00",
+      "region": "鹿児島県薩摩地方",
+      "regionEn": "Satsuma Region, Kagoshima Prefecture",
+      "magnitude": "1.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260423190357_20260423190228_VXSE5k_1.json"
+    },
     {
       "id": "20260423184318_20260423184013_VXSE5k_1.json",
       "time": "2026-04-23T18:40:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260421125725_20260421125431_VXSE5k_1.json"
-    },
-    {
-      "id": "20260421113928_20260421113549_VXSE5k_1.json",
-      "time": "2026-04-21T11:35:00+09:00",
-      "region": "三陸沖",
-      "regionEn": "Off the Coast of Sanriku",
-      "magnitude": "4.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260421113928_20260421113549_VXSE5k_1.json"
     }
   ]
 }
