@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-23T18:08:39.875Z",
+  "lastUpdate": "2026-04-23T19:49:04.942Z",
   "source": "JMA list.json",
-  "totalInList": 274,
-  "totalUsable": 220,
+  "totalInList": 273,
+  "totalUsable": 219,
   "events": [
+    {
+      "id": "20260424033306_20260424033020_VXSE5k_1.json",
+      "time": "2026-04-24T03:30:00+09:00",
+      "region": "福島県沖",
+      "regionEn": "Off the Coast of Fukushima Prefecture",
+      "magnitude": "3.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260424033306_20260424033020_VXSE5k_1.json"
+    },
     {
       "id": "20260423235643_20260423235324_VXSE5k_1.json",
       "time": "2026-04-23T23:53:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260421162443_20260421162053_VXSE5k_1.json"
-    },
-    {
-      "id": "20260421143346_20260421142915_VXSE5k_1.json",
-      "time": "2026-04-21T14:29:00+09:00",
-      "region": "三陸沖",
-      "regionEn": "Off the Coast of Sanriku",
-      "magnitude": "5.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260421143346_20260421142915_VXSE5k_1.json"
     }
   ]
 }
