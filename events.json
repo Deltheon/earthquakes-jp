@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-24T13:17:18.421Z",
+  "lastUpdate": "2026-04-24T14:52:21.641Z",
   "source": "JMA list.json",
-  "totalInList": 270,
-  "totalUsable": 216,
+  "totalInList": 264,
+  "totalUsable": 214,
   "events": [
+    {
+      "id": "20260424233633_20260424233345_VXSE5k_1.json",
+      "time": "2026-04-24T23:33:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "3.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260424233633_20260424233345_VXSE5k_1.json"
+    },
     {
       "id": "20260424141700_20260424141316_VXSE5k_1.json",
       "time": "2026-04-24T14:13:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260421224228_20260421223932_VXSE5k_1.json"
-    },
-    {
-      "id": "20260421200200_20260421195818_VXSE5k_1.json",
-      "time": "2026-04-21T19:58:00+09:00",
-      "region": "石川県能登地方",
-      "regionEn": "Noto, Ishikawa Prefecture",
-      "magnitude": "1.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260421200200_20260421195818_VXSE5k_1.json"
     }
   ]
 }
