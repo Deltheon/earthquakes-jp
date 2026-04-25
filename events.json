@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-25T22:49:03.066Z",
+  "lastUpdate": "2026-04-25T23:34:54.385Z",
   "source": "JMA list.json",
-  "totalInList": 249,
-  "totalUsable": 204,
+  "totalInList": 250,
+  "totalUsable": 205,
   "events": [
+    {
+      "id": "20260426075041_20260426074709_VXSE5k_1.json",
+      "time": "2026-04-26T07:47:00+09:00",
+      "region": "トカラ列島近海",
+      "regionEn": "Adjacent Sea of Tokara Islands",
+      "magnitude": "2.4",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260426075041_20260426074709_VXSE5k_1.json"
+    },
     {
       "id": "20260426071848_20260426071445_VXSE5k_1.json",
       "time": "2026-04-26T07:14:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260422034832_20260422034421_VXSE5k_1.json"
-    },
-    {
-      "id": "20260422020845_20260422020519_VXSE5k_1.json",
-      "time": "2026-04-22T02:05:00+09:00",
-      "region": "和歌山県北部",
-      "regionEn": "Northern Wakayama Prefecture",
-      "magnitude": "3.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260422020845_20260422020519_VXSE5k_1.json"
     }
   ]
 }
