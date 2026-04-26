@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-26T16:04:43.305Z",
+  "lastUpdate": "2026-04-26T17:08:26.328Z",
   "source": "JMA list.json",
-  "totalInList": 245,
-  "totalUsable": 200,
+  "totalInList": 248,
+  "totalUsable": 201,
   "events": [
+    {
+      "id": "20260427020126_20260427015728_VXSE5k_1.json",
+      "time": "2026-04-27T01:57:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "5.0",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260427020126_20260427015728_VXSE5k_1.json"
+    },
     {
       "id": "20260427010250_20260427005955_VXSE5k_1.json",
       "time": "2026-04-27T00:59:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260422210922_20260422210629_VXSE5k_1.json"
-    },
-    {
-      "id": "20260422172718_20260422172432_VXSE5k_1.json",
-      "time": "2026-04-22T17:24:00+09:00",
-      "region": "紀伊水道",
-      "regionEn": "Kiisuido Strait",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260422172718_20260422172432_VXSE5k_1.json"
     }
   ]
 }
