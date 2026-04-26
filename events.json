@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-26T15:07:16.725Z",
+  "lastUpdate": "2026-04-26T16:04:43.305Z",
   "source": "JMA list.json",
-  "totalInList": 246,
-  "totalUsable": 201,
+  "totalInList": 245,
+  "totalUsable": 200,
   "events": [
+    {
+      "id": "20260427010250_20260427005955_VXSE5k_1.json",
+      "time": "2026-04-27T00:59:00+09:00",
+      "region": "福島県沖",
+      "regionEn": "Off the Coast of Fukushima Prefecture",
+      "magnitude": "3.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260427010250_20260427005955_VXSE5k_1.json"
+    },
     {
       "id": "20260426210303_20260426210003_VXSE5k_1.json",
       "time": "2026-04-26T21:00:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260422172718_20260422172432_VXSE5k_1.json"
-    },
-    {
-      "id": "20260422132952_20260422132704_VXSE5k_1.json",
-      "time": "2026-04-22T13:27:00+09:00",
-      "region": "石川県加賀地方",
-      "regionEn": "Kaga, Ishikawa Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260422132952_20260422132704_VXSE5k_1.json"
     }
   ]
 }
