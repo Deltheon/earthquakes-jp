@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-27T22:49:38.358Z",
+  "lastUpdate": "2026-04-27T23:51:27.633Z",
   "source": "JMA list.json",
-  "totalInList": 254,
-  "totalUsable": 201,
+  "totalInList": 255,
+  "totalUsable": 202,
   "events": [
+    {
+      "id": "20260428080457_20260428080044_VXSE5k_1.json",
+      "time": "2026-04-28T08:00:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260428080457_20260428080044_VXSE5k_1.json"
+    },
     {
       "id": "20260428032821_20260428032547_VXSE5k_1.json",
       "time": "2026-04-28T03:25:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260423093722_20260423093506_VXSE5k_1.json"
-    },
-    {
-      "id": "20260423093318_20260423093020_VXSE5k_1.json",
-      "time": "2026-04-23T09:30:00+09:00",
-      "region": "岐阜県飛騨地方",
-      "regionEn": "Hida, Gifu Prefecture",
-      "magnitude": "2.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260423093318_20260423093020_VXSE5k_1.json"
     }
   ]
 }
