@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-29T02:39:14.447Z",
+  "lastUpdate": "2026-04-29T05:51:56.265Z",
   "source": "JMA list.json",
-  "totalInList": 252,
-  "totalUsable": 199,
+  "totalInList": 250,
+  "totalUsable": 197,
   "events": [
+    {
+      "id": "20260429120805_20260429120205_VXSE5k_1.json",
+      "time": "2026-04-29T12:02:00+09:00",
+      "region": "青森県三八上北地方",
+      "regionEn": "Sanpachi-Kamikita Region, Aomori Prefecture",
+      "magnitude": "2.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260429120805_20260429120205_VXSE5k_1.json"
+    },
     {
       "id": "20260428191838_20260428191517_VXSE5k_1.json",
       "time": "2026-04-28T19:14:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260423190357_20260423190228_VXSE5k_1.json"
-    },
-    {
-      "id": "20260423184318_20260423184013_VXSE5k_1.json",
-      "time": "2026-04-23T18:40:00+09:00",
-      "region": "岩手県沖",
-      "regionEn": "Off the Coast of Iwate Prefecture",
-      "magnitude": "3.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260423184318_20260423184013_VXSE5k_1.json"
     }
   ]
 }
