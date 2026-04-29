@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-29T05:51:56.265Z",
+  "lastUpdate": "2026-04-29T08:11:17.210Z",
   "source": "JMA list.json",
-  "totalInList": 250,
-  "totalUsable": 197,
+  "totalInList": 251,
+  "totalUsable": 196,
   "events": [
+    {
+      "id": "20260429164838_20260429164501_VXSE5k_1.json",
+      "time": "2026-04-29T16:45:00+09:00",
+      "region": "長野県北部",
+      "regionEn": "Northern Nagano Prefecture",
+      "magnitude": "3.4",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260429164838_20260429164501_VXSE5k_1.json"
+    },
     {
       "id": "20260429120805_20260429120205_VXSE5k_1.json",
       "time": "2026-04-29T12:02:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260423234241_20260423233950_VXSE5k_1.json"
-    },
-    {
-      "id": "20260423190357_20260423190228_VXSE5k_1.json",
-      "time": "2026-04-23T18:58:00+09:00",
-      "region": "鹿児島県薩摩地方",
-      "regionEn": "Satsuma Region, Kagoshima Prefecture",
-      "magnitude": "1.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260423190357_20260423190228_VXSE5k_1.json"
     }
   ]
 }
