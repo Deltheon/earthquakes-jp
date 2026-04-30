@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-04-30T10:52:18.864Z",
+  "lastUpdate": "2026-04-30T12:12:48.731Z",
   "source": "JMA list.json",
-  "totalInList": 247,
-  "totalUsable": 195,
+  "totalInList": 248,
+  "totalUsable": 196,
   "events": [
+    {
+      "id": "20260430202537_20260430202305_VXSE5k_1.json",
+      "time": "2026-04-30T20:23:00+09:00",
+      "region": "山口県中部",
+      "regionEn": "Central Yamaguchi Prefecture",
+      "magnitude": "3.7",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260430202537_20260430202305_VXSE5k_1.json"
+    },
     {
       "id": "20260430183445_20260430183202_VXSE5k_1.json",
       "time": "2026-04-30T18:32:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260424141700_20260424141316_VXSE5k_1.json"
-    },
-    {
-      "id": "20260424075635_20260424075314_VXSE5k_1.json",
-      "time": "2026-04-24T07:53:00+09:00",
-      "region": "奄美大島北東沖",
-      "regionEn": "Off the northeast Coast of Amami-Oshima Island",
-      "magnitude": "4.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260424075635_20260424075314_VXSE5k_1.json"
     }
   ]
 }
