@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-04-30T08:38:06.982Z",
+  "lastUpdate": "2026-04-30T10:52:18.864Z",
   "source": "JMA list.json",
-  "totalInList": 244,
-  "totalUsable": 192,
+  "totalInList": 247,
+  "totalUsable": 195,
   "events": [
+    {
+      "id": "20260430183445_20260430183202_VXSE5k_1.json",
+      "time": "2026-04-30T18:32:00+09:00",
+      "region": "熊本県阿蘇地方",
+      "regionEn": "Aso Region, Kumamoto Prefecture",
+      "magnitude": "2.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260430183445_20260430183202_VXSE5k_1.json"
+    },
+    {
+      "id": "20260430174724_20260430174317_VXSE5k_1.json",
+      "time": "2026-04-30T17:43:00+09:00",
+      "region": "三陸沖",
+      "regionEn": "Off the Coast of Sanriku",
+      "magnitude": "4.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260430174724_20260430174317_VXSE5k_1.json"
+    },
+    {
+      "id": "20260430174227_20260430173600_VXSE5k_1.json",
+      "time": "2026-04-30T17:36:00+09:00",
+      "region": "長野県中部",
+      "regionEn": "Central Nagano Prefecture",
+      "magnitude": "2.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260430174227_20260430173600_VXSE5k_1.json"
+    },
     {
       "id": "20260429164838_20260429164501_VXSE5k_1.json",
       "time": "2026-04-29T16:45:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260424075635_20260424075314_VXSE5k_1.json"
-    },
-    {
-      "id": "20260424033306_20260424033020_VXSE5k_1.json",
-      "time": "2026-04-24T03:30:00+09:00",
-      "region": "福島県沖",
-      "regionEn": "Off the Coast of Fukushima Prefecture",
-      "magnitude": "3.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260424033306_20260424033020_VXSE5k_1.json"
-    },
-    {
-      "id": "20260423235643_20260423235324_VXSE5k_1.json",
-      "time": "2026-04-23T23:53:00+09:00",
-      "region": "千葉県北西部",
-      "regionEn": "Northwestern Chiba Prefecture",
-      "magnitude": "4.0",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260423235643_20260423235324_VXSE5k_1.json"
-    },
-    {
-      "id": "20260423234241_20260423233950_VXSE5k_1.json",
-      "time": "2026-04-23T23:39:00+09:00",
-      "region": "新潟県上中越沖",
-      "regionEn": "Off the Coast of Joetsu and Chuetsu, Niigata Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260423234241_20260423233950_VXSE5k_1.json"
     }
   ]
 }
