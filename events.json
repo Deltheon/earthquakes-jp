@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-03T16:06:52.476Z",
+  "lastUpdate": "2026-05-03T17:13:38.237Z",
   "source": "JMA list.json",
-  "totalInList": 245,
-  "totalUsable": 198,
+  "totalInList": 244,
+  "totalUsable": 197,
   "events": [
+    {
+      "id": "20260504012227_20260504011913_VXSE5k_1.json",
+      "time": "2026-05-04T01:19:00+09:00",
+      "region": "与那国島近海",
+      "regionEn": "Adjacent Sea of Yonagunijima Island",
+      "magnitude": "4.8",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260504012227_20260504011913_VXSE5k_1.json"
+    },
     {
       "id": "20260503234507_20260503234214_VXSE5k_1.json",
       "time": "2026-05-03T23:42:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260428032821_20260428032547_VXSE5k_1.json"
-    },
-    {
-      "id": "20260428012435_20260428011635_VXSE5k_1.json",
-      "time": "2026-04-28T01:16:00+09:00",
-      "region": "愛知県東部",
-      "regionEn": "Eastern Aichi Prefecture",
-      "magnitude": "2.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260428012435_20260428011635_VXSE5k_1.json"
     }
   ]
 }
