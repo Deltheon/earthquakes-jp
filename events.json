@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-03T18:09:36.342Z",
+  "lastUpdate": "2026-05-03T19:31:58.147Z",
   "source": "JMA list.json",
   "totalInList": 244,
   "totalUsable": 197,
   "events": [
+    {
+      "id": "20260504041742_20260504041453_VXSE5k_1.json",
+      "time": "2026-05-04T04:14:00+09:00",
+      "region": "秋田県内陸北部",
+      "regionEn": "Northern Inland of Akita Prefecture",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260504041742_20260504041453_VXSE5k_1.json"
+    },
     {
       "id": "20260504012227_20260504011913_VXSE5k_1.json",
       "time": "2026-05-04T01:19:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260428080457_20260428080044_VXSE5k_1.json"
-    },
-    {
-      "id": "20260428032821_20260428032547_VXSE5k_1.json",
-      "time": "2026-04-28T03:25:00+09:00",
-      "region": "長野県北部",
-      "regionEn": "Northern Nagano Prefecture",
-      "magnitude": "2.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260428032821_20260428032547_VXSE5k_1.json"
     }
   ]
 }
