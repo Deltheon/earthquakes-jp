@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-03T19:31:58.147Z",
+  "lastUpdate": "2026-05-03T20:39:05.195Z",
   "source": "JMA list.json",
-  "totalInList": 244,
-  "totalUsable": 197,
+  "totalInList": 245,
+  "totalUsable": 198,
   "events": [
+    {
+      "id": "20260504051711_20260504051428_VXSE5k_1.json",
+      "time": "2026-05-04T05:14:00+09:00",
+      "region": "津軽海峡",
+      "regionEn": "Tsugaru Strait",
+      "magnitude": "3.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260504051711_20260504051428_VXSE5k_1.json"
+    },
     {
       "id": "20260504041742_20260504041453_VXSE5k_1.json",
       "time": "2026-05-04T04:14:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260428145629_20260428145344_VXSE5k_1.json"
-    },
-    {
-      "id": "20260428080457_20260428080044_VXSE5k_1.json",
-      "time": "2026-04-28T08:00:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "2.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260428080457_20260428080044_VXSE5k_1.json"
     }
   ]
 }
