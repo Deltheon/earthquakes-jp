@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-05T02:52:01.599Z",
+  "lastUpdate": "2026-05-05T05:40:22.142Z",
   "source": "JMA list.json",
-  "totalInList": 240,
-  "totalUsable": 195,
+  "totalInList": 237,
+  "totalUsable": 192,
   "events": [
+    {
+      "id": "20260505122615_20260505122330_VXSE5k_1.json",
+      "time": "2026-05-05T12:23:00+09:00",
+      "region": "西表島付近",
+      "regionEn": "Adjacent Sea of Iriomotejima Island",
+      "magnitude": "3.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260505122615_20260505122330_VXSE5k_1.json"
+    },
     {
       "id": "20260505091644_20260505091404_VXSE5k_1.json",
       "time": "2026-05-05T09:14:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260430174724_20260430174317_VXSE5k_1.json"
-    },
-    {
-      "id": "20260430174227_20260430173600_VXSE5k_1.json",
-      "time": "2026-04-30T17:36:00+09:00",
-      "region": "長野県中部",
-      "regionEn": "Central Nagano Prefecture",
-      "magnitude": "2.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260430174227_20260430173600_VXSE5k_1.json"
     }
   ]
 }
