@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-05T08:04:28.959Z",
+  "lastUpdate": "2026-05-05T10:16:48.821Z",
   "source": "JMA list.json",
   "totalInList": 239,
   "totalUsable": 194,
   "events": [
+    {
+      "id": "20260505175754_20260505175522_VXSE5k_1.json",
+      "time": "2026-05-05T17:55:00+09:00",
+      "region": "山口県中部",
+      "regionEn": "Central Yamaguchi Prefecture",
+      "magnitude": "3.4",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260505175754_20260505175522_VXSE5k_1.json"
+    },
     {
       "id": "20260505160145_20260505155854_VXSE5k_1.json",
       "time": "2026-05-05T15:58:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260430222335_20260430222046_VXSE5k_1.json"
-    },
-    {
-      "id": "20260430202537_20260430202305_VXSE5k_1.json",
-      "time": "2026-04-30T20:23:00+09:00",
-      "region": "山口県中部",
-      "regionEn": "Central Yamaguchi Prefecture",
-      "magnitude": "3.7",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260430202537_20260430202305_VXSE5k_1.json"
     }
   ]
 }
