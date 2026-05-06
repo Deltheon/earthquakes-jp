@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-05T23:43:56.040Z",
+  "lastUpdate": "2026-05-06T02:34:33.565Z",
   "source": "JMA list.json",
-  "totalInList": 240,
-  "totalUsable": 193,
+  "totalInList": 239,
+  "totalUsable": 192,
   "events": [
+    {
+      "id": "20260506104638_20260506104351_VXSE5k_1.json",
+      "time": "2026-05-06T10:43:00+09:00",
+      "region": "西表島付近",
+      "regionEn": "Adjacent Sea of Iriomotejima Island",
+      "magnitude": "3.8",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260506104638_20260506104351_VXSE5k_1.json"
+    },
     {
       "id": "20260506044003_20260506043518_VXSE5k_1.json",
       "time": "2026-05-06T04:35:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260501031826_20260501031534_VXSE5k_1.json"
-    },
-    {
-      "id": "20260501021548_20260501021231_VXSE5k_1.json",
-      "time": "2026-05-01T02:12:00+09:00",
-      "region": "沖縄本島近海",
-      "regionEn": "Adjacent Sea of Okinawa Main Island",
-      "magnitude": "3.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260501021548_20260501021231_VXSE5k_1.json"
     }
   ]
 }
