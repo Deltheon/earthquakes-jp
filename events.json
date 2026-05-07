@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-07T22:33:38.377Z",
+  "lastUpdate": "2026-05-07T23:50:23.997Z",
   "source": "JMA list.json",
-  "totalInList": 244,
-  "totalUsable": 192,
+  "totalInList": 247,
+  "totalUsable": 193,
   "events": [
+    {
+      "id": "20260508083606_20260508083122_VXSE5k_1.json",
+      "time": "2026-05-08T08:31:00+09:00",
+      "region": "福島県沖",
+      "regionEn": "Off the Coast of Fukushima Prefecture",
+      "magnitude": "4.6",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260508083606_20260508083122_VXSE5k_1.json"
+    },
     {
       "id": "20260508035407_20260508035012_VXSE5k_1.json",
       "time": "2026-05-08T03:50:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "4",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260502183353_20260502182850_VXSE5k_1.json"
-    },
-    {
-      "id": "20260502153156_20260502152905_VXSE5k_1.json",
-      "time": "2026-05-02T15:29:00+09:00",
-      "region": "長野県北部",
-      "regionEn": "Northern Nagano Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260502153156_20260502152905_VXSE5k_1.json"
     }
   ]
 }
