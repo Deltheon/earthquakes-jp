@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-07T23:50:23.997Z",
+  "lastUpdate": "2026-05-08T02:42:20.369Z",
   "source": "JMA list.json",
-  "totalInList": 247,
-  "totalUsable": 193,
+  "totalInList": 248,
+  "totalUsable": 194,
   "events": [
+    {
+      "id": "20260508100429_20260508100100_VXSE5k_1.json",
+      "time": "2026-05-08T10:01:00+09:00",
+      "region": "トカラ列島近海",
+      "regionEn": "Adjacent Sea of Tokara Islands",
+      "magnitude": "2.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260508100429_20260508100100_VXSE5k_1.json"
+    },
     {
       "id": "20260508083606_20260508083122_VXSE5k_1.json",
       "time": "2026-05-08T08:31:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260502184219_20260502183939_VXSE5k_1.json"
-    },
-    {
-      "id": "20260502183353_20260502182850_VXSE5k_1.json",
-      "time": "2026-05-02T18:28:00+09:00",
-      "region": "奈良県",
-      "regionEn": "Nara Prefecture",
-      "magnitude": "5.7",
-      "maxIntensity": "4",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260502183353_20260502182850_VXSE5k_1.json"
     }
   ]
 }
