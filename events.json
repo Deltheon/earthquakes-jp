@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-05-09T15:48:54.153Z",
+  "lastUpdate": "2026-05-09T16:51:27.541Z",
   "source": "JMA list.json",
-  "totalInList": 250,
-  "totalUsable": 194,
+  "totalInList": 255,
+  "totalUsable": 197,
   "events": [
+    {
+      "id": "20260510012257_20260510011854_VXSE5k_1.json",
+      "time": "2026-05-10T01:18:00+09:00",
+      "region": "西表島付近",
+      "regionEn": "Adjacent Sea of Iriomotejima Island",
+      "magnitude": "4.8",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260510012257_20260510011854_VXSE5k_1.json"
+    },
+    {
+      "id": "20260510010735_20260510010250_VXSE5k_1.json",
+      "time": "2026-05-10T01:02:00+09:00",
+      "region": "西表島付近",
+      "regionEn": "Adjacent Sea of Iriomotejima Island",
+      "magnitude": "3.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260510010735_20260510010250_VXSE5k_1.json"
+    },
+    {
+      "id": "20260510010529_20260510005856_VXSE5k_1.json",
+      "time": "2026-05-10T00:58:00+09:00",
+      "region": "西表島付近",
+      "regionEn": "Adjacent Sea of Iriomotejima Island",
+      "magnitude": "3.6",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260510010529_20260510005856_VXSE5k_1.json"
+    },
     {
       "id": "20260509211022_20260509210627_VXSE5k_1.json",
       "time": "2026-05-09T21:06:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260505064645_20260505064205_VXSE5k_1.json"
-    },
-    {
-      "id": "20260504164117_20260504163721_VXSE5k_1.json",
-      "time": "2026-05-04T16:37:00+09:00",
-      "region": "日高地方西部",
-      "regionEn": "Western Hidaka Region, Hokkaido",
-      "magnitude": "3.8",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260504164117_20260504163721_VXSE5k_1.json"
-    },
-    {
-      "id": "20260504135414_20260504135140_VXSE5k_1.json",
-      "time": "2026-05-04T13:51:00+09:00",
-      "region": "岩手県沖",
-      "regionEn": "Off the Coast of Iwate Prefecture",
-      "magnitude": "3.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260504135414_20260504135140_VXSE5k_1.json"
-    },
-    {
-      "id": "20260504051711_20260504051428_VXSE5k_1.json",
-      "time": "2026-05-04T05:14:00+09:00",
-      "region": "津軽海峡",
-      "regionEn": "Tsugaru Strait",
-      "magnitude": "3.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260504051711_20260504051428_VXSE5k_1.json"
     }
   ]
 }
