@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-09T08:57:05.715Z",
+  "lastUpdate": "2026-05-09T10:06:42.545Z",
   "source": "JMA list.json",
-  "totalInList": 249,
-  "totalUsable": 193,
+  "totalInList": 250,
+  "totalUsable": 194,
   "events": [
+    {
+      "id": "20260509182253_20260509181958_VXSE5k_1.json",
+      "time": "2026-05-09T18:19:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "4.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260509182253_20260509181958_VXSE5k_1.json"
+    },
     {
       "id": "20260509114553_20260509114305_VXSE5k_1.json",
       "time": "2026-05-09T11:43:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260504041742_20260504041453_VXSE5k_1.json"
-    },
-    {
-      "id": "20260504012227_20260504011913_VXSE5k_1.json",
-      "time": "2026-05-04T01:19:00+09:00",
-      "region": "与那国島近海",
-      "regionEn": "Adjacent Sea of Yonagunijima Island",
-      "magnitude": "4.8",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260504012227_20260504011913_VXSE5k_1.json"
     }
   ]
 }
