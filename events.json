@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-09T12:07:59.858Z",
+  "lastUpdate": "2026-05-09T13:57:15.570Z",
   "source": "JMA list.json",
-  "totalInList": 250,
-  "totalUsable": 194,
+  "totalInList": 251,
+  "totalUsable": 195,
   "events": [
+    {
+      "id": "20260509211022_20260509210627_VXSE5k_1.json",
+      "time": "2026-05-09T21:06:00+09:00",
+      "region": "岩手県沿岸北部",
+      "regionEn": "Northern Coast of Iwate Prefecture",
+      "magnitude": "3.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260509211022_20260509210627_VXSE5k_1.json"
+    },
     {
       "id": "20260509182253_20260509181958_VXSE5k_1.json",
       "time": "2026-05-09T18:19:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260504051711_20260504051428_VXSE5k_1.json"
-    },
-    {
-      "id": "20260504041742_20260504041453_VXSE5k_1.json",
-      "time": "2026-05-04T04:14:00+09:00",
-      "region": "秋田県内陸北部",
-      "regionEn": "Northern Inland of Akita Prefecture",
-      "magnitude": "2.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260504041742_20260504041453_VXSE5k_1.json"
     }
   ]
 }
