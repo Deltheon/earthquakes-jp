@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-09T20:49:04.864Z",
+  "lastUpdate": "2026-05-09T21:39:49.610Z",
   "source": "JMA list.json",
-  "totalInList": 255,
-  "totalUsable": 197,
+  "totalInList": 254,
+  "totalUsable": 196,
   "events": [
+    {
+      "id": "20260510060700_20260510060417_VXSE5k_1.json",
+      "time": "2026-05-10T06:04:00+09:00",
+      "region": "西表島付近",
+      "regionEn": "Adjacent Sea of Iriomotejima Island",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260510060700_20260510060417_VXSE5k_1.json"
+    },
     {
       "id": "20260510012257_20260510011854_VXSE5k_1.json",
       "time": "2026-05-10T01:18:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260505085909_20260505085411_VXSE5k_1.json"
-    },
-    {
-      "id": "20260505064645_20260505064205_VXSE5k_1.json",
-      "time": "2026-05-05T06:42:00+09:00",
-      "region": "三陸沖",
-      "regionEn": "Off the Coast of Sanriku",
-      "magnitude": "4.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260505064645_20260505064205_VXSE5k_1.json"
     }
   ]
 }
