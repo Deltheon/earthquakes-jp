@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-05-11T16:30:13.511Z",
+  "lastUpdate": "2026-05-11T18:55:53.897Z",
   "source": "JMA list.json",
-  "totalInList": 256,
-  "totalUsable": 198,
+  "totalInList": 257,
+  "totalUsable": 199,
   "events": [
+    {
+      "id": "20260512033346_20260512033044_VXSE5k_1.json",
+      "time": "2026-05-12T03:30:00+09:00",
+      "region": "山口県北部",
+      "regionEn": "Northern Yamaguchi Prefecture",
+      "magnitude": "3.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260512033346_20260512033044_VXSE5k_1.json"
+    },
+    {
+      "id": "20260512014927_20260512014634_VXSE5k_1.json",
+      "time": "2026-05-12T01:46:00+09:00",
+      "region": "長野県南部",
+      "regionEn": "Southern Nagano Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260512014927_20260512014634_VXSE5k_1.json"
+    },
     {
       "id": "20260511205240_20260511205011_VXSE5k_1.json",
       "time": "2026-05-11T20:50:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260506191133_20260506190641_VXSE5k_1.json"
-    },
-    {
-      "id": "20260506170303_20260506170004_VXSE5k_1.json",
-      "time": "2026-05-06T17:00:00+09:00",
-      "region": "奄美大島近海",
-      "regionEn": "Adjacent Sea of Amami-Oshima Island",
-      "magnitude": "3.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260506170303_20260506170004_VXSE5k_1.json"
-    },
-    {
-      "id": "20260506104638_20260506104351_VXSE5k_1.json",
-      "time": "2026-05-06T10:43:00+09:00",
-      "region": "西表島付近",
-      "regionEn": "Adjacent Sea of Iriomotejima Island",
-      "magnitude": "3.8",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260506104638_20260506104351_VXSE5k_1.json"
     }
   ]
 }
