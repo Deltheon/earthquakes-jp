@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-12T10:28:27.540Z",
+  "lastUpdate": "2026-05-12T12:24:55.169Z",
   "source": "JMA list.json",
-  "totalInList": 262,
-  "totalUsable": 201,
+  "totalInList": 263,
+  "totalUsable": 202,
   "events": [
+    {
+      "id": "20260512193543_20260512193226_VXSE5k_1.json",
+      "time": "2026-05-12T19:32:00+09:00",
+      "region": "北海道北西沖",
+      "regionEn": "Off the northwest Coast of Hokkaido",
+      "magnitude": "3.6",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260512193543_20260512193226_VXSE5k_1.json"
+    },
     {
       "id": "20260512090620_20260512090243_VXSE5k_1.json",
       "time": "2026-05-12T09:02:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260507063554_20260507063223_VXSE5k_1.json"
-    },
-    {
-      "id": "20260507060427_20260507060131_VXSE5k_1.json",
-      "time": "2026-05-07T06:01:00+09:00",
-      "region": "石川県西方沖",
-      "regionEn": "Off the west Coast of Ishikawa Prefecture",
-      "magnitude": "3.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260507060427_20260507060131_VXSE5k_1.json"
     }
   ]
 }
