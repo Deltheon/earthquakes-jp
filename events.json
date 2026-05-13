@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-13T03:33:21.130Z",
+  "lastUpdate": "2026-05-13T06:45:13.267Z",
   "source": "JMA list.json",
-  "totalInList": 260,
-  "totalUsable": 201,
+  "totalInList": 261,
+  "totalUsable": 202,
   "events": [
+    {
+      "id": "20260513142946_20260513142502_VXSE5k_1.json",
+      "time": "2026-05-13T14:24:00+09:00",
+      "region": "青森県下北地方",
+      "regionEn": "Shimokita Region, Aomori Prefecture",
+      "magnitude": "2.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260513142946_20260513142502_VXSE5k_1.json"
+    },
     {
       "id": "20260513112926_20260513112447_VXSE5k_1.json",
       "time": "2026-05-13T11:24:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260508083606_20260508083122_VXSE5k_1.json"
-    },
-    {
-      "id": "20260508035407_20260508035012_VXSE5k_1.json",
-      "time": "2026-05-08T03:50:00+09:00",
-      "region": "茨城県南部",
-      "regionEn": "Southern Ibaraki Prefecture",
-      "magnitude": "4.2",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260508035407_20260508035012_VXSE5k_1.json"
     }
   ]
 }
