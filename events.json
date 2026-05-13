@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-13T09:42:02.871Z",
+  "lastUpdate": "2026-05-13T12:01:04.990Z",
   "source": "JMA list.json",
-  "totalInList": 260,
-  "totalUsable": 201,
+  "totalInList": 261,
+  "totalUsable": 202,
   "events": [
+    {
+      "id": "20260513202030_20260513201740_VXSE5k_1.json",
+      "time": "2026-05-13T20:17:00+09:00",
+      "region": "群馬県北部",
+      "regionEn": "Northern Gunma Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260513202030_20260513201740_VXSE5k_1.json"
+    },
     {
       "id": "20260513142946_20260513142502_VXSE5k_1.json",
       "time": "2026-05-13T14:24:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260508100429_20260508100100_VXSE5k_1.json"
-    },
-    {
-      "id": "20260508083606_20260508083122_VXSE5k_1.json",
-      "time": "2026-05-08T08:31:00+09:00",
-      "region": "福島県沖",
-      "regionEn": "Off the Coast of Fukushima Prefecture",
-      "magnitude": "4.6",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260508083606_20260508083122_VXSE5k_1.json"
     }
   ]
 }
