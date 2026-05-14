@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-14T02:50:01.215Z",
+  "lastUpdate": "2026-05-14T06:22:24.198Z",
   "source": "JMA list.json",
   "totalInList": 278,
   "totalUsable": 214,
   "events": [
+    {
+      "id": "20260514151807_20260514151505_VXSE5k_1.json",
+      "time": "2026-05-14T15:15:00+09:00",
+      "region": "青森県津軽南部",
+      "regionEn": "Southern Tsugaru, Aomori Prefecture",
+      "magnitude": "2.8",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260514151807_20260514151505_VXSE5k_1.json"
+    },
     {
       "id": "20260514105805_20260514105543_VXSE5k_1.json",
       "time": "2026-05-14T10:55:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260510071231_20260510070944_VXSE5k_1.json"
-    },
-    {
-      "id": "20260510060700_20260510060417_VXSE5k_1.json",
-      "time": "2026-05-10T06:04:00+09:00",
-      "region": "西表島付近",
-      "regionEn": "Adjacent Sea of Iriomotejima Island",
-      "magnitude": "2.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260510060700_20260510060417_VXSE5k_1.json"
     }
   ]
 }
