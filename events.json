@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-14T13:13:07.984Z",
+  "lastUpdate": "2026-05-14T15:39:43.026Z",
   "source": "JMA list.json",
-  "totalInList": 276,
+  "totalInList": 278,
   "totalUsable": 212,
   "events": [
+    {
+      "id": "20260514224759_20260514224404_VXSE5k_1.json",
+      "time": "2026-05-14T22:44:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260514224759_20260514224404_VXSE5k_1.json"
+    },
     {
       "id": "20260514151807_20260514151505_VXSE5k_1.json",
       "time": "2026-05-14T15:15:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260511002833_20260511002528_VXSE5k_1.json"
-    },
-    {
-      "id": "20260510071231_20260510070944_VXSE5k_1.json",
-      "time": "2026-05-10T07:09:00+09:00",
-      "region": "長野県北部",
-      "regionEn": "Northern Nagano Prefecture",
-      "magnitude": "2.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260510071231_20260510070944_VXSE5k_1.json"
     }
   ]
 }
