@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-15T22:01:16.911Z",
+  "lastUpdate": "2026-05-15T23:27:22.326Z",
   "source": "JMA list.json",
-  "totalInList": 284,
-  "totalUsable": 212,
+  "totalInList": 285,
+  "totalUsable": 213,
   "events": [
+    {
+      "id": "20260516073112_20260516072735_VXSE5k_1.json",
+      "time": "2026-05-16T07:27:00+09:00",
+      "region": "岐阜県飛騨地方",
+      "regionEn": "Hida, Gifu Prefecture",
+      "magnitude": "3.5",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260516073112_20260516072735_VXSE5k_1.json"
+    },
     {
       "id": "20260516040204_20260516035544_VXSE5k_1.json",
       "time": "2026-05-16T03:55:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260512073918_20260512073625_VXSE5k_1.json"
-    },
-    {
-      "id": "20260512033346_20260512033044_VXSE5k_1.json",
-      "time": "2026-05-12T03:30:00+09:00",
-      "region": "山口県北部",
-      "regionEn": "Northern Yamaguchi Prefecture",
-      "magnitude": "3.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260512033346_20260512033044_VXSE5k_1.json"
     }
   ]
 }
