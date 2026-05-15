@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-15T02:50:43.484Z",
+  "lastUpdate": "2026-05-15T06:31:56.680Z",
   "source": "JMA list.json",
-  "totalInList": 277,
+  "totalInList": 279,
   "totalUsable": 211,
   "events": [
+    {
+      "id": "20260515121321_20260515120958_VXSE5k_1.json",
+      "time": "2026-05-15T12:09:00+09:00",
+      "region": "青森県津軽南部",
+      "regionEn": "Southern Tsugaru, Aomori Prefecture",
+      "magnitude": "3.4",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260515121321_20260515120958_VXSE5k_1.json"
+    },
     {
       "id": "20260515082559_20260515082313_VXSE5k_1.json",
       "time": "2026-05-15T08:23:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260511104441_20260511104132_VXSE5k_1.json"
-    },
-    {
-      "id": "20260511092630_20260511092145_VXSE5k_1.json",
-      "time": "2026-05-11T09:21:00+09:00",
-      "region": "三陸沖",
-      "regionEn": "Off the Coast of Sanriku",
-      "magnitude": "4.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260511092630_20260511092145_VXSE5k_1.json"
     }
   ]
 }
