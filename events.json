@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-16T19:00:14.199Z",
+  "lastUpdate": "2026-05-16T20:10:19.105Z",
   "source": "JMA list.json",
-  "totalInList": 286,
-  "totalUsable": 214,
+  "totalInList": 284,
+  "totalUsable": 212,
   "events": [
+    {
+      "id": "20260517042826_20260517042540_VXSE5k_1.json",
+      "time": "2026-05-17T04:25:00+09:00",
+      "region": "島根県東部",
+      "regionEn": "Eastern Shimane Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260517042826_20260517042540_VXSE5k_1.json"
+    },
     {
       "id": "20260517011153_20260517010908_VXSE5k_1.json",
       "time": "2026-05-17T01:09:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260513030603_20260513030308_VXSE5k_1.json"
-    },
-    {
-      "id": "20260512193543_20260512193226_VXSE5k_1.json",
-      "time": "2026-05-12T19:32:00+09:00",
-      "region": "北海道北西沖",
-      "regionEn": "Off the northwest Coast of Hokkaido",
-      "magnitude": "3.6",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260512193543_20260512193226_VXSE5k_1.json"
     }
   ]
 }
