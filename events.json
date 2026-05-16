@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-16T15:55:26.913Z",
+  "lastUpdate": "2026-05-16T16:56:23.885Z",
   "source": "JMA list.json",
-  "totalInList": 285,
-  "totalUsable": 213,
+  "totalInList": 286,
+  "totalUsable": 214,
   "events": [
+    {
+      "id": "20260517011153_20260517010908_VXSE5k_1.json",
+      "time": "2026-05-17T01:09:00+09:00",
+      "region": "西表島付近",
+      "regionEn": "Adjacent Sea of Iriomotejima Island",
+      "magnitude": "3.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260517011153_20260517010908_VXSE5k_1.json"
+    },
     {
       "id": "20260516123157_20260516122924_VXSE5k_1.json",
       "time": "2026-05-16T12:29:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260512193543_20260512193226_VXSE5k_1.json"
-    },
-    {
-      "id": "20260512090620_20260512090243_VXSE5k_1.json",
-      "time": "2026-05-12T09:02:00+09:00",
-      "region": "茨城県南部",
-      "regionEn": "Southern Ibaraki Prefecture",
-      "magnitude": "4.3",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260512090620_20260512090243_VXSE5k_1.json"
     }
   ]
 }
