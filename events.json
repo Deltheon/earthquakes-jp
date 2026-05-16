@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-16T01:15:48.507Z",
+  "lastUpdate": "2026-05-16T04:49:31.243Z",
   "source": "JMA list.json",
   "totalInList": 285,
   "totalUsable": 213,
   "events": [
+    {
+      "id": "20260516123157_20260516122924_VXSE5k_1.json",
+      "time": "2026-05-16T12:29:00+09:00",
+      "region": "紀伊水道",
+      "regionEn": "Kiisuido Strait",
+      "magnitude": "2.8",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260516123157_20260516122924_VXSE5k_1.json"
+    },
     {
       "id": "20260516073112_20260516072735_VXSE5k_1.json",
       "time": "2026-05-16T07:27:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260512090620_20260512090243_VXSE5k_1.json"
-    },
-    {
-      "id": "20260512073918_20260512073625_VXSE5k_1.json",
-      "time": "2026-05-12T07:36:00+09:00",
-      "region": "宮城県沖",
-      "regionEn": "Off the Coast of Miyagi Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260512073918_20260512073625_VXSE5k_1.json"
     }
   ]
 }
