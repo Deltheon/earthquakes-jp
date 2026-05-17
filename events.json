@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-17T00:13:13.922Z",
+  "lastUpdate": "2026-05-17T04:37:45.488Z",
   "source": "JMA list.json",
-  "totalInList": 285,
-  "totalUsable": 213,
+  "totalInList": 286,
+  "totalUsable": 214,
   "events": [
+    {
+      "id": "20260517114521_20260517114219_VXSE5k_1.json",
+      "time": "2026-05-17T11:42:00+09:00",
+      "region": "宮城県沖",
+      "regionEn": "Off the Coast of Miyagi Prefecture",
+      "magnitude": "4.2",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260517114521_20260517114219_VXSE5k_1.json"
+    },
     {
       "id": "20260517091128_20260517090731_VXSE5k_1.json",
       "time": "2026-05-17T09:07:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260513202030_20260513201740_VXSE5k_1.json"
-    },
-    {
-      "id": "20260513142946_20260513142502_VXSE5k_1.json",
-      "time": "2026-05-13T14:24:00+09:00",
-      "region": "青森県下北地方",
-      "regionEn": "Shimokita Region, Aomori Prefecture",
-      "magnitude": "2.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260513142946_20260513142502_VXSE5k_1.json"
     }
   ]
 }
