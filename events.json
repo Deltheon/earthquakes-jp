@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-18T05:49:19.737Z",
+  "lastUpdate": "2026-05-18T09:56:00.829Z",
   "source": "JMA list.json",
-  "totalInList": 289,
-  "totalUsable": 215,
+  "totalInList": 266,
+  "totalUsable": 203,
   "events": [
+    {
+      "id": "20260518152237_20260518151927_VXSE5k_1.json",
+      "time": "2026-05-18T15:19:00+09:00",
+      "region": "宮城県沖",
+      "regionEn": "Off the Coast of Miyagi Prefecture",
+      "magnitude": "4.0",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260518152237_20260518151927_VXSE5k_1.json"
+    },
     {
       "id": "20260518083951_20260518083630_VXSE5k_1.json",
       "time": "2026-05-18T08:36:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260514050241_20260514050002_VXSE5k_1.json"
-    },
-    {
-      "id": "20260514030537_20260514030250_VXSE5k_1.json",
-      "time": "2026-05-14T03:02:00+09:00",
-      "region": "宮城県沖",
-      "regionEn": "Off the Coast of Miyagi Prefecture",
-      "magnitude": "3.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260514030537_20260514030250_VXSE5k_1.json"
     }
   ]
 }
