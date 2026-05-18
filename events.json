@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-18T20:15:03.109Z",
+  "lastUpdate": "2026-05-18T21:45:02.288Z",
   "source": "JMA list.json",
-  "totalInList": 262,
-  "totalUsable": 199,
+  "totalInList": 260,
+  "totalUsable": 197,
   "events": [
+    {
+      "id": "20260519051712_20260519051424_VXSE5k_1.json",
+      "time": "2026-05-19T05:14:00+09:00",
+      "region": "福島県中通り",
+      "regionEn": "Nakadori, Fukushima Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260519051712_20260519051424_VXSE5k_1.json"
+    },
     {
       "id": "20260519020734_20260519020432_VXSE5k_1.json",
       "time": "2026-05-19T02:04:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260514051530_20260514051126_VXSE5k_1.json"
-    },
-    {
-      "id": "20260514050606_20260514050138_VXSE5k_1.json",
-      "time": "2026-05-14T05:01:00+09:00",
-      "region": "岩手県内陸北部",
-      "regionEn": "Northern Inland of Iwate Prefecture",
-      "magnitude": "5.0",
-      "maxIntensity": "4",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260514050606_20260514050138_VXSE5k_1.json"
     }
   ]
 }
