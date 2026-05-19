@@ -1,8 +1,8 @@
 {
-  "lastUpdate": "2026-05-19T19:48:23.069Z",
+  "lastUpdate": "2026-05-19T21:16:47.988Z",
   "source": "JMA list.json",
-  "totalInList": 256,
-  "totalUsable": 195,
+  "totalInList": 255,
+  "totalUsable": 194,
   "events": [
     {
       "id": "20260520023219_20260520022910_VXSE5k_1.json",
