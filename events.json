@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-19T14:54:01.467Z",
+  "lastUpdate": "2026-05-19T17:36:16.295Z",
   "source": "JMA list.json",
-  "totalInList": 260,
-  "totalUsable": 197,
+  "totalInList": 256,
+  "totalUsable": 195,
   "events": [
+    {
+      "id": "20260520023219_20260520022910_VXSE5k_1.json",
+      "time": "2026-05-20T02:29:00+09:00",
+      "region": "奄美大島近海",
+      "regionEn": "Adjacent Sea of Amami-Oshima Island",
+      "magnitude": "3.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260520023219_20260520022910_VXSE5k_1.json"
+    },
     {
       "id": "20260519193851_20260519193523_VXSE5k_1.json",
       "time": "2026-05-19T19:35:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260514105805_20260514105543_VXSE5k_1.json"
-    },
-    {
-      "id": "20260514054913_20260514054628_VXSE5k_1.json",
-      "time": "2026-05-14T05:46:00+09:00",
-      "region": "西表島付近",
-      "regionEn": "Adjacent Sea of Iriomotejima Island",
-      "magnitude": "3.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260514054913_20260514054628_VXSE5k_1.json"
     }
   ]
 }
