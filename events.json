@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-20T20:10:27.785Z",
+  "lastUpdate": "2026-05-20T22:09:24.267Z",
   "source": "JMA list.json",
-  "totalInList": 238,
-  "totalUsable": 182,
+  "totalInList": 239,
+  "totalUsable": 183,
   "events": [
+    {
+      "id": "20260521063001_20260521062737_VXSE5k_1.json",
+      "time": "2026-05-21T06:27:00+09:00",
+      "region": "茨城県沖",
+      "regionEn": "Off the Coast of Ibaraki Prefecture",
+      "magnitude": "3.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260521063001_20260521062737_VXSE5k_1.json"
+    },
     {
       "id": "20260521011147_20260521010824_VXSE5k_1.json",
       "time": "2026-05-21T01:08:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260515192622_20260515192320_VXSE5k_1.json"
-    },
-    {
-      "id": "20260515121321_20260515120958_VXSE5k_1.json",
-      "time": "2026-05-15T12:09:00+09:00",
-      "region": "青森県津軽南部",
-      "regionEn": "Southern Tsugaru, Aomori Prefecture",
-      "magnitude": "3.4",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260515121321_20260515120958_VXSE5k_1.json"
     }
   ]
 }
