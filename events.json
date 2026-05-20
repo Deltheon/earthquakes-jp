@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-20T00:01:23.396Z",
+  "lastUpdate": "2026-05-20T04:44:26.650Z",
   "source": "JMA list.json",
-  "totalInList": 256,
-  "totalUsable": 195,
+  "totalInList": 258,
+  "totalUsable": 193,
   "events": [
+    {
+      "id": "20260520115111_20260520114633_VXSE5k_1.json",
+      "time": "2026-05-20T11:46:00+09:00",
+      "region": "沖縄本島近海",
+      "regionEn": "Adjacent Sea of Okinawa Main Island",
+      "magnitude": "5.9",
+      "maxIntensity": "5+",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260520115111_20260520114633_VXSE5k_1.json"
+    },
     {
       "id": "20260520071102_20260520070805_VXSE5k_1.json",
       "time": "2026-05-20T07:08:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260514224759_20260514224404_VXSE5k_1.json"
-    },
-    {
-      "id": "20260514151807_20260514151505_VXSE5k_1.json",
-      "time": "2026-05-14T15:15:00+09:00",
-      "region": "青森県津軽南部",
-      "regionEn": "Southern Tsugaru, Aomori Prefecture",
-      "magnitude": "2.8",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260514151807_20260514151505_VXSE5k_1.json"
     }
   ]
 }
