@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-05-21T14:12:47.303Z",
+  "lastUpdate": "2026-05-21T17:11:25.698Z",
   "source": "JMA list.json",
-  "totalInList": 236,
-  "totalUsable": 180,
+  "totalInList": 232,
+  "totalUsable": 176,
   "events": [
+    {
+      "id": "20260522013611_20260522013324_VXSE5k_1.json",
+      "time": "2026-05-22T01:33:00+09:00",
+      "region": "伊勢湾",
+      "regionEn": "Ise Bay",
+      "magnitude": "3.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260522013611_20260522013324_VXSE5k_1.json"
+    },
+    {
+      "id": "20260522002704_20260522002356_VXSE5k_1.json",
+      "time": "2026-05-22T00:23:00+09:00",
+      "region": "豊後水道",
+      "regionEn": "Bungosuido Strait",
+      "magnitude": "3.5",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260522002704_20260522002356_VXSE5k_1.json"
+    },
     {
       "id": "20260521171029_20260521170728_VXSE5k_1.json",
       "time": "2026-05-21T17:07:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260516123157_20260516122924_VXSE5k_1.json"
-    },
-    {
-      "id": "20260516073112_20260516072735_VXSE5k_1.json",
-      "time": "2026-05-16T07:27:00+09:00",
-      "region": "岐阜県飛騨地方",
-      "regionEn": "Hida, Gifu Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260516073112_20260516072735_VXSE5k_1.json"
-    },
-    {
-      "id": "20260516040204_20260516035544_VXSE5k_1.json",
-      "time": "2026-05-16T03:55:00+09:00",
-      "region": "大阪府北部",
-      "regionEn": "Northern Osaka Prefecture",
-      "magnitude": "2.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260516040204_20260516035544_VXSE5k_1.json"
     }
   ]
 }
