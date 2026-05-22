@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-22T16:02:00.083Z",
+  "lastUpdate": "2026-05-22T18:13:55.777Z",
   "source": "JMA list.json",
-  "totalInList": 224,
-  "totalUsable": 170,
+  "totalInList": 225,
+  "totalUsable": 171,
   "events": [
+    {
+      "id": "20260523015707_20260523015403_VXSE5k_1.json",
+      "time": "2026-05-23T01:54:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "4.4",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260523015707_20260523015403_VXSE5k_1.json"
+    },
     {
       "id": "20260522214253_20260522214009_VXSE5k_1.json",
       "time": "2026-05-22T21:40:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260517052511_20260517052249_VXSE5k_1.json"
-    },
-    {
-      "id": "20260517042826_20260517042540_VXSE5k_1.json",
-      "time": "2026-05-17T04:25:00+09:00",
-      "region": "島根県東部",
-      "regionEn": "Eastern Shimane Prefecture",
-      "magnitude": "2.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260517042826_20260517042540_VXSE5k_1.json"
     }
   ]
 }
