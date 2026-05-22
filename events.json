@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-22T10:53:40.017Z",
+  "lastUpdate": "2026-05-22T13:28:47.017Z",
   "source": "JMA list.json",
-  "totalInList": 226,
-  "totalUsable": 172,
+  "totalInList": 225,
+  "totalUsable": 171,
   "events": [
+    {
+      "id": "20260522214253_20260522214009_VXSE5k_1.json",
+      "time": "2026-05-22T21:40:00+09:00",
+      "region": "栃木県南部",
+      "regionEn": "Southern Tochigi Prefecture",
+      "magnitude": "3.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260522214253_20260522214009_VXSE5k_1.json"
+    },
     {
       "id": "20260522152513_20260522152219_VXSE5k_1.json",
       "time": "2026-05-22T15:22:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260517042826_20260517042540_VXSE5k_1.json"
-    },
-    {
-      "id": "20260517011153_20260517010908_VXSE5k_1.json",
-      "time": "2026-05-17T01:09:00+09:00",
-      "region": "西表島付近",
-      "regionEn": "Adjacent Sea of Iriomotejima Island",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260517011153_20260517010908_VXSE5k_1.json"
     }
   ]
 }
