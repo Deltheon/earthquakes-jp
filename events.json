@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-22T04:22:03.555Z",
+  "lastUpdate": "2026-05-22T07:57:34.795Z",
   "source": "JMA list.json",
   "totalInList": 227,
   "totalUsable": 173,
   "events": [
+    {
+      "id": "20260522152513_20260522152219_VXSE5k_1.json",
+      "time": "2026-05-22T15:22:00+09:00",
+      "region": "留萌地方中北部",
+      "regionEn": "Central and northern Rumoi Region, Hokkaido",
+      "magnitude": "3.4",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260522152513_20260522152219_VXSE5k_1.json"
+    },
     {
       "id": "20260522013611_20260522013324_VXSE5k_1.json",
       "time": "2026-05-22T01:33:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260517011153_20260517010908_VXSE5k_1.json"
-    },
-    {
-      "id": "20260516123157_20260516122924_VXSE5k_1.json",
-      "time": "2026-05-16T12:29:00+09:00",
-      "region": "紀伊水道",
-      "regionEn": "Kiisuido Strait",
-      "magnitude": "2.8",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260516123157_20260516122924_VXSE5k_1.json"
     }
   ]
 }
