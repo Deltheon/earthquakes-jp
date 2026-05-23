@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-23T04:23:10.400Z",
+  "lastUpdate": "2026-05-23T07:13:51.795Z",
   "source": "JMA list.json",
-  "totalInList": 216,
-  "totalUsable": 164,
+  "totalInList": 217,
+  "totalUsable": 165,
   "events": [
+    {
+      "id": "20260523152322_20260523152037_VXSE5k_1.json",
+      "time": "2026-05-23T15:20:00+09:00",
+      "region": "千葉県東方沖",
+      "regionEn": "Off the east Coast of Chiba Prefecture",
+      "magnitude": "3.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260523152322_20260523152037_VXSE5k_1.json"
+    },
     {
       "id": "20260523015707_20260523015403_VXSE5k_1.json",
       "time": "2026-05-23T01:54:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260517055806_20260517055544_VXSE5k_1.json"
-    },
-    {
-      "id": "20260517052511_20260517052249_VXSE5k_1.json",
-      "time": "2026-05-17T05:22:00+09:00",
-      "region": "鹿児島県薩摩地方",
-      "regionEn": "Satsuma Region, Kagoshima Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260517052511_20260517052249_VXSE5k_1.json"
     }
   ]
 }
