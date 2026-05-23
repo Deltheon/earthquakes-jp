@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-23T13:45:02.763Z",
+  "lastUpdate": "2026-05-23T14:57:51.320Z",
   "source": "JMA list.json",
-  "totalInList": 214,
-  "totalUsable": 162,
+  "totalInList": 215,
+  "totalUsable": 163,
   "events": [
+    {
+      "id": "20260523232249_20260523231959_VXSE5k_1.json",
+      "time": "2026-05-23T23:19:00+09:00",
+      "region": "釧路沖",
+      "regionEn": "Off the Coast of Kushiro",
+      "magnitude": "3.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260523232249_20260523231959_VXSE5k_1.json"
+    },
     {
       "id": "20260523223500_20260523223149_VXSE5k_1.json",
       "time": "2026-05-23T22:31:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260517114521_20260517114219_VXSE5k_1.json"
-    },
-    {
-      "id": "20260517091128_20260517090731_VXSE5k_1.json",
-      "time": "2026-05-17T09:07:00+09:00",
-      "region": "三陸沖",
-      "regionEn": "Off the Coast of Sanriku",
-      "magnitude": "4.9",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260517091128_20260517090731_VXSE5k_1.json"
     }
   ]
 }
