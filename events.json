@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-05-23T21:24:31.255Z",
+  "lastUpdate": "2026-05-23T22:24:26.540Z",
   "source": "JMA list.json",
-  "totalInList": 214,
-  "totalUsable": 162,
+  "totalInList": 216,
+  "totalUsable": 164,
   "events": [
+    {
+      "id": "20260524072227_20260524071950_VXSE5k_1.json",
+      "time": "2026-05-24T07:19:00+09:00",
+      "region": "岐阜県飛騨地方",
+      "regionEn": "Hida, Gifu Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260524072227_20260524071950_VXSE5k_1.json"
+    },
+    {
+      "id": "20260524070945_20260524070640_VXSE5k_1.json",
+      "time": "2026-05-24T07:06:00+09:00",
+      "region": "岐阜県飛騨地方",
+      "regionEn": "Hida, Gifu Prefecture",
+      "magnitude": "4.0",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260524070945_20260524070640_VXSE5k_1.json"
+    },
     {
       "id": "20260524041757_20260524041507_VXSE5k_1.json",
       "time": "2026-05-24T04:15:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260518082805_20260518082403_VXSE5k_1.json"
-    },
-    {
-      "id": "20260518082531_20260518082126_VXSE5k_1.json",
-      "time": "2026-05-18T08:21:00+09:00",
-      "region": "西表島付近",
-      "regionEn": "Adjacent Sea of Iriomotejima Island",
-      "magnitude": "4.6",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260518082531_20260518082126_VXSE5k_1.json"
-    },
-    {
-      "id": "20260518023022_20260518022720_VXSE5k_1.json",
-      "time": "2026-05-18T02:27:00+09:00",
-      "region": "茨城県沖",
-      "regionEn": "Off the Coast of Ibaraki Prefecture",
-      "magnitude": "2.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260518023022_20260518022720_VXSE5k_1.json"
     }
   ]
 }
