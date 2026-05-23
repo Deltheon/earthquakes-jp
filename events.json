@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-23T11:57:53.188Z",
+  "lastUpdate": "2026-05-23T13:45:02.763Z",
   "source": "JMA list.json",
-  "totalInList": 215,
-  "totalUsable": 163,
+  "totalInList": 214,
+  "totalUsable": 162,
   "events": [
+    {
+      "id": "20260523223500_20260523223149_VXSE5k_1.json",
+      "time": "2026-05-23T22:31:00+09:00",
+      "region": "島根県東部",
+      "regionEn": "Eastern Shimane Prefecture",
+      "magnitude": "2.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260523223500_20260523223149_VXSE5k_1.json"
+    },
     {
       "id": "20260523152322_20260523152037_VXSE5k_1.json",
       "time": "2026-05-23T15:20:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260517091128_20260517090731_VXSE5k_1.json"
-    },
-    {
-      "id": "20260517055806_20260517055544_VXSE5k_1.json",
-      "time": "2026-05-17T05:55:00+09:00",
-      "region": "鹿児島県薩摩地方",
-      "regionEn": "Satsuma Region, Kagoshima Prefecture",
-      "magnitude": "2.8",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260517055806_20260517055544_VXSE5k_1.json"
     }
   ]
 }
