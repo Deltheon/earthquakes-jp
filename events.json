@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-25T20:48:14.417Z",
+  "lastUpdate": "2026-05-25T22:05:19.650Z",
   "source": "JMA list.json",
   "totalInList": 217,
   "totalUsable": 163,
   "events": [
+    {
+      "id": "20260526065313_20260526064954_VXSE5k_1.json",
+      "time": "2026-05-26T06:49:00+09:00",
+      "region": "沖縄本島近海",
+      "regionEn": "Adjacent Sea of Okinawa Main Island",
+      "magnitude": "3.8",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260526065313_20260526064954_VXSE5k_1.json"
+    },
     {
       "id": "20260525201820_20260525201513_VXSE5k_1.json",
       "time": "2026-05-25T20:15:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260519192651_20260519192347_VXSE5k_1.json"
-    },
-    {
-      "id": "20260519130717_20260519130327_VXSE5k_1.json",
-      "time": "2026-05-19T13:03:00+09:00",
-      "region": "トカラ列島近海",
-      "regionEn": "Adjacent Sea of Tokara Islands",
-      "magnitude": "2.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260519130717_20260519130327_VXSE5k_1.json"
     }
   ]
 }
