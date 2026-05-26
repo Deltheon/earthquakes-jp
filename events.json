@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-05-26T02:51:23.401Z",
+  "lastUpdate": "2026-05-26T06:43:17.081Z",
   "source": "JMA list.json",
-  "totalInList": 216,
-  "totalUsable": 162,
+  "totalInList": 218,
+  "totalUsable": 164,
   "events": [
+    {
+      "id": "20260526141118_20260526140829_VXSE5k_1.json",
+      "time": "2026-05-26T14:08:00+09:00",
+      "region": "青森県東方沖",
+      "regionEn": "Off the east Coast of Aomori Prefecture",
+      "magnitude": "3.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260526141118_20260526140829_VXSE5k_1.json"
+    },
+    {
+      "id": "20260526135914_20260526135616_VXSE5k_1.json",
+      "time": "2026-05-26T13:56:00+09:00",
+      "region": "青森県下北地方",
+      "regionEn": "Shimokita Region, Aomori Prefecture",
+      "magnitude": "3.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260526135914_20260526135616_VXSE5k_1.json"
+    },
     {
       "id": "20260526092140_20260526091833_VXSE5k_1.json",
       "time": "2026-05-26T09:18:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260520071102_20260520070805_VXSE5k_1.json"
-    },
-    {
-      "id": "20260520023219_20260520022910_VXSE5k_1.json",
-      "time": "2026-05-20T02:29:00+09:00",
-      "region": "奄美大島近海",
-      "regionEn": "Adjacent Sea of Amami-Oshima Island",
-      "magnitude": "3.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260520023219_20260520022910_VXSE5k_1.json"
-    },
-    {
-      "id": "20260519193851_20260519193523_VXSE5k_1.json",
-      "time": "2026-05-19T19:35:00+09:00",
-      "region": "トカラ列島近海",
-      "regionEn": "Adjacent Sea of Tokara Islands",
-      "magnitude": "2.8",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260519193851_20260519193523_VXSE5k_1.json"
     }
   ]
 }
