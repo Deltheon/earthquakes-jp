@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-25T23:37:46.335Z",
+  "lastUpdate": "2026-05-26T02:51:23.401Z",
   "source": "JMA list.json",
-  "totalInList": 217,
-  "totalUsable": 163,
+  "totalInList": 216,
+  "totalUsable": 162,
   "events": [
+    {
+      "id": "20260526092140_20260526091833_VXSE5k_1.json",
+      "time": "2026-05-26T09:18:00+09:00",
+      "region": "神奈川県西部",
+      "regionEn": "Western Kanagawa Prefecture",
+      "magnitude": "3.1",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260526092140_20260526091833_VXSE5k_1.json"
+    },
     {
       "id": "20260526065313_20260526064954_VXSE5k_1.json",
       "time": "2026-05-26T06:49:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260519193851_20260519193523_VXSE5k_1.json"
-    },
-    {
-      "id": "20260519192651_20260519192347_VXSE5k_1.json",
-      "time": "2026-05-19T19:23:00+09:00",
-      "region": "青森県東方沖",
-      "regionEn": "Off the east Coast of Aomori Prefecture",
-      "magnitude": "4.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260519192651_20260519192347_VXSE5k_1.json"
     }
   ]
 }
