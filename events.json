@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-26T06:43:17.081Z",
+  "lastUpdate": "2026-05-26T13:51:28.615Z",
   "source": "JMA list.json",
   "totalInList": 218,
   "totalUsable": 164,
   "events": [
+    {
+      "id": "20260526154754_20260526154510_VXSE5k_1.json",
+      "time": "2026-05-26T15:45:00+09:00",
+      "region": "岐阜県飛騨地方",
+      "regionEn": "Hida, Gifu Prefecture",
+      "magnitude": "3.5",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260526154754_20260526154510_VXSE5k_1.json"
+    },
     {
       "id": "20260526141118_20260526140829_VXSE5k_1.json",
       "time": "2026-05-26T14:08:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "5+",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260520115111_20260520114633_VXSE5k_1.json"
-    },
-    {
-      "id": "20260520071102_20260520070805_VXSE5k_1.json",
-      "time": "2026-05-20T07:08:00+09:00",
-      "region": "和歌山県南部",
-      "regionEn": "Southern Wakayama Prefecture",
-      "magnitude": "3.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260520071102_20260520070805_VXSE5k_1.json"
     }
   ]
 }
