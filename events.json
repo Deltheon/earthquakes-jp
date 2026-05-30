@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-30T07:38:43.031Z",
+  "lastUpdate": "2026-05-30T09:57:12.260Z",
   "source": "JMA list.json",
-  "totalInList": 211,
-  "totalUsable": 163,
+  "totalInList": 210,
+  "totalUsable": 162,
   "events": [
+    {
+      "id": "20260530165206_20260530164929_VXSE5k_1.json",
+      "time": "2026-05-30T16:49:00+09:00",
+      "region": "西表島付近",
+      "regionEn": "Adjacent Sea of Iriomotejima Island",
+      "magnitude": "3.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260530165206_20260530164929_VXSE5k_1.json"
+    },
     {
       "id": "20260530082905_20260530082435_VXSE5k_1.json",
       "time": "2026-05-30T08:24:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260524041757_20260524041507_VXSE5k_1.json"
-    },
-    {
-      "id": "20260524001234_20260524000945_VXSE5k_1.json",
-      "time": "2026-05-24T00:09:00+09:00",
-      "region": "京都府南部",
-      "regionEn": "Southern Kyoto Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260524001234_20260524000945_VXSE5k_1.json"
     }
   ]
 }
