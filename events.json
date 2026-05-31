@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-05-31T20:36:41.755Z",
+  "lastUpdate": "2026-05-31T21:57:06.767Z",
   "source": "JMA list.json",
-  "totalInList": 208,
-  "totalUsable": 160,
+  "totalInList": 209,
+  "totalUsable": 159,
   "events": [
+    {
+      "id": "20260601055803_20260601055447_VXSE5k_1.json",
+      "time": "2026-06-01T05:54:00+09:00",
+      "region": "新潟県上中越沖",
+      "regionEn": "Off the Coast of Joetsu and Chuetsu, Niigata Prefecture",
+      "magnitude": "4.6",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260601055803_20260601055447_VXSE5k_1.json"
+    },
     {
       "id": "20260601031322_20260601031028_VXSE5k_1.json",
       "time": "2026-06-01T03:10:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260526065313_20260526064954_VXSE5k_1.json"
-    },
-    {
-      "id": "20260525201820_20260525201513_VXSE5k_1.json",
-      "time": "2026-05-25T20:15:00+09:00",
-      "region": "沖縄本島近海",
-      "regionEn": "Adjacent Sea of Okinawa Main Island",
-      "magnitude": "3.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260525201820_20260525201513_VXSE5k_1.json"
     }
   ]
 }
