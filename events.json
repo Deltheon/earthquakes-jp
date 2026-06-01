@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-06-01T12:33:02.186Z",
+  "lastUpdate": "2026-06-01T18:35:06.990Z",
   "source": "JMA list.json",
-  "totalInList": 208,
+  "totalInList": 206,
   "totalUsable": 158,
   "events": [
+    {
+      "id": "20260602020427_20260602020209_VXSE5k_1.json",
+      "time": "2026-06-02T02:02:00+09:00",
+      "region": "茨城県沖",
+      "regionEn": "Off the Coast of Ibaraki Prefecture",
+      "magnitude": "3.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260602020427_20260602020209_VXSE5k_1.json"
+    },
+    {
+      "id": "20260602005650_20260602005127_VXSE5k_1.json",
+      "time": "2026-06-02T00:51:00+09:00",
+      "region": "茨城県沖",
+      "regionEn": "Off the Coast of Ibaraki Prefecture",
+      "magnitude": "3.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260602005650_20260602005127_VXSE5k_1.json"
+    },
+    {
+      "id": "20260602005619_20260602005031_VXSE5k_1.json",
+      "time": "2026-06-02T00:50:00+09:00",
+      "region": "茨城県北部",
+      "regionEn": "Northern Ibaraki Prefecture",
+      "magnitude": "2.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260602005619_20260602005031_VXSE5k_1.json"
+    },
     {
       "id": "20260601124329_20260601124036_VXSE5k_1.json",
       "time": "2026-06-01T12:40:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260526154754_20260526154510_VXSE5k_1.json"
-    },
-    {
-      "id": "20260526141118_20260526140829_VXSE5k_1.json",
-      "time": "2026-05-26T14:08:00+09:00",
-      "region": "青森県東方沖",
-      "regionEn": "Off the east Coast of Aomori Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260526141118_20260526140829_VXSE5k_1.json"
-    },
-    {
-      "id": "20260526135914_20260526135616_VXSE5k_1.json",
-      "time": "2026-05-26T13:56:00+09:00",
-      "region": "青森県下北地方",
-      "regionEn": "Shimokita Region, Aomori Prefecture",
-      "magnitude": "3.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260526135914_20260526135616_VXSE5k_1.json"
-    },
-    {
-      "id": "20260526092140_20260526091833_VXSE5k_1.json",
-      "time": "2026-05-26T09:18:00+09:00",
-      "region": "神奈川県西部",
-      "regionEn": "Western Kanagawa Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260526092140_20260526091833_VXSE5k_1.json"
     }
   ]
 }
