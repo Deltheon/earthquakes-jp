@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-02T16:59:17.371Z",
+  "lastUpdate": "2026-06-02T20:09:33.121Z",
   "source": "JMA list.json",
   "totalInList": 203,
   "totalUsable": 155,
   "events": [
+    {
+      "id": "20260603040839_20260603040542_VXSE5k_1.json",
+      "time": "2026-06-03T04:05:00+09:00",
+      "region": "三重県南東沖",
+      "regionEn": "Off the southeast Coast of Mie Prefecture",
+      "magnitude": "3.8",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260603040839_20260603040542_VXSE5k_1.json"
+    },
     {
       "id": "20260602123901_20260602123532_VXSE5k_1.json",
       "time": "2026-06-02T12:35:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260527021110_20260527020821_VXSE5k_1.json"
-    },
-    {
-      "id": "20260527020035_20260527015742_VXSE5k_1.json",
-      "time": "2026-05-27T01:57:00+09:00",
-      "region": "新島・神津島近海",
-      "regionEn": "Adjacent Sea of Niijima Island, Kozushima Island",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260527020035_20260527015742_VXSE5k_1.json"
     }
   ]
 }
