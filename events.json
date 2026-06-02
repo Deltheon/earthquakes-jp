@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-02T20:09:33.121Z",
+  "lastUpdate": "2026-06-02T22:32:41.726Z",
   "source": "JMA list.json",
-  "totalInList": 203,
-  "totalUsable": 155,
+  "totalInList": 202,
+  "totalUsable": 154,
   "events": [
+    {
+      "id": "20260603060132_20260603055828_VXSE5k_1.json",
+      "time": "2026-06-03T05:58:00+09:00",
+      "region": "大隅半島東方沖",
+      "regionEn": "Off the east Coast of Osumi Peninsula",
+      "magnitude": "4.4",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260603060132_20260603055828_VXSE5k_1.json"
+    },
     {
       "id": "20260603040839_20260603040542_VXSE5k_1.json",
       "time": "2026-06-03T04:05:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260527052402_20260527052108_VXSE5k_1.json"
-    },
-    {
-      "id": "20260527021110_20260527020821_VXSE5k_1.json",
-      "time": "2026-05-27T02:08:00+09:00",
-      "region": "茨城県沖",
-      "regionEn": "Off the Coast of Ibaraki Prefecture",
-      "magnitude": "3.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260527021110_20260527020821_VXSE5k_1.json"
     }
   ]
 }
