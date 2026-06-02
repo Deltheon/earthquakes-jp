@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-02T03:38:35.439Z",
+  "lastUpdate": "2026-06-02T08:26:03.351Z",
   "source": "JMA list.json",
-  "totalInList": 203,
-  "totalUsable": 155,
+  "totalInList": 204,
+  "totalUsable": 156,
   "events": [
+    {
+      "id": "20260602123901_20260602123532_VXSE5k_1.json",
+      "time": "2026-06-02T12:35:00+09:00",
+      "region": "奄美大島近海",
+      "regionEn": "Adjacent Sea of Amami-Oshima Island",
+      "magnitude": "3.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260602123901_20260602123532_VXSE5k_1.json"
+    },
     {
       "id": "20260602020427_20260602020209_VXSE5k_1.json",
       "time": "2026-06-02T02:02:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260527020035_20260527015742_VXSE5k_1.json"
-    },
-    {
-      "id": "20260526154754_20260526154510_VXSE5k_1.json",
-      "time": "2026-05-26T15:45:00+09:00",
-      "region": "岐阜県飛騨地方",
-      "regionEn": "Hida, Gifu Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260526154754_20260526154510_VXSE5k_1.json"
     }
   ]
 }
