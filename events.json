@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-04T20:30:45.952Z",
+  "lastUpdate": "2026-06-04T22:18:06.548Z",
   "source": "JMA list.json",
-  "totalInList": 203,
+  "totalInList": 201,
   "totalUsable": 155,
   "events": [
+    {
+      "id": "20260605055746_20260605055446_VXSE5k_1.json",
+      "time": "2026-06-05T05:54:00+09:00",
+      "region": "伊勢湾",
+      "regionEn": "Ise Bay",
+      "magnitude": "3.0",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260605055746_20260605055446_VXSE5k_1.json"
+    },
     {
       "id": "20260604123732_20260604123456_VXSE5k_1.json",
       "time": "2026-06-04T12:34:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260530052350_20260530052101_VXSE5k_1.json"
-    },
-    {
-      "id": "20260530011757_20260530011506_VXSE5k_1.json",
-      "time": "2026-05-30T01:15:00+09:00",
-      "region": "茨城県沖",
-      "regionEn": "Off the Coast of Ibaraki Prefecture",
-      "magnitude": "3.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260530011757_20260530011506_VXSE5k_1.json"
     }
   ]
 }
