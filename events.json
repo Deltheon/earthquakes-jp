@@ -1,9 +1,49 @@
 {
-  "lastUpdate": "2026-06-04T00:11:43.515Z",
+  "lastUpdate": "2026-06-04T05:19:33.081Z",
   "source": "JMA list.json",
-  "totalInList": 207,
-  "totalUsable": 157,
+  "totalInList": 206,
+  "totalUsable": 158,
   "events": [
+    {
+      "id": "20260604123732_20260604123456_VXSE5k_1.json",
+      "time": "2026-06-04T12:34:00+09:00",
+      "region": "奄美大島近海",
+      "regionEn": "Adjacent Sea of Amami-Oshima Island",
+      "magnitude": "3.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260604123732_20260604123456_VXSE5k_1.json"
+    },
+    {
+      "id": "20260604120808_20260604120433_VXSE5k_1.json",
+      "time": "2026-06-04T12:04:00+09:00",
+      "region": "トカラ列島近海",
+      "regionEn": "Adjacent Sea of Tokara Islands",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260604120808_20260604120433_VXSE5k_1.json"
+    },
+    {
+      "id": "20260604113826_20260604113611_VXSE5k_1.json",
+      "time": "2026-06-04T11:36:00+09:00",
+      "region": "沖縄本島近海",
+      "regionEn": "Adjacent Sea of Okinawa Main Island",
+      "magnitude": "3.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260604113826_20260604113611_VXSE5k_1.json"
+    },
+    {
+      "id": "20260604111342_20260604111012_VXSE5k_1.json",
+      "time": "2026-06-04T11:10:00+09:00",
+      "region": "茨城県南部",
+      "regionEn": "Southern Ibaraki Prefecture",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260604111342_20260604111012_VXSE5k_1.json"
+    },
     {
       "id": "20260604085324_20260604085010_VXSE5k_1.json",
       "time": "2026-06-04T08:50:00+09:00",
@@ -263,46 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260530011757_20260530011506_VXSE5k_1.json"
-    },
-    {
-      "id": "20260529175645_20260529175358_VXSE5k_1.json",
-      "time": "2026-05-29T17:53:00+09:00",
-      "region": "宮城県沖",
-      "regionEn": "Off the Coast of Miyagi Prefecture",
-      "magnitude": "3.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260529175645_20260529175358_VXSE5k_1.json"
-    },
-    {
-      "id": "20260528133212_20260528132929_VXSE5k_1.json",
-      "time": "2026-05-28T13:29:00+09:00",
-      "region": "岐阜県飛騨地方",
-      "regionEn": "Hida, Gifu Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260528133212_20260528132929_VXSE5k_1.json"
-    },
-    {
-      "id": "20260528125840_20260528125515_VXSE5k_1.json",
-      "time": "2026-05-28T12:55:00+09:00",
-      "region": "浦河沖",
-      "regionEn": "Off the Coast of Urakawa",
-      "magnitude": "3.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260528125840_20260528125515_VXSE5k_1.json"
-    },
-    {
-      "id": "20260528051607_20260528051335_VXSE5k_1.json",
-      "time": "2026-05-28T05:13:00+09:00",
-      "region": "岐阜県飛騨地方",
-      "regionEn": "Hida, Gifu Prefecture",
-      "magnitude": "2.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260528051607_20260528051335_VXSE5k_1.json"
     }
   ]
 }
