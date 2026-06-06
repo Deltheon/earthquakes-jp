@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-06-05T22:12:48.503Z",
+  "lastUpdate": "2026-06-06T02:50:15.232Z",
   "source": "JMA list.json",
-  "totalInList": 200,
-  "totalUsable": 153,
+  "totalInList": 201,
+  "totalUsable": 154,
   "events": [
+    {
+      "id": "20260606102545_20260606102018_VXSE5k_2.json",
+      "time": "2026-06-06T10:20:00+09:00",
+      "region": "愛知県西部",
+      "regionEn": "Western Aichi Prefecture",
+      "magnitude": "4.0",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260606102545_20260606102018_VXSE5k_2.json"
+    },
+    {
+      "id": "20260606102328_20260606102018_VXSE5k_1.json",
+      "time": "2026-06-06T10:20:00+09:00",
+      "region": "愛知県西部",
+      "regionEn": "Western Aichi Prefecture",
+      "magnitude": "4.0",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260606102328_20260606102018_VXSE5k_1.json"
+    },
+    {
+      "id": "20260606085042_20260606084753_VXSE5k_1.json",
+      "time": "2026-06-06T08:47:00+09:00",
+      "region": "長野県北部",
+      "regionEn": "Northern Nagano Prefecture",
+      "magnitude": "2.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260606085042_20260606084753_VXSE5k_1.json"
+    },
     {
       "id": "20260606055539_20260606055351_VXSE5k_1.json",
       "time": "2026-06-06T05:48:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260531110227_20260531105833_VXSE5k_1.json"
-    },
-    {
-      "id": "20260530233746_20260530233428_VXSE5k_1.json",
-      "time": "2026-05-30T23:34:00+09:00",
-      "region": "釧路地方中南部",
-      "regionEn": "Central and southern Kushiro Region, Hokkaido",
-      "magnitude": "4.1",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260530233746_20260530233428_VXSE5k_1.json"
-    },
-    {
-      "id": "20260530165206_20260530164929_VXSE5k_1.json",
-      "time": "2026-05-30T16:49:00+09:00",
-      "region": "西表島付近",
-      "regionEn": "Adjacent Sea of Iriomotejima Island",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260530165206_20260530164929_VXSE5k_1.json"
-    },
-    {
-      "id": "20260530082905_20260530082435_VXSE5k_1.json",
-      "time": "2026-05-30T08:24:00+09:00",
-      "region": "トカラ列島近海",
-      "regionEn": "Adjacent Sea of Tokara Islands",
-      "magnitude": "2.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260530082905_20260530082435_VXSE5k_1.json"
     }
   ]
 }
