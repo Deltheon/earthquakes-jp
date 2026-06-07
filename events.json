@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-07T12:59:05.150Z",
+  "lastUpdate": "2026-06-07T14:55:54.136Z",
   "source": "JMA list.json",
   "totalInList": 192,
   "totalUsable": 153,
   "events": [
+    {
+      "id": "20260607224813_20260607224532_VXSE5k_1.json",
+      "time": "2026-06-07T22:45:00+09:00",
+      "region": "秋田県沿岸北部",
+      "regionEn": "Northern Coast of Akita Prefecture",
+      "magnitude": "2.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260607224813_20260607224532_VXSE5k_1.json"
+    },
     {
       "id": "20260607154938_20260607154629_VXSE5k_1.json",
       "time": "2026-06-07T15:46:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260601055803_20260601055447_VXSE5k_1.json"
-    },
-    {
-      "id": "20260601031322_20260601031028_VXSE5k_1.json",
-      "time": "2026-06-01T03:10:00+09:00",
-      "region": "茨城県南部",
-      "regionEn": "Southern Ibaraki Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260601031322_20260601031028_VXSE5k_1.json"
     }
   ]
 }
