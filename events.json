@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-07T00:12:57.969Z",
+  "lastUpdate": "2026-06-07T05:05:21.365Z",
   "source": "JMA list.json",
-  "totalInList": 197,
-  "totalUsable": 154,
+  "totalInList": 194,
+  "totalUsable": 153,
   "events": [
+    {
+      "id": "20260607114933_20260607114639_VXSE5k_1.json",
+      "time": "2026-06-07T11:46:00+09:00",
+      "region": "沖縄本島近海",
+      "regionEn": "Adjacent Sea of Okinawa Main Island",
+      "magnitude": "3.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260607114933_20260607114639_VXSE5k_1.json"
+    },
     {
       "id": "20260607051808_20260607051519_VXSE5k_1.json",
       "time": "2026-06-07T05:15:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260531214004_20260531213648_VXSE5k_1.json"
-    },
-    {
-      "id": "20260531212709_20260531212420_VXSE5k_1.json",
-      "time": "2026-05-31T21:24:00+09:00",
-      "region": "和歌山県南部",
-      "regionEn": "Southern Wakayama Prefecture",
-      "magnitude": "2.9",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260531212709_20260531212420_VXSE5k_1.json"
     }
   ]
 }
