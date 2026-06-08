@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-08T16:55:31.943Z",
+  "lastUpdate": "2026-06-08T19:20:28.293Z",
   "source": "JMA list.json",
-  "totalInList": 191,
-  "totalUsable": 149,
+  "totalInList": 187,
+  "totalUsable": 147,
   "events": [
+    {
+      "id": "20260609030754_20260609030456_VXSE5k_1.json",
+      "time": "2026-06-09T03:04:00+09:00",
+      "region": "富山湾",
+      "regionEn": "Toyama Bay",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260609030754_20260609030456_VXSE5k_1.json"
+    },
     {
       "id": "20260608234555_20260608234240_VXSE5k_1.json",
       "time": "2026-06-08T23:42:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260602005650_20260602005127_VXSE5k_1.json"
-    },
-    {
-      "id": "20260602005619_20260602005031_VXSE5k_1.json",
-      "time": "2026-06-02T00:50:00+09:00",
-      "region": "茨城県北部",
-      "regionEn": "Northern Ibaraki Prefecture",
-      "magnitude": "2.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260602005619_20260602005031_VXSE5k_1.json"
     }
   ]
 }
