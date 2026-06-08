@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-08T03:40:05.060Z",
+  "lastUpdate": "2026-06-08T08:51:20.718Z",
   "source": "JMA list.json",
-  "totalInList": 191,
-  "totalUsable": 149,
+  "totalInList": 192,
+  "totalUsable": 150,
   "events": [
+    {
+      "id": "20260608125059_20260608124704_VXSE5k_1.json",
+      "time": "2026-06-08T12:47:00+09:00",
+      "region": "福島県浜通り",
+      "regionEn": "Hamadori, Fukushima Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260608125059_20260608124704_VXSE5k_1.json"
+    },
     {
       "id": "20260607224813_20260607224532_VXSE5k_1.json",
       "time": "2026-06-07T22:45:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260601124329_20260601124036_VXSE5k_1.json"
-    },
-    {
-      "id": "20260601055803_20260601055447_VXSE5k_1.json",
-      "time": "2026-06-01T05:54:00+09:00",
-      "region": "新潟県上中越沖",
-      "regionEn": "Off the Coast of Joetsu and Chuetsu, Niigata Prefecture",
-      "magnitude": "4.6",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260601055803_20260601055447_VXSE5k_1.json"
     }
   ]
 }
