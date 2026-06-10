@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-06-10T10:39:09.593Z",
+  "lastUpdate": "2026-06-10T14:20:13.635Z",
   "source": "JMA list.json",
-  "totalInList": 188,
-  "totalUsable": 148,
+  "totalInList": 189,
+  "totalUsable": 149,
   "events": [
+    {
+      "id": "20260610225159_20260610224854_VXSE5k_1.json",
+      "time": "2026-06-10T22:48:00+09:00",
+      "region": "長野県北部",
+      "regionEn": "Northern Nagano Prefecture",
+      "magnitude": "1.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260610225159_20260610224854_VXSE5k_1.json"
+    },
+    {
+      "id": "20260610194058_20260610193518_VXSE5k_1.json",
+      "time": "2026-06-10T19:35:00+09:00",
+      "region": "日本海北部",
+      "regionEn": "Northern Sea of Japan",
+      "magnitude": "5.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260610194058_20260610193518_VXSE5k_1.json"
+    },
     {
       "id": "20260610185835_20260610185552_VXSE5k_1.json",
       "time": "2026-06-10T18:55:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260604085324_20260604085010_VXSE5k_1.json"
-    },
-    {
-      "id": "20260604060250_20260604060003_VXSE5k_1.json",
-      "time": "2026-06-04T06:00:00+09:00",
-      "region": "三宅島近海",
-      "regionEn": "Adjacent Sea of Miyakejima Island",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260604060250_20260604060003_VXSE5k_1.json"
-    },
-    {
-      "id": "20260604040710_20260604040308_VXSE5k_1.json",
-      "time": "2026-06-04T04:03:00+09:00",
-      "region": "トカラ列島近海",
-      "regionEn": "Adjacent Sea of Tokara Islands",
-      "magnitude": "4.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260604040710_20260604040308_VXSE5k_1.json"
     }
   ]
 }
