@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-10T14:20:13.635Z",
+  "lastUpdate": "2026-06-10T17:41:00.218Z",
   "source": "JMA list.json",
-  "totalInList": 189,
-  "totalUsable": 149,
+  "totalInList": 190,
+  "totalUsable": 150,
   "events": [
+    {
+      "id": "20260611012750_20260611012509_VXSE5k_1.json",
+      "time": "2026-06-11T01:25:00+09:00",
+      "region": "山梨県東部・富士五湖",
+      "regionEn": "Eastern Region · Fuji Five Lakes, Yamanashi Prefecture",
+      "magnitude": "2.8",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260611012750_20260611012509_VXSE5k_1.json"
+    },
     {
       "id": "20260610225159_20260610224854_VXSE5k_1.json",
       "time": "2026-06-10T22:48:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260604111342_20260604111012_VXSE5k_1.json"
-    },
-    {
-      "id": "20260604085324_20260604085010_VXSE5k_1.json",
-      "time": "2026-06-04T08:50:00+09:00",
-      "region": "長野県中部",
-      "regionEn": "Central Nagano Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260604085324_20260604085010_VXSE5k_1.json"
     }
   ]
 }
