@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-11T23:45:20.733Z",
+  "lastUpdate": "2026-06-12T03:37:29.394Z",
   "source": "JMA list.json",
   "totalInList": 184,
   "totalUsable": 147,
   "events": [
+    {
+      "id": "20260612092624_20260612092207_VXSE5k_1.json",
+      "time": "2026-06-12T09:21:00+09:00",
+      "region": "鳥島近海",
+      "regionEn": "Adjacent Sea of​ Torishima Island",
+      "magnitude": "4.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260612092624_20260612092207_VXSE5k_1.json"
+    },
     {
       "id": "20260611232526_20260611232239_VXSE5k_1.json",
       "time": "2026-06-11T23:22:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260605233343_20260605233046_VXSE5k_1.json"
-    },
-    {
-      "id": "20260605055746_20260605055446_VXSE5k_1.json",
-      "time": "2026-06-05T05:54:00+09:00",
-      "region": "伊勢湾",
-      "regionEn": "Ise Bay",
-      "magnitude": "3.0",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260605055746_20260605055446_VXSE5k_1.json"
     }
   ]
 }
