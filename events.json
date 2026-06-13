@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-13T12:24:46.320Z",
+  "lastUpdate": "2026-06-13T14:36:59.312Z",
   "source": "JMA list.json",
   "totalInList": 170,
   "totalUsable": 136,
   "events": [
+    {
+      "id": "20260613225421_20260613225140_VXSE5k_1.json",
+      "time": "2026-06-13T22:51:00+09:00",
+      "region": "西表島付近",
+      "regionEn": "Adjacent Sea of Iriomotejima Island",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260613225421_20260613225140_VXSE5k_1.json"
+    },
     {
       "id": "20260613200256_20260613195956_VXSE5k_1.json",
       "time": "2026-06-13T19:59:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260606203235_20260606202926_VXSE5k_1.json"
-    },
-    {
-      "id": "20260606102545_20260606102018_VXSE5k_2.json",
-      "time": "2026-06-06T10:20:00+09:00",
-      "region": "愛知県西部",
-      "regionEn": "Western Aichi Prefecture",
-      "magnitude": "4.0",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260606102545_20260606102018_VXSE5k_2.json"
     }
   ]
 }
