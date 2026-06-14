@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-14T11:11:49.789Z",
+  "lastUpdate": "2026-06-14T13:12:32.602Z",
   "source": "JMA list.json",
-  "totalInList": 166,
-  "totalUsable": 136,
+  "totalInList": 161,
+  "totalUsable": 134,
   "events": [
+    {
+      "id": "20260614213826_20260614213602_VXSE5k_1.json",
+      "time": "2026-06-14T21:36:00+09:00",
+      "region": "京都府南部",
+      "regionEn": "Southern Kyoto Prefecture",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260614213826_20260614213602_VXSE5k_1.json"
+    },
     {
       "id": "20260614174208_20260614173940_VXSE5k_1.json",
       "time": "2026-06-14T17:39:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260607154938_20260607154629_VXSE5k_1.json"
-    },
-    {
-      "id": "20260607114933_20260607114639_VXSE5k_1.json",
-      "time": "2026-06-07T11:46:00+09:00",
-      "region": "沖縄本島近海",
-      "regionEn": "Adjacent Sea of Okinawa Main Island",
-      "magnitude": "3.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260607114933_20260607114639_VXSE5k_1.json"
     }
   ]
 }
