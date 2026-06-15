@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-15T18:11:06.549Z",
+  "lastUpdate": "2026-06-15T21:29:12.391Z",
   "source": "JMA list.json",
-  "totalInList": 161,
-  "totalUsable": 135,
+  "totalInList": 158,
+  "totalUsable": 132,
   "events": [
+    {
+      "id": "20260616041451_20260616041112_VXSE5k_1.json",
+      "time": "2026-06-16T04:11:00+09:00",
+      "region": "奄美大島近海",
+      "regionEn": "Adjacent Sea of Amami-Oshima Island",
+      "magnitude": "3.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260616041451_20260616041112_VXSE5k_1.json"
+    },
     {
       "id": "20260615210819_20260615210536_VXSE5k_1.json",
       "time": "2026-06-15T21:05:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260609055006_20260609054708_VXSE5k_1.json"
-    },
-    {
-      "id": "20260609030754_20260609030456_VXSE5k_1.json",
-      "time": "2026-06-09T03:04:00+09:00",
-      "region": "富山湾",
-      "regionEn": "Toyama Bay",
-      "magnitude": "2.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260609030754_20260609030456_VXSE5k_1.json"
     }
   ]
 }
