@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-06-15T07:26:56.792Z",
+  "lastUpdate": "2026-06-15T13:29:40.045Z",
   "source": "JMA list.json",
-  "totalInList": 158,
-  "totalUsable": 132,
+  "totalInList": 161,
+  "totalUsable": 135,
   "events": [
+    {
+      "id": "20260615210819_20260615210536_VXSE5k_1.json",
+      "time": "2026-06-15T21:05:00+09:00",
+      "region": "秋田県内陸南部",
+      "regionEn": "Southern Inland of Akita Prefecture",
+      "magnitude": "1.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260615210819_20260615210536_VXSE5k_1.json"
+    },
+    {
+      "id": "20260615194037_20260615193800_VXSE5k_1.json",
+      "time": "2026-06-15T19:38:00+09:00",
+      "region": "青森県東方沖",
+      "regionEn": "Off the east Coast of Aomori Prefecture",
+      "magnitude": "3.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260615194037_20260615193800_VXSE5k_1.json"
+    },
+    {
+      "id": "20260615163604_20260615163323_VXSE5k_1.json",
+      "time": "2026-06-15T16:33:00+09:00",
+      "region": "日高地方東部",
+      "regionEn": "Eastern Hidaka Region, Hokkaido",
+      "magnitude": "3.7",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260615163604_20260615163323_VXSE5k_1.json"
+    },
     {
       "id": "20260615154509_20260615154226_VXSE5k_1.json",
       "time": "2026-06-15T15:42:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260609030754_20260609030456_VXSE5k_1.json"
-    },
-    {
-      "id": "20260608234555_20260608234240_VXSE5k_1.json",
-      "time": "2026-06-08T23:42:00+09:00",
-      "region": "天草灘",
-      "regionEn": "Amakusanada Sea",
-      "magnitude": "2.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260608234555_20260608234240_VXSE5k_1.json"
-    },
-    {
-      "id": "20260608125059_20260608124704_VXSE5k_1.json",
-      "time": "2026-06-08T12:47:00+09:00",
-      "region": "福島県浜通り",
-      "regionEn": "Hamadori, Fukushima Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260608125059_20260608124704_VXSE5k_1.json"
-    },
-    {
-      "id": "20260607224813_20260607224532_VXSE5k_1.json",
-      "time": "2026-06-07T22:45:00+09:00",
-      "region": "秋田県沿岸北部",
-      "regionEn": "Northern Coast of Akita Prefecture",
-      "magnitude": "2.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260607224813_20260607224532_VXSE5k_1.json"
     }
   ]
 }
