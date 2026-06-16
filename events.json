@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-06-16T08:24:48.589Z",
+  "lastUpdate": "2026-06-16T13:10:18.889Z",
   "source": "JMA list.json",
-  "totalInList": 158,
-  "totalUsable": 132,
+  "totalInList": 164,
+  "totalUsable": 134,
   "events": [
+    {
+      "id": "20260616215316_20260616215038_VXSE5k_1.json",
+      "time": "2026-06-16T21:50:00+09:00",
+      "region": "茨城県南部",
+      "regionEn": "Southern Ibaraki Prefecture",
+      "magnitude": "3.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260616215316_20260616215038_VXSE5k_1.json"
+    },
+    {
+      "id": "20260616195834_20260616195541_VXSE5k_1.json",
+      "time": "2026-06-16T19:55:00+09:00",
+      "region": "茨城県南部",
+      "regionEn": "Southern Ibaraki Prefecture",
+      "magnitude": "3.9",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260616195834_20260616195541_VXSE5k_1.json"
+    },
+    {
+      "id": "20260616195039_20260616194642_VXSE5k_1.json",
+      "time": "2026-06-16T19:46:00+09:00",
+      "region": "茨城県南部",
+      "regionEn": "Southern Ibaraki Prefecture",
+      "magnitude": "5.5",
+      "maxIntensity": "5-",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260616195039_20260616194642_VXSE5k_1.json"
+    },
     {
       "id": "20260616165921_20260616165633_VXSE5k_1.json",
       "time": "2026-06-16T16:56:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260610161830_20260610161433_VXSE5k_1.json"
-    },
-    {
-      "id": "20260610125630_20260610125322_VXSE5k_1.json",
-      "time": "2026-06-10T12:53:00+09:00",
-      "region": "トカラ列島近海",
-      "regionEn": "Adjacent Sea of Tokara Islands",
-      "magnitude": "2.9",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260610125630_20260610125322_VXSE5k_1.json"
-    },
-    {
-      "id": "20260610093340_20260610092921_VXSE5k_1.json",
-      "time": "2026-06-10T09:29:00+09:00",
-      "region": "北海道東方沖",
-      "regionEn": "Off the east Coast of Hokkaido",
-      "magnitude": "4.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260610093340_20260610092921_VXSE5k_1.json"
-    },
-    {
-      "id": "20260609222057_20260609221550_VXSE5k_1.json",
-      "time": "2026-06-09T22:15:00+09:00",
-      "region": "茨城県北部",
-      "regionEn": "Northern Ibaraki Prefecture",
-      "magnitude": "2.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260609222057_20260609221550_VXSE5k_1.json"
     }
   ]
 }
