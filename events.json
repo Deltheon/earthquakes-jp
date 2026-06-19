@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-19T17:53:11.226Z",
+  "lastUpdate": "2026-06-19T19:45:02.163Z",
   "source": "JMA list.json",
-  "totalInList": 156,
-  "totalUsable": 132,
+  "totalInList": 155,
+  "totalUsable": 131,
   "events": [
+    {
+      "id": "20260620032100_20260620031724_VXSE5k_1.json",
+      "time": "2026-06-20T03:17:00+09:00",
+      "region": "長野県北部",
+      "regionEn": "Northern Nagano Prefecture",
+      "magnitude": "4.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260620032100_20260620031724_VXSE5k_1.json"
+    },
     {
       "id": "20260619202035_20260619201755_VXSE5k_1.json",
       "time": "2026-06-19T20:17:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260613045305_20260613044937_VXSE5k_1.json"
-    },
-    {
-      "id": "20260613041407_20260613041128_VXSE5k_1.json",
-      "time": "2026-06-13T04:11:00+09:00",
-      "region": "岐阜県飛騨地方",
-      "regionEn": "Hida, Gifu Prefecture",
-      "magnitude": "2.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260613041407_20260613041128_VXSE5k_1.json"
     }
   ]
 }
