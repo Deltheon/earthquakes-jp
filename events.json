@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-21T18:03:20.715Z",
+  "lastUpdate": "2026-06-21T20:11:00.597Z",
   "source": "JMA list.json",
   "totalInList": 150,
   "totalUsable": 126,
   "events": [
+    {
+      "id": "20260622050822_20260622050537_VXSE5k_1.json",
+      "time": "2026-06-22T05:05:00+09:00",
+      "region": "兵庫県南東部",
+      "regionEn": "Southeastern Hyogo Prefecture",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260622050822_20260622050537_VXSE5k_1.json"
+    },
     {
       "id": "20260621221025_20260621220756_VXSE5k_1.json",
       "time": "2026-06-21T22:07:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260614075313_20260614074909_VXSE5k_1.json"
-    },
-    {
-      "id": "20260614071601_20260614071327_VXSE5k_1.json",
-      "time": "2026-06-14T07:13:00+09:00",
-      "region": "岐阜県美濃東部",
-      "regionEn": "Eastern Mino, Gifu Prefecture",
-      "magnitude": "2.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260614071601_20260614071327_VXSE5k_1.json"
     }
   ]
 }
