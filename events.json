@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-22T18:42:52.718Z",
+  "lastUpdate": "2026-06-22T21:29:45.928Z",
   "source": "JMA list.json",
-  "totalInList": 149,
-  "totalUsable": 125,
+  "totalInList": 148,
+  "totalUsable": 124,
   "events": [
+    {
+      "id": "20260623043057_20260623042751_VXSE5k_1.json",
+      "time": "2026-06-23T04:27:00+09:00",
+      "region": "奄美大島近海",
+      "regionEn": "Adjacent Sea of Amami-Oshima Island",
+      "magnitude": "3.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260623043057_20260623042751_VXSE5k_1.json"
+    },
     {
       "id": "20260622164055_20260622163812_VXSE5k_1.json",
       "time": "2026-06-22T16:38:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260615154509_20260615154226_VXSE5k_1.json"
-    },
-    {
-      "id": "20260614213826_20260614213602_VXSE5k_1.json",
-      "time": "2026-06-14T21:36:00+09:00",
-      "region": "京都府南部",
-      "regionEn": "Southern Kyoto Prefecture",
-      "magnitude": "2.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260614213826_20260614213602_VXSE5k_1.json"
     }
   ]
 }
