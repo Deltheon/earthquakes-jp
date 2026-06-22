@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-22T02:00:52.178Z",
+  "lastUpdate": "2026-06-22T08:36:18.754Z",
   "source": "JMA list.json",
   "totalInList": 151,
   "totalUsable": 127,
   "events": [
+    {
+      "id": "20260622164055_20260622163812_VXSE5k_1.json",
+      "time": "2026-06-22T16:38:00+09:00",
+      "region": "釧路沖",
+      "regionEn": "Off the Coast of Kushiro",
+      "magnitude": "3.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260622164055_20260622163812_VXSE5k_1.json"
+    },
     {
       "id": "20260622072309_20260622071950_VXSE5k_1.json",
       "time": "2026-06-22T07:19:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260614213826_20260614213602_VXSE5k_1.json"
-    },
-    {
-      "id": "20260614174208_20260614173940_VXSE5k_1.json",
-      "time": "2026-06-14T17:39:00+09:00",
-      "region": "長野県南部",
-      "regionEn": "Southern Nagano Prefecture",
-      "magnitude": "3.2",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260614174208_20260614173940_VXSE5k_1.json"
     }
   ]
 }
