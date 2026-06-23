@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-23T15:36:08.912Z",
+  "lastUpdate": "2026-06-23T17:49:16.586Z",
   "source": "JMA list.json",
-  "totalInList": 144,
-  "totalUsable": 122,
+  "totalInList": 145,
+  "totalUsable": 123,
   "events": [
+    {
+      "id": "20260624005152_20260624004908_VXSE5k_1.json",
+      "time": "2026-06-24T00:49:00+09:00",
+      "region": "京都府南部",
+      "regionEn": "Southern Kyoto Prefecture",
+      "magnitude": "2.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260624005152_20260624004908_VXSE5k_1.json"
+    },
     {
       "id": "20260623223714_20260623223427_VXSE5k_1.json",
       "time": "2026-06-23T22:34:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260616041451_20260616041112_VXSE5k_1.json"
-    },
-    {
-      "id": "20260615210819_20260615210536_VXSE5k_1.json",
-      "time": "2026-06-15T21:05:00+09:00",
-      "region": "秋田県内陸南部",
-      "regionEn": "Southern Inland of Akita Prefecture",
-      "magnitude": "1.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260615210819_20260615210536_VXSE5k_1.json"
     }
   ]
 }
