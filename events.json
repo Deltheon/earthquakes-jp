@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-23T19:58:02.371Z",
+  "lastUpdate": "2026-06-23T21:44:54.637Z",
   "source": "JMA list.json",
-  "totalInList": 145,
-  "totalUsable": 123,
+  "totalInList": 146,
+  "totalUsable": 124,
   "events": [
+    {
+      "id": "20260624052001_20260624051708_VXSE5k_1.json",
+      "time": "2026-06-24T05:17:00+09:00",
+      "region": "福岡県福岡地方",
+      "regionEn": "Fukuoka Region, Fukuoka Prefecture",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260624052001_20260624051708_VXSE5k_1.json"
+    },
     {
       "id": "20260624005152_20260624004908_VXSE5k_1.json",
       "time": "2026-06-24T00:49:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260616072504_20260616072220_VXSE5k_1.json"
-    },
-    {
-      "id": "20260616041451_20260616041112_VXSE5k_1.json",
-      "time": "2026-06-16T04:11:00+09:00",
-      "region": "奄美大島近海",
-      "regionEn": "Adjacent Sea of Amami-Oshima Island",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260616041451_20260616041112_VXSE5k_1.json"
     }
   ]
 }
