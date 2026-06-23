@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-23T01:28:56.464Z",
+  "lastUpdate": "2026-06-23T05:45:32.351Z",
   "source": "JMA list.json",
-  "totalInList": 147,
-  "totalUsable": 123,
+  "totalInList": 148,
+  "totalUsable": 124,
   "events": [
+    {
+      "id": "20260623115233_20260623114932_VXSE5k_1.json",
+      "time": "2026-06-23T11:49:00+09:00",
+      "region": "和歌山県北部",
+      "regionEn": "Northern Wakayama Prefecture",
+      "magnitude": "2.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260623115233_20260623114932_VXSE5k_1.json"
+    },
     {
       "id": "20260623072415_20260623072053_VXSE5k_1.json",
       "time": "2026-06-23T07:20:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260615194037_20260615193800_VXSE5k_1.json"
-    },
-    {
-      "id": "20260615163604_20260615163323_VXSE5k_1.json",
-      "time": "2026-06-15T16:33:00+09:00",
-      "region": "日高地方東部",
-      "regionEn": "Eastern Hidaka Region, Hokkaido",
-      "magnitude": "3.7",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260615163604_20260615163323_VXSE5k_1.json"
     }
   ]
 }
