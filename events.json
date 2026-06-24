@@ -1,9 +1,79 @@
 {
-  "lastUpdate": "2026-06-24T01:23:56.047Z",
+  "lastUpdate": "2026-06-24T05:33:51.141Z",
   "source": "JMA list.json",
-  "totalInList": 147,
-  "totalUsable": 125,
+  "totalInList": 156,
+  "totalUsable": 132,
   "events": [
+    {
+      "id": "20260624134059_20260624133320_VXSE5k_1.json",
+      "time": "2026-06-24T13:34:00+09:00",
+      "region": "福島県会津",
+      "regionEn": "Aizu,  Fukushima Prefecture",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260624134059_20260624133320_VXSE5k_1.json"
+    },
+    {
+      "id": "20260624133645_20260624133240_VXSE5k_1.json",
+      "time": "2026-06-24T13:32:00+09:00",
+      "region": "福島県会津",
+      "regionEn": "Aizu,  Fukushima Prefecture",
+      "magnitude": "3.1",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260624133645_20260624133240_VXSE5k_1.json"
+    },
+    {
+      "id": "20260624133445_20260624133147_VXSE5k_1.json",
+      "time": "2026-06-24T13:31:00+09:00",
+      "region": "福島県会津",
+      "regionEn": "Aizu,  Fukushima Prefecture",
+      "magnitude": "3.7",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260624133445_20260624133147_VXSE5k_1.json"
+    },
+    {
+      "id": "20260624133037_20260624132806_VXSE5k_1.json",
+      "time": "2026-06-24T13:28:00+09:00",
+      "region": "福島県会津",
+      "regionEn": "Aizu,  Fukushima Prefecture",
+      "magnitude": "3.0",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260624133037_20260624132806_VXSE5k_1.json"
+    },
+    {
+      "id": "20260624132720_20260624132445_VXSE5k_1.json",
+      "time": "2026-06-24T13:24:00+09:00",
+      "region": "福島県会津",
+      "regionEn": "Aizu,  Fukushima Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260624132720_20260624132445_VXSE5k_1.json"
+    },
+    {
+      "id": "20260624132414_20260624132114_VXSE5k_1.json",
+      "time": "2026-06-24T13:21:00+09:00",
+      "region": "福島県会津",
+      "regionEn": "Aizu,  Fukushima Prefecture",
+      "magnitude": "2.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260624132414_20260624132114_VXSE5k_1.json"
+    },
+    {
+      "id": "20260624105311_20260624105005_VXSE5k_1.json",
+      "time": "2026-06-24T10:50:00+09:00",
+      "region": "新島・神津島近海",
+      "regionEn": "Adjacent Sea of Niijima Island, Kozushima Island",
+      "magnitude": "2.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260624105311_20260624105005_VXSE5k_1.json"
+    },
     {
       "id": "20260624080409_20260624080109_VXSE5k_1.json",
       "time": "2026-06-24T08:01:00+09:00",
@@ -233,76 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260617212737_20260617212500_VXSE5k_1.json"
-    },
-    {
-      "id": "20260617132034_20260617131756_VXSE5k_1.json",
-      "time": "2026-06-17T13:17:00+09:00",
-      "region": "長野県中部",
-      "regionEn": "Central Nagano Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260617132034_20260617131756_VXSE5k_1.json"
-    },
-    {
-      "id": "20260617050928_20260617050618_VXSE5k_1.json",
-      "time": "2026-06-17T05:06:00+09:00",
-      "region": "茨城県南部",
-      "regionEn": "Southern Ibaraki Prefecture",
-      "magnitude": "3.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260617050928_20260617050618_VXSE5k_1.json"
-    },
-    {
-      "id": "20260617011008_20260617010615_VXSE5k_1.json",
-      "time": "2026-06-17T01:06:00+09:00",
-      "region": "福島県沖",
-      "regionEn": "Off the Coast of Fukushima Prefecture",
-      "magnitude": "4.0",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260617011008_20260617010615_VXSE5k_1.json"
-    },
-    {
-      "id": "20260616215316_20260616215038_VXSE5k_1.json",
-      "time": "2026-06-16T21:50:00+09:00",
-      "region": "茨城県南部",
-      "regionEn": "Southern Ibaraki Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260616215316_20260616215038_VXSE5k_1.json"
-    },
-    {
-      "id": "20260616195834_20260616195541_VXSE5k_1.json",
-      "time": "2026-06-16T19:55:00+09:00",
-      "region": "茨城県南部",
-      "regionEn": "Southern Ibaraki Prefecture",
-      "magnitude": "3.9",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260616195834_20260616195541_VXSE5k_1.json"
-    },
-    {
-      "id": "20260616195039_20260616194642_VXSE5k_1.json",
-      "time": "2026-06-16T19:46:00+09:00",
-      "region": "茨城県南部",
-      "regionEn": "Southern Ibaraki Prefecture",
-      "magnitude": "5.5",
-      "maxIntensity": "5-",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260616195039_20260616194642_VXSE5k_1.json"
-    },
-    {
-      "id": "20260616165921_20260616165633_VXSE5k_1.json",
-      "time": "2026-06-16T16:56:00+09:00",
-      "region": "山口県北部",
-      "regionEn": "Northern Yamaguchi Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260616165921_20260616165633_VXSE5k_1.json"
     }
   ]
 }
