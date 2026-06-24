@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-24T05:33:51.141Z",
+  "lastUpdate": "2026-06-24T09:22:30.399Z",
   "source": "JMA list.json",
   "totalInList": 156,
   "totalUsable": 132,
   "events": [
+    {
+      "id": "20260624164916_20260624164634_VXSE5k_1.json",
+      "time": "2026-06-24T16:46:00+09:00",
+      "region": "根室地方南部",
+      "regionEn": "Southern Nemuro Region, Hokkaido",
+      "magnitude": "3.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260624164916_20260624164634_VXSE5k_1.json"
+    },
     {
       "id": "20260624134059_20260624133320_VXSE5k_1.json",
       "time": "2026-06-24T13:34:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260617231001_20260617230605_VXSE5k_1.json"
-    },
-    {
-      "id": "20260617212737_20260617212500_VXSE5k_1.json",
-      "time": "2026-06-17T21:25:00+09:00",
-      "region": "岩手県沖",
-      "regionEn": "Off the Coast of Iwate Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260617212737_20260617212500_VXSE5k_1.json"
     }
   ]
 }
