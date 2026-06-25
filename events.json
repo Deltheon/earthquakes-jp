@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-06-25T13:34:28.495Z",
+  "lastUpdate": "2026-06-25T16:20:33.967Z",
   "source": "JMA list.json",
-  "totalInList": 174,
-  "totalUsable": 140,
+  "totalInList": 178,
+  "totalUsable": 142,
   "events": [
+    {
+      "id": "20260626011533_20260626011151_VXSE5k_1.json",
+      "time": "2026-06-26T01:11:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "4.6",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626011533_20260626011151_VXSE5k_1.json"
+    },
+    {
+      "id": "20260625224736_20260625224426_VXSE5k_1.json",
+      "time": "2026-06-25T22:44:00+09:00",
+      "region": "京都府南部",
+      "regionEn": "Southern Kyoto Prefecture",
+      "magnitude": "3.1",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260625224736_20260625224426_VXSE5k_1.json"
+    },
     {
       "id": "20260625210229_20260625205839_VXSE5k_1.json",
       "time": "2026-06-25T20:58:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260623072415_20260623072053_VXSE5k_1.json"
-    },
-    {
-      "id": "20260623043057_20260623042751_VXSE5k_1.json",
-      "time": "2026-06-23T04:27:00+09:00",
-      "region": "奄美大島近海",
-      "regionEn": "Adjacent Sea of Amami-Oshima Island",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260623043057_20260623042751_VXSE5k_1.json"
-    },
-    {
-      "id": "20260622164055_20260622163812_VXSE5k_1.json",
-      "time": "2026-06-22T16:38:00+09:00",
-      "region": "釧路沖",
-      "regionEn": "Off the Coast of Kushiro",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260622164055_20260622163812_VXSE5k_1.json"
     }
   ]
 }
