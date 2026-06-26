@@ -1,9 +1,49 @@
 {
-  "lastUpdate": "2026-06-26T13:08:16.006Z",
+  "lastUpdate": "2026-06-26T15:36:55.940Z",
   "source": "JMA list.json",
-  "totalInList": 182,
-  "totalUsable": 144,
+  "totalInList": 191,
+  "totalUsable": 148,
   "events": [
+    {
+      "id": "20260626232058_20260626231746_VXSE5k_1.json",
+      "time": "2026-06-26T23:17:00+09:00",
+      "region": "山梨県東部・富士五湖",
+      "regionEn": "Eastern Region · Fuji Five Lakes, Yamanashi Prefecture",
+      "magnitude": "3.3",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626232058_20260626231746_VXSE5k_1.json"
+    },
+    {
+      "id": "20260626230645_20260626230436_VXSE5k_1.json",
+      "time": "2026-06-26T23:04:00+09:00",
+      "region": "山梨県東部・富士五湖",
+      "regionEn": "Eastern Region · Fuji Five Lakes, Yamanashi Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626230645_20260626230436_VXSE5k_1.json"
+    },
+    {
+      "id": "20260626224113_20260626222902_VXSE5k_2.json",
+      "time": "2026-06-26T22:29:00+09:00",
+      "region": "山梨県東部・富士五湖",
+      "regionEn": "Eastern Region · Fuji Five Lakes, Yamanashi Prefecture",
+      "magnitude": "5.6",
+      "maxIntensity": "6-",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626224113_20260626222902_VXSE5k_2.json"
+    },
+    {
+      "id": "20260626223412_20260626222902_VXSE5k_1.json",
+      "time": "2026-06-26T22:29:00+09:00",
+      "region": "山梨県東部・富士五湖",
+      "regionEn": "Eastern Region · Fuji Five Lakes, Yamanashi Prefecture",
+      "magnitude": "5.6",
+      "maxIntensity": "6-",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626223412_20260626222902_VXSE5k_1.json"
+    },
     {
       "id": "20260626154349_20260626154113_VXSE5k_1.json",
       "time": "2026-06-26T15:41:00+09:00",
@@ -263,46 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260624164916_20260624164634_VXSE5k_1.json"
-    },
-    {
-      "id": "20260624134059_20260624133320_VXSE5k_1.json",
-      "time": "2026-06-24T13:34:00+09:00",
-      "region": "福島県会津",
-      "regionEn": "Aizu,  Fukushima Prefecture",
-      "magnitude": "2.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260624134059_20260624133320_VXSE5k_1.json"
-    },
-    {
-      "id": "20260624133645_20260624133240_VXSE5k_1.json",
-      "time": "2026-06-24T13:32:00+09:00",
-      "region": "福島県会津",
-      "regionEn": "Aizu,  Fukushima Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260624133645_20260624133240_VXSE5k_1.json"
-    },
-    {
-      "id": "20260624133445_20260624133147_VXSE5k_1.json",
-      "time": "2026-06-24T13:31:00+09:00",
-      "region": "福島県会津",
-      "regionEn": "Aizu,  Fukushima Prefecture",
-      "magnitude": "3.7",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260624133445_20260624133147_VXSE5k_1.json"
-    },
-    {
-      "id": "20260624133037_20260624132806_VXSE5k_1.json",
-      "time": "2026-06-24T13:28:00+09:00",
-      "region": "福島県会津",
-      "regionEn": "Aizu,  Fukushima Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260624133037_20260624132806_VXSE5k_1.json"
     }
   ]
 }
