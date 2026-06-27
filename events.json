@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-27T07:46:34.737Z",
+  "lastUpdate": "2026-06-27T10:03:55.381Z",
   "source": "JMA list.json",
-  "totalInList": 197,
-  "totalUsable": 151,
+  "totalInList": 198,
+  "totalUsable": 152,
   "events": [
+    {
+      "id": "20260627170057_20260627165738_VXSE5k_1.json",
+      "time": "2026-06-27T16:57:00+09:00",
+      "region": "山梨県東部・富士五湖",
+      "regionEn": "Eastern Region · Fuji Five Lakes, Yamanashi Prefecture",
+      "magnitude": "2.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260627170057_20260627165738_VXSE5k_1.json"
+    },
     {
       "id": "20260627161249_20260627160941_VXSE5k_1.json",
       "time": "2026-06-27T16:09:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260625093637_20260625093359_VXSE5k_1.json"
-    },
-    {
-      "id": "20260625091113_20260625090836_VXSE5k_1.json",
-      "time": "2026-06-25T09:08:00+09:00",
-      "region": "岩手県沖",
-      "regionEn": "Off the Coast of Iwate Prefecture",
-      "magnitude": "3.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260625091113_20260625090836_VXSE5k_1.json"
     }
   ]
 }
