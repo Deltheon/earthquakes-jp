@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-29T19:02:55.290Z",
+  "lastUpdate": "2026-06-29T21:06:34.867Z",
   "source": "JMA list.json",
-  "totalInList": 204,
-  "totalUsable": 156,
+  "totalInList": 205,
+  "totalUsable": 157,
   "events": [
+    {
+      "id": "20260630052646_20260630052421_VXSE5k_1.json",
+      "time": "2026-06-30T05:24:00+09:00",
+      "region": "宮崎県北部平野部",
+      "regionEn": "Plain Area of Northern Miyazaki Prefecture",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260630052646_20260630052421_VXSE5k_1.json"
+    },
     {
       "id": "20260629081510_20260629081128_VXSE5k_1.json",
       "time": "2026-06-29T08:11:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626125546_20260626125255_VXSE5k_1.json"
-    },
-    {
-      "id": "20260626125208_20260626124643_VXSE5k_1.json",
-      "time": "2026-06-26T12:46:00+09:00",
-      "region": "千葉県北東部",
-      "regionEn": "Northeastern Chiba Prefecture",
-      "magnitude": "5.8",
-      "maxIntensity": "4",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626125208_20260626124643_VXSE5k_1.json"
     }
   ]
 }
