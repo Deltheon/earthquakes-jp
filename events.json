@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-30T16:01:59.042Z",
+  "lastUpdate": "2026-06-30T18:17:57.800Z",
   "source": "JMA list.json",
-  "totalInList": 208,
-  "totalUsable": 160,
+  "totalInList": 209,
+  "totalUsable": 161,
   "events": [
+    {
+      "id": "20260701013431_20260701013154_VXSE5k_1.json",
+      "time": "2026-07-01T01:31:00+09:00",
+      "region": "石川県能登地方",
+      "regionEn": "Noto, Ishikawa Prefecture",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260701013431_20260701013154_VXSE5k_1.json"
+    },
     {
       "id": "20260701003546_20260701003305_VXSE5k_1.json",
       "time": "2026-07-01T00:33:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626232058_20260626231746_VXSE5k_1.json"
-    },
-    {
-      "id": "20260626230645_20260626230436_VXSE5k_1.json",
-      "time": "2026-06-26T23:04:00+09:00",
-      "region": "山梨県東部・富士五湖",
-      "regionEn": "Eastern Region · Fuji Five Lakes, Yamanashi Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626230645_20260626230436_VXSE5k_1.json"
     }
   ]
 }
