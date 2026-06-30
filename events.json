@@ -1,9 +1,49 @@
 {
-  "lastUpdate": "2026-06-30T00:00:55.176Z",
+  "lastUpdate": "2026-06-30T04:42:40.547Z",
   "source": "JMA list.json",
-  "totalInList": 205,
-  "totalUsable": 157,
+  "totalInList": 206,
+  "totalUsable": 160,
   "events": [
+    {
+      "id": "20260630122701_20260630122433_VXSE5k_1.json",
+      "time": "2026-06-30T12:24:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "3.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260630122701_20260630122433_VXSE5k_1.json"
+    },
+    {
+      "id": "20260630121111_20260630120845_VXSE5k_1.json",
+      "time": "2026-06-30T12:08:00+09:00",
+      "region": "福島県浜通り",
+      "regionEn": "Hamadori, Fukushima Prefecture",
+      "magnitude": "3.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260630121111_20260630120845_VXSE5k_1.json"
+    },
+    {
+      "id": "20260630103207_20260630102919_VXSE5k_1.json",
+      "time": "2026-06-30T10:29:00+09:00",
+      "region": "紀伊水道",
+      "regionEn": "Kiisuido Strait",
+      "magnitude": "3.9",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260630103207_20260630102919_VXSE5k_1.json"
+    },
+    {
+      "id": "20260630094033_20260630093817_VXSE5k_1.json",
+      "time": "2026-06-30T09:38:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "3.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260630094033_20260630093817_VXSE5k_1.json"
+    },
     {
       "id": "20260630052646_20260630052421_VXSE5k_1.json",
       "time": "2026-06-30T05:24:00+09:00",
@@ -263,46 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626133431_20260626133139_VXSE5k_1.json"
-    },
-    {
-      "id": "20260626132516_20260626132235_VXSE5k_1.json",
-      "time": "2026-06-26T13:22:00+09:00",
-      "region": "千葉県北東部",
-      "regionEn": "Northeastern Chiba Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626132516_20260626132235_VXSE5k_1.json"
-    },
-    {
-      "id": "20260626130333_20260626130015_VXSE5k_1.json",
-      "time": "2026-06-26T13:00:00+09:00",
-      "region": "千葉県北東部",
-      "regionEn": "Northeastern Chiba Prefecture",
-      "magnitude": "3.9",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626130333_20260626130015_VXSE5k_1.json"
-    },
-    {
-      "id": "20260626125807_20260626124643_VXSE5k_2.json",
-      "time": "2026-06-26T12:46:00+09:00",
-      "region": "千葉県北東部",
-      "regionEn": "Northeastern Chiba Prefecture",
-      "magnitude": "5.8",
-      "maxIntensity": "4",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626125807_20260626124643_VXSE5k_2.json"
-    },
-    {
-      "id": "20260626125546_20260626125255_VXSE5k_1.json",
-      "time": "2026-06-26T12:52:00+09:00",
-      "region": "千葉県北東部",
-      "regionEn": "Northeastern Chiba Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626125546_20260626125255_VXSE5k_1.json"
     }
   ]
 }
