@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-30T20:27:32.050Z",
+  "lastUpdate": "2026-06-30T21:56:26.007Z",
   "source": "JMA list.json",
-  "totalInList": 209,
-  "totalUsable": 161,
+  "totalInList": 206,
+  "totalUsable": 160,
   "events": [
+    {
+      "id": "20260701055831_20260701055533_VXSE5k_1.json",
+      "time": "2026-07-01T05:55:00+09:00",
+      "region": "奄美大島近海",
+      "regionEn": "Adjacent Sea of Amami-Oshima Island",
+      "magnitude": "3.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260701055831_20260701055533_VXSE5k_1.json"
+    },
     {
       "id": "20260701013431_20260701013154_VXSE5k_1.json",
       "time": "2026-07-01T01:31:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260627003532_20260627003315_VXSE5k_1.json"
-    },
-    {
-      "id": "20260626232058_20260626231746_VXSE5k_1.json",
-      "time": "2026-06-26T23:17:00+09:00",
-      "region": "山梨県東部・富士五湖",
-      "regionEn": "Eastern Region · Fuji Five Lakes, Yamanashi Prefecture",
-      "magnitude": "3.3",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626232058_20260626231746_VXSE5k_1.json"
     }
   ]
 }
