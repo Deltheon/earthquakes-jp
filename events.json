@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-06-30T04:42:40.547Z",
+  "lastUpdate": "2026-06-30T08:27:38.096Z",
   "source": "JMA list.json",
-  "totalInList": 206,
-  "totalUsable": 160,
+  "totalInList": 207,
+  "totalUsable": 161,
   "events": [
+    {
+      "id": "20260630140225_20260630135924_VXSE5k_1.json",
+      "time": "2026-06-30T13:59:00+09:00",
+      "region": "宮古島近海",
+      "regionEn": "Adjacent Sea of​ Miyakojima Island",
+      "magnitude": "4.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260630140225_20260630135924_VXSE5k_1.json"
+    },
     {
       "id": "20260630122701_20260630122433_VXSE5k_1.json",
       "time": "2026-06-30T12:24:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626154349_20260626154113_VXSE5k_1.json"
-    },
-    {
-      "id": "20260626133431_20260626133139_VXSE5k_1.json",
-      "time": "2026-06-26T13:31:00+09:00",
-      "region": "千葉県北東部",
-      "regionEn": "Northeastern Chiba Prefecture",
-      "magnitude": "4.1",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260626133431_20260626133139_VXSE5k_1.json"
     }
   ]
 }
