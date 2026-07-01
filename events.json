@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-07-01T10:28:26.273Z",
+  "lastUpdate": "2026-07-01T13:17:42.962Z",
   "source": "JMA list.json",
-  "totalInList": 211,
-  "totalUsable": 163,
+  "totalInList": 215,
+  "totalUsable": 165,
   "events": [
+    {
+      "id": "20260701211254_20260701210835_VXSE5k_1.json",
+      "time": "2026-07-01T21:08:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "6.0",
+      "maxIntensity": "4",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260701211254_20260701210835_VXSE5k_1.json"
+    },
+    {
+      "id": "20260701200007_20260701195742_VXSE5k_1.json",
+      "time": "2026-07-01T19:57:00+09:00",
+      "region": "宮崎県北部平野部",
+      "regionEn": "Plain Area of Northern Miyazaki Prefecture",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260701200007_20260701195742_VXSE5k_1.json"
+    },
     {
       "id": "20260701103902_20260701103619_VXSE5k_1.json",
       "time": "2026-07-01T10:36:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260627161249_20260627160941_VXSE5k_1.json"
-    },
-    {
-      "id": "20260627115411_20260627115107_VXSE5k_1.json",
-      "time": "2026-06-27T11:51:00+09:00",
-      "region": "山梨県東部・富士五湖",
-      "regionEn": "Eastern Region · Fuji Five Lakes, Yamanashi Prefecture",
-      "magnitude": "2.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260627115411_20260627115107_VXSE5k_1.json"
-    },
-    {
-      "id": "20260627070325_20260627070057_VXSE5k_1.json",
-      "time": "2026-06-27T07:00:00+09:00",
-      "region": "兵庫県南西部",
-      "regionEn": "Southwestern Hyogo Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260627070325_20260627070057_VXSE5k_1.json"
     }
   ]
 }
