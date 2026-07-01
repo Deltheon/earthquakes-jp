@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-01T01:38:32.761Z",
+  "lastUpdate": "2026-07-01T06:23:14.797Z",
   "source": "JMA list.json",
-  "totalInList": 211,
-  "totalUsable": 163,
+  "totalInList": 212,
+  "totalUsable": 164,
   "events": [
+    {
+      "id": "20260701103902_20260701103619_VXSE5k_1.json",
+      "time": "2026-07-01T10:36:00+09:00",
+      "region": "十勝地方中部",
+      "regionEn": "Central Tokachi Region, Hokkaido",
+      "magnitude": "3.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260701103902_20260701103619_VXSE5k_1.json"
+    },
     {
       "id": "20260701102449_20260701102202_VXSE5k_1.json",
       "time": "2026-07-01T10:22:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260627070325_20260627070057_VXSE5k_1.json"
-    },
-    {
-      "id": "20260627043242_20260627043008_VXSE5k_1.json",
-      "time": "2026-06-27T04:30:00+09:00",
-      "region": "茨城県南部",
-      "regionEn": "Southern Ibaraki Prefecture",
-      "magnitude": "3.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260627043242_20260627043008_VXSE5k_1.json"
     }
   ]
 }
