@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-02T13:52:02.704Z",
+  "lastUpdate": "2026-07-02T16:03:18.392Z",
   "source": "JMA list.json",
-  "totalInList": 221,
-  "totalUsable": 171,
+  "totalInList": 222,
+  "totalUsable": 172,
   "events": [
+    {
+      "id": "20260702234748_20260702234447_VXSE5k_1.json",
+      "time": "2026-07-02T23:44:00+09:00",
+      "region": "与那国島近海",
+      "regionEn": "Adjacent Sea of Yonagunijima Island",
+      "magnitude": "4.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260702234748_20260702234447_VXSE5k_1.json"
+    },
     {
       "id": "20260702205200_20260702204848_VXSE5k_1.json",
       "time": "2026-07-02T20:48:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260629020922_20260629020602_VXSE5k_1.json"
-    },
-    {
-      "id": "20260629010723_20260629010414_VXSE5k_1.json",
-      "time": "2026-06-29T01:04:00+09:00",
-      "region": "山梨県東部・富士五湖",
-      "regionEn": "Eastern Region · Fuji Five Lakes, Yamanashi Prefecture",
-      "magnitude": "2.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260629010723_20260629010414_VXSE5k_1.json"
     }
   ]
 }
