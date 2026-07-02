@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-02T08:55:24.364Z",
+  "lastUpdate": "2026-07-02T11:31:37.555Z",
   "source": "JMA list.json",
-  "totalInList": 219,
-  "totalUsable": 169,
+  "totalInList": 220,
+  "totalUsable": 170,
   "events": [
+    {
+      "id": "20260702201723_20260702201348_VXSE5k_1.json",
+      "time": "2026-07-02T20:13:00+09:00",
+      "region": "静岡県西部",
+      "regionEn": "Western Shizuoka Prefecture",
+      "magnitude": "3.6",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260702201723_20260702201348_VXSE5k_1.json"
+    },
     {
       "id": "20260702162051_20260702161746_VXSE5k_1.json",
       "time": "2026-07-02T16:17:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260629002153_20260629001923_VXSE5k_1.json"
-    },
-    {
-      "id": "20260628235315_20260628234930_VXSE5k_1.json",
-      "time": "2026-06-28T23:49:00+09:00",
-      "region": "岩手県沖",
-      "regionEn": "Off the Coast of Iwate Prefecture",
-      "magnitude": "4.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260628235315_20260628234930_VXSE5k_1.json"
     }
   ]
 }
