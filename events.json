@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-03T21:38:40.451Z",
+  "lastUpdate": "2026-07-03T22:58:43.532Z",
   "source": "JMA list.json",
   "totalInList": 229,
   "totalUsable": 177,
   "events": [
+    {
+      "id": "20260704072800_20260704072516_VXSE5k_1.json",
+      "time": "2026-07-04T07:25:00+09:00",
+      "region": "日向灘",
+      "regionEn": "Hyuganada Sea",
+      "magnitude": "3.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260704072800_20260704072516_VXSE5k_1.json"
+    },
     {
       "id": "20260704025055_20260704024811_VXSE5k_1.json",
       "time": "2026-07-04T02:48:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260701055831_20260701055533_VXSE5k_1.json"
-    },
-    {
-      "id": "20260701013431_20260701013154_VXSE5k_1.json",
-      "time": "2026-07-01T01:31:00+09:00",
-      "region": "石川県能登地方",
-      "regionEn": "Noto, Ishikawa Prefecture",
-      "magnitude": "2.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260701013431_20260701013154_VXSE5k_1.json"
     }
   ]
 }
