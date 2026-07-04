@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-03T22:58:43.532Z",
+  "lastUpdate": "2026-07-04T00:11:06.344Z",
   "source": "JMA list.json",
-  "totalInList": 229,
-  "totalUsable": 177,
+  "totalInList": 230,
+  "totalUsable": 178,
   "events": [
+    {
+      "id": "20260704083440_20260704082941_VXSE5k_1.json",
+      "time": "2026-07-04T08:29:00+09:00",
+      "region": "愛知県東部",
+      "regionEn": "Eastern Aichi Prefecture",
+      "magnitude": "2.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260704083440_20260704082941_VXSE5k_1.json"
+    },
     {
       "id": "20260704072800_20260704072516_VXSE5k_1.json",
       "time": "2026-07-04T07:25:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "4",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260701084436_20260701084015_VXSE5k_1.json"
-    },
-    {
-      "id": "20260701055831_20260701055533_VXSE5k_1.json",
-      "time": "2026-07-01T05:55:00+09:00",
-      "region": "奄美大島近海",
-      "regionEn": "Adjacent Sea of Amami-Oshima Island",
-      "magnitude": "3.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260701055831_20260701055533_VXSE5k_1.json"
     }
   ]
 }
