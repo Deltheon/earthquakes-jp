@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-05T16:04:35.691Z",
+  "lastUpdate": "2026-07-05T17:35:12.395Z",
   "source": "JMA list.json",
-  "totalInList": 224,
-  "totalUsable": 177,
+  "totalInList": 225,
+  "totalUsable": 178,
   "events": [
+    {
+      "id": "20260706022917_20260706022627_VXSE5k_1.json",
+      "time": "2026-07-06T02:26:00+09:00",
+      "region": "十勝沖",
+      "regionEn": "Off the Coast of Tokachi",
+      "magnitude": "3.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260706022917_20260706022627_VXSE5k_1.json"
+    },
     {
       "id": "20260706001032_20260706000642_VXSE5k_1.json",
       "time": "2026-07-06T00:06:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260701235552_20260701235051_VXSE5k_1.json"
-    },
-    {
-      "id": "20260701222623_20260701222348_VXSE5k_1.json",
-      "time": "2026-07-01T22:23:00+09:00",
-      "region": "大隅半島東方沖",
-      "regionEn": "Off the east Coast of Osumi Peninsula",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260701222623_20260701222348_VXSE5k_1.json"
     }
   ]
 }
