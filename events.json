@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-05T06:37:32.654Z",
+  "lastUpdate": "2026-07-05T09:39:42.911Z",
   "source": "JMA list.json",
   "totalInList": 226,
-  "totalUsable": 176,
+  "totalUsable": 177,
   "events": [
+    {
+      "id": "20260705183346_20260705183053_VXSE5k_1.json",
+      "time": "2026-07-05T18:30:00+09:00",
+      "region": "福島県会津",
+      "regionEn": "Aizu,  Fukushima Prefecture",
+      "magnitude": "1.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260705183346_20260705183053_VXSE5k_1.json"
+    },
     {
       "id": "20260705021002_20260705020633_VXSE5k_1.json",
       "time": "2026-07-05T02:06:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "4",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260701211254_20260701210835_VXSE5k_1.json"
-    },
-    {
-      "id": "20260701200007_20260701195742_VXSE5k_1.json",
-      "time": "2026-07-01T19:57:00+09:00",
-      "region": "宮崎県北部平野部",
-      "regionEn": "Plain Area of Northern Miyazaki Prefecture",
-      "magnitude": "2.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260701200007_20260701195742_VXSE5k_1.json"
     }
   ]
 }
