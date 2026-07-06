@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-06T10:12:11.678Z",
+  "lastUpdate": "2026-07-06T14:04:43.640Z",
   "source": "JMA list.json",
-  "totalInList": 224,
+  "totalInList": 226,
   "totalUsable": 177,
   "events": [
+    {
+      "id": "20260706203318_20260706202942_VXSE5k_1.json",
+      "time": "2026-07-06T20:29:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "4.5",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260706203318_20260706202942_VXSE5k_1.json"
+    },
     {
       "id": "20260706152249_20260706152001_VXSE5k_1.json",
       "time": "2026-07-06T15:20:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260702061324_20260702061031_VXSE5k_1.json"
-    },
-    {
-      "id": "20260702055811_20260702055545_VXSE5k_1.json",
-      "time": "2026-07-02T05:55:00+09:00",
-      "region": "岐阜県美濃東部",
-      "regionEn": "Eastern Mino, Gifu Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260702055811_20260702055545_VXSE5k_1.json"
     }
   ]
 }
