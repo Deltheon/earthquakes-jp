@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-09T12:29:23.708Z",
+  "lastUpdate": "2026-07-09T15:43:10.241Z",
   "source": "JMA list.json",
-  "totalInList": 228,
+  "totalInList": 230,
   "totalUsable": 179,
   "events": [
+    {
+      "id": "20260709220413_20260709215904_VXSE5k_1.json",
+      "time": "2026-07-09T21:59:00+09:00",
+      "region": "和歌山県南方沖",
+      "regionEn": "Off the south Coast of Wakayama Prefecture",
+      "magnitude": "4.7",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260709220413_20260709215904_VXSE5k_1.json"
+    },
     {
       "id": "20260709210321_20260709205908_VXSE5k_1.json",
       "time": "2026-07-09T20:59:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260703173118_20260703172441_VXSE5k_1.json"
-    },
-    {
-      "id": "20260703140654_20260703140342_VXSE5k_1.json",
-      "time": "2026-07-03T14:03:00+09:00",
-      "region": "福島県沖",
-      "regionEn": "Off the Coast of Fukushima Prefecture",
-      "magnitude": "3.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260703140654_20260703140342_VXSE5k_1.json"
     }
   ]
 }
