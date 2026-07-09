@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-07-09T05:34:27.311Z",
+  "lastUpdate": "2026-07-09T12:29:23.708Z",
   "source": "JMA list.json",
-  "totalInList": 225,
-  "totalUsable": 176,
+  "totalInList": 228,
+  "totalUsable": 179,
   "events": [
+    {
+      "id": "20260709210321_20260709205908_VXSE5k_1.json",
+      "time": "2026-07-09T20:59:00+09:00",
+      "region": "択捉島南東沖",
+      "regionEn": "Off the southeast Coast of Etorofu Island",
+      "magnitude": "4.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260709210321_20260709205908_VXSE5k_1.json"
+    },
+    {
+      "id": "20260709193220_20260709192635_VXSE5k_1.json",
+      "time": "2026-07-09T19:26:00+09:00",
+      "region": "新島・神津島近海",
+      "regionEn": "Adjacent Sea of Niijima Island, Kozushima Island",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260709193220_20260709192635_VXSE5k_1.json"
+    },
+    {
+      "id": "20260709174101_20260709173738_VXSE5k_1.json",
+      "time": "2026-07-09T17:37:00+09:00",
+      "region": "新島・神津島近海",
+      "regionEn": "Adjacent Sea of Niijima Island, Kozushima Island",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260709174101_20260709173738_VXSE5k_1.json"
+    },
     {
       "id": "20260709141352_20260709140522_VXSE5k_1.json",
       "time": "2026-07-09T14:05:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260703140654_20260703140342_VXSE5k_1.json"
-    },
-    {
-      "id": "20260703131113_20260703130504_VXSE5k_1.json",
-      "time": "2026-07-03T13:05:00+09:00",
-      "region": "宮古島北西沖",
-      "regionEn": "Off the northwest Coast of Miyakojima Island",
-      "magnitude": "6.4",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260703131113_20260703130504_VXSE5k_1.json"
-    },
-    {
-      "id": "20260703125801_20260703125339_VXSE5k_1.json",
-      "time": "2026-07-03T12:53:00+09:00",
-      "region": "宮古島北西沖",
-      "regionEn": "Off the northwest Coast of Miyakojima Island",
-      "magnitude": "5.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260703125801_20260703125339_VXSE5k_1.json"
-    },
-    {
-      "id": "20260703104927_20260703104448_VXSE5k_1.json",
-      "time": "2026-07-03T10:44:00+09:00",
-      "region": "宮城県沖",
-      "regionEn": "Off the Coast of Miyagi Prefecture",
-      "magnitude": "4.8",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260703104927_20260703104448_VXSE5k_1.json"
     }
   ]
 }
