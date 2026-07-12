@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-12T02:26:56.177Z",
+  "lastUpdate": "2026-07-12T05:41:36.154Z",
   "source": "JMA list.json",
   "totalInList": 223,
   "totalUsable": 172,
   "events": [
+    {
+      "id": "20260712114215_20260712113921_VXSE5k_1.json",
+      "time": "2026-07-12T11:39:00+09:00",
+      "region": "釧路地方中南部",
+      "regionEn": "Central and southern Kushiro Region, Hokkaido",
+      "magnitude": "3.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260712114215_20260712113921_VXSE5k_1.json"
+    },
     {
       "id": "20260711124522_20260711124236_VXSE5k_1.json",
       "time": "2026-07-11T12:42:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260704101958_20260704101714_VXSE5k_1.json"
-    },
-    {
-      "id": "20260704083440_20260704082941_VXSE5k_1.json",
-      "time": "2026-07-04T08:29:00+09:00",
-      "region": "愛知県東部",
-      "regionEn": "Eastern Aichi Prefecture",
-      "magnitude": "2.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260704083440_20260704082941_VXSE5k_1.json"
     }
   ]
 }
