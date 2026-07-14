@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-14T14:22:25.299Z",
+  "lastUpdate": "2026-07-14T15:55:23.760Z",
   "source": "JMA list.json",
   "totalInList": 222,
   "totalUsable": 171,
   "events": [
+    {
+      "id": "20260715004042_20260715003812_VXSE5k_1.json",
+      "time": "2026-07-15T00:38:00+09:00",
+      "region": "滋賀県南部",
+      "regionEn": "Southern Shiga Prefecture",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260715004042_20260715003812_VXSE5k_1.json"
+    },
     {
       "id": "20260714171112_20260714170736_VXSE5k_1.json",
       "time": "2026-07-14T17:07:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260706123117_20260706122831_VXSE5k_1.json"
-    },
-    {
-      "id": "20260706025830_20260706025547_VXSE5k_1.json",
-      "time": "2026-07-06T02:55:00+09:00",
-      "region": "福島県沖",
-      "regionEn": "Off the Coast of Fukushima Prefecture",
-      "magnitude": "3.7",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260706025830_20260706025547_VXSE5k_1.json"
     }
   ]
 }
