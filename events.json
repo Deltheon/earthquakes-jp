@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-14T20:07:08.916Z",
+  "lastUpdate": "2026-07-14T21:29:26.440Z",
   "source": "JMA list.json",
-  "totalInList": 222,
-  "totalUsable": 171,
+  "totalInList": 223,
+  "totalUsable": 172,
   "events": [
+    {
+      "id": "20260715052823_20260715052519_VXSE5k_1.json",
+      "time": "2026-07-15T05:25:00+09:00",
+      "region": "根室半島南東沖",
+      "regionEn": "Off the southeast Coast of the Nemuro Peninsula",
+      "magnitude": "3.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260715052823_20260715052519_VXSE5k_1.json"
+    },
     {
       "id": "20260715004042_20260715003812_VXSE5k_1.json",
       "time": "2026-07-15T00:38:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260706152249_20260706152001_VXSE5k_1.json"
-    },
-    {
-      "id": "20260706123117_20260706122831_VXSE5k_1.json",
-      "time": "2026-07-06T12:28:00+09:00",
-      "region": "奄美大島近海",
-      "regionEn": "Adjacent Sea of Amami-Oshima Island",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260706123117_20260706122831_VXSE5k_1.json"
     }
   ]
 }
