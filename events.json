@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-15T16:17:42.117Z",
+  "lastUpdate": "2026-07-15T17:45:36.107Z",
   "source": "JMA list.json",
-  "totalInList": 221,
-  "totalUsable": 170,
+  "totalInList": 222,
+  "totalUsable": 171,
   "events": [
+    {
+      "id": "20260716012633_20260716012301_VXSE5k_1.json",
+      "time": "2026-07-16T01:23:00+09:00",
+      "region": "石川県加賀地方",
+      "regionEn": "Kaga, Ishikawa Prefecture",
+      "magnitude": "2.0",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260716012633_20260716012301_VXSE5k_1.json"
+    },
     {
       "id": "20260715213311_20260715212943_VXSE5k_1.json",
       "time": "2026-07-15T21:29:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260707013022_20260707012745_VXSE5k_1.json"
-    },
-    {
-      "id": "20260707000800_20260707000533_VXSE5k_1.json",
-      "time": "2026-07-07T00:05:00+09:00",
-      "region": "沖縄本島近海",
-      "regionEn": "Adjacent Sea of Okinawa Main Island",
-      "magnitude": "2.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260707000800_20260707000533_VXSE5k_1.json"
     }
   ]
 }
