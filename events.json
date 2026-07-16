@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-16T21:31:12.918Z",
+  "lastUpdate": "2026-07-16T22:54:19.630Z",
   "source": "JMA list.json",
-  "totalInList": 213,
-  "totalUsable": 166,
+  "totalInList": 216,
+  "totalUsable": 167,
   "events": [
+    {
+      "id": "20260717065334_20260717064952_VXSE5k_1.json",
+      "time": "2026-07-17T06:49:00+09:00",
+      "region": "大隅半島東方沖",
+      "regionEn": "Off the east Coast of Osumi Peninsula",
+      "magnitude": "5.2",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260717065334_20260717064952_VXSE5k_1.json"
+    },
     {
       "id": "20260717011316_20260717011048_VXSE5k_1.json",
       "time": "2026-07-17T01:10:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260708164011_20260708163558_VXSE5k_1.json"
-    },
-    {
-      "id": "20260708132819_20260708132540_VXSE5k_1.json",
-      "time": "2026-07-08T13:25:00+09:00",
-      "region": "千葉県北東部",
-      "regionEn": "Northeastern Chiba Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260708132819_20260708132540_VXSE5k_1.json"
     }
   ]
 }
