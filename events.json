@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-17T23:22:05.742Z",
+  "lastUpdate": "2026-07-18T00:53:35.105Z",
   "source": "JMA list.json",
-  "totalInList": 214,
-  "totalUsable": 164,
+  "totalInList": 215,
+  "totalUsable": 165,
   "events": [
+    {
+      "id": "20260718095145_20260718094827_VXSE5k_1.json",
+      "time": "2026-07-18T09:48:00+09:00",
+      "region": "奄美大島近海",
+      "regionEn": "Adjacent Sea of Amami-Oshima Island",
+      "magnitude": "3.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260718095145_20260718094827_VXSE5k_1.json"
+    },
     {
       "id": "20260718063347_20260718063107_VXSE5k_1.json",
       "time": "2026-07-18T06:31:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260709141352_20260709140522_VXSE5k_1.json"
-    },
-    {
-      "id": "20260709102536_20260709102249_VXSE5k_1.json",
-      "time": "2026-07-09T10:22:00+09:00",
-      "region": "トカラ列島近海",
-      "regionEn": "Adjacent Sea of Tokara Islands",
-      "magnitude": "2.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260709102536_20260709102249_VXSE5k_1.json"
     }
   ]
 }
