@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-07-21T22:01:03.166Z",
+  "lastUpdate": "2026-07-21T23:27:19.252Z",
   "source": "JMA list.json",
-  "totalInList": 216,
-  "totalUsable": 166,
+  "totalInList": 218,
+  "totalUsable": 168,
   "events": [
+    {
+      "id": "20260722080431_20260722080116_VXSE5k_1.json",
+      "time": "2026-07-22T08:01:00+09:00",
+      "region": "埼玉県北部",
+      "regionEn": "Northern Saitama Prefecture",
+      "magnitude": "2.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260722080431_20260722080116_VXSE5k_1.json"
+    },
+    {
+      "id": "20260722080047_20260722075819_VXSE5k_1.json",
+      "time": "2026-07-22T07:58:00+09:00",
+      "region": "長野県中部",
+      "regionEn": "Central Nagano Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260722080047_20260722075819_VXSE5k_1.json"
+    },
+    {
+      "id": "20260722073251_20260722073035_VXSE5k_1.json",
+      "time": "2026-07-22T07:30:00+09:00",
+      "region": "長野県中部",
+      "regionEn": "Central Nagano Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260722073251_20260722073035_VXSE5k_1.json"
+    },
     {
       "id": "20260722055420_20260722054936_VXSE5k_1.json",
       "time": "2026-07-22T05:49:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260714023310_20260714023016_VXSE5k_1.json"
-    },
-    {
-      "id": "20260713153440_20260713153205_VXSE5k_1.json",
-      "time": "2026-07-13T15:32:00+09:00",
-      "region": "千葉県北東部",
-      "regionEn": "Northeastern Chiba Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260713153440_20260713153205_VXSE5k_1.json"
-    },
-    {
-      "id": "20260713144625_20260713144359_VXSE5k_1.json",
-      "time": "2026-07-13T14:43:00+09:00",
-      "region": "石川県能登地方",
-      "regionEn": "Noto, Ishikawa Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260713144625_20260713144359_VXSE5k_1.json"
-    },
-    {
-      "id": "20260712231546_20260712231306_VXSE5k_1.json",
-      "time": "2026-07-12T23:13:00+09:00",
-      "region": "十勝地方北部",
-      "regionEn": "Northern Tokachi Region, Hokkaido",
-      "magnitude": "3.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260712231546_20260712231306_VXSE5k_1.json"
     }
   ]
 }
