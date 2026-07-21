@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-07-21T20:43:09.152Z",
+  "lastUpdate": "2026-07-21T22:01:03.166Z",
   "source": "JMA list.json",
-  "totalInList": 215,
-  "totalUsable": 165,
+  "totalInList": 216,
+  "totalUsable": 166,
   "events": [
+    {
+      "id": "20260722055420_20260722054936_VXSE5k_1.json",
+      "time": "2026-07-22T05:49:00+09:00",
+      "region": "福岡県筑後地方",
+      "regionEn": "Chikugo Region,  Fukuoka Prefecture",
+      "magnitude": "2.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260722055420_20260722054936_VXSE5k_1.json"
+    },
+    {
+      "id": "20260722054950_20260722054558_VXSE5k_1.json",
+      "time": "2026-07-22T05:45:00+09:00",
+      "region": "長野県中部",
+      "regionEn": "Central Nagano Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260722054950_20260722054558_VXSE5k_1.json"
+    },
     {
       "id": "20260722005058_20260722004746_VXSE5k_1.json",
       "time": "2026-07-22T00:47:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260712231546_20260712231306_VXSE5k_1.json"
-    },
-    {
-      "id": "20260712114215_20260712113921_VXSE5k_1.json",
-      "time": "2026-07-12T11:39:00+09:00",
-      "region": "釧路地方中南部",
-      "regionEn": "Central and southern Kushiro Region, Hokkaido",
-      "magnitude": "3.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260712114215_20260712113921_VXSE5k_1.json"
-    },
-    {
-      "id": "20260711124522_20260711124236_VXSE5k_1.json",
-      "time": "2026-07-11T12:42:00+09:00",
-      "region": "新潟県中越地方",
-      "regionEn": "Chuetsu, Niigata Prefecture",
-      "magnitude": "3.3",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260711124522_20260711124236_VXSE5k_1.json"
     }
   ]
 }
