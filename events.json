@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-22T21:36:02.787Z",
+  "lastUpdate": "2026-07-22T22:58:14.275Z",
   "source": "JMA list.json",
   "totalInList": 218,
   "totalUsable": 168,
   "events": [
+    {
+      "id": "20260723074917_20260723074633_VXSE5k_1.json",
+      "time": "2026-07-23T07:46:00+09:00",
+      "region": "紀伊水道",
+      "regionEn": "Kiisuido Strait",
+      "magnitude": "3.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260723074917_20260723074633_VXSE5k_1.json"
+    },
     {
       "id": "20260722201439_20260722201138_VXSE5k_1.json",
       "time": "2026-07-22T20:11:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260714171112_20260714170736_VXSE5k_1.json"
-    },
-    {
-      "id": "20260714164754_20260714164414_VXSE5k_1.json",
-      "time": "2026-07-14T16:44:00+09:00",
-      "region": "三陸沖",
-      "regionEn": "Off the Coast of Sanriku",
-      "magnitude": "4.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260714164754_20260714164414_VXSE5k_1.json"
     }
   ]
 }
