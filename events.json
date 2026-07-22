@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-22T00:55:38.580Z",
+  "lastUpdate": "2026-07-22T04:14:40.906Z",
   "source": "JMA list.json",
-  "totalInList": 218,
-  "totalUsable": 168,
+  "totalInList": 219,
+  "totalUsable": 169,
   "events": [
+    {
+      "id": "20260722105841_20260722105513_VXSE5k_1.json",
+      "time": "2026-07-22T10:55:00+09:00",
+      "region": "福島県会津",
+      "regionEn": "Aizu,  Fukushima Prefecture",
+      "magnitude": "2.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260722105841_20260722105513_VXSE5k_1.json"
+    },
     {
       "id": "20260722080431_20260722080116_VXSE5k_1.json",
       "time": "2026-07-22T08:01:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260714055001_20260714054626_VXSE5k_1.json"
-    },
-    {
-      "id": "20260714023310_20260714023016_VXSE5k_1.json",
-      "time": "2026-07-14T02:30:00+09:00",
-      "region": "島根県東部",
-      "regionEn": "Eastern Shimane Prefecture",
-      "magnitude": "2.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260714023310_20260714023016_VXSE5k_1.json"
     }
   ]
 }
