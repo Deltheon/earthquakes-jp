@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-22T09:56:40.905Z",
+  "lastUpdate": "2026-07-22T11:46:59.526Z",
   "source": "JMA list.json",
-  "totalInList": 218,
-  "totalUsable": 168,
+  "totalInList": 219,
+  "totalUsable": 169,
   "events": [
+    {
+      "id": "20260722201439_20260722201138_VXSE5k_1.json",
+      "time": "2026-07-22T20:11:00+09:00",
+      "region": "福島県沖",
+      "regionEn": "Off the Coast of Fukushima Prefecture",
+      "magnitude": "4.2",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260722201439_20260722201138_VXSE5k_1.json"
+    },
     {
       "id": "20260722105841_20260722105513_VXSE5k_1.json",
       "time": "2026-07-22T10:55:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260714164754_20260714164414_VXSE5k_1.json"
-    },
-    {
-      "id": "20260714055001_20260714054626_VXSE5k_1.json",
-      "time": "2026-07-14T05:46:00+09:00",
-      "region": "福島県会津",
-      "regionEn": "Aizu,  Fukushima Prefecture",
-      "magnitude": "2.4",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260714055001_20260714054626_VXSE5k_1.json"
     }
   ]
 }
