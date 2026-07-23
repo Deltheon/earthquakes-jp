@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-23T09:06:58.049Z",
+  "lastUpdate": "2026-07-23T11:22:52.980Z",
   "source": "JMA list.json",
-  "totalInList": 217,
-  "totalUsable": 167,
+  "totalInList": 220,
+  "totalUsable": 168,
   "events": [
+    {
+      "id": "20260723182624_20260723182235_VXSE5k_1.json",
+      "time": "2026-07-23T18:22:00+09:00",
+      "region": "奄美大島近海",
+      "regionEn": "Adjacent Sea of Amami-Oshima Island",
+      "magnitude": "4.7",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260723182624_20260723182235_VXSE5k_1.json"
+    },
     {
       "id": "20260723074917_20260723074633_VXSE5k_1.json",
       "time": "2026-07-23T07:46:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260715004042_20260715003812_VXSE5k_1.json"
-    },
-    {
-      "id": "20260714171112_20260714170736_VXSE5k_1.json",
-      "time": "2026-07-14T17:07:00+09:00",
-      "region": "岩手県沖",
-      "regionEn": "Off the Coast of Iwate Prefecture",
-      "magnitude": "4.8",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260714171112_20260714170736_VXSE5k_1.json"
     }
   ]
 }
