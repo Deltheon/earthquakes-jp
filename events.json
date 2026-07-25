@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-25T14:45:41.672Z",
+  "lastUpdate": "2026-07-25T16:01:47.916Z",
   "source": "JMA list.json",
-  "totalInList": 186,
-  "totalUsable": 146,
+  "totalInList": 187,
+  "totalUsable": 147,
   "events": [
+    {
+      "id": "20260725235737_20260725235340_VXSE5k_1.json",
+      "time": "2026-07-25T23:53:00+09:00",
+      "region": "福島県会津",
+      "regionEn": "Aizu,  Fukushima Prefecture",
+      "magnitude": "2.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260725235737_20260725235340_VXSE5k_1.json"
+    },
     {
       "id": "20260725225512_20260725225227_VXSE5k_1.json",
       "time": "2026-07-25T22:52:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260716150935_20260716150443_VXSE5k_1.json"
-    },
-    {
-      "id": "20260716090439_20260716090114_VXSE5k_1.json",
-      "time": "2026-07-16T09:01:00+09:00",
-      "region": "千葉県北東部",
-      "regionEn": "Northeastern Chiba Prefecture",
-      "magnitude": "4.4",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260716090439_20260716090114_VXSE5k_1.json"
     }
   ]
 }
