@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-25T13:17:01.126Z",
+  "lastUpdate": "2026-07-25T14:45:41.672Z",
   "source": "JMA list.json",
-  "totalInList": 190,
-  "totalUsable": 148,
+  "totalInList": 186,
+  "totalUsable": 146,
   "events": [
+    {
+      "id": "20260725225512_20260725225227_VXSE5k_1.json",
+      "time": "2026-07-25T22:52:00+09:00",
+      "region": "上川地方北部",
+      "regionEn": "Northern Kamikawa Region, Hokkaido",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260725225512_20260725225227_VXSE5k_1.json"
+    },
     {
       "id": "20260725140640_20260725140428_VXSE5k_1.json",
       "time": "2026-07-25T14:04:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260716090439_20260716090114_VXSE5k_1.json"
-    },
-    {
-      "id": "20260716012633_20260716012301_VXSE5k_1.json",
-      "time": "2026-07-16T01:23:00+09:00",
-      "region": "石川県加賀地方",
-      "regionEn": "Kaga, Ishikawa Prefecture",
-      "magnitude": "2.0",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260716012633_20260716012301_VXSE5k_1.json"
     }
   ]
 }
