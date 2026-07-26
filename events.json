@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-26T12:00:28.001Z",
+  "lastUpdate": "2026-07-26T14:06:46.190Z",
   "source": "JMA list.json",
-  "totalInList": 174,
-  "totalUsable": 140,
+  "totalInList": 175,
+  "totalUsable": 141,
   "events": [
+    {
+      "id": "20260726220138_20260726215831_VXSE5k_1.json",
+      "time": "2026-07-26T21:58:00+09:00",
+      "region": "トカラ列島近海",
+      "regionEn": "Adjacent Sea of Tokara Islands",
+      "magnitude": "2.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260726220138_20260726215831_VXSE5k_1.json"
+    },
     {
       "id": "20260726140215_20260726135930_VXSE5k_1.json",
       "time": "2026-07-26T13:59:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260718063347_20260718063107_VXSE5k_1.json"
-    },
-    {
-      "id": "20260718044819_20260718044522_VXSE5k_1.json",
-      "time": "2026-07-18T04:45:00+09:00",
-      "region": "千葉県東方沖",
-      "regionEn": "Off the east Coast of Chiba Prefecture",
-      "magnitude": "4.3",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260718044819_20260718044522_VXSE5k_1.json"
     }
   ]
 }
