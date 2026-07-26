@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-26T17:58:59.163Z",
+  "lastUpdate": "2026-07-26T19:20:45.837Z",
   "source": "JMA list.json",
-  "totalInList": 168,
+  "totalInList": 166,
   "totalUsable": 138,
   "events": [
+    {
+      "id": "20260727030542_20260727030314_VXSE5k_1.json",
+      "time": "2026-07-27T03:03:00+09:00",
+      "region": "福島県会津",
+      "regionEn": "Aizu,  Fukushima Prefecture",
+      "magnitude": "2.8",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260727030542_20260727030314_VXSE5k_1.json"
+    },
     {
       "id": "20260727020504_20260727020056_VXSE5k_1.json",
       "time": "2026-07-27T02:00:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260720042404_20260720042142_VXSE5k_1.json"
-    },
-    {
-      "id": "20260720030754_20260720030457_VXSE5k_1.json",
-      "time": "2026-07-20T03:04:00+09:00",
-      "region": "日高地方中部",
-      "regionEn": "Central Hidaka Region, Hokkaido",
-      "magnitude": "2.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260720030754_20260720030457_VXSE5k_1.json"
     }
   ]
 }
