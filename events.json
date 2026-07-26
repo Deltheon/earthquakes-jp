@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-26T16:54:48.264Z",
+  "lastUpdate": "2026-07-26T17:58:59.163Z",
   "source": "JMA list.json",
-  "totalInList": 167,
+  "totalInList": 168,
   "totalUsable": 138,
   "events": [
+    {
+      "id": "20260727020504_20260727020056_VXSE5k_1.json",
+      "time": "2026-07-27T02:00:00+09:00",
+      "region": "鹿児島県薩摩地方",
+      "regionEn": "Satsuma Region, Kagoshima Prefecture",
+      "magnitude": "4.2",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260727020504_20260727020056_VXSE5k_1.json"
+    },
     {
       "id": "20260726234815_20260726234530_VXSE5k_1.json",
       "time": "2026-07-26T23:45:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260720030754_20260720030457_VXSE5k_1.json"
-    },
-    {
-      "id": "20260718095145_20260718094827_VXSE5k_1.json",
-      "time": "2026-07-18T09:48:00+09:00",
-      "region": "奄美大島近海",
-      "regionEn": "Adjacent Sea of Amami-Oshima Island",
-      "magnitude": "3.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260718095145_20260718094827_VXSE5k_1.json"
     }
   ]
 }
