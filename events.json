@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-27T20:49:45.481Z",
+  "lastUpdate": "2026-07-27T22:03:14.258Z",
   "source": "JMA list.json",
-  "totalInList": 161,
-  "totalUsable": 133,
+  "totalInList": 157,
+  "totalUsable": 132,
   "events": [
+    {
+      "id": "20260728060304_20260728060014_VXSE5k_1.json",
+      "time": "2026-07-28T06:00:00+09:00",
+      "region": "和歌山県北部",
+      "regionEn": "Northern Wakayama Prefecture",
+      "magnitude": "2.5",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260728060304_20260728060014_VXSE5k_1.json"
+    },
     {
       "id": "20260727135943_20260727135626_VXSE5k_1.json",
       "time": "2026-07-27T13:56:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260721022641_20260721022351_VXSE5k_1.json"
-    },
-    {
-      "id": "20260720112837_20260720112547_VXSE5k_1.json",
-      "time": "2026-07-20T11:25:00+09:00",
-      "region": "福島県中通り",
-      "regionEn": "Nakadori, Fukushima Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260720112837_20260720112547_VXSE5k_1.json"
     }
   ]
 }
