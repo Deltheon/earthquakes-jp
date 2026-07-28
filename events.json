@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-07-27T23:32:46.062Z",
+  "lastUpdate": "2026-07-28T02:10:53.111Z",
   "source": "JMA list.json",
-  "totalInList": 157,
+  "totalInList": 158,
   "totalUsable": 132,
   "events": [
+    {
+      "id": "20260728094303_20260728093944_VXSE5k_1.json",
+      "time": "2026-07-28T09:39:00+09:00",
+      "region": "鹿児島県薩摩地方",
+      "regionEn": "Satsuma Region, Kagoshima Prefecture",
+      "magnitude": "3.7",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260728094303_20260728093944_VXSE5k_1.json"
+    },
     {
       "id": "20260728060304_20260728060014_VXSE5k_1.json",
       "time": "2026-07-28T06:00:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260721112820_20260721112525_VXSE5k_1.json"
-    },
-    {
-      "id": "20260721022641_20260721022351_VXSE5k_1.json",
-      "time": "2026-07-21T02:23:00+09:00",
-      "region": "山梨県東部・富士五湖",
-      "regionEn": "Eastern Region · Fuji Five Lakes, Yamanashi Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260721022641_20260721022351_VXSE5k_1.json"
     }
   ]
 }
