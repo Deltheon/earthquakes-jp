@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-08-01T03:59:01.936Z",
+  "lastUpdate": "2026-08-01T06:35:43.341Z",
   "source": "JMA list.json",
-  "totalInList": 560,
-  "totalUsable": 455,
+  "totalInList": 561,
+  "totalUsable": 456,
   "events": [
+    {
+      "id": "20260801150023_20260801145801_VXSE5k_1.json",
+      "time": "2026-08-01T14:58:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260801150023_20260801145801_VXSE5k_1.json"
+    },
+    {
+      "id": "20260801130249_20260801130027_VXSE5k_1.json",
+      "time": "2026-08-01T13:00:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "3.0",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260801130249_20260801130027_VXSE5k_1.json"
+    },
     {
       "id": "20260801125659_20260801125421_VXSE5k_1.json",
       "time": "2026-08-01T12:54:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260731181504_20260731181207_VXSE5k_1.json"
-    },
-    {
-      "id": "20260731181306_20260731181014_VXSE5k_1.json",
-      "time": "2026-07-31T18:10:00+09:00",
-      "region": "茨城県北部",
-      "regionEn": "Northern Ibaraki Prefecture",
-      "magnitude": "3.7",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260731181306_20260731181014_VXSE5k_1.json"
-    },
-    {
-      "id": "20260731180646_20260731180357_VXSE5k_1.json",
-      "time": "2026-07-31T18:04:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "2.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260731180646_20260731180357_VXSE5k_1.json"
     }
   ]
 }
