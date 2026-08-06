@@ -1,9 +1,49 @@
 {
-  "lastUpdate": "2026-08-06T10:07:05.418Z",
+  "lastUpdate": "2026-08-06T12:24:18.952Z",
   "source": "JMA list.json",
-  "totalInList": 679,
-  "totalUsable": 550,
+  "totalInList": 685,
+  "totalUsable": 554,
   "events": [
+    {
+      "id": "20260806195929_20260806195617_VXSE5k_1.json",
+      "time": "2026-08-06T19:56:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260806195929_20260806195617_VXSE5k_1.json"
+    },
+    {
+      "id": "20260806195309_20260806194926_VXSE5k_1.json",
+      "time": "2026-08-06T19:49:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "4.5",
+      "maxIntensity": "4",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260806195309_20260806194926_VXSE5k_1.json"
+    },
+    {
+      "id": "20260806192441_20260806192155_VXSE5k_1.json",
+      "time": "2026-08-06T19:21:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260806192441_20260806192155_VXSE5k_1.json"
+    },
+    {
+      "id": "20260806191040_20260806190754_VXSE5k_1.json",
+      "time": "2026-08-06T19:07:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "3.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260806191040_20260806190754_VXSE5k_1.json"
+    },
     {
       "id": "20260806182444_20260806182149_VXSE5k_1.json",
       "time": "2026-08-06T18:21:00+09:00",
@@ -263,46 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260805055511_20260805055233_VXSE5k_1.json"
-    },
-    {
-      "id": "20260805050047_20260805045704_VXSE5k_1.json",
-      "time": "2026-08-05T04:57:00+09:00",
-      "region": "種子島南東沖",
-      "regionEn": "Off the southeast Coast of Tanegashima Island",
-      "magnitude": "4.8",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260805050047_20260805045704_VXSE5k_1.json"
-    },
-    {
-      "id": "20260805045047_20260805044653_VXSE5k_1.json",
-      "time": "2026-08-05T04:46:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "2.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260805045047_20260805044653_VXSE5k_1.json"
-    },
-    {
-      "id": "20260805040221_20260805035935_VXSE5k_1.json",
-      "time": "2026-08-05T03:59:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "2.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260805040221_20260805035935_VXSE5k_1.json"
-    },
-    {
-      "id": "20260805034543_20260805034304_VXSE5k_1.json",
-      "time": "2026-08-05T03:43:00+09:00",
-      "region": "石川県能登地方",
-      "regionEn": "Noto, Ishikawa Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260805034543_20260805034304_VXSE5k_1.json"
     }
   ]
 }
