@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-08T19:52:56.081Z",
+  "lastUpdate": "2026-08-08T20:24:11.994Z",
   "source": "JMA list.json",
-  "totalInList": 717,
-  "totalUsable": 580,
+  "totalInList": 718,
+  "totalUsable": 581,
   "events": [
+    {
+      "id": "20260809052033_20260809051826_VXSE5k_1.json",
+      "time": "2026-08-09T05:18:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260809052033_20260809051826_VXSE5k_1.json"
+    },
     {
       "id": "20260809044404_20260809043927_VXSE5k_1.json",
       "time": "2026-08-09T04:39:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260807100700_20260807100434_VXSE5k_1.json"
-    },
-    {
-      "id": "20260807100521_20260807100233_VXSE5k_1.json",
-      "time": "2026-08-07T10:02:00+09:00",
-      "region": "福井県嶺北",
-      "regionEn": "Reihoku,  Fukui Prefecture",
-      "magnitude": "3.6",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260807100521_20260807100233_VXSE5k_1.json"
     }
   ]
 }
