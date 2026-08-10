@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-10T11:29:04.691Z",
+  "lastUpdate": "2026-08-10T12:09:57.859Z",
   "source": "JMA list.json",
-  "totalInList": 742,
-  "totalUsable": 598,
+  "totalInList": 743,
+  "totalUsable": 599,
   "events": [
+    {
+      "id": "20260810202811_20260810202536_VXSE5k_1.json",
+      "time": "2026-08-10T20:25:00+09:00",
+      "region": "網走地方",
+      "regionEn": "Abashiri Region, Hokkaido",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260810202811_20260810202536_VXSE5k_1.json"
+    },
     {
       "id": "20260810201552_20260810201328_VXSE5k_1.json",
       "time": "2026-08-10T20:13:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260809013523_20260809013227_VXSE5k_1.json"
-    },
-    {
-      "id": "20260808233041_20260808232819_VXSE5k_1.json",
-      "time": "2026-08-08T23:28:00+09:00",
-      "region": "安芸灘",
-      "regionEn": "Akinada Sea",
-      "magnitude": "2.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260808233041_20260808232819_VXSE5k_1.json"
     }
   ]
 }
