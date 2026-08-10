@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-10T13:53:29.650Z",
+  "lastUpdate": "2026-08-10T14:53:53.488Z",
   "source": "JMA list.json",
-  "totalInList": 744,
-  "totalUsable": 599,
+  "totalInList": 745,
+  "totalUsable": 600,
   "events": [
+    {
+      "id": "20260810231940_20260810231412_VXSE5k_1.json",
+      "time": "2026-08-10T23:14:00+09:00",
+      "region": "長野県南部",
+      "regionEn": "Southern Nagano Prefecture",
+      "magnitude": "2.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260810231940_20260810231412_VXSE5k_1.json"
+    },
     {
       "id": "20260810202811_20260810202536_VXSE5k_1.json",
       "time": "2026-08-10T20:25:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260809025608_20260809025347_VXSE5k_1.json"
-    },
-    {
-      "id": "20260809013523_20260809013227_VXSE5k_1.json",
-      "time": "2026-08-09T01:32:00+09:00",
-      "region": "大分県中部",
-      "regionEn": "Central Oita Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260809013523_20260809013227_VXSE5k_1.json"
     }
   ]
 }
