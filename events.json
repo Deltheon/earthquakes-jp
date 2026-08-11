@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-08-11T07:00:16.008Z",
+  "lastUpdate": "2026-08-11T08:28:58.239Z",
   "source": "JMA list.json",
-  "totalInList": 764,
-  "totalUsable": 613,
+  "totalInList": 766,
+  "totalUsable": 615,
   "events": [
+    {
+      "id": "20260811170620_20260811170344_VXSE5k_1.json",
+      "time": "2026-08-11T17:03:00+09:00",
+      "region": "釧路沖",
+      "regionEn": "Off the Coast of Kushiro",
+      "magnitude": "3.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260811170620_20260811170344_VXSE5k_1.json"
+    },
+    {
+      "id": "20260811164524_20260811164232_VXSE5k_1.json",
+      "time": "2026-08-11T16:42:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "3.0",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260811164524_20260811164232_VXSE5k_1.json"
+    },
     {
       "id": "20260811143223_20260811142844_VXSE5k_1.json",
       "time": "2026-08-11T14:28:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260810005203_20260810004814_VXSE5k_1.json"
-    },
-    {
-      "id": "20260809190241_20260809185943_VXSE5k_1.json",
-      "time": "2026-08-09T18:59:00+09:00",
-      "region": "千葉県北西部",
-      "regionEn": "Northwestern Chiba Prefecture",
-      "magnitude": "3.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260809190241_20260809185943_VXSE5k_1.json"
-    },
-    {
-      "id": "20260809163508_20260809163246_VXSE5k_1.json",
-      "time": "2026-08-09T16:32:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "2.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260809163508_20260809163246_VXSE5k_1.json"
     }
   ]
 }
