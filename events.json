@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-12T12:06:54.855Z",
+  "lastUpdate": "2026-08-12T13:54:40.158Z",
   "source": "JMA list.json",
-  "totalInList": 787,
-  "totalUsable": 631,
+  "totalInList": 788,
+  "totalUsable": 632,
   "events": [
+    {
+      "id": "20260812210638_20260812210354_VXSE5k_1.json",
+      "time": "2026-08-12T21:03:00+09:00",
+      "region": "宮古島近海",
+      "regionEn": "Adjacent Sea of​ Miyakojima Island",
+      "magnitude": "3.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260812210638_20260812210354_VXSE5k_1.json"
+    },
     {
       "id": "20260812154354_20260812154150_VXSE5k_1.json",
       "time": "2026-08-12T15:41:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260811063615_20260811063338_VXSE5k_1.json"
-    },
-    {
-      "id": "20260811061400_20260811061122_VXSE5k_1.json",
-      "time": "2026-08-11T06:11:00+09:00",
-      "region": "和歌山県北部",
-      "regionEn": "Northern Wakayama Prefecture",
-      "magnitude": "2.9",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260811061400_20260811061122_VXSE5k_1.json"
     }
   ]
 }
