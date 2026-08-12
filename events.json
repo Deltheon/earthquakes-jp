@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-08-12T04:03:14.659Z",
+  "lastUpdate": "2026-08-12T05:52:55.719Z",
   "source": "JMA list.json",
-  "totalInList": 783,
-  "totalUsable": 630,
+  "totalInList": 788,
+  "totalUsable": 632,
   "events": [
+    {
+      "id": "20260812131255_20260812130555_VXSE5k_2.json",
+      "time": "2026-08-12T13:05:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "4.9",
+      "maxIntensity": "4",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260812131255_20260812130555_VXSE5k_2.json"
+    },
+    {
+      "id": "20260812130953_20260812130555_VXSE5k_1.json",
+      "time": "2026-08-12T13:05:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "4.9",
+      "maxIntensity": "4",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260812130953_20260812130555_VXSE5k_1.json"
+    },
     {
       "id": "20260812115930_20260812115706_VXSE5k_1.json",
       "time": "2026-08-12T11:57:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260811031549_20260811031225_VXSE5k_1.json"
-    },
-    {
-      "id": "20260811025107_20260811024721_VXSE5k_1.json",
-      "time": "2026-08-11T02:47:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "4.1",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260811025107_20260811024721_VXSE5k_1.json"
-    },
-    {
-      "id": "20260811011751_20260811011536_VXSE5k_1.json",
-      "time": "2026-08-11T01:15:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260811011751_20260811011536_VXSE5k_1.json"
     }
   ]
 }
