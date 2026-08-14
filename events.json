@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-14T01:39:39.864Z",
+  "lastUpdate": "2026-08-14T04:03:59.992Z",
   "source": "JMA list.json",
-  "totalInList": 809,
-  "totalUsable": 647,
+  "totalInList": 810,
+  "totalUsable": 648,
   "events": [
+    {
+      "id": "20260814124529_20260814124244_VXSE5k_1.json",
+      "time": "2026-08-14T12:42:00+09:00",
+      "region": "豊後水道",
+      "regionEn": "Bungosuido Strait",
+      "magnitude": "3.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260814124529_20260814124244_VXSE5k_1.json"
+    },
     {
       "id": "20260814075249_20260814074943_VXSE5k_1.json",
       "time": "2026-08-14T07:50:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260812085434_20260812085053_VXSE5k_1.json"
-    },
-    {
-      "id": "20260812065604_20260812065312_VXSE5k_1.json",
-      "time": "2026-08-12T06:53:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260812065604_20260812065312_VXSE5k_1.json"
     }
   ]
 }
