@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-14T22:47:53.198Z",
+  "lastUpdate": "2026-08-14T23:17:39.947Z",
   "source": "JMA list.json",
-  "totalInList": 824,
-  "totalUsable": 661,
+  "totalInList": 825,
+  "totalUsable": 662,
   "events": [
+    {
+      "id": "20260815081602_20260815081315_VXSE5k_1.json",
+      "time": "2026-08-15T08:13:00+09:00",
+      "region": "浦河沖",
+      "regionEn": "Off the Coast of Urakawa",
+      "magnitude": "3.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260815081602_20260815081315_VXSE5k_1.json"
+    },
     {
       "id": "20260815073137_20260815072907_VXSE5k_1.json",
       "time": "2026-08-15T07:29:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260813185127_20260813184917_VXSE5k_1.json"
-    },
-    {
-      "id": "20260813123918_20260813123601_VXSE5k_1.json",
-      "time": "2026-08-13T12:36:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260813123918_20260813123601_VXSE5k_1.json"
     }
   ]
 }
