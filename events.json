@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-08-14T07:18:08.579Z",
+  "lastUpdate": "2026-08-14T08:42:41.178Z",
   "source": "JMA list.json",
-  "totalInList": 812,
-  "totalUsable": 650,
+  "totalInList": 815,
+  "totalUsable": 653,
   "events": [
+    {
+      "id": "20260814173221_20260814172937_VXSE5k_1.json",
+      "time": "2026-08-14T17:29:00+09:00",
+      "region": "栃木県北部",
+      "regionEn": "Northern Tochigi Prefecture",
+      "magnitude": "2.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260814173221_20260814172937_VXSE5k_1.json"
+    },
+    {
+      "id": "20260814171647_20260814171409_VXSE5k_1.json",
+      "time": "2026-08-14T17:14:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260814171647_20260814171409_VXSE5k_1.json"
+    },
+    {
+      "id": "20260814163146_20260814162926_VXSE5k_1.json",
+      "time": "2026-08-14T16:29:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260814163146_20260814162926_VXSE5k_1.json"
+    },
     {
       "id": "20260814160751_20260814160531_VXSE5k_1.json",
       "time": "2026-08-14T16:05:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "4",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260812131255_20260812130555_VXSE5k_2.json"
-    },
-    {
-      "id": "20260812130953_20260812130555_VXSE5k_1.json",
-      "time": "2026-08-12T13:05:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "4.9",
-      "maxIntensity": "4",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260812130953_20260812130555_VXSE5k_1.json"
-    },
-    {
-      "id": "20260812115930_20260812115706_VXSE5k_1.json",
-      "time": "2026-08-12T11:57:00+09:00",
-      "region": "鳥取県中部",
-      "regionEn": "Central Tottori Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260812115930_20260812115706_VXSE5k_1.json"
-    },
-    {
-      "id": "20260812092801_20260812092517_VXSE5k_1.json",
-      "time": "2026-08-12T09:25:00+09:00",
-      "region": "鹿児島県薩摩地方",
-      "regionEn": "Satsuma Region, Kagoshima Prefecture",
-      "magnitude": "2.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260812092801_20260812092517_VXSE5k_1.json"
     }
   ]
 }
