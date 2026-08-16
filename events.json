@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-16T02:39:41.580Z",
+  "lastUpdate": "2026-08-16T03:43:58.497Z",
   "source": "JMA list.json",
-  "totalInList": 837,
-  "totalUsable": 674,
+  "totalInList": 840,
+  "totalUsable": 675,
   "events": [
+    {
+      "id": "20260816120737_20260816120419_VXSE5k_1.json",
+      "time": "2026-08-16T12:04:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "3.6",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260816120737_20260816120419_VXSE5k_1.json"
+    },
     {
       "id": "20260816093330_20260816093047_VXSE5k_1.json",
       "time": "2026-08-16T09:30:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260814173221_20260814172937_VXSE5k_1.json"
-    },
-    {
-      "id": "20260814171647_20260814171409_VXSE5k_1.json",
-      "time": "2026-08-14T17:14:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260814171647_20260814171409_VXSE5k_1.json"
     }
   ]
 }
