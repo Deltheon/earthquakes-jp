@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-17T04:37:03.413Z",
+  "lastUpdate": "2026-08-17T05:31:21.117Z",
   "source": "JMA list.json",
-  "totalInList": 850,
-  "totalUsable": 684,
+  "totalInList": 851,
+  "totalUsable": 685,
   "events": [
+    {
+      "id": "20260817135740_20260817135500_VXSE5k_1.json",
+      "time": "2026-08-17T13:55:00+09:00",
+      "region": "宮古島近海",
+      "regionEn": "Adjacent Sea of​ Miyakojima Island",
+      "magnitude": "4.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260817135740_20260817135500_VXSE5k_1.json"
+    },
     {
       "id": "20260817121144_20260817120659_VXSE5k_1.json",
       "time": "2026-08-17T12:06:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260815092520_20260815092253_VXSE5k_1.json"
-    },
-    {
-      "id": "20260815081602_20260815081315_VXSE5k_1.json",
-      "time": "2026-08-15T08:13:00+09:00",
-      "region": "浦河沖",
-      "regionEn": "Off the Coast of Urakawa",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260815081602_20260815081315_VXSE5k_1.json"
     }
   ]
 }
