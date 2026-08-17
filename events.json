@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-17T02:39:02.956Z",
+  "lastUpdate": "2026-08-17T03:45:53.079Z",
   "source": "JMA list.json",
   "totalInList": 850,
   "totalUsable": 684,
   "events": [
+    {
+      "id": "20260817121144_20260817120659_VXSE5k_1.json",
+      "time": "2026-08-17T12:06:00+09:00",
+      "region": "日向灘",
+      "regionEn": "Hyuganada Sea",
+      "magnitude": "4.1",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260817121144_20260817120659_VXSE5k_1.json"
+    },
     {
       "id": "20260817064112_20260817063722_VXSE5k_1.json",
       "time": "2026-08-17T06:37:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260815081602_20260815081315_VXSE5k_1.json"
-    },
-    {
-      "id": "20260815073137_20260815072907_VXSE5k_1.json",
-      "time": "2026-08-15T07:29:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "2.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260815073137_20260815072907_VXSE5k_1.json"
     }
   ]
 }
