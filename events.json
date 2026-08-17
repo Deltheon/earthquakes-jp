@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-17T10:27:39.914Z",
+  "lastUpdate": "2026-08-17T10:57:11.879Z",
   "source": "JMA list.json",
-  "totalInList": 855,
-  "totalUsable": 687,
+  "totalInList": 856,
+  "totalUsable": 688,
   "events": [
+    {
+      "id": "20260817194041_20260817193654_VXSE5k_1.json",
+      "time": "2026-08-17T19:36:00+09:00",
+      "region": "天草灘",
+      "regionEn": "Amakusanada Sea",
+      "magnitude": "3.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260817194041_20260817193654_VXSE5k_1.json"
+    },
     {
       "id": "20260817173716_20260817173439_VXSE5k_1.json",
       "time": "2026-08-17T17:34:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260815110152_20260815105840_VXSE5k_1.json"
-    },
-    {
-      "id": "20260815101443_20260815101058_VXSE5k_1.json",
-      "time": "2026-08-15T10:10:00+09:00",
-      "region": "福島県沖",
-      "regionEn": "Off the Coast of Fukushima Prefecture",
-      "magnitude": "4.5",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260815101443_20260815101058_VXSE5k_1.json"
     }
   ]
 }
