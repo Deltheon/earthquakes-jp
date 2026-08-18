@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-18T07:34:04.961Z",
+  "lastUpdate": "2026-08-18T08:31:39.810Z",
   "source": "JMA list.json",
-  "totalInList": 868,
-  "totalUsable": 698,
+  "totalInList": 869,
+  "totalUsable": 699,
   "events": [
+    {
+      "id": "20260818171215_20260818170925_VXSE5k_1.json",
+      "time": "2026-08-18T17:09:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260818171215_20260818170925_VXSE5k_1.json"
+    },
     {
       "id": "20260818150922_20260818150559_VXSE5k_1.json",
       "time": "2026-08-18T15:05:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260816062108_20260816061834_VXSE5k_1.json"
-    },
-    {
-      "id": "20260816043921_20260816043359_VXSE5k_1.json",
-      "time": "2026-08-16T04:33:00+09:00",
-      "region": "硫黄島近海",
-      "regionEn": "Adjacent Sea of​ Ioto Island",
-      "magnitude": "5.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260816043921_20260816043359_VXSE5k_1.json"
     }
   ]
 }
