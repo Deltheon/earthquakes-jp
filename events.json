@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-19T11:20:49.836Z",
+  "lastUpdate": "2026-08-19T11:49:11.494Z",
   "source": "JMA list.json",
-  "totalInList": 871,
-  "totalUsable": 699,
+  "totalInList": 872,
+  "totalUsable": 700,
   "events": [
+    {
+      "id": "20260819204727_20260819204359_VXSE5k_1.json",
+      "time": "2026-08-19T20:43:00+09:00",
+      "region": "奄美大島北西沖",
+      "regionEn": "Off the northwest Coast of Amami- Oshima Island",
+      "magnitude": "4.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260819204727_20260819204359_VXSE5k_1.json"
+    },
     {
       "id": "20260819094511_20260819094205_VXSE5k_1.json",
       "time": "2026-08-19T09:42:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260816140543_20260816140326_VXSE5k_1.json"
-    },
-    {
-      "id": "20260816134048_20260816133738_VXSE5k_1.json",
-      "time": "2026-08-16T13:37:00+09:00",
-      "region": "日向灘",
-      "regionEn": "Hyuganada Sea",
-      "magnitude": "4.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260816134048_20260816133738_VXSE5k_1.json"
     }
   ]
 }
