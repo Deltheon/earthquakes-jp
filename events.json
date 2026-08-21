@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-21T11:50:55.206Z",
+  "lastUpdate": "2026-08-21T12:38:32.134Z",
   "source": "JMA list.json",
-  "totalInList": 887,
+  "totalInList": 889,
   "totalUsable": 709,
   "events": [
+    {
+      "id": "20260821210756_20260821210216_VXSE5k_1.json",
+      "time": "2026-08-21T21:02:00+09:00",
+      "region": "八丈島東方沖",
+      "regionEn": "Off the east Coast of Hachijojima Island",
+      "magnitude": "5.5",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260821210756_20260821210216_VXSE5k_1.json"
+    },
     {
       "id": "20260821091427_20260821091118_VXSE5k_1.json",
       "time": "2026-08-21T09:11:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260818095701_20260818095430_VXSE5k_1.json"
-    },
-    {
-      "id": "20260818082408_20260818082131_VXSE5k_1.json",
-      "time": "2026-08-18T08:21:00+09:00",
-      "region": "福岡県福岡地方",
-      "regionEn": "Fukuoka Region, Fukuoka Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260818082408_20260818082131_VXSE5k_1.json"
     }
   ]
 }
