@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-23T23:16:46.409Z",
+  "lastUpdate": "2026-08-23T23:44:11.145Z",
   "source": "JMA list.json",
-  "totalInList": 912,
-  "totalUsable": 724,
+  "totalInList": 913,
+  "totalUsable": 725,
   "events": [
+    {
+      "id": "20260824081550_20260824081215_VXSE5k_1.json",
+      "time": "2026-08-24T08:12:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260824081550_20260824081215_VXSE5k_1.json"
+    },
     {
       "id": "20260824073527_20260824073240_VXSE5k_1.json",
       "time": "2026-08-24T07:32:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260820175141_20260820174830_VXSE5k_1.json"
-    },
-    {
-      "id": "20260820143239_20260820142845_VXSE5k_1.json",
-      "time": "2026-08-20T14:28:00+09:00",
-      "region": "茨城県沖",
-      "regionEn": "Off the Coast of Ibaraki Prefecture",
-      "magnitude": "4.2",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260820143239_20260820142845_VXSE5k_1.json"
     }
   ]
 }
