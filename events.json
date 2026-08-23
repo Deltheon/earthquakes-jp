@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-23T18:56:07.353Z",
+  "lastUpdate": "2026-08-23T19:20:21.361Z",
   "source": "JMA list.json",
-  "totalInList": 910,
-  "totalUsable": 724,
+  "totalInList": 913,
+  "totalUsable": 725,
   "events": [
+    {
+      "id": "20260824040939_20260824040526_VXSE5k_1.json",
+      "time": "2026-08-24T04:05:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "3.9",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260824040939_20260824040526_VXSE5k_1.json"
+    },
     {
       "id": "20260824013911_20260824013623_VXSE5k_1.json",
       "time": "2026-08-24T01:36:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260820120807_20260820120453_VXSE5k_1.json"
-    },
-    {
-      "id": "20260820114302_20260820114013_VXSE5k_1.json",
-      "time": "2026-08-20T11:40:00+09:00",
-      "region": "紀伊水道",
-      "regionEn": "Kiisuido Strait",
-      "magnitude": "2.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260820114302_20260820114013_VXSE5k_1.json"
     }
   ]
 }
