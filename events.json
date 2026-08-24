@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-24T17:57:24.723Z",
+  "lastUpdate": "2026-08-24T18:42:03.301Z",
   "source": "JMA list.json",
-  "totalInList": 918,
-  "totalUsable": 730,
+  "totalInList": 919,
+  "totalUsable": 731,
   "events": [
+    {
+      "id": "20260825031040_20260825030706_VXSE5k_1.json",
+      "time": "2026-08-25T03:07:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "4.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260825031040_20260825030706_VXSE5k_1.json"
+    },
     {
       "id": "20260825021630_20260825021355_VXSE5k_1.json",
       "time": "2026-08-25T02:13:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260821233051_20260821232757_VXSE5k_1.json"
-    },
-    {
-      "id": "20260821210756_20260821210216_VXSE5k_1.json",
-      "time": "2026-08-21T21:02:00+09:00",
-      "region": "八丈島東方沖",
-      "regionEn": "Off the east Coast of Hachijojima Island",
-      "magnitude": "5.5",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260821210756_20260821210216_VXSE5k_1.json"
     }
   ]
 }
