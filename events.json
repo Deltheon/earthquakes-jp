@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-24T09:42:16.194Z",
+  "lastUpdate": "2026-08-24T10:33:15.469Z",
   "source": "JMA list.json",
-  "totalInList": 914,
-  "totalUsable": 726,
+  "totalInList": 915,
+  "totalUsable": 727,
   "events": [
+    {
+      "id": "20260824192023_20260824191745_VXSE5k_1.json",
+      "time": "2026-08-24T19:17:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260824192023_20260824191745_VXSE5k_1.json"
+    },
     {
       "id": "20260824181334_20260824181059_VXSE5k_1.json",
       "time": "2026-08-24T18:10:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260821032719_20260821032347_VXSE5k_1.json"
-    },
-    {
-      "id": "20260821031822_20260821031540_VXSE5k_1.json",
-      "time": "2026-08-21T03:15:00+09:00",
-      "region": "宮古島近海",
-      "regionEn": "Adjacent Sea of​ Miyakojima Island",
-      "magnitude": "3.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260821031822_20260821031540_VXSE5k_1.json"
     }
   ]
 }
