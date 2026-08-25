@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-25T08:36:56.461Z",
+  "lastUpdate": "2026-08-25T09:31:03.436Z",
   "source": "JMA list.json",
-  "totalInList": 919,
-  "totalUsable": 731,
+  "totalInList": 922,
+  "totalUsable": 732,
   "events": [
+    {
+      "id": "20260825181141_20260825180733_VXSE5k_1.json",
+      "time": "2026-08-25T18:07:00+09:00",
+      "region": "根室半島南東沖",
+      "regionEn": "Off the southeast Coast of the Nemuro Peninsula",
+      "magnitude": "4.8",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260825181141_20260825180733_VXSE5k_1.json"
+    },
     {
       "id": "20260825145314_20260825145000_VXSE5k_1.json",
       "time": "2026-08-25T14:50:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260822183505_20260822183216_VXSE5k_1.json"
-    },
-    {
-      "id": "20260822174044_20260822173741_VXSE5k_1.json",
-      "time": "2026-08-22T17:37:00+09:00",
-      "region": "オホーツク海南部",
-      "regionEn": "Southern Sea of Okhotsk",
-      "magnitude": "4.1",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260822174044_20260822173741_VXSE5k_1.json"
     }
   ]
 }
