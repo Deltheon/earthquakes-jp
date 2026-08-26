@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-26T16:14:17.874Z",
+  "lastUpdate": "2026-08-26T18:12:03.779Z",
   "source": "JMA list.json",
-  "totalInList": 933,
-  "totalUsable": 741,
+  "totalInList": 934,
+  "totalUsable": 742,
   "events": [
+    {
+      "id": "20260827025348_20260827025105_VXSE5k_1.json",
+      "time": "2026-08-27T02:51:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "1.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260827025348_20260827025105_VXSE5k_1.json"
+    },
     {
       "id": "20260826200655_20260826200412_VXSE5k_1.json",
       "time": "2026-08-26T20:04:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260824081550_20260824081215_VXSE5k_1.json"
-    },
-    {
-      "id": "20260824073527_20260824073240_VXSE5k_1.json",
-      "time": "2026-08-24T07:32:00+09:00",
-      "region": "房総半島南方沖",
-      "regionEn": "Off the south Coast of Boso Peninsula",
-      "magnitude": "3.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260824073527_20260824073240_VXSE5k_1.json"
     }
   ]
 }
