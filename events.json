@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-26T07:24:28.834Z",
+  "lastUpdate": "2026-08-26T08:06:53.403Z",
   "source": "JMA list.json",
   "totalInList": 932,
   "totalUsable": 740,
   "events": [
+    {
+      "id": "20260826163621_20260826163246_VXSE5k_1.json",
+      "time": "2026-08-26T16:32:00+09:00",
+      "region": "択捉島付近",
+      "regionEn": "Adjacent Etorofu Island",
+      "magnitude": "4.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260826163621_20260826163246_VXSE5k_1.json"
+    },
     {
       "id": "20260826133619_20260826133337_VXSE5k_1.json",
       "time": "2026-08-26T13:33:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260824040939_20260824040526_VXSE5k_1.json"
-    },
-    {
-      "id": "20260824013911_20260824013623_VXSE5k_1.json",
-      "time": "2026-08-24T01:36:00+09:00",
-      "region": "日高地方東部",
-      "regionEn": "Eastern Hidaka Region, Hokkaido",
-      "magnitude": "4.0",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260824013911_20260824013623_VXSE5k_1.json"
     }
   ]
 }
