@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-08-29T01:25:36.361Z",
+  "lastUpdate": "2026-08-29T08:05:32.051Z",
   "source": "JMA list.json",
-  "totalInList": 613,
-  "totalUsable": 490,
+  "totalInList": 594,
+  "totalUsable": 473,
   "events": [
+    {
+      "id": "20260829140214_20260829135933_VXSE5k_1.json",
+      "time": "2026-08-29T13:59:00+09:00",
+      "region": "薩摩半島西方沖",
+      "regionEn": "Off the west Coast of Satsuma Peninsula",
+      "magnitude": "3.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260829140214_20260829135933_VXSE5k_1.json"
+    },
     {
       "id": "20260829081732_20260829081458_VXSE5k_1.json",
       "time": "2026-08-29T08:14:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260826032316_20260826032002_VXSE5k_1.json"
-    },
-    {
-      "id": "20260825234702_20260825234415_VXSE5k_1.json",
-      "time": "2026-08-25T23:44:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "2.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260825234702_20260825234415_VXSE5k_1.json"
     }
   ]
 }
