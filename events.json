@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-01T18:42:00.736Z",
+  "lastUpdate": "2026-09-01T21:34:02.703Z",
   "source": "JMA list.json",
-  "totalInList": 469,
-  "totalUsable": 371,
+  "totalInList": 467,
+  "totalUsable": 369,
   "events": [
+    {
+      "id": "20260902042459_20260902042131_VXSE5k_1.json",
+      "time": "2026-09-02T04:21:00+09:00",
+      "region": "浦河沖",
+      "regionEn": "Off the Coast of Urakawa",
+      "magnitude": "4.3",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260902042459_20260902042131_VXSE5k_1.json"
+    },
     {
       "id": "20260902030826_20260902030541_VXSE5k_1.json",
       "time": "2026-09-02T03:05:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260828085232_20260828084955_VXSE5k_1.json"
-    },
-    {
-      "id": "20260828071634_20260828071341_VXSE5k_1.json",
-      "time": "2026-08-28T07:13:00+09:00",
-      "region": "浦河沖",
-      "regionEn": "Off the Coast of Urakawa",
-      "magnitude": "4.4",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260828071634_20260828071341_VXSE5k_1.json"
     }
   ]
 }
