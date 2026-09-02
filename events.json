@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-02T12:30:08.013Z",
+  "lastUpdate": "2026-09-02T16:48:57.619Z",
   "source": "JMA list.json",
-  "totalInList": 463,
-  "totalUsable": 365,
+  "totalInList": 460,
+  "totalUsable": 362,
   "events": [
+    {
+      "id": "20260902225320_20260902225039_VXSE5k_1.json",
+      "time": "2026-09-02T22:50:00+09:00",
+      "region": "陸奥湾",
+      "regionEn": "Mutsu Bay",
+      "magnitude": "3.0",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260902225320_20260902225039_VXSE5k_1.json"
+    },
     {
       "id": "20260902191514_20260902191244_VXSE5k_1.json",
       "time": "2026-09-02T19:12:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260829081732_20260829081458_VXSE5k_1.json"
-    },
-    {
-      "id": "20260829081443_20260829081037_VXSE5k_1.json",
-      "time": "2026-08-29T08:10:00+09:00",
-      "region": "三陸沖",
-      "regionEn": "Off the Coast of Sanriku",
-      "magnitude": "4.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260829081443_20260829081037_VXSE5k_1.json"
     }
   ]
 }
