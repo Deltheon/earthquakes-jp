@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-09-02T07:34:57.618Z",
+  "lastUpdate": "2026-09-02T12:30:08.013Z",
   "source": "JMA list.json",
   "totalInList": 463,
-  "totalUsable": 367,
+  "totalUsable": 365,
   "events": [
+    {
+      "id": "20260902191514_20260902191244_VXSE5k_1.json",
+      "time": "2026-09-02T19:12:00+09:00",
+      "region": "秋田県内陸北部",
+      "regionEn": "Northern Inland of Akita Prefecture",
+      "magnitude": "3.5",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260902191514_20260902191244_VXSE5k_1.json"
+    },
+    {
+      "id": "20260902172630_20260902172313_VXSE5k_1.json",
+      "time": "2026-09-02T17:23:00+09:00",
+      "region": "和歌山県北部",
+      "regionEn": "Northern Wakayama Prefecture",
+      "magnitude": "3.3",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260902172630_20260902172313_VXSE5k_1.json"
+    },
     {
       "id": "20260902142732_20260902142447_VXSE5k_1.json",
       "time": "2026-09-02T14:24:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260829081443_20260829081037_VXSE5k_1.json"
-    },
-    {
-      "id": "20260828233446_20260828233150_VXSE5k_1.json",
-      "time": "2026-08-28T23:31:00+09:00",
-      "region": "岩手県沖",
-      "regionEn": "Off the Coast of Iwate Prefecture",
-      "magnitude": "4.3",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260828233446_20260828233150_VXSE5k_1.json"
-    },
-    {
-      "id": "20260828191557_20260828191156_VXSE5k_1.json",
-      "time": "2026-08-28T19:11:00+09:00",
-      "region": "宮古島北西沖",
-      "regionEn": "Off the northwest Coast of Miyakojima Island",
-      "magnitude": "4.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260828191557_20260828191156_VXSE5k_1.json"
     }
   ]
 }
