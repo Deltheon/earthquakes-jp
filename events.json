@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-03T13:44:51.588Z",
+  "lastUpdate": "2026-09-03T17:29:21.860Z",
   "source": "JMA list.json",
-  "totalInList": 437,
-  "totalUsable": 345,
+  "totalInList": 432,
+  "totalUsable": 342,
   "events": [
+    {
+      "id": "20260904012611_20260904012316_VXSE5k_1.json",
+      "time": "2026-09-04T01:23:00+09:00",
+      "region": "福島県沖",
+      "regionEn": "Off the Coast of Fukushima Prefecture",
+      "magnitude": "3.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260904012611_20260904012316_VXSE5k_1.json"
+    },
     {
       "id": "20260903223735_20260903223458_VXSE5k_1.json",
       "time": "2026-09-03T22:34:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260830103037_20260830102618_VXSE5k_1.json"
-    },
-    {
-      "id": "20260830094829_20260830094536_VXSE5k_1.json",
-      "time": "2026-08-30T09:45:00+09:00",
-      "region": "奈良県",
-      "regionEn": "Nara Prefecture",
-      "magnitude": "3.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260830094829_20260830094536_VXSE5k_1.json"
     }
   ]
 }
