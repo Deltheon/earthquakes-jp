@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-03T09:25:04.946Z",
+  "lastUpdate": "2026-09-03T13:44:51.588Z",
   "source": "JMA list.json",
-  "totalInList": 441,
-  "totalUsable": 349,
+  "totalInList": 437,
+  "totalUsable": 345,
   "events": [
+    {
+      "id": "20260903223735_20260903223458_VXSE5k_1.json",
+      "time": "2026-09-03T22:34:00+09:00",
+      "region": "福島県会津",
+      "regionEn": "Aizu,  Fukushima Prefecture",
+      "magnitude": "3.5",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260903223735_20260903223458_VXSE5k_1.json"
+    },
     {
       "id": "20260903165905_20260903165328_VXSE5k_1.json",
       "time": "2026-09-03T16:53:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260830094829_20260830094536_VXSE5k_1.json"
-    },
-    {
-      "id": "20260830091738_20260830091429_VXSE5k_1.json",
-      "time": "2026-08-30T09:14:00+09:00",
-      "region": "浦河沖",
-      "regionEn": "Off the Coast of Urakawa",
-      "magnitude": "4.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260830091738_20260830091429_VXSE5k_1.json"
     }
   ]
 }
