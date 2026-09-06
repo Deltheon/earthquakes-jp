@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-06T01:11:10.175Z",
+  "lastUpdate": "2026-09-06T06:15:53.126Z",
   "source": "JMA list.json",
-  "totalInList": 401,
-  "totalUsable": 315,
+  "totalInList": 394,
+  "totalUsable": 310,
   "events": [
+    {
+      "id": "20260906142006_20260906141553_VXSE5k_1.json",
+      "time": "2026-09-06T14:15:00+09:00",
+      "region": "青森県東方沖",
+      "regionEn": "Off the east Coast of Aomori Prefecture",
+      "magnitude": "4.7",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260906142006_20260906141553_VXSE5k_1.json"
+    },
     {
       "id": "20260906030301_20260906030018_VXSE5k_1.json",
       "time": "2026-09-06T03:00:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260902030826_20260902030541_VXSE5k_1.json"
-    },
-    {
-      "id": "20260902025304_20260902025012_VXSE5k_1.json",
-      "time": "2026-09-02T02:50:00+09:00",
-      "region": "浦河沖",
-      "regionEn": "Off the Coast of Urakawa",
-      "magnitude": "4.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260902025304_20260902025012_VXSE5k_1.json"
     }
   ]
 }
