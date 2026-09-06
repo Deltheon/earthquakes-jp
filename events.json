@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-09-06T06:15:53.126Z",
+  "lastUpdate": "2026-09-06T11:11:49.364Z",
   "source": "JMA list.json",
-  "totalInList": 394,
+  "totalInList": 393,
   "totalUsable": 310,
   "events": [
+    {
+      "id": "20260906193122_20260906192833_VXSE5k_1.json",
+      "time": "2026-09-06T19:28:00+09:00",
+      "region": "千葉県北東部",
+      "regionEn": "Northeastern Chiba Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260906193122_20260906192833_VXSE5k_1.json"
+    },
+    {
+      "id": "20260906165208_20260906164827_VXSE5k_1.json",
+      "time": "2026-09-06T16:48:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "1.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260906165208_20260906164827_VXSE5k_1.json"
+    },
+    {
+      "id": "20260906162239_20260906161929_VXSE5k_1.json",
+      "time": "2026-09-06T16:19:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260906162239_20260906161929_VXSE5k_1.json"
+    },
     {
       "id": "20260906142006_20260906141553_VXSE5k_1.json",
       "time": "2026-09-06T14:15:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260902103000_20260902102707_VXSE5k_1.json"
-    },
-    {
-      "id": "20260902082742_20260902082446_VXSE5k_1.json",
-      "time": "2026-09-02T08:24:00+09:00",
-      "region": "日向灘",
-      "regionEn": "Hyuganada Sea",
-      "magnitude": "4.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260902082742_20260902082446_VXSE5k_1.json"
-    },
-    {
-      "id": "20260902042459_20260902042131_VXSE5k_1.json",
-      "time": "2026-09-02T04:21:00+09:00",
-      "region": "浦河沖",
-      "regionEn": "Off the Coast of Urakawa",
-      "magnitude": "4.3",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260902042459_20260902042131_VXSE5k_1.json"
-    },
-    {
-      "id": "20260902030826_20260902030541_VXSE5k_1.json",
-      "time": "2026-09-02T03:05:00+09:00",
-      "region": "高知県中部",
-      "regionEn": "Central Kochi Prefecture",
-      "magnitude": "2.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260902030826_20260902030541_VXSE5k_1.json"
     }
   ]
 }
