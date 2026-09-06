@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-06T14:18:28.733Z",
+  "lastUpdate": "2026-09-06T17:13:09.235Z",
   "source": "JMA list.json",
-  "totalInList": 393,
-  "totalUsable": 310,
+  "totalInList": 391,
+  "totalUsable": 308,
   "events": [
+    {
+      "id": "20260907020929_20260907020738_VXSE5k_1.json",
+      "time": "2026-09-07T02:04:00+09:00",
+      "region": "茨城県北部",
+      "regionEn": "Northern Ibaraki Prefecture",
+      "magnitude": "2.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260907020929_20260907020738_VXSE5k_1.json"
+    },
     {
       "id": "20260906193122_20260906192833_VXSE5k_1.json",
       "time": "2026-09-06T19:28:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260902115721_20260902115431_VXSE5k_1.json"
-    },
-    {
-      "id": "20260902103000_20260902102707_VXSE5k_1.json",
-      "time": "2026-09-02T10:27:00+09:00",
-      "region": "宮古島近海",
-      "regionEn": "Adjacent Sea of​ Miyakojima Island",
-      "magnitude": "3.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260902103000_20260902102707_VXSE5k_1.json"
     }
   ]
 }
