@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-12T15:10:03.022Z",
+  "lastUpdate": "2026-09-12T17:46:34.235Z",
   "source": "JMA list.json",
   "totalInList": 299,
   "totalUsable": 247,
   "events": [
+    {
+      "id": "20260913010554_20260913010309_VXSE5k_1.json",
+      "time": "2026-09-13T01:03:00+09:00",
+      "region": "富山県東部",
+      "regionEn": "Eastern Toyama Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260913010554_20260913010309_VXSE5k_1.json"
+    },
     {
       "id": "20260912165219_20260912164944_VXSE5k_1.json",
       "time": "2026-09-12T16:49:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260907174949_20260907174727_VXSE5k_1.json"
-    },
-    {
-      "id": "20260907153605_20260907153336_VXSE5k_1.json",
-      "time": "2026-09-07T15:33:00+09:00",
-      "region": "大阪府南部",
-      "regionEn": "Southern Osaka Prefecture",
-      "magnitude": "2.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260907153605_20260907153336_VXSE5k_1.json"
     }
   ]
 }
