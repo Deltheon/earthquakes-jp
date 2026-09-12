@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-12T17:46:34.235Z",
+  "lastUpdate": "2026-09-12T20:09:09.293Z",
   "source": "JMA list.json",
   "totalInList": 299,
   "totalUsable": 247,
   "events": [
+    {
+      "id": "20260913042129_20260913041849_VXSE5k_1.json",
+      "time": "2026-09-13T04:18:00+09:00",
+      "region": "三宅島近海",
+      "regionEn": "Adjacent Sea of Miyakejima Island",
+      "magnitude": "4.3",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260913042129_20260913041849_VXSE5k_1.json"
+    },
     {
       "id": "20260913010554_20260913010309_VXSE5k_1.json",
       "time": "2026-09-13T01:03:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260907232514_20260907232129_VXSE5k_1.json"
-    },
-    {
-      "id": "20260907174949_20260907174727_VXSE5k_1.json",
-      "time": "2026-09-07T17:47:00+09:00",
-      "region": "岩手県沖",
-      "regionEn": "Off the Coast of Iwate Prefecture",
-      "magnitude": "3.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260907174949_20260907174727_VXSE5k_1.json"
     }
   ]
 }
