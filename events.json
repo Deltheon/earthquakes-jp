@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-12T02:58:43.159Z",
+  "lastUpdate": "2026-09-12T07:48:45.452Z",
   "source": "JMA list.json",
-  "totalInList": 311,
-  "totalUsable": 253,
+  "totalInList": 300,
+  "totalUsable": 248,
   "events": [
+    {
+      "id": "20260912155858_20260912155618_VXSE5k_1.json",
+      "time": "2026-09-12T15:56:00+09:00",
+      "region": "千葉県南部",
+      "regionEn": "Southern Chiba Prefecture",
+      "magnitude": "3.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260912155858_20260912155618_VXSE5k_1.json"
+    },
     {
       "id": "20260911204207_20260911203924_VXSE5k_1.json",
       "time": "2026-09-11T20:39:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260907020929_20260907020738_VXSE5k_1.json"
-    },
-    {
-      "id": "20260906193122_20260906192833_VXSE5k_1.json",
-      "time": "2026-09-06T19:28:00+09:00",
-      "region": "千葉県北東部",
-      "regionEn": "Northeastern Chiba Prefecture",
-      "magnitude": "3.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260906193122_20260906192833_VXSE5k_1.json"
     }
   ]
 }
