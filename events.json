@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-13T20:15:38.591Z",
+  "lastUpdate": "2026-09-13T22:31:47.944Z",
   "source": "JMA list.json",
-  "totalInList": 288,
-  "totalUsable": 234,
+  "totalInList": 284,
+  "totalUsable": 230,
   "events": [
+    {
+      "id": "20260914071949_20260914071717_VXSE5k_1.json",
+      "time": "2026-09-14T07:17:00+09:00",
+      "region": "岩手県沿岸北部",
+      "regionEn": "Northern Coast of Iwate Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260914071949_20260914071717_VXSE5k_1.json"
+    },
     {
       "id": "20260913202228_20260913201947_VXSE5k_1.json",
       "time": "2026-09-13T20:19:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260908234330_20260908234052_VXSE5k_1.json"
-    },
-    {
-      "id": "20260908222649_20260908222358_VXSE5k_1.json",
-      "time": "2026-09-08T22:23:00+09:00",
-      "region": "根室半島南東沖",
-      "regionEn": "Off the southeast Coast of the Nemuro Peninsula",
-      "magnitude": "3.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260908222649_20260908222358_VXSE5k_1.json"
     }
   ]
 }
