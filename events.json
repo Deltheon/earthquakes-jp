@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-14T23:55:57.563Z",
+  "lastUpdate": "2026-09-15T03:30:21.587Z",
   "source": "JMA list.json",
   "totalInList": 272,
   "totalUsable": 219,
   "events": [
+    {
+      "id": "20260915090158_20260915085908_VXSE5k_1.json",
+      "time": "2026-09-15T08:59:00+09:00",
+      "region": "鹿児島県薩摩地方",
+      "regionEn": "Satsuma Region, Kagoshima Prefecture",
+      "magnitude": "2.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260915090158_20260915085908_VXSE5k_1.json"
+    },
     {
       "id": "20260915071724_20260915071455_VXSE5k_1.json",
       "time": "2026-09-15T07:14:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260910021434_20260910021122_VXSE5k_1.json"
-    },
-    {
-      "id": "20260909174052_20260909173819_VXSE5k_1.json",
-      "time": "2026-09-09T17:38:00+09:00",
-      "region": "秋田県内陸北部",
-      "regionEn": "Northern Inland of Akita Prefecture",
-      "magnitude": "2.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260909174052_20260909173819_VXSE5k_1.json"
     }
   ]
 }
