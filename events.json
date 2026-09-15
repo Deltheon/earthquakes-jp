@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-09-15T18:21:29.055Z",
+  "lastUpdate": "2026-09-15T21:35:46.438Z",
   "source": "JMA list.json",
-  "totalInList": 262,
-  "totalUsable": 211,
+  "totalInList": 266,
+  "totalUsable": 213,
   "events": [
+    {
+      "id": "20260916061350_20260916060939_VXSE5k_1.json",
+      "time": "2026-09-16T06:09:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "4.0",
+      "maxIntensity": "4",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260916061350_20260916060939_VXSE5k_1.json"
+    },
+    {
+      "id": "20260916035733_20260916035452_VXSE5k_1.json",
+      "time": "2026-09-16T03:54:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260916035733_20260916035452_VXSE5k_1.json"
+    },
+    {
+      "id": "20260916032041_20260916031750_VXSE5k_1.json",
+      "time": "2026-09-16T03:17:00+09:00",
+      "region": "新島・神津島近海",
+      "regionEn": "Adjacent Sea of Niijima Island, Kozushima Island",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260916032041_20260916031750_VXSE5k_1.json"
+    },
     {
       "id": "20260915180420_20260915180118_VXSE5k_1.json",
       "time": "2026-09-15T18:01:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260910185814_20260910185532_VXSE5k_1.json"
-    },
-    {
-      "id": "20260910171809_20260910171528_VXSE5k_1.json",
-      "time": "2026-09-10T17:15:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260910171809_20260910171528_VXSE5k_1.json"
-    },
-    {
-      "id": "20260910115243_20260910114942_VXSE5k_1.json",
-      "time": "2026-09-10T11:49:00+09:00",
-      "region": "岐阜県美濃中西部",
-      "regionEn": "Central and western Mino, Gifu Prefecture",
-      "magnitude": "3.8",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260910115243_20260910114942_VXSE5k_1.json"
-    },
-    {
-      "id": "20260910102323_20260910102040_VXSE5k_1.json",
-      "time": "2026-09-10T10:20:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "2.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260910102323_20260910102040_VXSE5k_1.json"
     }
   ]
 }
