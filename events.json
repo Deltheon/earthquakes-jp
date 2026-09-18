@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-17T22:19:27.800Z",
+  "lastUpdate": "2026-09-18T00:35:32.016Z",
   "source": "JMA list.json",
-  "totalInList": 257,
+  "totalInList": 255,
   "totalUsable": 207,
   "events": [
+    {
+      "id": "20260918083424_20260918083104_VXSE5k_1.json",
+      "time": "2026-09-18T08:31:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260918083424_20260918083104_VXSE5k_1.json"
+    },
     {
       "id": "20260918030858_20260918030608_VXSE5k_1.json",
       "time": "2026-09-18T03:06:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260913173506_20260913173132_VXSE5k_1.json"
-    },
-    {
-      "id": "20260913135603_20260913135329_VXSE5k_1.json",
-      "time": "2026-09-13T13:53:00+09:00",
-      "region": "宮城県沖",
-      "regionEn": "Off the Coast of Miyagi Prefecture",
-      "magnitude": "3.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260913135603_20260913135329_VXSE5k_1.json"
     }
   ]
 }
