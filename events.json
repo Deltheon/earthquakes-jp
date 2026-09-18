@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-18T14:36:43.946Z",
+  "lastUpdate": "2026-09-18T18:02:00.991Z",
   "source": "JMA list.json",
-  "totalInList": 256,
-  "totalUsable": 208,
+  "totalInList": 250,
+  "totalUsable": 204,
   "events": [
+    {
+      "id": "20260919020154_20260919015914_VXSE5k_1.json",
+      "time": "2026-09-19T01:59:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.8",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260919020154_20260919015914_VXSE5k_1.json"
+    },
     {
       "id": "20260918203714_20260918203440_VXSE5k_1.json",
       "time": "2026-09-18T20:34:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260914071949_20260914071717_VXSE5k_1.json"
-    },
-    {
-      "id": "20260913202228_20260913201947_VXSE5k_1.json",
-      "time": "2026-09-13T20:19:00+09:00",
-      "region": "岩手県沖",
-      "regionEn": "Off the Coast of Iwate Prefecture",
-      "magnitude": "3.7",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260913202228_20260913201947_VXSE5k_1.json"
     }
   ]
 }
