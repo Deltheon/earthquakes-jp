@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-18T00:35:32.016Z",
+  "lastUpdate": "2026-09-18T05:31:00.085Z",
   "source": "JMA list.json",
   "totalInList": 255,
   "totalUsable": 207,
   "events": [
+    {
+      "id": "20260918101030_20260918100733_VXSE5k_1.json",
+      "time": "2026-09-18T10:07:00+09:00",
+      "region": "日向灘",
+      "regionEn": "Hyuganada Sea",
+      "magnitude": "4.3",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260918101030_20260918100733_VXSE5k_1.json"
+    },
     {
       "id": "20260918083424_20260918083104_VXSE5k_1.json",
       "time": "2026-09-18T08:31:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260913191950_20260913191713_VXSE5k_1.json"
-    },
-    {
-      "id": "20260913173506_20260913173132_VXSE5k_1.json",
-      "time": "2026-09-13T17:31:00+09:00",
-      "region": "津軽海峡",
-      "regionEn": "Tsugaru Strait",
-      "magnitude": "4.5",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260913173506_20260913173132_VXSE5k_1.json"
     }
   ]
 }
