@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-09-20T05:09:44.727Z",
+  "lastUpdate": "2026-09-20T09:56:39.885Z",
   "source": "JMA list.json",
-  "totalInList": 241,
-  "totalUsable": 197,
+  "totalInList": 246,
+  "totalUsable": 200,
   "events": [
+    {
+      "id": "20260920164051_20260920163732_VXSE5k_1.json",
+      "time": "2026-09-20T16:37:00+09:00",
+      "region": "奄美大島近海",
+      "regionEn": "Adjacent Sea of Amami-Oshima Island",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260920164051_20260920163732_VXSE5k_1.json"
+    },
+    {
+      "id": "20260920163326_20260920162833_VXSE5k_1.json",
+      "time": "2026-09-20T16:28:00+09:00",
+      "region": "奄美大島近海",
+      "regionEn": "Adjacent Sea of Amami-Oshima Island",
+      "magnitude": "5.0",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260920163326_20260920162833_VXSE5k_1.json"
+    },
+    {
+      "id": "20260920155919_20260920155547_VXSE5k_1.json",
+      "time": "2026-09-20T15:55:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "1.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260920155919_20260920155547_VXSE5k_1.json"
+    },
     {
       "id": "20260919212626_20260919212328_VXSE5k_1.json",
       "time": "2026-09-19T21:23:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "4",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260916061350_20260916060939_VXSE5k_1.json"
-    },
-    {
-      "id": "20260916035733_20260916035452_VXSE5k_1.json",
-      "time": "2026-09-16T03:54:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260916035733_20260916035452_VXSE5k_1.json"
-    },
-    {
-      "id": "20260916032041_20260916031750_VXSE5k_1.json",
-      "time": "2026-09-16T03:17:00+09:00",
-      "region": "新島・神津島近海",
-      "regionEn": "Adjacent Sea of Niijima Island, Kozushima Island",
-      "magnitude": "2.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260916032041_20260916031750_VXSE5k_1.json"
-    },
-    {
-      "id": "20260915180420_20260915180118_VXSE5k_1.json",
-      "time": "2026-09-15T18:01:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "2.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260915180420_20260915180118_VXSE5k_1.json"
     }
   ]
 }
