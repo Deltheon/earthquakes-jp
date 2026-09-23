@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-23T21:01:55.884Z",
+  "lastUpdate": "2026-09-23T23:50:16.272Z",
   "source": "JMA list.json",
-  "totalInList": 233,
-  "totalUsable": 193,
+  "totalInList": 232,
+  "totalUsable": 192,
   "events": [
+    {
+      "id": "20260924063820_20260924063530_VXSE5k_1.json",
+      "time": "2026-09-24T06:35:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "3.8",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260924063820_20260924063530_VXSE5k_1.json"
+    },
     {
       "id": "20260924013603_20260924013305_VXSE5k_1.json",
       "time": "2026-09-24T01:33:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260919140343_20260919140100_VXSE5k_1.json"
-    },
-    {
-      "id": "20260919093223_20260919092934_VXSE5k_1.json",
-      "time": "2026-09-19T09:29:00+09:00",
-      "region": "日向灘",
-      "regionEn": "Hyuganada Sea",
-      "magnitude": "4.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260919093223_20260919092934_VXSE5k_1.json"
     }
   ]
 }
