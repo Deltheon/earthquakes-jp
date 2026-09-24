@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-24T03:00:01.728Z",
+  "lastUpdate": "2026-09-24T08:21:05.098Z",
   "source": "JMA list.json",
-  "totalInList": 232,
-  "totalUsable": 192,
+  "totalInList": 233,
+  "totalUsable": 193,
   "events": [
+    {
+      "id": "20260924124200_20260924123920_VXSE5k_1.json",
+      "time": "2026-09-24T12:39:00+09:00",
+      "region": "岐阜県美濃東部",
+      "regionEn": "Eastern Mino, Gifu Prefecture",
+      "magnitude": "3.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260924124200_20260924123920_VXSE5k_1.json"
+    },
     {
       "id": "20260924095407_20260924095118_VXSE5k_1.json",
       "time": "2026-09-24T09:51:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260919211056_20260919210716_VXSE5k_1.json"
-    },
-    {
-      "id": "20260919140710_20260919140420_VXSE5k_1.json",
-      "time": "2026-09-19T14:04:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "2.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260919140710_20260919140420_VXSE5k_1.json"
     }
   ]
 }
