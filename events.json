@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-25T00:14:19.573Z",
+  "lastUpdate": "2026-09-25T05:10:55.910Z",
   "source": "JMA list.json",
-  "totalInList": 223,
-  "totalUsable": 189,
+  "totalInList": 220,
+  "totalUsable": 186,
   "events": [
+    {
+      "id": "20260925131538_20260925131340_VXSE5k_1.json",
+      "time": "2026-09-25T13:11:00+09:00",
+      "region": "福島県中通り",
+      "regionEn": "Nakadori, Fukushima Prefecture",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260925131538_20260925131340_VXSE5k_1.json"
+    },
     {
       "id": "20260925085712_20260925085355_VXSE5k_1.json",
       "time": "2026-09-25T08:53:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260921082947_20260921082551_VXSE5k_1.json"
-    },
-    {
-      "id": "20260921081046_20260921080739_VXSE5k_1.json",
-      "time": "2026-09-21T08:07:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "2.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260921081046_20260921080739_VXSE5k_1.json"
     }
   ]
 }
