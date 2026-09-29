@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-09-29T01:26:32.076Z",
+  "lastUpdate": "2026-09-29T07:17:24.928Z",
   "source": "JMA list.json",
-  "totalInList": 219,
-  "totalUsable": 183,
+  "totalInList": 216,
+  "totalUsable": 180,
   "events": [
+    {
+      "id": "20260929105238_20260929104956_VXSE5k_1.json",
+      "time": "2026-09-29T10:49:00+09:00",
+      "region": "和歌山県南部",
+      "regionEn": "Southern Wakayama Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260929105238_20260929104956_VXSE5k_1.json"
+    },
     {
       "id": "20260929045414_20260929044513_VXSE5k_2.json",
       "time": "2026-09-29T04:45:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260924173016_20260924172735_VXSE5k_1.json"
-    },
-    {
-      "id": "20260924124200_20260924123920_VXSE5k_1.json",
-      "time": "2026-09-24T12:39:00+09:00",
-      "region": "岐阜県美濃東部",
-      "regionEn": "Eastern Mino, Gifu Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260924124200_20260924123920_VXSE5k_1.json"
     }
   ]
 }
