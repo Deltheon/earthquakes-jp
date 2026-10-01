@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-01T19:14:31.146Z",
+  "lastUpdate": "2026-10-01T23:19:17.479Z",
   "source": "JMA list.json",
   "totalInList": 227,
   "totalUsable": 185,
   "events": [
+    {
+      "id": "20261002060530_20261002060147_VXSE5k_1.json",
+      "time": "2026-10-02T06:01:00+09:00",
+      "region": "茨城県南部",
+      "regionEn": "Southern Ibaraki Prefecture",
+      "magnitude": "3.9",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261002060530_20261002060147_VXSE5k_1.json"
+    },
     {
       "id": "20261002040902_20261002040524_VXSE5k_1.json",
       "time": "2026-10-02T04:05:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260927094840_20260927094524_VXSE5k_1.json"
-    },
-    {
-      "id": "20260927012608_20260927012328_VXSE5k_1.json",
-      "time": "2026-09-27T01:23:00+09:00",
-      "region": "茨城県北部",
-      "regionEn": "Northern Ibaraki Prefecture",
-      "magnitude": "2.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260927012608_20260927012328_VXSE5k_1.json"
     }
   ]
 }
