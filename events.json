@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-03T18:30:58.256Z",
+  "lastUpdate": "2026-10-03T21:57:27.324Z",
   "source": "JMA list.json",
   "totalInList": 227,
   "totalUsable": 185,
   "events": [
+    {
+      "id": "20261004034331_20261004034055_VXSE5k_1.json",
+      "time": "2026-10-04T03:40:00+09:00",
+      "region": "宮崎県北部平野部",
+      "regionEn": "Plain Area of Northern Miyazaki Prefecture",
+      "magnitude": "2.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261004034331_20261004034055_VXSE5k_1.json"
+    },
     {
       "id": "20261003171956_20261003171723_VXSE5k_1.json",
       "time": "2026-10-03T17:17:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260930184930_20260930184627_VXSE5k_1.json"
-    },
-    {
-      "id": "20260930140613_20260930140037_VXSE5k_1.json",
-      "time": "2026-09-30T14:00:00+09:00",
-      "region": "与那国島近海",
-      "regionEn": "Adjacent Sea of Yonagunijima Island",
-      "magnitude": "6.0",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260930140613_20260930140037_VXSE5k_1.json"
     }
   ]
 }
