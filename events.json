@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-02T23:55:29.834Z",
+  "lastUpdate": "2026-10-03T03:46:33.720Z",
   "source": "JMA list.json",
-  "totalInList": 226,
-  "totalUsable": 184,
+  "totalInList": 223,
+  "totalUsable": 181,
   "events": [
+    {
+      "id": "20261003091443_20261003091155_VXSE5k_1.json",
+      "time": "2026-10-03T09:11:00+09:00",
+      "region": "鹿児島湾",
+      "regionEn": "Kagoshima Bay",
+      "magnitude": "3.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261003091443_20261003091155_VXSE5k_1.json"
+    },
     {
       "id": "20261003064430_20261003064150_VXSE5k_1.json",
       "time": "2026-10-03T06:41:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260928210707_20260928210410_VXSE5k_1.json"
-    },
-    {
-      "id": "20260928162656_20260928162438_VXSE5k_1.json",
-      "time": "2026-09-28T16:24:00+09:00",
-      "region": "福島県会津",
-      "regionEn": "Aizu,  Fukushima Prefecture",
-      "magnitude": "2.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20260928162656_20260928162438_VXSE5k_1.json"
     }
   ]
 }
