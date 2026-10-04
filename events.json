@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-10-04T00:24:31.784Z",
+  "lastUpdate": "2026-10-04T06:09:51.779Z",
   "source": "JMA list.json",
-  "totalInList": 229,
-  "totalUsable": 187,
+  "totalInList": 230,
+  "totalUsable": 188,
   "events": [
+    {
+      "id": "20261004132312_20261004131956_VXSE5k_1.json",
+      "time": "2026-10-04T13:19:00+09:00",
+      "region": "伊豆大島近海",
+      "regionEn": "Adjacent Sea of ​​Izu-Oshima Island",
+      "magnitude": "2.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261004132312_20261004131956_VXSE5k_1.json"
+    },
+    {
+      "id": "20261004113927_20261004113617_VXSE5k_1.json",
+      "time": "2026-10-04T11:36:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261004113927_20261004113617_VXSE5k_1.json"
+    },
+    {
+      "id": "20261004095436_20261004095203_VXSE5k_1.json",
+      "time": "2026-10-04T09:52:00+09:00",
+      "region": "石川県能登地方",
+      "regionEn": "Noto, Ishikawa Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261004095436_20261004095203_VXSE5k_1.json"
+    },
     {
       "id": "20261004090108_20261004085824_VXSE5k_1.json",
       "time": "2026-10-04T08:58:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261001202932_20261001202643_VXSE5k_1.json"
-    },
-    {
-      "id": "20261001103525_20261001103235_VXSE5k_1.json",
-      "time": "2026-10-01T10:32:00+09:00",
-      "region": "埼玉県南部",
-      "regionEn": "Southern Saitama Prefecture",
-      "magnitude": "3.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261001103525_20261001103235_VXSE5k_1.json"
-    },
-    {
-      "id": "20261001062001_20261001061703_VXSE5k_1.json",
-      "time": "2026-10-01T06:17:00+09:00",
-      "region": "千葉県北東部",
-      "regionEn": "Northeastern Chiba Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261001062001_20261001061703_VXSE5k_1.json"
-    },
-    {
-      "id": "20261001010121_20261001005844_VXSE5k_1.json",
-      "time": "2026-10-01T00:58:00+09:00",
-      "region": "福島県会津",
-      "regionEn": "Aizu,  Fukushima Prefecture",
-      "magnitude": "2.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261001010121_20261001005844_VXSE5k_1.json"
     }
   ]
 }
