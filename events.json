@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-05T02:14:39.878Z",
+  "lastUpdate": "2026-10-05T09:25:07.282Z",
   "source": "JMA list.json",
-  "totalInList": 227,
-  "totalUsable": 188,
+  "totalInList": 225,
+  "totalUsable": 187,
   "events": [
+    {
+      "id": "20261005124215_20261005123857_VXSE5k_1.json",
+      "time": "2026-10-05T12:39:00+09:00",
+      "region": "鹿児島県薩摩地方",
+      "regionEn": "Satsuma Region, Kagoshima Prefecture",
+      "magnitude": "2.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261005124215_20261005123857_VXSE5k_1.json"
+    },
     {
       "id": "20261005092107_20261005091811_VXSE5k_1.json",
       "time": "2026-10-05T09:18:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261002022047_20261002021724_VXSE5k_1.json"
-    },
-    {
-      "id": "20261002012329_20261002012159_VXSE5k_1.json",
-      "time": "2026-10-02T01:20:00+09:00",
-      "region": "茨城県北部",
-      "regionEn": "Northern Ibaraki Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261002012329_20261002012159_VXSE5k_1.json"
     }
   ]
 }
