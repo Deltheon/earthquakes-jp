@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-10-05T09:25:07.282Z",
+  "lastUpdate": "2026-10-05T18:42:33.204Z",
   "source": "JMA list.json",
-  "totalInList": 225,
-  "totalUsable": 187,
+  "totalInList": 227,
+  "totalUsable": 189,
   "events": [
+    {
+      "id": "20261005223356_20261005223109_VXSE5k_1.json",
+      "time": "2026-10-05T22:31:00+09:00",
+      "region": "石垣島北西沖",
+      "regionEn": "Off the northwest Coast of Ishigakijima Island",
+      "magnitude": "4.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261005223356_20261005223109_VXSE5k_1.json"
+    },
+    {
+      "id": "20261005211434_20261005210926_VXSE5k_1.json",
+      "time": "2026-10-05T21:09:00+09:00",
+      "region": "長野県中部",
+      "regionEn": "Central Nagano Prefecture",
+      "magnitude": "2.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261005211434_20261005210926_VXSE5k_1.json"
+    },
+    {
+      "id": "20261005193008_20261005192728_VXSE5k_1.json",
+      "time": "2026-10-05T19:27:00+09:00",
+      "region": "愛媛県南予",
+      "regionEn": "Nanyo,  Ehime Prefecture",
+      "magnitude": "3.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261005193008_20261005192728_VXSE5k_1.json"
+    },
     {
       "id": "20261005124215_20261005123857_VXSE5k_1.json",
       "time": "2026-10-05T12:39:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261002145800_20261002145456_VXSE5k_1.json"
-    },
-    {
-      "id": "20261002060530_20261002060147_VXSE5k_1.json",
-      "time": "2026-10-02T06:01:00+09:00",
-      "region": "茨城県南部",
-      "regionEn": "Southern Ibaraki Prefecture",
-      "magnitude": "3.9",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261002060530_20261002060147_VXSE5k_1.json"
-    },
-    {
-      "id": "20261002040902_20261002040524_VXSE5k_1.json",
-      "time": "2026-10-02T04:05:00+09:00",
-      "region": "トカラ列島近海",
-      "regionEn": "Adjacent Sea of Tokara Islands",
-      "magnitude": "3.3",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261002040902_20261002040524_VXSE5k_1.json"
-    },
-    {
-      "id": "20261002022047_20261002021724_VXSE5k_1.json",
-      "time": "2026-10-02T02:17:00+09:00",
-      "region": "三陸沖",
-      "regionEn": "Off the Coast of Sanriku",
-      "magnitude": "5.0",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261002022047_20261002021724_VXSE5k_1.json"
     }
   ]
 }
