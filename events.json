@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-07T04:08:17.120Z",
+  "lastUpdate": "2026-10-07T11:13:42.101Z",
   "source": "JMA list.json",
-  "totalInList": 228,
-  "totalUsable": 190,
+  "totalInList": 227,
+  "totalUsable": 189,
   "events": [
+    {
+      "id": "20261007160547_20261007160305_VXSE5k_1.json",
+      "time": "2026-10-07T16:03:00+09:00",
+      "region": "奄美大島北東沖",
+      "regionEn": "Off the northeast Coast of Amami-Oshima Island",
+      "magnitude": "3.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261007160547_20261007160305_VXSE5k_1.json"
+    },
     {
       "id": "20261007092721_20261007092251_VXSE5k_1.json",
       "time": "2026-10-07T09:22:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261003132758_20261003132452_VXSE5k_1.json"
-    },
-    {
-      "id": "20261003091443_20261003091155_VXSE5k_1.json",
-      "time": "2026-10-03T09:11:00+09:00",
-      "region": "鹿児島湾",
-      "regionEn": "Kagoshima Bay",
-      "magnitude": "3.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261003091443_20261003091155_VXSE5k_1.json"
     }
   ]
 }
