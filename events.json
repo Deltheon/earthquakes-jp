@@ -1,9 +1,49 @@
 {
-  "lastUpdate": "2026-10-08T02:27:22.713Z",
+  "lastUpdate": "2026-10-08T09:20:24.641Z",
   "source": "JMA list.json",
   "totalInList": 233,
   "totalUsable": 193,
   "events": [
+    {
+      "id": "20261008181700_20261008181418_VXSE5k_1.json",
+      "time": "2026-10-08T18:14:00+09:00",
+      "region": "岩手県沖",
+      "regionEn": "Off the Coast of Iwate Prefecture",
+      "magnitude": "3.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261008181700_20261008181418_VXSE5k_1.json"
+    },
+    {
+      "id": "20261008133300_20261008133018_VXSE5k_1.json",
+      "time": "2026-10-08T13:30:00+09:00",
+      "region": "根室半島南東沖",
+      "regionEn": "Off the southeast Coast of the Nemuro Peninsula",
+      "magnitude": "3.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261008133300_20261008133018_VXSE5k_1.json"
+    },
+    {
+      "id": "20261008132547_20261008132305_VXSE5k_1.json",
+      "time": "2026-10-08T13:23:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "3.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261008132547_20261008132305_VXSE5k_1.json"
+    },
+    {
+      "id": "20261008114601_20261008114320_VXSE5k_1.json",
+      "time": "2026-10-08T11:43:00+09:00",
+      "region": "トカラ列島近海",
+      "regionEn": "Adjacent Sea of Tokara Islands",
+      "magnitude": "3.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261008114601_20261008114320_VXSE5k_1.json"
+    },
     {
       "id": "20261008071752_20261008071415_VXSE5k_1.json",
       "time": "2026-10-08T07:14:00+09:00",
@@ -263,46 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261004095436_20261004095203_VXSE5k_1.json"
-    },
-    {
-      "id": "20261004090108_20261004085824_VXSE5k_1.json",
-      "time": "2026-10-04T08:58:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "2.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261004090108_20261004085824_VXSE5k_1.json"
-    },
-    {
-      "id": "20261004084900_20261004084522_VXSE5k_1.json",
-      "time": "2026-10-04T08:45:00+09:00",
-      "region": "宮古島近海",
-      "regionEn": "Adjacent Sea of​ Miyakojima Island",
-      "magnitude": "3.9",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261004084900_20261004084522_VXSE5k_1.json"
-    },
-    {
-      "id": "20261004034331_20261004034055_VXSE5k_1.json",
-      "time": "2026-10-04T03:40:00+09:00",
-      "region": "宮崎県北部平野部",
-      "regionEn": "Plain Area of Northern Miyazaki Prefecture",
-      "magnitude": "2.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261004034331_20261004034055_VXSE5k_1.json"
-    },
-    {
-      "id": "20261003171956_20261003171723_VXSE5k_1.json",
-      "time": "2026-10-03T17:17:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "2.8",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261003171956_20261003171723_VXSE5k_1.json"
     }
   ]
 }
