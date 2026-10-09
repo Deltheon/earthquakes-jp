@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-09T01:42:33.295Z",
+  "lastUpdate": "2026-10-09T08:25:52.365Z",
   "source": "JMA list.json",
-  "totalInList": 234,
-  "totalUsable": 194,
+  "totalInList": 233,
+  "totalUsable": 193,
   "events": [
+    {
+      "id": "20261009111509_20261009111210_VXSE5k_1.json",
+      "time": "2026-10-09T11:12:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "3.5",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261009111509_20261009111210_VXSE5k_1.json"
+    },
     {
       "id": "20261009071738_20261009071419_VXSE5k_1.json",
       "time": "2026-10-09T07:14:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261005073042_20261005072814_VXSE5k_1.json"
-    },
-    {
-      "id": "20261005050520_20261005050243_VXSE5k_1.json",
-      "time": "2026-10-05T05:02:00+09:00",
-      "region": "播磨灘",
-      "regionEn": "Harimanada Sea",
-      "magnitude": "2.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261005050520_20261005050243_VXSE5k_1.json"
     }
   ]
 }
