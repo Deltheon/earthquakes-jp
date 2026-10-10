@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-10-09T20:15:40.242Z",
+  "lastUpdate": "2026-10-10T00:11:31.739Z",
   "source": "JMA list.json",
-  "totalInList": 235,
-  "totalUsable": 193,
+  "totalInList": 237,
+  "totalUsable": 195,
   "events": [
+    {
+      "id": "20261010074623_20261010074306_VXSE5k_1.json",
+      "time": "2026-10-10T07:43:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.2",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261010074623_20261010074306_VXSE5k_1.json"
+    },
+    {
+      "id": "20261010073723_20261010073407_VXSE5k_1.json",
+      "time": "2026-10-10T07:34:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "1.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261010073723_20261010073407_VXSE5k_1.json"
+    },
     {
       "id": "20261010043055_20261010042723_VXSE5k_1.json",
       "time": "2026-10-10T04:27:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261005223356_20261005223109_VXSE5k_1.json"
-    },
-    {
-      "id": "20261005211434_20261005210926_VXSE5k_1.json",
-      "time": "2026-10-05T21:09:00+09:00",
-      "region": "長野県中部",
-      "regionEn": "Central Nagano Prefecture",
-      "magnitude": "2.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261005211434_20261005210926_VXSE5k_1.json"
-    },
-    {
-      "id": "20261005193008_20261005192728_VXSE5k_1.json",
-      "time": "2026-10-05T19:27:00+09:00",
-      "region": "愛媛県南予",
-      "regionEn": "Nanyo,  Ehime Prefecture",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261005193008_20261005192728_VXSE5k_1.json"
     }
   ]
 }
