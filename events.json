@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-11T18:16:12.711Z",
+  "lastUpdate": "2026-10-11T22:14:34.615Z",
   "source": "JMA list.json",
-  "totalInList": 233,
-  "totalUsable": 191,
+  "totalInList": 234,
+  "totalUsable": 192,
   "events": [
+    {
+      "id": "20261012050856_20261012050528_VXSE5k_1.json",
+      "time": "2026-10-12T05:05:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "1.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261012050856_20261012050528_VXSE5k_1.json"
+    },
     {
       "id": "20261012012732_20261012012430_VXSE5k_1.json",
       "time": "2026-10-12T01:24:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261007160547_20261007160305_VXSE5k_1.json"
-    },
-    {
-      "id": "20261007092721_20261007092251_VXSE5k_1.json",
-      "time": "2026-10-07T09:22:00+09:00",
-      "region": "福島県沖",
-      "regionEn": "Off the Coast of Fukushima Prefecture",
-      "magnitude": "4.1",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261007092721_20261007092251_VXSE5k_1.json"
     }
   ]
 }
