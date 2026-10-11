@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-11T06:08:43.249Z",
+  "lastUpdate": "2026-10-11T13:15:08.620Z",
   "source": "JMA list.json",
   "totalInList": 233,
   "totalUsable": 191,
   "events": [
+    {
+      "id": "20261011155351_20261011154917_VXSE5k_1.json",
+      "time": "2026-10-11T15:49:00+09:00",
+      "region": "宮崎県南部平野部",
+      "regionEn": "Plain Area of Southern Miyazaki Prefecture",
+      "magnitude": "2.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261011155351_20261011154917_VXSE5k_1.json"
+    },
     {
       "id": "20261011101525_20261011101242_VXSE5k_1.json",
       "time": "2026-10-11T10:12:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261007025241_20261007024730_VXSE5k_1.json"
-    },
-    {
-      "id": "20261007020433_20261007020150_VXSE5k_1.json",
-      "time": "2026-10-07T02:01:00+09:00",
-      "region": "沖縄本島近海",
-      "regionEn": "Adjacent Sea of Okinawa Main Island",
-      "magnitude": "2.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261007020433_20261007020150_VXSE5k_1.json"
     }
   ]
 }
