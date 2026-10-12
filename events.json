@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-10-12T01:30:43.064Z",
+  "lastUpdate": "2026-10-12T08:32:29.617Z",
   "source": "JMA list.json",
   "totalInList": 235,
   "totalUsable": 193,
   "events": [
+    {
+      "id": "20261012165402_20261012165120_VXSE5k_1.json",
+      "time": "2026-10-12T16:51:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261012165402_20261012165120_VXSE5k_1.json"
+    },
+    {
+      "id": "20261012124812_20261012124510_VXSE5k_1.json",
+      "time": "2026-10-12T12:45:00+09:00",
+      "region": "釧路沖",
+      "regionEn": "Off the Coast of Kushiro",
+      "magnitude": "4.0",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261012124812_20261012124510_VXSE5k_1.json"
+    },
     {
       "id": "20261012100017_20261012095423_VXSE5k_1.json",
       "time": "2026-10-12T09:53:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261008043921_20261008043638_VXSE5k_1.json"
-    },
-    {
-      "id": "20261008041755_20261008041355_VXSE5k_1.json",
-      "time": "2026-10-08T04:13:00+09:00",
-      "region": "千葉県北東部",
-      "regionEn": "Northeastern Chiba Prefecture",
-      "magnitude": "4.8",
-      "maxIntensity": "4",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261008041755_20261008041355_VXSE5k_1.json"
-    },
-    {
-      "id": "20261007232557_20261007232313_VXSE5k_1.json",
-      "time": "2026-10-07T23:23:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261007232557_20261007232313_VXSE5k_1.json"
     }
   ]
 }
