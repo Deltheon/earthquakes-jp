@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-11T22:14:34.615Z",
+  "lastUpdate": "2026-10-12T01:30:43.064Z",
   "source": "JMA list.json",
-  "totalInList": 234,
-  "totalUsable": 192,
+  "totalInList": 235,
+  "totalUsable": 193,
   "events": [
+    {
+      "id": "20261012100017_20261012095423_VXSE5k_1.json",
+      "time": "2026-10-12T09:53:00+09:00",
+      "region": "硫黄島近海",
+      "regionEn": "Adjacent Sea of​ Ioto Island",
+      "magnitude": "5.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261012100017_20261012095423_VXSE5k_1.json"
+    },
     {
       "id": "20261012050856_20261012050528_VXSE5k_1.json",
       "time": "2026-10-12T05:05:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261007232557_20261007232313_VXSE5k_1.json"
-    },
-    {
-      "id": "20261007160547_20261007160305_VXSE5k_1.json",
-      "time": "2026-10-07T16:03:00+09:00",
-      "region": "奄美大島北東沖",
-      "regionEn": "Off the northeast Coast of Amami-Oshima Island",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261007160547_20261007160305_VXSE5k_1.json"
     }
   ]
 }
