@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-10-14T15:19:42.798Z",
+  "lastUpdate": "2026-10-14T19:33:30.965Z",
   "source": "JMA list.json",
-  "totalInList": 227,
-  "totalUsable": 189,
+  "totalInList": 229,
+  "totalUsable": 191,
   "events": [
+    {
+      "id": "20261015020530_20261015020254_VXSE5k_1.json",
+      "time": "2026-10-15T02:02:00+09:00",
+      "region": "宮崎県南部山沿い",
+      "regionEn": "Area along Mountains of Southern Miyazaki Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261015020530_20261015020254_VXSE5k_1.json"
+    },
+    {
+      "id": "20261015015426_20261015015135_VXSE5k_1.json",
+      "time": "2026-10-15T01:51:00+09:00",
+      "region": "トカラ列島近海",
+      "regionEn": "Adjacent Sea of Tokara Islands",
+      "magnitude": "3.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261015015426_20261015015135_VXSE5k_1.json"
+    },
     {
       "id": "20261014222150_20261014221915_VXSE5k_1.json",
       "time": "2026-10-14T22:19:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261009111509_20261009111210_VXSE5k_1.json"
-    },
-    {
-      "id": "20261009071738_20261009071419_VXSE5k_1.json",
-      "time": "2026-10-09T07:14:00+09:00",
-      "region": "根室半島南東沖",
-      "regionEn": "Off the southeast Coast of the Nemuro Peninsula",
-      "magnitude": "3.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261009071738_20261009071419_VXSE5k_1.json"
-    },
-    {
-      "id": "20261009042624_20261009042307_VXSE5k_1.json",
-      "time": "2026-10-09T04:23:00+09:00",
-      "region": "青森県東方沖",
-      "regionEn": "Off the east Coast of Aomori Prefecture",
-      "magnitude": "4.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261009042624_20261009042307_VXSE5k_1.json"
     }
   ]
 }
