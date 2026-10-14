@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-10-14T19:33:30.965Z",
+  "lastUpdate": "2026-10-14T22:57:17.175Z",
   "source": "JMA list.json",
-  "totalInList": 229,
-  "totalUsable": 191,
+  "totalInList": 231,
+  "totalUsable": 193,
   "events": [
+    {
+      "id": "20261015074353_20261015074108_VXSE5k_1.json",
+      "time": "2026-10-15T07:41:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "3.6",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261015074353_20261015074108_VXSE5k_1.json"
+    },
+    {
+      "id": "20261015070341_20261015070107_VXSE5k_1.json",
+      "time": "2026-10-15T07:01:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "3.5",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261015070341_20261015070107_VXSE5k_1.json"
+    },
+    {
+      "id": "20261015070124_20261015065809_VXSE5k_1.json",
+      "time": "2026-10-15T06:58:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "1.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261015070124_20261015065809_VXSE5k_1.json"
+    },
     {
       "id": "20261015020530_20261015020254_VXSE5k_1.json",
       "time": "2026-10-15T02:02:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261010032932_20261010032649_VXSE5k_1.json"
-    },
-    {
-      "id": "20261010030718_20261010030429_VXSE5k_1.json",
-      "time": "2026-10-10T03:04:00+09:00",
-      "region": "宮城県沖",
-      "regionEn": "Off the Coast of Miyagi Prefecture",
-      "magnitude": "3.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261010030718_20261010030429_VXSE5k_1.json"
-    },
-    {
-      "id": "20261010014908_20261010014626_VXSE5k_1.json",
-      "time": "2026-10-10T01:46:00+09:00",
-      "region": "根室半島南東沖",
-      "regionEn": "Off the southeast Coast of the Nemuro Peninsula",
-      "magnitude": "3.7",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261010014908_20261010014626_VXSE5k_1.json"
-    },
-    {
-      "id": "20261009111509_20261009111210_VXSE5k_1.json",
-      "time": "2026-10-09T11:12:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261009111509_20261009111210_VXSE5k_1.json"
     }
   ]
 }
