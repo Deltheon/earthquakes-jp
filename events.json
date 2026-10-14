@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-13T21:23:40.126Z",
+  "lastUpdate": "2026-10-14T00:27:08.823Z",
   "source": "JMA list.json",
   "totalInList": 232,
   "totalUsable": 192,
   "events": [
+    {
+      "id": "20261014075932_20261014075649_VXSE5k_1.json",
+      "time": "2026-10-14T07:56:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261014075932_20261014075649_VXSE5k_1.json"
+    },
     {
       "id": "20261014043619_20261014043336_VXSE5k_1.json",
       "time": "2026-10-14T04:33:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261008212953_20261008212235_VXSE5k_1.json"
-    },
-    {
-      "id": "20261008203827_20261008203527_VXSE5k_1.json",
-      "time": "2026-10-08T20:35:00+09:00",
-      "region": "長野県南部",
-      "regionEn": "Southern Nagano Prefecture",
-      "magnitude": "2.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261008203827_20261008203527_VXSE5k_1.json"
     }
   ]
 }
