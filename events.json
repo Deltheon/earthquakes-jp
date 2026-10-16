@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-16T01:00:11.095Z",
+  "lastUpdate": "2026-10-16T06:05:29.829Z",
   "source": "JMA list.json",
-  "totalInList": 228,
+  "totalInList": 226,
   "totalUsable": 190,
   "events": [
+    {
+      "id": "20261016125239_20261016123810_VXSE5k_1.json",
+      "time": "2026-10-16T12:38:00+09:00",
+      "region": "カムチャツカ半島付近",
+      "regionEn": "Adjacent Kamchatka Peninsula",
+      "magnitude": "6.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261016125239_20261016123810_VXSE5k_1.json"
+    },
     {
       "id": "20261016001625_20261016001343_VXSE5k_1.json",
       "time": "2026-10-16T00:13:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261010074623_20261010074306_VXSE5k_1.json"
-    },
-    {
-      "id": "20261010073723_20261010073407_VXSE5k_1.json",
-      "time": "2026-10-10T07:34:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "1.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261010073723_20261010073407_VXSE5k_1.json"
     }
   ]
 }
