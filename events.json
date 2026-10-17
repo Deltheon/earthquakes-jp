@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-17T00:41:34.170Z",
+  "lastUpdate": "2026-10-17T05:17:05.205Z",
   "source": "JMA list.json",
   "totalInList": 217,
   "totalUsable": 184,
   "events": [
+    {
+      "id": "20261017115652_20261017115417_VXSE5k_1.json",
+      "time": "2026-10-17T11:54:00+09:00",
+      "region": "紀伊水道",
+      "regionEn": "Kiisuido Strait",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261017115652_20261017115417_VXSE5k_1.json"
+    },
     {
       "id": "20261016182025_20261016181738_VXSE5k_1.json",
       "time": "2026-10-16T18:17:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261010121853_20261010121600_VXSE5k_1.json"
-    },
-    {
-      "id": "20261010102310_20261010102013_VXSE5k_1.json",
-      "time": "2026-10-10T10:20:00+09:00",
-      "region": "石川県西方沖",
-      "regionEn": "Off the west Coast of Ishikawa Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261010102310_20261010102013_VXSE5k_1.json"
     }
   ]
 }
