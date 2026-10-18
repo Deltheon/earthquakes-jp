@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-18T18:14:28.191Z",
+  "lastUpdate": "2026-10-18T20:57:02.786Z",
   "source": "JMA list.json",
   "totalInList": 217,
   "totalUsable": 184,
   "events": [
+    {
+      "id": "20261019041842_20261019041526_VXSE5k_1.json",
+      "time": "2026-10-19T04:15:00+09:00",
+      "region": "和歌山県北部",
+      "regionEn": "Northern Wakayama Prefecture",
+      "magnitude": "2.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261019041842_20261019041526_VXSE5k_1.json"
+    },
     {
       "id": "20261018224900_20261018224626_VXSE5k_1.json",
       "time": "2026-10-18T22:46:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261012165402_20261012165120_VXSE5k_1.json"
-    },
-    {
-      "id": "20261012124812_20261012124510_VXSE5k_1.json",
-      "time": "2026-10-12T12:45:00+09:00",
-      "region": "釧路沖",
-      "regionEn": "Off the Coast of Kushiro",
-      "magnitude": "4.0",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261012124812_20261012124510_VXSE5k_1.json"
     }
   ]
 }
