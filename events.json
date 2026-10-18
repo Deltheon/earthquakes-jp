@@ -1,9 +1,49 @@
 {
-  "lastUpdate": "2026-10-18T11:32:25.988Z",
+  "lastUpdate": "2026-10-18T15:19:39.081Z",
   "source": "JMA list.json",
-  "totalInList": 214,
-  "totalUsable": 181,
+  "totalInList": 217,
+  "totalUsable": 184,
   "events": [
+    {
+      "id": "20261018224900_20261018224626_VXSE5k_1.json",
+      "time": "2026-10-18T22:46:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261018224900_20261018224626_VXSE5k_1.json"
+    },
+    {
+      "id": "20261018220038_20261018215804_VXSE5k_1.json",
+      "time": "2026-10-18T21:58:00+09:00",
+      "region": "福島県中通り",
+      "regionEn": "Nakadori, Fukushima Prefecture",
+      "magnitude": "3.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261018220038_20261018215804_VXSE5k_1.json"
+    },
+    {
+      "id": "20261018212059_20261018211808_VXSE5k_1.json",
+      "time": "2026-10-18T21:18:00+09:00",
+      "region": "トカラ列島近海",
+      "regionEn": "Adjacent Sea of Tokara Islands",
+      "magnitude": "2.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261018212059_20261018211808_VXSE5k_1.json"
+    },
+    {
+      "id": "20261018205634_20261018205359_VXSE5k_1.json",
+      "time": "2026-10-18T20:53:00+09:00",
+      "region": "日向灘",
+      "regionEn": "Hyuganada Sea",
+      "magnitude": "3.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261018205634_20261018205359_VXSE5k_1.json"
+    },
     {
       "id": "20261018164002_20261018163729_VXSE5k_1.json",
       "time": "2026-10-18T16:37:00+09:00",
@@ -263,46 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261012124812_20261012124510_VXSE5k_1.json"
-    },
-    {
-      "id": "20261012100017_20261012095423_VXSE5k_1.json",
-      "time": "2026-10-12T09:53:00+09:00",
-      "region": "硫黄島近海",
-      "regionEn": "Adjacent Sea of​ Ioto Island",
-      "magnitude": "5.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261012100017_20261012095423_VXSE5k_1.json"
-    },
-    {
-      "id": "20261012050856_20261012050528_VXSE5k_1.json",
-      "time": "2026-10-12T05:05:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "1.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261012050856_20261012050528_VXSE5k_1.json"
-    },
-    {
-      "id": "20261012012732_20261012012430_VXSE5k_1.json",
-      "time": "2026-10-12T01:24:00+09:00",
-      "region": "千葉県東方沖",
-      "regionEn": "Off the east Coast of Chiba Prefecture",
-      "magnitude": "4.3",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261012012732_20261012012430_VXSE5k_1.json"
-    },
-    {
-      "id": "20261011155351_20261011154917_VXSE5k_1.json",
-      "time": "2026-10-11T15:49:00+09:00",
-      "region": "宮崎県南部平野部",
-      "regionEn": "Plain Area of Southern Miyazaki Prefecture",
-      "magnitude": "2.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261011155351_20261011154917_VXSE5k_1.json"
     }
   ]
 }
