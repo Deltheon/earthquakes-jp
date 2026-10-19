@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-19T12:00:52.591Z",
+  "lastUpdate": "2026-10-19T18:46:41.593Z",
   "source": "JMA list.json",
-  "totalInList": 214,
-  "totalUsable": 181,
+  "totalInList": 211,
+  "totalUsable": 180,
   "events": [
+    {
+      "id": "20261019224421_20261019224143_VXSE5k_1.json",
+      "time": "2026-10-19T22:41:00+09:00",
+      "region": "沖縄本島近海",
+      "regionEn": "Adjacent Sea of Okinawa Main Island",
+      "magnitude": "3.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261019224421_20261019224143_VXSE5k_1.json"
+    },
     {
       "id": "20261019155711_20261019155414_VXSE5k_1.json",
       "time": "2026-10-19T15:54:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261013205553_20261013205314_VXSE5k_1.json"
-    },
-    {
-      "id": "20261013204715_20261013204422_VXSE5k_1.json",
-      "time": "2026-10-13T20:44:00+09:00",
-      "region": "紀伊水道",
-      "regionEn": "Kiisuido Strait",
-      "magnitude": "3.8",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261013204715_20261013204422_VXSE5k_1.json"
     }
   ]
 }
