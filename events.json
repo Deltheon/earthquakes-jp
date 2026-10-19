@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-18T22:49:55.370Z",
+  "lastUpdate": "2026-10-19T00:45:50.302Z",
   "source": "JMA list.json",
   "totalInList": 215,
   "totalUsable": 182,
   "events": [
+    {
+      "id": "20261019082346_20261019082045_VXSE5k_1.json",
+      "time": "2026-10-19T08:20:00+09:00",
+      "region": "石川県能登地方",
+      "regionEn": "Noto, Ishikawa Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261019082346_20261019082045_VXSE5k_1.json"
+    },
     {
       "id": "20261019071725_20261019071434_VXSE5k_1.json",
       "time": "2026-10-19T07:14:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261013022837_20261013022557_VXSE5k_1.json"
-    },
-    {
-      "id": "20261012203531_20261012203309_VXSE5k_1.json",
-      "time": "2026-10-12T20:33:00+09:00",
-      "region": "釧路地方中南部",
-      "regionEn": "Central and southern Kushiro Region, Hokkaido",
-      "magnitude": "3.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261012203531_20261012203309_VXSE5k_1.json"
     }
   ]
 }
