@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-20T07:06:22.623Z",
+  "lastUpdate": "2026-10-20T12:50:17.124Z",
   "source": "JMA list.json",
-  "totalInList": 212,
-  "totalUsable": 181,
+  "totalInList": 208,
+  "totalUsable": 179,
   "events": [
+    {
+      "id": "20261020205103_20261020204813_VXSE5k_1.json",
+      "time": "2026-10-20T20:48:00+09:00",
+      "region": "徳島県南部",
+      "regionEn": "Southern Tokushima Prefecture",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261020205103_20261020204813_VXSE5k_1.json"
+    },
     {
       "id": "20261020055328_20261020055029_VXSE5k_1.json",
       "time": "2026-10-20T05:50:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261014043619_20261014043336_VXSE5k_1.json"
-    },
-    {
-      "id": "20261013220813_20261013220530_VXSE5k_1.json",
-      "time": "2026-10-13T22:05:00+09:00",
-      "region": "宮城県沖",
-      "regionEn": "Off the Coast of Miyagi Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261013220813_20261013220530_VXSE5k_1.json"
     }
   ]
 }
