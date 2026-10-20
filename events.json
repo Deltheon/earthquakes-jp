@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-20T17:44:49.751Z",
+  "lastUpdate": "2026-10-20T21:12:06.656Z",
   "source": "JMA list.json",
   "totalInList": 208,
   "totalUsable": 179,
   "events": [
+    {
+      "id": "20261021024434_20261021024058_VXSE5k_1.json",
+      "time": "2026-10-21T02:40:00+09:00",
+      "region": "神奈川県西部",
+      "regionEn": "Western Kanagawa Prefecture",
+      "magnitude": "2.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261021024434_20261021024058_VXSE5k_1.json"
+    },
     {
       "id": "20261020205103_20261020204813_VXSE5k_1.json",
       "time": "2026-10-20T20:48:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261014075932_20261014075649_VXSE5k_1.json"
-    },
-    {
-      "id": "20261014043619_20261014043336_VXSE5k_1.json",
-      "time": "2026-10-14T04:33:00+09:00",
-      "region": "天草灘",
-      "regionEn": "Amakusanada Sea",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261014043619_20261014043336_VXSE5k_1.json"
     }
   ]
 }
