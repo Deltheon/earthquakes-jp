@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-21T22:34:34.650Z",
+  "lastUpdate": "2026-10-22T01:10:12.978Z",
   "source": "JMA list.json",
   "totalInList": 198,
   "totalUsable": 173,
   "events": [
+    {
+      "id": "20261022074835_20261022074552_VXSE5k_1.json",
+      "time": "2026-10-22T07:45:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261022074835_20261022074552_VXSE5k_1.json"
+    },
     {
       "id": "20261022025623_20261022025341_VXSE5k_1.json",
       "time": "2026-10-22T02:53:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261015070124_20261015065809_VXSE5k_1.json"
-    },
-    {
-      "id": "20261015020530_20261015020254_VXSE5k_1.json",
-      "time": "2026-10-15T02:02:00+09:00",
-      "region": "宮崎県南部山沿い",
-      "regionEn": "Area along Mountains of Southern Miyazaki Prefecture",
-      "magnitude": "2.6",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261015020530_20261015020254_VXSE5k_1.json"
     }
   ]
 }
