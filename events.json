@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-24T09:16:24.690Z",
+  "lastUpdate": "2026-10-24T13:27:23.653Z",
   "source": "JMA list.json",
-  "totalInList": 195,
-  "totalUsable": 168,
+  "totalInList": 196,
+  "totalUsable": 169,
   "events": [
+    {
+      "id": "20261024211047_20261024210818_VXSE5k_1.json",
+      "time": "2026-10-24T21:08:00+09:00",
+      "region": "薩摩半島西方沖",
+      "regionEn": "Off the west Coast of Satsuma Peninsula",
+      "magnitude": "3.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261024211047_20261024210818_VXSE5k_1.json"
+    },
     {
       "id": "20261024124728_20261024124440_VXSE5k_1.json",
       "time": "2026-10-24T12:44:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261018081918_20261018081647_VXSE5k_1.json"
-    },
-    {
-      "id": "20261017235039_20261017234801_VXSE5k_1.json",
-      "time": "2026-10-17T23:48:00+09:00",
-      "region": "長野県北部",
-      "regionEn": "Northern Nagano Prefecture",
-      "magnitude": "2.4",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261017235039_20261017234801_VXSE5k_1.json"
     }
   ]
 }
