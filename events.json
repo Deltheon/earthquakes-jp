@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-24T00:13:54.029Z",
+  "lastUpdate": "2026-10-24T04:52:37.116Z",
   "source": "JMA list.json",
-  "totalInList": 197,
-  "totalUsable": 171,
+  "totalInList": 196,
+  "totalUsable": 169,
   "events": [
+    {
+      "id": "20261024124728_20261024124440_VXSE5k_1.json",
+      "time": "2026-10-24T12:44:00+09:00",
+      "region": "陸奥湾",
+      "regionEn": "Mutsu Bay",
+      "magnitude": "2.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261024124728_20261024124440_VXSE5k_1.json"
+    },
     {
       "id": "20261024023427_20261024023136_VXSE5k_1.json",
       "time": "2026-10-24T02:31:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261017235039_20261017234801_VXSE5k_1.json"
-    },
-    {
-      "id": "20261017174419_20261017174203_VXSE5k_1.json",
-      "time": "2026-10-17T17:42:00+09:00",
-      "region": "和歌山県北部",
-      "regionEn": "Northern Wakayama Prefecture",
-      "magnitude": "2.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261017174419_20261017174203_VXSE5k_1.json"
     }
   ]
 }
