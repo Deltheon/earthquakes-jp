@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-10-24T23:58:15.615Z",
+  "lastUpdate": "2026-10-25T04:01:21.547Z",
   "source": "JMA list.json",
-  "totalInList": 194,
-  "totalUsable": 167,
+  "totalInList": 200,
+  "totalUsable": 168,
   "events": [
+    {
+      "id": "20261025122625_20261025122323_VXSE5k_1.json",
+      "time": "2026-10-25T12:23:00+09:00",
+      "region": "苫小牧沖",
+      "regionEn": "Off the Coast of Tomakomai",
+      "magnitude": "3.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261025122625_20261025122323_VXSE5k_1.json"
+    },
+    {
+      "id": "20261025111715_20261025111028_VXSE5k_1.json",
+      "time": "2026-10-25T11:10:00+09:00",
+      "region": "小笠原諸島西方沖",
+      "regionEn": "Off the west Coast of Ogasawara Islands",
+      "magnitude": "7.0",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261025111715_20261025111028_VXSE5k_1.json"
+    },
+    {
+      "id": "20261025090413_20261025085944_VXSE5k_1.json",
+      "time": "2026-10-25T08:59:00+09:00",
+      "region": "日向灘",
+      "regionEn": "Hyuganada Sea",
+      "magnitude": "5.3",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261025090413_20261025085944_VXSE5k_1.json"
+    },
     {
       "id": "20261025075809_20261025075556_VXSE5k_1.json",
       "time": "2026-10-25T07:53:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261018220038_20261018215804_VXSE5k_1.json"
-    },
-    {
-      "id": "20261018212059_20261018211808_VXSE5k_1.json",
-      "time": "2026-10-18T21:18:00+09:00",
-      "region": "トカラ列島近海",
-      "regionEn": "Adjacent Sea of Tokara Islands",
-      "magnitude": "2.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261018212059_20261018211808_VXSE5k_1.json"
-    },
-    {
-      "id": "20261018205634_20261018205359_VXSE5k_1.json",
-      "time": "2026-10-18T20:53:00+09:00",
-      "region": "日向灘",
-      "regionEn": "Hyuganada Sea",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261018205634_20261018205359_VXSE5k_1.json"
-    },
-    {
-      "id": "20261018164002_20261018163729_VXSE5k_1.json",
-      "time": "2026-10-18T16:37:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261018164002_20261018163729_VXSE5k_1.json"
     }
   ]
 }
