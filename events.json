@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-25T19:50:31.811Z",
+  "lastUpdate": "2026-10-25T22:15:53.913Z",
   "source": "JMA list.json",
-  "totalInList": 200,
+  "totalInList": 199,
   "totalUsable": 168,
   "events": [
+    {
+      "id": "20261026064930_20261026064639_VXSE5k_1.json",
+      "time": "2026-10-26T06:46:00+09:00",
+      "region": "福島県会津",
+      "regionEn": "Aizu,  Fukushima Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261026064930_20261026064639_VXSE5k_1.json"
+    },
     {
       "id": "20261025191740_20261025191443_VXSE5k_1.json",
       "time": "2026-10-25T19:14:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261019071725_20261019071434_VXSE5k_1.json"
-    },
-    {
-      "id": "20261019041842_20261019041526_VXSE5k_1.json",
-      "time": "2026-10-19T04:15:00+09:00",
-      "region": "和歌山県北部",
-      "regionEn": "Northern Wakayama Prefecture",
-      "magnitude": "2.2",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261019041842_20261019041526_VXSE5k_1.json"
     }
   ]
 }
