@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-25T22:15:53.913Z",
+  "lastUpdate": "2026-10-26T00:31:53.863Z",
   "source": "JMA list.json",
-  "totalInList": 199,
-  "totalUsable": 168,
+  "totalInList": 200,
+  "totalUsable": 169,
   "events": [
+    {
+      "id": "20261026072052_20261026071522_VXSE5k_1.json",
+      "time": "2026-10-26T07:15:00+09:00",
+      "region": "小笠原諸島西方沖",
+      "regionEn": "Off the west Coast of Ogasawara Islands",
+      "magnitude": "5.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261026072052_20261026071522_VXSE5k_1.json"
+    },
     {
       "id": "20261026064930_20261026064639_VXSE5k_1.json",
       "time": "2026-10-26T06:46:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261019082346_20261019082045_VXSE5k_1.json"
-    },
-    {
-      "id": "20261019071725_20261019071434_VXSE5k_1.json",
-      "time": "2026-10-19T07:14:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "2.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261019071725_20261019071434_VXSE5k_1.json"
     }
   ]
 }
