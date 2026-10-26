@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-10-26T12:11:43.123Z",
+  "lastUpdate": "2026-10-26T18:46:53.696Z",
   "source": "JMA list.json",
-  "totalInList": 195,
-  "totalUsable": 168,
+  "totalInList": 196,
+  "totalUsable": 167,
   "events": [
+    {
+      "id": "20261027021848_20261027021559_VXSE5k_1.json",
+      "time": "2026-10-27T02:16:00+09:00",
+      "region": "広島県南西部",
+      "regionEn": "Southwestern Hiroshima Prefecture",
+      "magnitude": "2.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261027021848_20261027021559_VXSE5k_1.json"
+    },
+    {
+      "id": "20261026233808_20261026233416_VXSE5k_1.json",
+      "time": "2026-10-26T23:34:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "3",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261026233808_20261026233416_VXSE5k_1.json"
+    },
+    {
+      "id": "20261026231423_20261026231138_VXSE5k_1.json",
+      "time": "2026-10-26T23:11:00+09:00",
+      "region": "山口県東部",
+      "regionEn": "Eastern Yamaguchi Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261026231423_20261026231138_VXSE5k_1.json"
+    },
     {
       "id": "20261026185023_20261026184744_VXSE5k_1.json",
       "time": "2026-10-26T18:47:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261021100944_20261021100437_VXSE5k_1.json"
-    },
-    {
-      "id": "20261021024434_20261021024058_VXSE5k_1.json",
-      "time": "2026-10-21T02:40:00+09:00",
-      "region": "神奈川県西部",
-      "regionEn": "Western Kanagawa Prefecture",
-      "magnitude": "2.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261021024434_20261021024058_VXSE5k_1.json"
-    },
-    {
-      "id": "20261020205103_20261020204813_VXSE5k_1.json",
-      "time": "2026-10-20T20:48:00+09:00",
-      "region": "徳島県南部",
-      "regionEn": "Southern Tokushima Prefecture",
-      "magnitude": "2.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261020205103_20261020204813_VXSE5k_1.json"
-    },
-    {
-      "id": "20261020055328_20261020055029_VXSE5k_1.json",
-      "time": "2026-10-20T05:50:00+09:00",
-      "region": "釧路沖",
-      "regionEn": "Off the Coast of Kushiro",
-      "magnitude": "4.0",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261020055328_20261020055029_VXSE5k_1.json"
     }
   ]
 }
