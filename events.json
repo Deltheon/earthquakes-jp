@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-10-28T16:11:06.217Z",
+  "lastUpdate": "2026-10-28T21:13:12.219Z",
   "source": "JMA list.json",
-  "totalInList": 208,
-  "totalUsable": 174,
+  "totalInList": 207,
+  "totalUsable": 175,
   "events": [
+    {
+      "id": "20261029052523_20261029052239_VXSE5k_1.json",
+      "time": "2026-10-29T05:22:00+09:00",
+      "region": "千葉県北東部",
+      "regionEn": "Northeastern Chiba Prefecture",
+      "magnitude": "3.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261029052523_20261029052239_VXSE5k_1.json"
+    },
+    {
+      "id": "20261029033537_20261029033230_VXSE5k_1.json",
+      "time": "2026-10-29T03:32:00+09:00",
+      "region": "千葉県北東部",
+      "regionEn": "Northeastern Chiba Prefecture",
+      "magnitude": "4.4",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261029033537_20261029033230_VXSE5k_1.json"
+    },
+    {
+      "id": "20261029024757_20261029024518_VXSE5k_1.json",
+      "time": "2026-10-29T02:45:00+09:00",
+      "region": "茨城県北部",
+      "regionEn": "Northern Ibaraki Prefecture",
+      "magnitude": "3.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261029024757_20261029024518_VXSE5k_1.json"
+    },
     {
       "id": "20261029010711_20261029010430_VXSE5k_1.json",
       "time": "2026-10-29T01:04:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261025150804_20261025150429_VXSE5k_1.json"
-    },
-    {
-      "id": "20261025122625_20261025122323_VXSE5k_1.json",
-      "time": "2026-10-25T12:23:00+09:00",
-      "region": "苫小牧沖",
-      "regionEn": "Off the Coast of Tomakomai",
-      "magnitude": "3.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261025122625_20261025122323_VXSE5k_1.json"
-    },
-    {
-      "id": "20261025111715_20261025111028_VXSE5k_1.json",
-      "time": "2026-10-25T11:10:00+09:00",
-      "region": "小笠原諸島西方沖",
-      "regionEn": "Off the west Coast of Ogasawara Islands",
-      "magnitude": "7.0",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261025111715_20261025111028_VXSE5k_1.json"
-    },
-    {
-      "id": "20261025090413_20261025085944_VXSE5k_1.json",
-      "time": "2026-10-25T08:59:00+09:00",
-      "region": "日向灘",
-      "regionEn": "Hyuganada Sea",
-      "magnitude": "5.3",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261025090413_20261025085944_VXSE5k_1.json"
     }
   ]
 }
