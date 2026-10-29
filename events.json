@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-28T21:13:12.219Z",
+  "lastUpdate": "2026-10-29T01:07:23.705Z",
   "source": "JMA list.json",
-  "totalInList": 207,
-  "totalUsable": 175,
+  "totalInList": 208,
+  "totalUsable": 176,
   "events": [
+    {
+      "id": "20261029081812_20261029081407_VXSE5k_1.json",
+      "time": "2026-10-29T08:14:00+09:00",
+      "region": "釧路地方中南部",
+      "regionEn": "Central and southern Kushiro Region, Hokkaido",
+      "magnitude": "4.4",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261029081812_20261029081407_VXSE5k_1.json"
+    },
     {
       "id": "20261029052523_20261029052239_VXSE5k_1.json",
       "time": "2026-10-29T05:22:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261025191740_20261025191443_VXSE5k_1.json"
-    },
-    {
-      "id": "20261025150804_20261025150429_VXSE5k_1.json",
-      "time": "2026-10-25T15:04:00+09:00",
-      "region": "福島県沖",
-      "regionEn": "Off the Coast of Fukushima Prefecture",
-      "magnitude": "4.2",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261025150804_20261025150429_VXSE5k_1.json"
     }
   ]
 }
