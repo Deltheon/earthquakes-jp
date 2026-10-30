@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-10-30T06:10:02.033Z",
+  "lastUpdate": "2026-10-30T13:17:01.842Z",
   "source": "JMA list.json",
-  "totalInList": 208,
+  "totalInList": 206,
   "totalUsable": 176,
   "events": [
+    {
+      "id": "20261030174906_20261030174600_VXSE5k_1.json",
+      "time": "2026-10-30T17:45:00+09:00",
+      "region": "根室半島南東沖",
+      "regionEn": "Off the southeast Coast of the Nemuro Peninsula",
+      "magnitude": "4.2",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261030174906_20261030174600_VXSE5k_1.json"
+    },
     {
       "id": "20261030140134_20261030135835_VXSE5k_1.json",
       "time": "2026-10-30T13:58:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261026133824_20261026133550_VXSE5k_1.json"
-    },
-    {
-      "id": "20261026131552_20261026131230_VXSE5k_1.json",
-      "time": "2026-10-26T13:12:00+09:00",
-      "region": "岩手県沖",
-      "regionEn": "Off the Coast of Iwate Prefecture",
-      "magnitude": "3.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261026131552_20261026131230_VXSE5k_1.json"
     }
   ]
 }
