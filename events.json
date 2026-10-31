@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-10-31T01:58:11.824Z",
+  "lastUpdate": "2026-10-31T08:11:36.961Z",
   "source": "JMA list.json",
   "totalInList": 212,
   "totalUsable": 180,
   "events": [
+    {
+      "id": "20261031152247_20261031151957_VXSE5k_1.json",
+      "time": "2026-10-31T15:19:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "3.0",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261031152247_20261031151957_VXSE5k_1.json"
+    },
+    {
+      "id": "20261031133526_20261031133242_VXSE5k_1.json",
+      "time": "2026-10-31T13:32:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261031133526_20261031133242_VXSE5k_1.json"
+    },
     {
       "id": "20261031061819_20261031061524_VXSE5k_1.json",
       "time": "2026-10-31T06:15:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261027092912_20261027092519_VXSE5k_1.json"
-    },
-    {
-      "id": "20261027085717_20261027085407_VXSE5k_1.json",
-      "time": "2026-10-27T08:54:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "2.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261027085717_20261027085407_VXSE5k_1.json"
-    },
-    {
-      "id": "20261027045200_20261027044909_VXSE5k_1.json",
-      "time": "2026-10-27T04:49:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "1.8",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261027045200_20261027044909_VXSE5k_1.json"
     }
   ]
 }
