@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-11-03T18:59:19.763Z",
+  "lastUpdate": "2026-11-03T23:55:42.759Z",
   "source": "JMA list.json",
-  "totalInList": 192,
-  "totalUsable": 162,
+  "totalInList": 193,
+  "totalUsable": 163,
   "events": [
+    {
+      "id": "20261104073117_20261104072834_VXSE5k_1.json",
+      "time": "2026-11-04T07:28:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261104073117_20261104072834_VXSE5k_1.json"
+    },
+    {
+      "id": "20261104053711_20261104053431_VXSE5k_1.json",
+      "time": "2026-11-04T05:34:00+09:00",
+      "region": "千葉県東方沖",
+      "regionEn": "Off the east Coast of Chiba Prefecture",
+      "magnitude": "3.4",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261104053711_20261104053431_VXSE5k_1.json"
+    },
+    {
+      "id": "20261104051513_20261104051155_VXSE5k_1.json",
+      "time": "2026-11-04T05:11:00+09:00",
+      "region": "和歌山県北部",
+      "regionEn": "Northern Wakayama Prefecture",
+      "magnitude": "1.9",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261104051513_20261104051155_VXSE5k_1.json"
+    },
     {
       "id": "20261104015246_20261104014852_VXSE5k_1.json",
       "time": "2026-11-04T01:48:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261030011254_20261030010642_VXSE5k_1.json"
-    },
-    {
-      "id": "20261029081812_20261029081407_VXSE5k_1.json",
-      "time": "2026-10-29T08:14:00+09:00",
-      "region": "釧路地方中南部",
-      "regionEn": "Central and southern Kushiro Region, Hokkaido",
-      "magnitude": "4.4",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261029081812_20261029081407_VXSE5k_1.json"
-    },
-    {
-      "id": "20261029052523_20261029052239_VXSE5k_1.json",
-      "time": "2026-10-29T05:22:00+09:00",
-      "region": "千葉県北東部",
-      "regionEn": "Northeastern Chiba Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261029052523_20261029052239_VXSE5k_1.json"
-    },
-    {
-      "id": "20261029033537_20261029033230_VXSE5k_1.json",
-      "time": "2026-10-29T03:32:00+09:00",
-      "region": "千葉県北東部",
-      "regionEn": "Northeastern Chiba Prefecture",
-      "magnitude": "4.4",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261029033537_20261029033230_VXSE5k_1.json"
     }
   ]
 }
