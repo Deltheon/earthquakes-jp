@@ -1,9 +1,49 @@
 {
-  "lastUpdate": "2026-11-06T17:37:04.065Z",
+  "lastUpdate": "2026-11-06T22:40:18.271Z",
   "source": "JMA list.json",
   "totalInList": 189,
-  "totalUsable": 158,
+  "totalUsable": 160,
   "events": [
+    {
+      "id": "20261107063243_20261107063022_VXSE5k_1.json",
+      "time": "2026-11-07T06:30:00+09:00",
+      "region": "山口県中部",
+      "regionEn": "Central Yamaguchi Prefecture",
+      "magnitude": "2.9",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261107063243_20261107063022_VXSE5k_1.json"
+    },
+    {
+      "id": "20261107035707_20261107035357_VXSE5k_1.json",
+      "time": "2026-11-07T03:54:00+09:00",
+      "region": "和歌山県北部",
+      "regionEn": "Northern Wakayama Prefecture",
+      "magnitude": "2.3",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261107035707_20261107035357_VXSE5k_1.json"
+    },
+    {
+      "id": "20261107035412_20261107035101_VXSE5k_1.json",
+      "time": "2026-11-07T03:51:00+09:00",
+      "region": "和歌山県北部",
+      "regionEn": "Northern Wakayama Prefecture",
+      "magnitude": "2.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261107035412_20261107035101_VXSE5k_1.json"
+    },
+    {
+      "id": "20261107030516_20261107030244_VXSE5k_1.json",
+      "time": "2026-11-07T03:02:00+09:00",
+      "region": "和歌山県北部",
+      "regionEn": "Northern Wakayama Prefecture",
+      "magnitude": "3.5",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261107030516_20261107030244_VXSE5k_1.json"
+    },
     {
       "id": "20261106224542_20261106224305_VXSE5k_1.json",
       "time": "2026-11-06T22:43:00+09:00",
@@ -263,46 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261101071317_20261101071028_VXSE5k_1.json"
-    },
-    {
-      "id": "20261101062318_20261101062040_VXSE5k_1.json",
-      "time": "2026-11-01T06:20:00+09:00",
-      "region": "長野県南部",
-      "regionEn": "Southern Nagano Prefecture",
-      "magnitude": "2.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261101062318_20261101062040_VXSE5k_1.json"
-    },
-    {
-      "id": "20261031152247_20261031151957_VXSE5k_1.json",
-      "time": "2026-10-31T15:19:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "3.0",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261031152247_20261031151957_VXSE5k_1.json"
-    },
-    {
-      "id": "20261031133526_20261031133242_VXSE5k_1.json",
-      "time": "2026-10-31T13:32:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "2.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261031133526_20261031133242_VXSE5k_1.json"
-    },
-    {
-      "id": "20261031061819_20261031061524_VXSE5k_1.json",
-      "time": "2026-10-31T06:15:00+09:00",
-      "region": "種子島近海",
-      "regionEn": "Adjacent Sea of Tanegashima Island",
-      "magnitude": "4.0",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261031061819_20261031061524_VXSE5k_1.json"
     }
   ]
 }
