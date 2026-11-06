@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-11-05T22:09:17.494Z",
+  "lastUpdate": "2026-11-06T02:41:25.724Z",
   "source": "JMA list.json",
-  "totalInList": 186,
-  "totalUsable": 156,
+  "totalInList": 187,
+  "totalUsable": 157,
   "events": [
+    {
+      "id": "20261106091112_20261106090630_VXSE5k_1.json",
+      "time": "2026-11-06T09:06:00+09:00",
+      "region": "相模湾",
+      "regionEn": "Sagami Bay",
+      "magnitude": "3.7",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261106091112_20261106090630_VXSE5k_1.json"
+    },
     {
       "id": "20261106030952_20261106030553_VXSE5k_1.json",
       "time": "2026-11-06T03:05:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "3",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261031014920_20261031014545_VXSE5k_1.json"
-    },
-    {
-      "id": "20261030231425_20261030231133_VXSE5k_1.json",
-      "time": "2026-10-30T23:11:00+09:00",
-      "region": "島根県東部",
-      "regionEn": "Eastern Shimane Prefecture",
-      "magnitude": "3.5",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261030231425_20261030231133_VXSE5k_1.json"
     }
   ]
 }
