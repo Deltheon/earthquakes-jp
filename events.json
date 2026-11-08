@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-11-08T04:15:17.044Z",
+  "lastUpdate": "2026-11-08T11:25:31.460Z",
   "source": "JMA list.json",
-  "totalInList": 196,
-  "totalUsable": 160,
+  "totalInList": 197,
+  "totalUsable": 161,
   "events": [
+    {
+      "id": "20261108194143_20261108193909_VXSE5k_1.json",
+      "time": "2026-11-08T19:39:00+09:00",
+      "region": "日向灘",
+      "regionEn": "Hyuganada Sea",
+      "magnitude": "3.0",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261108194143_20261108193909_VXSE5k_1.json"
+    },
     {
       "id": "20261108112402_20261108112111_VXSE5k_1.json",
       "time": "2026-11-08T11:21:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261104051513_20261104051155_VXSE5k_1.json"
-    },
-    {
-      "id": "20261104015246_20261104014852_VXSE5k_1.json",
-      "time": "2026-11-04T01:48:00+09:00",
-      "region": "硫黄島近海",
-      "regionEn": "Adjacent Sea of​ Ioto Island",
-      "magnitude": "5.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261104015246_20261104014852_VXSE5k_1.json"
     }
   ]
 }
