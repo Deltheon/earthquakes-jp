@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-11-10T09:22:47.466Z",
+  "lastUpdate": "2026-11-10T17:11:40.835Z",
   "source": "JMA list.json",
-  "totalInList": 201,
-  "totalUsable": 161,
+  "totalInList": 202,
+  "totalUsable": 162,
   "events": [
+    {
+      "id": "20261110222547_20261110222305_VXSE5k_1.json",
+      "time": "2026-11-10T22:23:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.5",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261110222547_20261110222305_VXSE5k_1.json"
+    },
     {
       "id": "20261110165523_20261110165302_VXSE5k_1.json",
       "time": "2026-11-10T16:53:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261107030516_20261107030244_VXSE5k_1.json"
-    },
-    {
-      "id": "20261106224542_20261106224305_VXSE5k_1.json",
-      "time": "2026-11-06T22:43:00+09:00",
-      "region": "淡路島付近",
-      "regionEn": "Adjacent Awajishima Island",
-      "magnitude": "3.1",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261106224542_20261106224305_VXSE5k_1.json"
     }
   ]
 }
