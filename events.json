@@ -1,9 +1,39 @@
 {
-  "lastUpdate": "2026-11-15T01:09:42.042Z",
+  "lastUpdate": "2026-11-15T08:07:32.418Z",
   "source": "JMA list.json",
-  "totalInList": 210,
-  "totalUsable": 164,
+  "totalInList": 212,
+  "totalUsable": 166,
   "events": [
+    {
+      "id": "20261115162547_20261115162317_VXSE5k_1.json",
+      "time": "2026-11-15T16:23:00+09:00",
+      "region": "熊本県熊本地方",
+      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "3.1",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261115162547_20261115162317_VXSE5k_1.json"
+    },
+    {
+      "id": "20261115140244_20261115140024_VXSE5k_1.json",
+      "time": "2026-11-15T14:00:00+09:00",
+      "region": "茨城県沖",
+      "regionEn": "Off the Coast of Ibaraki Prefecture",
+      "magnitude": "3.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261115140244_20261115140024_VXSE5k_1.json"
+    },
+    {
+      "id": "20261115131846_20261115131559_VXSE5k_1.json",
+      "time": "2026-11-15T13:16:00+09:00",
+      "region": "渡島地方東部",
+      "regionEn": "Eastern Oshima Region, Hokkaido",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261115131846_20261115131559_VXSE5k_1.json"
+    },
     {
       "id": "20261115063357_20261115063113_VXSE5k_1.json",
       "time": "2026-11-15T06:31:00+09:00",
@@ -273,36 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261110161727_20261110161430_VXSE5k_1.json"
-    },
-    {
-      "id": "20261110153937_20261110153654_VXSE5k_1.json",
-      "time": "2026-11-10T15:36:00+09:00",
-      "region": "房総半島南方沖",
-      "regionEn": "Off the south Coast of Boso Peninsula",
-      "magnitude": "4.5",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261110153937_20261110153654_VXSE5k_1.json"
-    },
-    {
-      "id": "20261110142349_20261110142013_VXSE5k_1.json",
-      "time": "2026-11-10T14:20:00+09:00",
-      "region": "茨城県沖",
-      "regionEn": "Off the Coast of Ibaraki Prefecture",
-      "magnitude": "4.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261110142349_20261110142013_VXSE5k_1.json"
-    },
-    {
-      "id": "20261110061932_20261110061614_VXSE5k_1.json",
-      "time": "2026-11-10T06:16:00+09:00",
-      "region": "橘湾",
-      "regionEn": "Tachibana Bay",
-      "magnitude": "3.3",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261110061932_20261110061614_VXSE5k_1.json"
     }
   ]
 }
