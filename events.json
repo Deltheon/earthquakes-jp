@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-11-15T20:46:08.864Z",
+  "lastUpdate": "2026-11-16T00:41:47.581Z",
   "source": "JMA list.json",
-  "totalInList": 214,
-  "totalUsable": 168,
+  "totalInList": 215,
+  "totalUsable": 169,
   "events": [
+    {
+      "id": "20261116061046_20261116060805_VXSE5k_1.json",
+      "time": "2026-11-16T06:08:00+09:00",
+      "region": "愛知県東部",
+      "regionEn": "Eastern Aichi Prefecture",
+      "magnitude": "3.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261116061046_20261116060805_VXSE5k_1.json"
+    },
     {
       "id": "20261116043653_20261116043416_VXSE5k_1.json",
       "time": "2026-11-16T04:34:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261111083604_20261111083312_VXSE5k_1.json"
-    },
-    {
-      "id": "20261111073938_20261111073644_VXSE5k_1.json",
-      "time": "2026-11-11T07:36:00+09:00",
-      "region": "岩手県内陸南部",
-      "regionEn": "Southern Inland of Iwate Prefecture",
-      "magnitude": "2.9",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261111073938_20261111073644_VXSE5k_1.json"
     }
   ]
 }
