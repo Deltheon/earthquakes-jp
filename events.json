@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-11-17T01:30:24.996Z",
+  "lastUpdate": "2026-11-17T10:06:18.752Z",
   "source": "JMA list.json",
-  "totalInList": 215,
-  "totalUsable": 169,
+  "totalInList": 216,
+  "totalUsable": 170,
   "events": [
+    {
+      "id": "20261117170308_20261117170035_VXSE5k_1.json",
+      "time": "2026-11-17T17:00:00+09:00",
+      "region": "千葉県北東部",
+      "regionEn": "Northeastern Chiba Prefecture",
+      "magnitude": "3.1",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261117170308_20261117170035_VXSE5k_1.json"
+    },
+    {
+      "id": "20261117104306_20261117104020_VXSE5k_1.json",
+      "time": "2026-11-17T10:40:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261117104306_20261117104020_VXSE5k_1.json"
+    },
     {
       "id": "20261117083005_20261117082730_VXSE5k_1.json",
       "time": "2026-11-17T08:27:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261112134933_20261112134643_VXSE5k_1.json"
-    },
-    {
-      "id": "20261112131053_20261112130734_VXSE5k_1.json",
-      "time": "2026-11-12T13:07:00+09:00",
-      "region": "三陸沖",
-      "regionEn": "Off the Coast of Sanriku",
-      "magnitude": "4.7",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261112131053_20261112130734_VXSE5k_1.json"
-    },
-    {
-      "id": "20261112021817_20261112021536_VXSE5k_1.json",
-      "time": "2026-11-12T02:15:00+09:00",
-      "region": "青森県東方沖",
-      "regionEn": "Off the east Coast of Aomori Prefecture",
-      "magnitude": "3.6",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261112021817_20261112021536_VXSE5k_1.json"
     }
   ]
 }
