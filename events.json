@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-11-16T17:52:49.566Z",
+  "lastUpdate": "2026-11-17T01:30:24.996Z",
   "source": "JMA list.json",
   "totalInList": 215,
   "totalUsable": 169,
   "events": [
+    {
+      "id": "20261117083005_20261117082730_VXSE5k_1.json",
+      "time": "2026-11-17T08:27:00+09:00",
+      "region": "島根県東部",
+      "regionEn": "Eastern Shimane Prefecture",
+      "magnitude": "2.8",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261117083005_20261117082730_VXSE5k_1.json"
+    },
     {
       "id": "20261117014851_20261117014549_VXSE5k_1.json",
       "time": "2026-11-17T01:45:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "2",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261112021817_20261112021536_VXSE5k_1.json"
-    },
-    {
-      "id": "20261111211948_20261111211353_VXSE5k_1.json",
-      "time": "2026-11-11T21:13:00+09:00",
-      "region": "橘湾",
-      "regionEn": "Tachibana Bay",
-      "magnitude": "2.3",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261111211948_20261111211353_VXSE5k_1.json"
     }
   ]
 }
