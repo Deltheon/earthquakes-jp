@@ -1,9 +1,19 @@
 {
-  "lastUpdate": "2026-11-17T19:15:41.132Z",
+  "lastUpdate": "2026-11-18T01:45:31.790Z",
   "source": "JMA list.json",
-  "totalInList": 219,
-  "totalUsable": 171,
+  "totalInList": 217,
+  "totalUsable": 169,
   "events": [
+    {
+      "id": "20261118094457_20261118094158_VXSE5k_1.json",
+      "time": "2026-11-18T09:41:00+09:00",
+      "region": "茨城県南部",
+      "regionEn": "Southern Ibaraki Prefecture",
+      "magnitude": "3.5",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261118094457_20261118094158_VXSE5k_1.json"
+    },
     {
       "id": "20261118025811_20261118025455_VXSE5k_1.json",
       "time": "2026-11-18T02:54:00+09:00",
@@ -293,16 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261113153059_20261113152656_VXSE5k_1.json"
-    },
-    {
-      "id": "20261113105609_20261113105223_VXSE5k_1.json",
-      "time": "2026-11-13T10:52:00+09:00",
-      "region": "熊本県熊本地方",
-      "regionEn": "Kumamoto Region, Kumamoto Prefecture",
-      "magnitude": "4.0",
-      "maxIntensity": "3",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261113105609_20261113105223_VXSE5k_1.json"
     }
   ]
 }
