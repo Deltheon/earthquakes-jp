@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-11-23T01:55:20.470Z",
+  "lastUpdate": "2026-11-23T10:15:14.496Z",
   "source": "JMA list.json",
   "totalInList": 325,
-  "totalUsable": 263,
+  "totalUsable": 264,
   "events": [
+    {
+      "id": "20261123141720_20261123141411_VXSE5k_1.json",
+      "time": "2026-11-23T14:14:00+09:00",
+      "region": "長野県中部",
+      "regionEn": "Central Nagano Prefecture",
+      "magnitude": "3.9",
+      "maxIntensity": "2",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261123141720_20261123141411_VXSE5k_1.json"
+    },
+    {
+      "id": "20261123130513_20261123130228_VXSE5k_1.json",
+      "time": "2026-11-23T13:02:00+09:00",
+      "region": "天草灘",
+      "regionEn": "Amakusanada Sea",
+      "magnitude": "2.6",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261123130513_20261123130228_VXSE5k_1.json"
+    },
     {
       "id": "20261123085317_20261123085028_VXSE5k_1.json",
       "time": "2026-11-23T08:50:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261120220156_20261120215913_VXSE5k_1.json"
-    },
-    {
-      "id": "20261120214948_20261120214603_VXSE5k_1.json",
-      "time": "2026-11-20T21:46:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "4.1",
-      "maxIntensity": "4",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261120214948_20261120214603_VXSE5k_1.json"
-    },
-    {
-      "id": "20261120204243_20261120204001_VXSE5k_1.json",
-      "time": "2026-11-20T20:40:00+09:00",
-      "region": "熊本県天草・芦北地方",
-      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
-      "magnitude": "2.5",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261120204243_20261120204001_VXSE5k_1.json"
     }
   ]
 }
