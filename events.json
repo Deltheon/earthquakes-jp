@@ -1,9 +1,29 @@
 {
-  "lastUpdate": "2026-11-27T23:10:55.031Z",
+  "lastUpdate": "2026-11-28T04:50:08.793Z",
   "source": "JMA list.json",
-  "totalInList": 323,
-  "totalUsable": 271,
+  "totalInList": 324,
+  "totalUsable": 272,
   "events": [
+    {
+      "id": "20261128115958_20261128115713_VXSE5k_1.json",
+      "time": "2026-11-28T11:57:00+09:00",
+      "region": "熊本県天草・芦北地方",
+      "regionEn": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.4",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261128115958_20261128115713_VXSE5k_1.json"
+    },
+    {
+      "id": "20261128095738_20261128095450_VXSE5k_1.json",
+      "time": "2026-11-28T09:54:00+09:00",
+      "region": "高知県西部",
+      "regionEn": "Western Kochi Prefecture",
+      "magnitude": "3.2",
+      "maxIntensity": "1",
+      "title": "震源・震度情報",
+      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261128095738_20261128095450_VXSE5k_1.json"
+    },
     {
       "id": "20261128043444_20261128043207_VXSE5k_1.json",
       "time": "2026-11-28T04:32:00+09:00",
@@ -283,26 +303,6 @@
       "maxIntensity": "1",
       "title": "震源・震度情報",
       "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261125084435_20261125084049_VXSE5k_1.json"
-    },
-    {
-      "id": "20261125072253_20261125072004_VXSE5k_1.json",
-      "time": "2026-11-25T07:20:00+09:00",
-      "region": "福島県会津",
-      "regionEn": "Aizu,  Fukushima Prefecture",
-      "magnitude": "3.4",
-      "maxIntensity": "1",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261125072253_20261125072004_VXSE5k_1.json"
-    },
-    {
-      "id": "20261125064951_20261125064641_VXSE5k_1.json",
-      "time": "2026-11-25T06:46:00+09:00",
-      "region": "福島県会津",
-      "regionEn": "Aizu,  Fukushima Prefecture",
-      "magnitude": "3.8",
-      "maxIntensity": "2",
-      "title": "震源・震度情報",
-      "detailUrl": "https://www.jma.go.jp/bosai/quake/data/20261125064951_20261125064641_VXSE5k_1.json"
     }
   ]
 }
